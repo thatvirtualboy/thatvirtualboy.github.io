@@ -1,0 +1,12 @@
+---
+layout: post
+title: How to tame Instant Clone triggers in vRealize Operations
+date: '2018-05-24T09:27:00.001-07:00'
+author: thatvirtualboy
+tags: 
+modified_time: '2018-05-24T09:27:44.810-07:00'
+blogger_id: tag:blogger.com,1999:blog-733606464149134140.post-7623019752360888011
+blogger_orig_url: https://www.thatvirtualboy.com/2018/05/how-to-tame-instant-clone-triggers-in.html
+---
+
+VMware vRealize Operations is smart, and only getting smarter - no one can refute that. However when it comes to vROPs for Horizon (V4H), some things require a bit more intervention to fine-tune the interactions between your Virtual Desktop Infrastructure and vROPs.<br /><br />For example, if using Instant Clone technology for your Horizon Desktops, you might find alerts in vROPs showing VM Disk IO Latency caused by snapshots on your CP-Parent-* VMs. In most situations, this is benign given the nature of the Instant Clone architecture.<br /><br />So how do we deal with these unnecessary messages in vRealize Operations? Enter Custom Object Groups. You can follow the official documentation <a href="https://docs.vmware.com/en/vRealize-Operations-Manager/6.6/vrealize-operations-manager-66-config-guide.pdf" target="_blank">here</a>.<br /><br />Creating a new object group<br /><br /><br /><br />
