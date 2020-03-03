@@ -18,4 +18,4 @@ Horizon 7 for Linux Desktops is an excellent solution, and one that's gaining po
 
 I'm happy to announce version 1.2 of this Fling which brings support for the latest VMware Horizon 7 builds and uses an Ubuntu 18.04.4 LTS base image.
 
-Keep an eye, subscribe, follow my Twitter as this new version will be available soon!
+Keep an eye, subscribe, follow my Twitter...the new VMware Horizon Ubuntu OVA will be available soon!
