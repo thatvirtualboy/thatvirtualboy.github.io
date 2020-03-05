@@ -41,7 +41,7 @@ plugins:
   - jekyll-paginate
 
 # Pagination
-paginate: 5  # amount of posts to show per page
+paginate: 8  # amount of posts to show per page
 paginate_path: /page:num/
 
 # analytics
