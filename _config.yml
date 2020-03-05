@@ -39,6 +39,7 @@ search: true
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-redirect-from
 
 # Pagination
 paginate: 8  # amount of posts to show per page
