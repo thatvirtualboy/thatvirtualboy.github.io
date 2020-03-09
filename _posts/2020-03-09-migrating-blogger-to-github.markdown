@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Migrating Blogger to Github Pages via Jekyll"
-date:   2020-03-06
+date:   2020-03-09
 tags:
 - blog
 - bacon
