@@ -48,6 +48,11 @@ DRS Logic used to run in such a way where it looked at cluster balance by ESXi r
 **vMotion**
 vMotion logic is also greatly improved in vSphere 7. The new vMotion can support significantly more demanding workloads and systems with large compute footprints. Systems like SAP HANA and Oracle DBs backends can now be vMotioned with ease.
 
+### 6. Quickview of vCenter Details
+Sometimes feature that "should have been been there all along" are the best kind. Now when you click at the top level of a vCenter Server, you can see the VC Version, Build, the Last Updated date, AND the last file-based backup date!
+
+![image](/assets/images/vc-deets.png)
+
 This is only the tip of the ice burg. There are plenty of other new features and capabilities in vSphere 7, and we haven't even touched on Profiles, Kubernetes, etc.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XKgrJXN6Q0U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
