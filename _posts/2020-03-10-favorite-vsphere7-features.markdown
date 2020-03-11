@@ -10,9 +10,9 @@ tags:
 author: Ryan Klumph
 excerpt: "vSphere 7 was just announced with some crazy awesome features. Here are some of my favorites!"
 ---
-![image](/assets/images/vsphere7.png)
-
 vSphere 7 has officially been [announced](https://blogs.vmware.com/vsphere/2020/03/vsphere-7.html) (finally!) and man is this thing going to deliver. VMware vSphere has been, and continues to be, the engine for modernizing infrastructure and applications. And check out that sharp looking logo!
+
+![image](/assets/images/vsphere7.png)
 
 Tanzu is (very deservedly) getting a lot of the attention with the vSphere announcement, but there is a LOT to this new release. Here are some of my favorite new features:
 
