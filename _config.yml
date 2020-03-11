@@ -53,6 +53,9 @@ google_analytics: UA-104130481-1
 disqus:
     shortname: thatvirtualboy
 
+# credit due where credit due
+copyright: "2020 thatvirtualboy name and logo copyright of Ryan Klumph. "
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
