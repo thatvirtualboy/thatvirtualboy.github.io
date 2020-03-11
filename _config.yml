@@ -45,6 +45,7 @@ plugins:
 # Pagination
 paginate: 8  # amount of posts to show per page
 paginate_path: /page:num/
+read_time: true
 
 # analytics
 google_analytics: UA-104130481-1
@@ -54,7 +55,7 @@ disqus:
     shortname: thatvirtualboy
 
 # credit due where credit due
-copyright: "2020 thatvirtualboy name and logo copyright of Ryan Klumph. "
+copyright: "2020 thatvirtualboy name and logo copyright of Ryan Klumph."
 
 # Exclude from processing.
 # The following items will not be processed, by default.
