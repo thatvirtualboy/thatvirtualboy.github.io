@@ -17,7 +17,7 @@ I am so excited to finally be writing this post highlighting the new Ubuntu OVA 
 
 One of my personal goals for the year 2020 was to revisit the Ubuntu OVA Fling and make it relevant again. The last release was from 3 years ago! Those 3 years have led us to this point in IT where [Kubernetes is king](https://www.vmware.com/products/vsphere.html) in the app modernization playing field. Windows is [losing ground](https://vmware.github.io/photon/) in the datacenter. Open source [is proliferating](https://blogs.vmware.com/opensource/2019/12/18/2020-open-source-predictions/). With each new year comes even more change in the datacenter landscape. And with that, we've also seen an increase of interest in [VMware Horizon for Linux](https://www.vmware.com/products/horizon/horizon-linux.html).  
 
-A [quick survey](https://flings.vmware.com/horizon-ova-for-ubuntu#comments) of VMware Horizon Admins looking to provide Linux desktops to their user base reveals two interesting use cases:
+A quick survey of VMware Horizon Admins looking to provide Linux desktops to their user base reveals two interesting use cases:
 
 1. **Developer Desktops** was the most common use case expressed
 2. **Moving away from Windows** was the second most voiced reason for interest in Linux VDI
