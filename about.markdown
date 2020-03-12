@@ -7,9 +7,9 @@ author:
    picture: /assets/profile.jpeg
 ---
 
-Ryan started the blog _That Virtual Boy_ in 2014 with a focus on VMware's End User Computing stack of technology. The blog has been a fun project and is a registered community [VMware Blog](https://blogs.vmware.com). It has evolved into a general landing spot for all things geek.
+Ryan started the blog _That Virtual Boy_ in 2014 with a focus on VMware's End User Computing stack of technology and is a registered community #vExpert [VMware Blog](https://blogs.vmware.com). It has evolved into a general landing spot for all things tech and has a little something for everybody.
 
-All content, opinions, and bacon belong to Ryan and do not represent VMware in any official capacity. Enjoy!
+All content + opinions belong to Ryan and do not represent VMware in any official capacity. Enjoy!
 
 -----
 ## Author
