@@ -33,7 +33,6 @@ author:
    twitter: thatvirtualboy
    picture: /assets/profile.jpeg
 search: true
-apple_touch_icon: /assets/images/apple-touch-icon-precomposed.png
 
 # Build settings
 #theme: minima
