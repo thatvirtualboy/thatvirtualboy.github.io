@@ -7,6 +7,7 @@ tags:
 - bacon
 - vExpert
 author: Ryan Klumph
+read_time: true
 excerpt: "Github, Jekyll, vExpert... There have been some changes around here and they're all for the better!"
 ---
 My blog has gone through a major uplift! When I first started That Virtual Boy, I hosted the blog on Google Blogger. After a few years I migrated to Wordpress because all great blogs are on Wordpress right? 🧐 After realizing Wordpress was not the place for me, I migrated back to Blogger. But since I don't use any other Google services (nope... none) I didn't like the idea of still having to directly rely on Google services. Plus.. I had ads on my blog to try and rack up a buck or two, but guess what? I hate ads! And so do you! So why go through the effort of ensuring my blog forces users to ensure their ad blocker is up to date? I just didn't like it.

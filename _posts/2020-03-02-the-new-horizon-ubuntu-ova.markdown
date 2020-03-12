@@ -7,6 +7,7 @@ tags:
 - Ubuntu
 - Linux
 - flings
+read_time: true
 author: Ryan Klumph
 excerpt: "Dramatically decreasing the build time of your Ubuntu Template on VMware Horizon 7."
 ---

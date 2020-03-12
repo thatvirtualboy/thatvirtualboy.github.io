@@ -8,6 +8,7 @@ tags:
 - vmware
 - features
 author: Ryan Klumph
+read_time: true
 excerpt: "vSphere 7 was just announced with some crazy awesome features. Here are some of my favorites!"
 ---
 vSphere 7 has officially been [announced](https://blogs.vmware.com/vsphere/2020/03/vsphere-7.html) (finally!) and man is this thing going to deliver. VMware vSphere has been, and continues to be, the engine for modernizing infrastructure and applications. And check out that sharp looking logo!
