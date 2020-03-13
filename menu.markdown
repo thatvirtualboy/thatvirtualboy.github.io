@@ -1,5 +1,5 @@
 ---
-title: New Release Menu
+title: Release Menu
 layout: collection
 permalink: /releasemenu/
 collection: releasemenu
