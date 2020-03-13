@@ -3,6 +3,7 @@ layout: post
 title:  "Friday New Release Menu: March 13 2020"
 date:   2020-03-13
 image: /assets/images/release-menu.png
+collection: releasemenu
 tags:
 - new release
 - release announcement
