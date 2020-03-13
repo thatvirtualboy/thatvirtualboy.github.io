@@ -77,3 +77,8 @@ copyright: "© 2020 thatvirtualboy. Photo by [Luke Andrew Scowen](https://www.fl
 #   - vendor/ruby/
 #theme: jekyll-theme-basically-basic
 remote_theme: "mmistakes/jekyll-theme-basically-basic"
+
+collections:
+  releasemenu:
+    output: true
+    permalink: /:collection/:path/
