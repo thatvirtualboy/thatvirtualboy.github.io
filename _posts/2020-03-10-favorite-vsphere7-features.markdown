@@ -2,6 +2,7 @@
 layout: post
 title:  "Don't overlook these awesome vSphere 7 features"
 date:   2020-03-10
+image: /assets/banner1.2.jpg
 tags:
 - vsphere7
 - vsphere
