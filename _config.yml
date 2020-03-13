@@ -40,6 +40,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-seo-tag
 
 # Pagination
 paginate: 8  # amount of posts to show per page
