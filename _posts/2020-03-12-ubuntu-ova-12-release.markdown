@@ -2,6 +2,7 @@
 layout: post
 title:  "Ubuntu OVA update for Horizon 7 Now Available"
 date:   2020-03-12
+image: /assets/banner1.2.jpg 
 tags:
 - Horizon
 - Ubuntu
