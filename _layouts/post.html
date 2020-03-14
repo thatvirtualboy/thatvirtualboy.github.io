@@ -6,13 +6,24 @@ layout: default
 
 <main id="main" class="page-content" aria-label="Content">
   <div class="inner">
+
     <article class="entry-wrap">
       <div class="entry-content">
         {{ content }}
       </div>
+&nbsp;&nbsp;
+     {% include social-share.html %}
+     <div class="sharethis-inline-share-buttons"></div>
+     &nbsp;
+     &nbsp;
+     &nbsp;
+
+     {% include post-nav-buttons.html %}
+
       {% if site.disqus.shortname %}
         {% include disqus_comments.html %}
       {% endif %}
     </article>
   </div>
+    <script src="{{ '/assets/javascripts/post-nav-return-button.js' | relative_url }}"></script>
 </main>

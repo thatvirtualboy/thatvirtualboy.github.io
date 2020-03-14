@@ -1,0 +1,19 @@
+{% assign firstArticle = true %}
+{% assign articles = site.pages | concat: site.posts | where: "category", "article" %}
+{% for article in articles %}
+
+  {% if firstArticle %}
+    {% assign firstArticle = false %}
+  {% else %}
+<hr style="clear: left" />
+  {% endif %}
+
+  <h3><a href="{{ article.url }}?from=articles">{{ article.title }}</a></h3>
+
+  <a href="{{ article.url }}?from=articles" class="align-left"><img src="{{ article.article-image }}" alt="" width="150px"></a>
+
+  <p>{{ article.article-description }}</p>
+
+{% endfor %}
+
+<p style="clear: left"></p>
