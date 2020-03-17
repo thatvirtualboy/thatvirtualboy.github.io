@@ -12,7 +12,7 @@ read_time: true
 author: Ryan Klumph
 ---
 ![image](/assets/images/New Horizon Linux VM/ubuntu-ova-12-banner.png)<br/><br/>
-I am so excited to finally be writing this post highlighting the new Ubuntu OVA Fling. After [announcing](_posts/2020-03-02-the-new-horizon-ubuntu-ova.markdown) version 1.2 earlier this month, I could barely wait to get the bits and documentation available to the community. I'm happy to announce version 1.2 is now publicly available!
+I am so excited to finally be writing this post highlighting the new Ubuntu OVA Fling. After [announcing](https://thatvirtualboy.com/2020/03/02/the-new-horizon-ubuntu-ova.html) version 1.2 earlier this month, I could barely wait to get the bits and documentation available to the community. I'm happy to announce version 1.2 is now publicly available!
 
 One of my personal goals for the year 2020 was to revisit the Ubuntu OVA Fling and make it relevant again. The last release was from 3 years ago! Those 3 years have led us to this point in IT where [Kubernetes is king](https://www.vmware.com/products/vsphere.html) in the app modernization playing field. Windows is [losing ground](https://vmware.github.io/photon/) in the datacenter. Open source [is proliferating](https://blogs.vmware.com/opensource/2019/12/18/2020-open-source-predictions/). With each new year comes even more change in the datacenter landscape. And with that, we've also seen an increase of interest in [VMware Horizon for Linux](https://www.vmware.com/products/horizon/horizon-linux.html).  
 
