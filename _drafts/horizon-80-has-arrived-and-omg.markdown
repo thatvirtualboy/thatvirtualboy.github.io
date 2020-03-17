@@ -12,5 +12,5 @@ excerpt: "placeholder excerpt text"
 category: article
 article-image: /assets/images/vc-deets.png
 ---
-
+![](/assets/images/vc-deets.png)
 placeholder for hzn 8

@@ -10,7 +10,6 @@ tags:
 - jekyll
 author: Ryan Klumph
 read_time: true
-excerpt: "Migrating off Blogger was an easy decision, but less easy to properly complete from beginning to end. This post will cover some of the additional tweaks and gotchas needed to finish the job."
 ---
 Recently I made the switch from writing on Google’s Blogger platform to Github Pages using Jekyll. It’s been a welcome and refreshing change. A little more on that [here](/2020/03/05/blog-on-github.html)... Hopefully this post helps someone on a similar journey.
 
