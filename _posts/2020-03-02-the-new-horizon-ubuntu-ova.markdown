@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The New VMware Horizon Ubuntu OVA"
+title:  "Announcing The New Horizon Ubuntu OVA"
 date:   2020-03-02
 tags:
 - Horizon
