@@ -43,7 +43,7 @@ Another thing that I've found promotes success for me is **catering my office to
 
 ### Bonus tips and tricks
 - **Invest in a Stand Up Desk**  
-I've been thrilled with my [Autonomous](https://www.autonomous.ai) SmartDesk 2 Business Edition. I find that adjusting it throughout the day can really help with sore backs and sore butts!  
+I've been thrilled with my [Autonomous](https://www.autonomous.ai) SmartDesk 2 Business Edition (pictured above!). I find that adjusting it throughout the day can really help with sore backs and sore butts!  Be sure to use my referral link to get a discount on your order: https://bit.ly/2UYmlPX
 
 - **Listen to instrumental music**  
 Whether it's classical or EDM (or both, like I tend to listen to!) music without words can help you focus.  
