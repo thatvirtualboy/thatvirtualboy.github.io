@@ -77,6 +77,6 @@ VMware's official YouTube account has a [playlist of vSphere 7](https://www.yout
 
 ## Resources
 📄 [vSphere 7.0 Release Notes](https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-esxi-vcenter-server-70-release-notes.html)  
-⬇️ [VCSA 7.0 Download](https://my.vmware.com/web/vmware/details?downloadGroup=VC700&productId=974&rPId=44114)
-📄 [ESXi 7.0 Release Notes](https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-esxi-vcenter-server-70-release-notes.html)
-⬇️ [ESXi 7.0 Download](https://my.vmware.com/web/vmware/details?downloadGroup=ESXI700&productId=974&rPId=44114)
+⬇️ [VCSA 7.0 Download](https://my.vmware.com/web/vmware/details?downloadGroup=VC700&productId=974&rPId=44114)  
+📄 [ESXi 7.0 Release Notes](https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-esxi-vcenter-server-70-release-notes.html)  
+⬇️ [ESXi 7.0 Download](https://my.vmware.com/web/vmware/details?downloadGroup=ESXI700&productId=974&rPId=44114)  
