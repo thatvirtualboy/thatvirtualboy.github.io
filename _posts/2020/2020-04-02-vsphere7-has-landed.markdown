@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  “vSphere 7.0 has landed! Here's some things you need to know!"
+title:  vSphere 7.0 has landed! Here's some things you need to know!
 date:   2020-04-02
 tags:
 - vsphere
