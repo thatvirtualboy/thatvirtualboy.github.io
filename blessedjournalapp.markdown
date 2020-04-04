@@ -3,7 +3,7 @@ layout: page
 permalink: /BlessedJournal/
 ---
 # Blessed Journal App
-![](/apps/BlessedJournal/icon.png){:height="300px" width="300px"}<br><br>
+![](/assets/apps/BlessedJournal/icon.png){:height="300px" width="300px"}<br><br>
 
 ## Privacy Policy
 
