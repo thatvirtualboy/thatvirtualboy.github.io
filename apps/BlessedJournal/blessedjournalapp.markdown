@@ -1,6 +1,5 @@
 ---
 layout: page
-alt_title: " "
 permalink: /BlessedJournal/
 ---
 # Blessed Journal App
