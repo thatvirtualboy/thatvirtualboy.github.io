@@ -1,7 +1,9 @@
 ---
 layout: page
+title:
 permalink: /BlessedJournal/
 ---
+
 # Blessed Journal App
 ![](/assets/apps/BlessedJournal/icon.png){:height="300px" width="300px"}<br><br>
 
