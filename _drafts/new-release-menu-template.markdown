@@ -9,8 +9,7 @@ tags:
 read_time: true
 author: Ryan Klumph
 excerpt: It's Friday! 🎉 Which means it's time for the Friday New Release Menu! 🍽 These posts document VMware's new and recent releases over the past two weeks.
-The Release Notes come highly recommended. 🍿
-Or if sampling is more your style, you can jump in with a VMware eval key (check with your TAM or account rep). Bon Appétit! 🥘
+The Release Notes come highly recommended. 🍿 Or if sampling is more your style, you can jump in with a VMware eval key (check with your TAM or account rep). Bon Appétit! 🥘
 ---
 ![](/assets/images/release-menu.png)<br><br>
 It's Friday! 🎉 Which means it's time for the Friday New Release Menu! 🍽 These posts document VMware's new and recent releases over the past two weeks.
@@ -23,18 +22,6 @@ Or if sampling is more your style, you can jump in with a VMware eval key (check
 🗓 Released: March 17 2020  
 ⬇ [Download](https://my.vmware.com/web/vmware/details?downloadGroup=VMRC1101&productId=742)  
 🗒 [Release Notes](https://docs.vmware.com/en/VMware-Remote-Console/11/rn/VMware-Remote-Console-1101-Release-Notes.html)  
-
-#### Horizon 7.12
-🗓 Released: March 17 2020  
-⬇ [Download](https://my.vmware.com/en/web/vmware/info/slug/desktop_end_user_computing/vmware_horizon/7_12)  
-🗒 [Release Notes](https://docs.vmware.com/en/VMware-Horizon-7/7.12/rn/horizon-712-view-release-notes.html)  
-
-#### Horizon Clients 5.4
-🗓 Released: March 17 2020  
-⬇ [Download](https://my.vmware.com/web/vmware/info/slug/desktop_end_user_computing/vmware_horizon_clients/5_0)  
-🗒 [Release Notes: Windows](https://docs.vmware.com/en/VMware-Horizon-Client-for-Windows/5.4/rn/horizon-client-windows-54-release-notes.html)  
-🗒 [Release Notes: Linux](https://docs.vmware.com/en/VMware-Horizon-Client-for-Linux/5.4/rn/horizon-client-linux-54-release-notes.html)  
-🗒 [Release Notes: macOS](https://docs.vmware.com/en/VMware-Horizon-Client-for-Mac/5.4/rn/horizon-client-mac-53-release-notes.html)  
 
 #### Dynamic Environment Manager 9.11
 🗓 Released: March 17 2020  
