@@ -25,6 +25,6 @@ This tool was originally published as a [VMware Fling](https://flings.vmware.com
 
 <br><br>
 ## Blessed Journal (iOS)
-![logo](/apps/BlessedJournal/icon.png){:height="100px" width="100px" .align-left} A simple, minimalistic app built to help us reflect and remind ourselves of the _good_ in our lives.  
+![logo](/assets/apps/BlessedJournal/icon.png){:height="100px" width="100px" .align-left} A simple, minimalistic app built to help us reflect and remind ourselves of the _good_ in our lives.  
 
 Available for free on the App Store (coming soon)
