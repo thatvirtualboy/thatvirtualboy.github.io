@@ -1,6 +1,6 @@
 ---
 layout: page
-
+title: Stickers
 permalink: /stickers/
 image: /assets/sticker-header.jpeg
 ---
