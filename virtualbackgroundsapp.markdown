@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /virtualbackgrounds/
+permalink: /tools/virtualbackgrounds/
 ---
 
 # Virtual Backgrounds App
