@@ -1,9 +1,9 @@
 ---
 layout: page
+title: Virtual Backgrounds App
 permalink: /apps/virtualbackgrounds/
 ---
 
-# Virtual Backgrounds App
 ![](/assets/apps/VirtualBackgrounds/icon.png){:height="300px" width="300px"}<br><br>
 
 ## Privacy Policy
