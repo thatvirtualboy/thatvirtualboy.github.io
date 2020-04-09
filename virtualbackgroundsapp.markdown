@@ -1,6 +1,5 @@
 ---
 layout: page
-collection: apps
 permalink: /apps/virtualbackgrounds/
 ---
 
