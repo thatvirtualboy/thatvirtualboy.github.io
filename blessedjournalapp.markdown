@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Blessed Journal App
-permalink: /blessedjournal/
-image: 
+permalink: /apps/blessedjournal/
 ---
-# Blessed Journal App
+
 ![](/assets/apps/BlessedJournal/icon.png){:height="300px" width="300px"}<br><br>
 
 ## Privacy Policy
