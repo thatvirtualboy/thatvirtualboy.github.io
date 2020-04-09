@@ -1,6 +1,7 @@
 ---
 layout: page
-permalink: /tools/virtualbackgrounds/
+collection: apps
+permalink: /apps/virtualbackgrounds/
 ---
 
 # Virtual Backgrounds App
