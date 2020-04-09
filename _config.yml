@@ -82,3 +82,6 @@ collections:
   releasemenu:
     output: true
     permalink: /:collection/:path/
+  apps:
+    output: false
+    permalink: /:collection/:path/
