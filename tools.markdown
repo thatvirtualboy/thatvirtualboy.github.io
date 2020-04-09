@@ -24,6 +24,15 @@ This tool was originally published as a [VMware Fling](https://flings.vmware.com
 ---
 
 <br><br>
+## Virtual Backgrounds (iOS)
+![logo](/assets/apps/VirtualBackgrounds/icon.png){:height="100px" width="100px" .align-left} An app featuring hand-picked virtual backgrounds to be used with your video conferencing tool (e.g., Zoom).   
+
+Available on the App Store (coming soon)
+<br><br>
+
+---
+
+<br><br>
 ## Blessed Journal (iOS)
 ![logo](/assets/apps/BlessedJournal/icon.png){:height="100px" width="100px" .align-left} A simple, minimalistic app built to help us reflect and remind ourselves of the _good_ in our lives.  
 
