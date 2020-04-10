@@ -27,7 +27,7 @@ This tool was originally published as a [VMware Fling](https://flings.vmware.com
 ## Virtual Backgrounds (iOS)
 ![logo](/assets/apps/VirtualBackgrounds/icon.png){:height="100px" width="100px" .align-left} An app featuring hand-picked virtual backgrounds to be used with your video conferencing tool (e.g., Zoom).   
 
-Available on the App Store (coming soon)
+<a href="https://apps.apple.com/us/app/virtual-backgrounds/id1506825381?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-04-10&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a>
 <br><br>
 
 ---
