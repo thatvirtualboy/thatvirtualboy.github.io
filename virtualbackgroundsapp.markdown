@@ -6,6 +6,10 @@ permalink: /apps/virtualbackgrounds/
 
 ![](/assets/apps/VirtualBackgrounds/icon.png){:height="300px" width="300px"}<br><br>
 
+> Virtual Backgrounds you'll actually want to use  
+> Virtual meetings are becoming a new standard in the professional landscape and current way of life. Make your virtual presence *pop* with these **hand-picked** backgrounds.
+> "Virtual Backgrounds" images are hand-picked by a real person - not scraped, not bulk collected - so you know you're getting the highest quality options.
+
 ## Privacy Policy
 
 thatvirtualboy built the Virtual Backgrounds app as a limited-time Free app. This SERVICE is provided by thatvirtualboy at no cost and is intended for use as is.
@@ -20,9 +24,7 @@ The terms used in this Privacy Policy have the same meanings as in our Terms and
 
 For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.
 
-The app does use third party services that may collect information used to identify you.
-
-Link to privacy policy of third party service providers used by the app
+The app does not use third party services that collect information used to identify you.
 
 ### Log Data
 
@@ -32,17 +34,7 @@ I want to inform you that whenever you use my Service, in a case of an error in 
 
 Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
 
-This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
-
-### Service Providers
-
-I may employ third-party companies and individuals due to the following reasons:
-
-To facilitate our Service;
-To provide the Service on our behalf;
-To perform Service-related services; or
-To assist us in analyzing how our Service is used.
-I want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+This Service does not use these “cookies” explicitly.   
 
 ### Security
 
