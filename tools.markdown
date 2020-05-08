@@ -29,3 +29,11 @@ This tool was originally published as a [VMware Fling](https://flings.vmware.com
 
 <a href="https://apps.apple.com/us/app/virtual-backgrounds/id1506825381?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-04-10&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a>
 <br><br>
+
+---
+
+<br><br>
+## Sonas Journal (iOS)
+![logo](/assets/apps/SonasJournal/sonasIcon.png){:height="100px" width="100px" .align-left} A private journal built to capture life's best moments.    
+
+<a href="https://apps.apple.com/us/app/sonas-journal/id1506245083?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-05-08&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a>
