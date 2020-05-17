@@ -37,3 +37,11 @@ This tool was originally published as a [VMware Fling](https://flings.vmware.com
 ![logo](/assets/apps/SonasJournal/sonasIcon.png){:height="100px" width="100px" .align-left} A private journal built to capture life's best moments.    
 
 <a href="https://apps.apple.com/us/app/sonas-journal/id1506245083?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-05-08&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a>
+
+---
+
+<br><br>
+## Sonas Workout Journal (iOS)
+![logo](/assets/apps/SonasWorkout/sonasworkout-icon.png){:height="100px" width="100px" .align-left} A private journal built specifically for tracking the things you do to move your body.    
+
+<a href="https://apps.apple.com/us/app/sonas-workout-journal/id1513653298?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-05-16&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a>
