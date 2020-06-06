@@ -50,6 +50,6 @@ This tool was originally published as a [VMware Fling](https://flings.vmware.com
 
 <br><br>
 ## Artbox (iOS)
-![logo](/assets/apps/artbox/artbox-icon.png){:height="100px" width="100px" .align-left} A convenient and refreshing way to keep a digital record your children's art projects..    
+![logo](/assets/apps/artbox/artbox-icon.png){:height="100px" width="100px" .align-left} A convenient and refreshing way to keep a digital record your children's art projects.   
 
-Coming Soon
+<a href="https://apps.apple.com/us/app/artbox-store-all-the-artwork/id1516027610?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-07-01&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a>
