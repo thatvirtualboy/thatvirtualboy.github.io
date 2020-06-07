@@ -18,7 +18,7 @@ You can support me in a number of ways, whether it's [following me on Twitter](h
 #### StyleB >> $8
 ![image](/assets/images/stickers/full-large.jpeg)
 
-#### StyleC >> 4
+#### StyleC >> $4
 ![image](/assets/images/stickers/key.jpeg)
 
 #### StyleD >> $3
