@@ -5,6 +5,5 @@ t:
 navigation_pages:
   - about.markdown
   - menu.markdown
-  - stickers.markdown
   - tags.markdown
   - tools.markdown
