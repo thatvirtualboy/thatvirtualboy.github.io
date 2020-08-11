@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-11T15:57:06-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">thatvirtualboy</title><subtitle>A blog by Ryan covering all things virtual and other tech bacon</subtitle><author><name>Ryan Klumph</name></author><entry><title type="html">The Creo Integrated Development Environment</title><link href="http://localhost:4000/2020/06/06/creo-integrated-development-environment.html" rel="alternate" type="text/html" title="The Creo Integrated Development Environment" /><published>2020-06-06T00:00:00-06:00</published><updated>2020-06-06T00:00:00-06:00</updated><id>http://localhost:4000/2020/06/06/creo-integrated-development-environment</id><content type="html" xml:base="http://localhost:4000/2020/06/06/creo-integrated-development-environment.html">&lt;p&gt;&lt;img src=&quot;/assets/images/creo/creo_1.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+I’ve had the pleasure of learning iOS Development 📱 on the beautifully architected IDE, &lt;a href=&quot;https://creolabs.com&quot;&gt;Creo&lt;/a&gt;, from Creolabs. It’s been such a fun experience, I can’t help but spread the word about this amazing tool. Come take a look!&lt;/p&gt;
+
+&lt;h2 id=&quot;the-quarantine-challenge-&quot;&gt;The Quarantine Challenge 💪&lt;/h2&gt;
+&lt;p&gt;COVID-19. At this point so many are tired of hearing about it and seeing it flood the news. But the truth is the Coronavirus forced many of us to get creative with our self-sheltering. I’ve heard of so many people using our quarantine as an opportunity to learn something new, improve something about themselves, advance their education, or simply attempt to stream everything that is possibly streamable.&lt;/p&gt;
+
+&lt;p&gt;I set two goals for myself which have been extremely fun (and tasty):&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Goal #1&lt;/em&gt; was to pick up a smoker and learn to smoke my own meats. Chicken wings, Whole Chickens, Brisket, Meatloaf, Pork Butt… I’ve by no means mastered the art, but let’s just say me and my Traeger are no longer strangers!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Goal #2&lt;/em&gt; was to learn how to create an iOS app. I’m embarrassed to say, I’ve attempted this several times in the past and ended up throwing my hands up in the air each time shouting “I give up!” This time I was determined given that I apparently had time!&lt;/p&gt;
+
+&lt;h2 id=&quot;choosing-the-right-ide-&quot;&gt;Choosing the right IDE 🤔&lt;/h2&gt;
+&lt;p&gt;Part of the challenge before was that I would buy into the marketing that Apple’s Swift code language and their Xcode IDE is the best way to develop apps. Sure, Swift is certainly easier to learn than many other languages, and I actually really enjoyed learning it.. but I really had a tough time wrapping my head around how to properly use Xcode. Not to mention, every attempt at following a tutorial I found online would inevitably be outdated if it wasn’t using the most current release of Swift and XCODE. This made learning the platform even tougher.&lt;/p&gt;
+
+&lt;p&gt;This drove me down the road of searching for alternative IDEs and I stumbled onto the concept of “low code” IDEs. Enter Creo.&lt;/p&gt;
+
+&lt;h2 id=&quot;creo-is-different-&quot;&gt;Creo is different 👨‍💻&lt;/h2&gt;
+&lt;p&gt;Before I continue, know that this is not an Xcode bashing post. In fact devs who can whiz around Xcode without skipping a beat have my respect and admiration. The fact of the matter is, it isn’t for everyone.&lt;/p&gt;
+
+&lt;p&gt;Creo’s mission is stamped on their &lt;a href=&quot;https://creolabs.com/company&quot;&gt;About&lt;/a&gt; page:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Our mission is to change the way people design and develop applications.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;From the moment you first launch Creo, you can’t help but notice how user-friendly it is.
+&lt;img src=&quot;/assets/images/creo/creo_2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Creo features drag-and-drop of items which automatically become objects to be used in your code. The great thing is, you get a live view of the app coming to life as you build it. Even things like images - drop it into your App’s assets, and you can call that image from anywhere in the app by its name.&lt;/p&gt;
+
+&lt;p&gt;Creo also features built-in database creation and configuration making it insanely fast to start storing and manipulating real data.&lt;/p&gt;
+
+&lt;p&gt;Creo features the open source programming language, &lt;a href=&quot;https://github.com/marcobambini/gravity&quot;&gt;Gravity&lt;/a&gt; which touts a highly modern, efficient, and lightweight multi-platform coding language. Here’s what it looks like:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class Vector {
+	// instance variables
+	var x = 0;
+	var y = 0;
+	var z = 0;
+
+	// constructor
+	func init (a = 0, b = 0, c = 0) {
+		x = a; y = b; z = c;
+	}
+
+	// built-in operator overriding
+	func + (v) {
+		return Vector(x+v.x, y+v.y, z+v.z);
+	}
+
+	// string interpolation support
+	func toString() {
+		return &quot;[\(x),\(y),\(z)]&quot;;
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Another reason Creo is different is the team behind the platform. The Creo team has been undeniably supportive and helpful as I’ve learned (and continue to learn!) the the ins and outs of the IDE as well as general iOS development principles. World-class product and services from beginning to end.&lt;/p&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://blog.creolabs.com&quot;&gt;Creo Blog&lt;/a&gt; to learn more about its powerful capabilities and how simple it is to get started. If you’ve ever considered getting into iOS development but have been intimidated or discovered other blockers, give Creo a try!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://creolabs.com&quot;&gt;&lt;img src=&quot;/assets/images/creo/creo_icon.png&quot; alt=&quot;&quot; height=&quot;300px&quot; width=&quot;300px&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>Ryan Klumph</name></author><category term="iOS" /><category term="development" /><category term="IDE" /><category term="Creo" /><summary type="html">I’ve had the pleasure of learning iOS Development 📱 on the beautifully architected IDE, Creo, from Creolabs. It’s been such a fun experience, I can’t help but spread the word about this amazing tool. Come take a look!</summary></entry><entry><title type="html">vSphere 7.0 has landed! Here’s some things you need to know!</title><link href="http://localhost:4000/2020/04/02/vsphere7-has-landed.html" rel="alternate" type="text/html" title="vSphere 7.0 has landed! Here's some things you need to know!" /><published>2020-04-02T00:00:00-06:00</published><updated>2020-04-02T00:00:00-06:00</updated><id>http://localhost:4000/2020/04/02/vsphere7-has-landed</id><content type="html" xml:base="http://localhost:4000/2020/04/02/vsphere7-has-landed.html">&lt;p&gt;&lt;img src=&quot;/assets/images/vsphere7landed/vsphere7cover.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+VMware announced vSphere 7 🚀 last month, and today they’re making it a reality. vSphere 7 with Kubernetes is now Generally Available! 🥳 Here are some things you need to know!&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#where-to-start&quot; id=&quot;markdown-toc-where-to-start&quot;&gt;Where to start&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#vsphere-7-mind-map&quot; id=&quot;markdown-toc-vsphere-7-mind-map&quot;&gt;vSphere 7 Mind Map&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#getting-to-know-vsphere-7-services&quot; id=&quot;markdown-toc-getting-to-know-vsphere-7-services&quot;&gt;Getting to Know vSphere 7 Services&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#get-learned&quot; id=&quot;markdown-toc-get-learned&quot;&gt;Get Learned&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#-vmware-education-services&quot; id=&quot;markdown-toc--vmware-education-services&quot;&gt;📚 VMware Education Services&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#-hands-on-lab&quot; id=&quot;markdown-toc--hands-on-lab&quot;&gt;👨‍🔬 Hands On Lab&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#-youtube-playlist&quot; id=&quot;markdown-toc--youtube-playlist&quot;&gt;🎥 YouTube Playlist&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#resources&quot; id=&quot;markdown-toc-resources&quot;&gt;Resources&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;where-to-start&quot;&gt;Where to start&lt;/h2&gt;
+&lt;p&gt;There have been plenty (PLENTY) of posts covering what’s new in vSphere 7, so we’re not going to review that. Instead I think it would be helpful to consolidate a lot of the chatter and content out there into a single location. VMware has posted several of these types of blogs as well in the spirit of being able to relive the announcements and flow of content.&lt;/p&gt;
+
+&lt;p&gt;If you’re looking to catch up, start by checking out this awesome compilation page: &lt;a href=&quot;http://vmw.re/vsphere7&quot;&gt;http://vmw.re/vsphere7&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here’s a quick recap of the top new features (per the datasheet):&lt;/p&gt;
+
+&lt;p&gt;• vMotion Enhancements&lt;br /&gt;
+• Improved Distributed Resource Scheduling&lt;br /&gt;
+• Proactive High Availability&lt;br /&gt;
+• VM-Aware Storage&lt;br /&gt;
+• API and Policy Driven Storage Capabilities&lt;br /&gt;
+• Support for 4K Native Storage&lt;br /&gt;
+• vSphere Persistent Memory&lt;br /&gt;
+• vCenter Hybrid Linked Mode&lt;br /&gt;
+• Per-VM Enhanced vMotion Compatibility&lt;br /&gt;
+• Live Migration of Workloads&lt;br /&gt;
+• Protect VM and Data&lt;br /&gt;
+• VM-level Encryption&lt;br /&gt;
+• Support for TPM 2.0&lt;br /&gt;
+• Virtual TPM 2.0&lt;br /&gt;
+• FIPS 140-2 Compliance&lt;br /&gt;
+• Ensure System Uptime&lt;br /&gt;
+• Share Data Center Resources&lt;br /&gt;
+• Endpoint Security&lt;br /&gt;
+• Fault Tolerance&lt;br /&gt;
+• Instant Clone&lt;br /&gt;
+• Centralized Network Management&lt;br /&gt;
+• Load Balancing&lt;br /&gt;
+• Prioritize Resources to Virtual Machines&lt;br /&gt;
+• Rapid Deployment and Provisioning&lt;br /&gt;
+• Accelerated Graphics for Virtual Machines&lt;br /&gt;
+• Support for Suspend, Resume, vMotion, multi- vGPU per VM and Snapshot for NVIDIA
+vGPUs&lt;br /&gt;
+• Automated Discovery of Application Assets, Intent, and Communication&lt;br /&gt;
+• Contextual Intelligence of Application State&lt;br /&gt;
+• Orchestrated or Automated Responses to Security Threats&lt;br /&gt;
+• Prioritized Vulnerability Reporting Across the Entire Data Center&lt;/p&gt;
+
+&lt;h3 id=&quot;vsphere-7-mind-map&quot;&gt;vSphere 7 Mind Map&lt;/h3&gt;
+&lt;p&gt;This interactive mind map for vSphere 7 allows you to drill into the key features and capabilities. &lt;a href=&quot;https://vspherecentral.vmware.com/t/vsphere-7/vsphere-7-mind-map/&quot;&gt;See it here.&lt;/a&gt;
+&lt;img src=&quot;/assets/images/vsphere7landed/vsphere7-mindmap.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;getting-to-know-vsphere-7-services&quot;&gt;Getting to Know vSphere 7 Services&lt;/h3&gt;
+&lt;p&gt;Borrowing this one from the &lt;em&gt;awesome compilation page&lt;/em&gt; above, be sure to register for &lt;a href=&quot;https://www.vmug.com/education/webcasts/vsphere7-series&quot;&gt;this webcast series&lt;/a&gt;. It’ll be doing deep on fresh topics like managing modern apps on hybrid cloud, deploying Kubernetes clusters, lifecycle management, security, and starting your AI/ML journey with vSphere and Bitfusion.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-learned&quot;&gt;Get Learned&lt;/h2&gt;
+&lt;p&gt;VMware has made it easy for you to get spun up on vSphere 7 from Day 1. Here’s a list of classes and videos to get you started:&lt;/p&gt;
+
+&lt;h4 id=&quot;-vmware-education-services&quot;&gt;📚 VMware Education Services&lt;/h4&gt;
+&lt;p&gt;Officially covered in &lt;a href=&quot;https://blogs.vmware.com/education/2020/03/17/7-new-courses-to-get-you-ready-for-vsphere-7/&quot;&gt;this blog post&lt;/a&gt;, you can now register for &lt;strong&gt;What’s New&lt;/strong&gt;, &lt;strong&gt;Install, Configure, Manage (ICM)&lt;/strong&gt;, &lt;strong&gt;Design&lt;/strong&gt;, and &lt;strong&gt;Troubleshooting&lt;/strong&gt; courses.&lt;/p&gt;
+
+&lt;p&gt;To learn more about these new courses, join us live on &lt;strong&gt;April 7th&lt;/strong&gt; where experts will review the contents of each course and answer your questions. &lt;strong&gt;Register now:&lt;/strong&gt; &lt;a href=&quot;http://vmwarelearningzone.vmware.com/oltpublish/site/event.do?dispatch=show&amp;amp;id=29fd091a-650e-11ea-9f48-0cc47adeb5f8&quot;&gt;April 7th @ 8:00am PDT&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;-hands-on-lab&quot;&gt;👨‍🔬 Hands On Lab&lt;/h4&gt;
+&lt;p&gt;Hands On Labs (HOL) are guided lab exercises and environments delivered in your browser to get you hands on experience with our products. Check out &lt;a href=&quot;https://labs.hol.vmware.com/HOL/catalogs/lab/6877&quot;&gt;HOL-2013-01-ISM - vSphere 7 with Kubernetes&lt;/a&gt; for a “Lightning Lab” intro into vSphere + K8s.&lt;/p&gt;
+
+&lt;h4 id=&quot;-youtube-playlist&quot;&gt;🎥 YouTube Playlist&lt;/h4&gt;
+&lt;p&gt;VMware’s official YouTube account has a &lt;a href=&quot;https://www.youtube.com/watch?v=VtEs3X5pYlE&amp;amp;list=PLymLY4xJSThobr14re6QPul2xTfEFTR3d&quot;&gt;playlist of vSphere 7&lt;/a&gt; specific videos with product overviews, feature deep dives, lightboard sessions, and more! Definitely a spot worth bookmarking.&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+&lt;p&gt;📄 &lt;a href=&quot;https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-esxi-vcenter-server-70-release-notes.html&quot;&gt;vSphere 7.0 Release Notes&lt;/a&gt;&lt;br /&gt;
+⬇️ &lt;a href=&quot;https://my.vmware.com/web/vmware/details?downloadGroup=VC700&amp;amp;productId=974&amp;amp;rPId=44114&quot;&gt;VCSA 7.0 Download&lt;/a&gt;&lt;br /&gt;
+📄 &lt;a href=&quot;https://docs.vmware.com/en/VMware-vSphere/7.0/rn/vsphere-esxi-vcenter-server-70-release-notes.html&quot;&gt;ESXi 7.0 Release Notes&lt;/a&gt;&lt;br /&gt;
+⬇️ &lt;a href=&quot;https://my.vmware.com/web/vmware/details?downloadGroup=ESXI700&amp;amp;productId=974&amp;amp;rPId=44114&quot;&gt;ESXi 7.0 Download&lt;/a&gt;&lt;/p&gt;</content><author><name>Ryan Klumph</name></author><category term="vsphere" /><category term="VMware" /><category term="new release" /><summary type="html">VMware announced vSphere 7 🚀 last month, and today they’re making it a reality. vSphere 7 with Kubernetes is now Generally Available! 🥳 Here are some things you need to know!</summary></entry><entry><title type="html">How to Work From Home like a Boss</title><link href="http://localhost:4000/2020/03/18/work-from-home-like-a-boss.html" rel="alternate" type="text/html" title="How to Work From Home like a Boss" /><published>2020-03-18T00:00:00-06:00</published><updated>2020-03-18T00:00:00-06:00</updated><id>http://localhost:4000/2020/03/18/work-from-home-like-a-boss</id><content type="html" xml:base="http://localhost:4000/2020/03/18/work-from-home-like-a-boss.html">&lt;p&gt;&lt;img src=&quot;/assets/images/wfh/office1.jpeg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+Public health safety is top of mind today and the driving force behind the &lt;strong&gt;Work From Home&lt;/strong&gt; movement amid COVID-19 fears. Both internally and externally I’ve seen a number of questions on how to handle these changes. I’ve been working from home almost exclusively for the past 3 years and have gotten quite comfortable with my routine. I still visit my local company office 1-2 times a week, but the majority of my “8 to 5” is in “the basement.” As I was thinking about ways I could share helpful information with the community on how to work from home efficiently, I discovered a common theme threaded throughout every suggestion: &lt;strong&gt;Create the environment that fosters your productivity&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;identify-your-home-office&quot;&gt;Identify your home office&lt;/h3&gt;
+&lt;p&gt;A dedicated working space has been essential to my productivity at home. My house has a basement and in that basement is a small corner room with a window and no closet. It’s the perfect spot for a home office. I believe what’s made the most impact for my productivity at home is consistency with this space. This room is where I work. As soon as I close the door, I’m on the clock. It’s a mind-shift migrating from my kitchen that needs cleaning after having breakfast with the kiddos, to &lt;em&gt;now I’m at work&lt;/em&gt;. If you have a spare room that could be transformed into a dedicated place for focusing on work, it will dramatically increase your thinking power.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I believe what’s made the most impact for my productivity at home is consistency&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Not everyone has the space to achieve a dedicated office, so use this as an opportunity to get creative. I have a buddy who moved his office into his closet. I know someone else who built a corner desk into their loft. Your home office doesn’t have to be a typical closed-door room, but you may find that after a day or two or three of trying one thing, you might adjust and try something else. Loft not working? Try a corner of your bedroom. Couch not conducive to productivity? Try setting up on your patio. However you go about it, I believe you’ll find consistency helps you change gears into &lt;em&gt;work mode&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;reduce-distractions&quot;&gt;Reduce distractions&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/wfh/elaine.gif&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+Once you’ve identified where your home office will be, you’ll want to set it up in a way that reduces distractions. This will mean so many different things for different people, but here are a few that have helped me:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;No TV&lt;/strong&gt;&lt;br /&gt;
+My office doesn’t have a television where I can “keep tabs on the news” or have a movie playing “in the background.” I know that I would end up spending way too much time staring at that screen and not my computer screen!&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Keep it clean&lt;/strong&gt;&lt;br /&gt;
+Most professional offices have a dedicated cleaning team that shines the counters, dusts your monitors, vacuums your crumbs, etc. Their important work is often overlooked by the regulars in the office and taken for granted. You’ll become more aware of the necessity of their function the more you work from home because you’ll likely be cleaning up after yourself!&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;De-clutter&lt;/strong&gt;&lt;br /&gt;
+It’s been said that &lt;em&gt;A cluttered desk is the sign of a cluttered mind.&lt;/em&gt; Therefore that must mean that a &lt;em&gt;clear desk&lt;/em&gt; fosters a &lt;em&gt;clear mind&lt;/em&gt;. Having your desk free of trash/junk/toys or any thing that is simply taking up space can help keep you focused and on track. This doesn’t mean you should clear your desk of all non-work related items! I suggest that it means you should only include on your desk that which encourages you to be creative.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;promote-success&quot;&gt;Promote success&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/wfh/george2.gif&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+Tightly coupled with de-cluttering is the idea of promoting success for yourself in your new home office. Following the path of finding what encourages your creativity, take a moment to discover what inspires you to be great. Maybe it’s a professional hero. Maybe it’s your kids. Maybe it’s a spiritual conviction. For me, it’s all 3. You may have more, or completely different inspirations.&lt;/p&gt;
+
+&lt;p&gt;One of my &lt;strong&gt;professional heroes&lt;/strong&gt; is Pat Gelsinger, CEO of VMware. I don’t have a picture of him at my desk or anything, but I know some folks that do! Talk about an example of utmost work ethic while still putting his family and faith first. If you haven’t read &lt;a href=&quot;https://www.amazon.com/Juggling-Act-Bringing-Balance-Family/dp/1434768740&quot;&gt;his book&lt;/a&gt;, I’d highly encourage you to check it out.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;My kids&lt;/strong&gt; and their future is a great motivator. They’re counting on me to lead them and provide for them. It’s my fatherly duty! I have their pictures on my desk.&lt;/p&gt;
+
+&lt;p&gt;I’m also told in &lt;strong&gt;Colossians 3:23&lt;/strong&gt; “&lt;em&gt;Whatever you do, work heartily, as for the Lord and not for men&lt;/em&gt; (ESV)” … as a Jesus follower this means integrity is incredibly valuable and I should be performing at my highest caliber at all times. Verses like these are great to write out on a sticky and keep near your eyesight.&lt;/p&gt;
+
+&lt;p&gt;Another thing that I’ve found promotes success for me is &lt;strong&gt;catering my office to my personality&lt;/strong&gt;. What things make me happy? A simple idea, but it can have a real impact on your attitude toward work once you walk into your office. For me, this means music, superheroes, and an electric wall-mounted fireplace!&lt;/p&gt;
+
+&lt;h3 id=&quot;bonus-tips-and-tricks&quot;&gt;Bonus tips and tricks&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Invest in a Stand Up Desk&lt;/strong&gt;&lt;br /&gt;
+I’ve been thrilled with my &lt;a href=&quot;https://www.autonomous.ai&quot;&gt;Autonomous&lt;/a&gt; SmartDesk 2 Business Edition (pictured above!). I find that adjusting it throughout the day can really help with sore backs and sore butts!  Be sure to use &lt;a href=&quot;https://bit.ly/2UYmlPX&quot;&gt;my referral link&lt;/a&gt; to get a discount on your order!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Listen to instrumental music&lt;/strong&gt;&lt;br /&gt;
+Whether it’s classical or EDM (or both, like I tend to listen to!) music without words can help you focus.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;More monitors isn’t always better&lt;/strong&gt;&lt;br /&gt;
+At times in previous jobs I’ve had up to 4 monitors. In my current role, I’m more productive with 1 to 2. Try out some different configurations and see how it impacts your work.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Schedule lunches and breaks&lt;/strong&gt;&lt;br /&gt;
+It’s easy to become a hobbit while working from home! Be sure to get up and stretch the legs every once in a while.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Keep a consistent schedule&lt;/strong&gt;&lt;br /&gt;
+Set your alarm, get dressed, start working at the same time every morning if you can.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Invest in a good headset&lt;/strong&gt;&lt;br /&gt;
+For remote conferences, customer calls, team meetings, you’ll want to be able to hear clearly and be clearly heard.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;The Mute Button is your friend&lt;/strong&gt;&lt;br /&gt;
+When on a call, ALWAYS ALWAYS ALWAYS remain muted if you’re not talking. You don’t want to be &lt;em&gt;that guy&lt;/em&gt; who forgot his mic was hot.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Find your &lt;em&gt;Todo&lt;/em&gt; solution&lt;/strong&gt;&lt;br /&gt;
+When I look back on my day to see what I accomplished, it helps if I have a list of things I checked was able to check off. This can be Apple Reminders, Microsoft Todo, sticky notes, or a notebook.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Avoid windows in video chats&lt;/strong&gt;&lt;br /&gt;
+Lighting is important when on a video conference. You don’t have to go buying all the streamer gear to get the perfect studio, but consider using windows to your advantage by NOT having them right behind you.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;final-thoughts&quot;&gt;Final thoughts&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/wfh/kramer.gif&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+All of these suggestions support the common theme mentioned at the beginning of this article: Create the environment that fosters YOUR productivity. Your perfect working environment will not be the same as everyone elses. What helps is collecting the ideas and suggestions from others and trying them out for yourself. I hope you found this helpful. Now get back to work!&lt;/p&gt;</content><author><name>Ryan Klumph</name></author><category term="bacon" /><category term="work from home" /><summary type="html">Public health safety is top of mind today and the driving force behind the Work From Home movement amid COVID-19 fears. Both internally and externally I’ve seen a number of questions on how to handle these changes. I’ve been working from home almost exclusively for the past 3 years and have gotten quite comfortable with my routine. I still visit my local company office 1-2 times a week, but the majority of my “8 to 5” is in “the basement.” As I was thinking about ways I could share helpful information with the community on how to work from home efficiently, I discovered a common theme threaded throughout every suggestion: Create the environment that fosters your productivity</summary></entry><entry><title type="html">VMware Horizon 7.12 Has Arrived</title><link href="http://localhost:4000/2020/03/17/horizon-712-has-arrived.html" rel="alternate" type="text/html" title="VMware Horizon 7.12 Has Arrived" /><published>2020-03-17T00:00:00-06:00</published><updated>2020-03-17T00:00:00-06:00</updated><id>http://localhost:4000/2020/03/17/horizon-712-has-arrived</id><content type="html" xml:base="http://localhost:4000/2020/03/17/horizon-712-has-arrived.html">&lt;p&gt;&lt;img src=&quot;/assets/images/horizon12/horizon12-hero.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+VMware has just released Horizon 7.12 which is kind of a big deal! Packed with new features and fixes, this release is timely amid a massive increase in the &lt;strong&gt;Work From Home&lt;/strong&gt; movement in attempt to &lt;em&gt;flatten the curve&lt;/em&gt; of the COVID-19 spread. This release comes alongside publication of additional methods to securely connecting to your office’s physical workstations from your home. Let’s take a closer look.&lt;/p&gt;
+
+&lt;h2 id=&quot;supporting-the-work-from-home-movement&quot;&gt;Supporting the Work From Home Movement&lt;/h2&gt;
+&lt;p&gt;First and foremost, if you’re still evaluating how to support your remote workers in this WFM movement, be sure to check out the VMware Webinar from today, March 17th, entitled &lt;strong&gt;Pandemic Preparedness and Response: How to Quickly Set Up a Remote Workforce for Success&lt;/strong&gt;. &lt;a href=&quot;https://www.vmware.com/learn/458214_REG.html?src=AMEROrganicSocial_SocialAdvocacy&amp;amp;src=so_5a314d05e49f5&amp;amp;cid=70134000001SkJn&quot;&gt;You can register here to view the session&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;VMware’s own Graeme Gordon, Senior Staff EUC Architect, published an article today: &lt;a href=&quot;https://techzone.vmware.com/resource/using-horizon-7-access-physical-windows-machines#_Toc35336889&quot;&gt;Using Horizon 7 to Access Physical Windows Machines Overview&lt;/a&gt; covering the steps and tools required to meet this need in times of natural disasters, emergencies, and public health outbreaks.&lt;/p&gt;
+
+&lt;p&gt;Additionally, one method to provide a Cloud-based Virtual Desktop Infrastructure is to take advantage of VMware’s &lt;a href=&quot;https://www.vmware.com/horizon-cloud-on-microsoft-azure-trial.html&quot;&gt;free 45-day trial of Horizon Cloud on Azure&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;horizon-712-whats-new-&quot;&gt;Horizon 7.12 What’s New 🚀&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;ViewAPI now supports pulling Agent Logs&lt;/strong&gt;
+Horizon 7.10 had introduced the ability to pull Connection Server logs via this method primarily for use with VMware Skyline, but it can be used independently which will be useful for scripting log pulls to attach to open support requests, or otherwise independent troubleshooting. Horizon 7.12 has expanded this ability to the Agent Logs as well.
+NOTE: that both options require the &lt;code class=&quot;highlighter-rouge&quot;&gt;Collection Operation Logs&lt;/code&gt; privilege to be assigned to the service account being used in the API call.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;RESTful APIs for Configuration are here&lt;/strong&gt;
+New with this release are REST APIs related to &lt;em&gt;monitoring and configuration&lt;/em&gt; of a Horizon environment. This will allow you to build scalable automation frameworks and integrate 3rd party products seamlessly across Horizon View Clusters and Pods. Check out https://code.vmware.com/apis/919 for more details.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Assign multiple users to a single Full Clone Desktop&lt;/strong&gt;
+Acting as a sort of alternative to a Floating Pool, users can now allow &lt;strong&gt;dedicated machines&lt;/strong&gt; to be shared. This capability can come in handy for numerous situations, including shift work, QA and Dev-test groups, or groups with multiple devs/programmers sharing an environment.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Display Assigned Machine Name&lt;/strong&gt;
+Enabling this feature will show the hostname of the assigned VM instead of the Pool’s display name in the Horizon Client. If you’re connecting to a floating pool without assignment, then it will show “display-name (No machine assigned).”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Persistent MAC address for RDS and Instant Clones on Refresh and Resync&lt;/strong&gt;
+Certain applications rely on persistent mac addresses (though this is less of an issue than in times past). New with 7.12 is the ability to enable persistent MAC address which will carry the MAC from the older VM to the new one when following the &lt;code class=&quot;highlighter-rouge&quot;&gt;resync&lt;/code&gt; workflow.&lt;/p&gt;
+
+&lt;h3 id=&quot;horizon-712-also-comes-with-a-number-of-console-enhancements&quot;&gt;Horizon 7.12 also comes with a number of Console enhancements&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Mandatory fields are denoted with a red asterisks&lt;/li&gt;
+  &lt;li&gt;Overall page formatting has been tweaked for consistent looks and experience&lt;/li&gt;
+  &lt;li&gt;Message banners are all color coded&lt;/li&gt;
+  &lt;li&gt;Pop-up Errors won’t auto-close anymore and must be closed manually&lt;/li&gt;
+  &lt;li&gt;Dashboard now shows a summary of System Health Issues based on different priority levels&lt;/li&gt;
+  &lt;li&gt;If you’re configured for Cloud Pod Architecture (CPA) you can now see session info for remote pods&lt;/li&gt;
+  &lt;li&gt;Opening a second Horizon Console tab via a right-click will open to the expected page instead of the newadmin login page.&lt;/li&gt;
+  &lt;li&gt;New view for monitoring the number of Gateway vs Non-Gateway sessions&lt;/li&gt;
+  &lt;li&gt;You can now see an indication of how many users are entitled to an application, making it easier for admins to ensure proper assignment&lt;/li&gt;
+  &lt;li&gt;and more!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;horizon-client--agent-updates&quot;&gt;Horizon Client + Agent Updates&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Horizon Agent upgraded from OpenJDK 8 to OpenJDK 11&lt;/li&gt;
+  &lt;li&gt;Horizon Agent support for Win10 2004 (ETA April 2020)&lt;/li&gt;
+  &lt;li&gt;Horizon Agent support for Redhat 8.1&lt;/li&gt;
+  &lt;li&gt;Enable VMware Integrated Printing for HCS on Azure&lt;/li&gt;
+  &lt;li&gt;iOS 13 SDK used to build iOS Horizon client&lt;/li&gt;
+  &lt;li&gt;Physical PC support with Windows 1903 and above&lt;/li&gt;
+  &lt;li&gt;Static Printer Names in RDSH&lt;/li&gt;
+  &lt;li&gt;Support vmCrypt on Instant Clones with vSphere 7.0&lt;/li&gt;
+  &lt;li&gt;Pre-launch support for VM Hosted Apps&lt;/li&gt;
+  &lt;li&gt;FTT=0 SPBM policies to enable single node POCs on VMC&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;horizon-for-linux&quot;&gt;Horizon for Linux&lt;/h3&gt;
+&lt;p&gt;You know &lt;a href=&quot;https://thatvirtualboy.com/2020/03/12/ubuntu-ova-12-release.html&quot;&gt;we love us some Horizon on Linux&lt;/a&gt; around here, so we HAVE to highlight what’s new for the penguin&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Linux VDI: Upgrade libpng from 1.2.x to 1.6.x&lt;/li&gt;
+  &lt;li&gt;Linux Client now supports Autoconnect for RDSH USB redirection&lt;/li&gt;
+  &lt;li&gt;Today, pressing &lt;strong&gt;Ctrl+Alt&lt;/strong&gt; then pressing &lt;strong&gt;ESC&lt;/strong&gt; exits full screen mode (Linux client 5.3 and older). With 5.4 and later, this will only work when the Client detects Rasberry Pi as the client hardware.&lt;/li&gt;
+  &lt;li&gt;Linux Client now has an option to Reset desktop session&lt;/li&gt;
+  &lt;li&gt;NumLock sync for Linux Client!&lt;/li&gt;
+  &lt;li&gt;URL Redirection is now available for Ubuntu 16.04 or 18.04, and RHEL 7.7 or 8.1 (x64) using Firefox 50 or later&lt;/li&gt;
+  &lt;li&gt;Linux Session Collaboration support for RHEL7.5 using KDE&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
+&lt;p&gt;Believe it or not, there are STILL more new enhancements and fixes in this release that aren’t covered in this post. Over 1300 actually! Check out the official resources for all the documented features and fixes.&lt;/p&gt;
+
+&lt;p&gt;📄 &lt;a href=&quot;https://docs.vmware.com/en/VMware-Horizon-7/7.12/rn/horizon-712-view-release-notes.html&quot;&gt;Horizon 7.12 Release Notes&lt;/a&gt;&lt;br /&gt;
+⬇️ &lt;a href=&quot;https://my.vmware.com/web/vmware/info/slug/desktop_end_user_computing/vmware_horizon/7_12&quot;&gt;Horizon 7.12 Downloads&lt;/a&gt;&lt;br /&gt;
+📄 &lt;a href=&quot;https://docs.vmware.com/en/VMware-Horizon-Client/index.html&quot;&gt;Horizon Client 5.4 Documentation&lt;/a&gt;&lt;br /&gt;
+⬇️ &lt;a href=&quot;https://my.vmware.com/web/vmware/info/slug/desktop_end_user_computing/vmware_horizon_clients/5_0&quot;&gt;Horizon Client 5.4 Downloads&lt;/a&gt;&lt;/p&gt;</content><author><name>Ryan Klumph</name></author><category term="Horizon" /><category term="vmware" /><category term="work from home" /><summary type="html">VMware has just released Horizon 7.12 which is kind of a big deal! Packed with new features and fixes, this release is timely amid a massive increase in the Work From Home movement in attempt to flatten the curve of the COVID-19 spread. This release comes alongside publication of additional methods to securely connecting to your office’s physical workstations from your home. Let’s take a closer look.</summary></entry><entry><title type="html">Ubuntu OVA update for Horizon 7 Now Available</title><link href="http://localhost:4000/2020/03/12/ubuntu-ova-12-release.html" rel="alternate" type="text/html" title="Ubuntu OVA update for Horizon 7 Now Available" /><published>2020-03-12T00:00:00-06:00</published><updated>2020-03-12T00:00:00-06:00</updated><id>http://localhost:4000/2020/03/12/ubuntu-ova-12-release</id><content type="html" xml:base="http://localhost:4000/2020/03/12/ubuntu-ova-12-release.html">&lt;p&gt;&lt;img src=&quot;/assets/images/New Horizon Linux VM/ubuntu-ova-12-banner.png&quot; alt=&quot;image&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+I am so excited to finally be writing this post highlighting the new Ubuntu OVA Fling. After &lt;a href=&quot;https://thatvirtualboy.com/2020/03/02/the-new-horizon-ubuntu-ova.html&quot;&gt;announcing&lt;/a&gt; version 1.2 earlier this month, I could barely wait to get the bits and documentation available to the community. I’m happy to announce version 1.2 is now publicly available!&lt;/p&gt;
+
+&lt;p&gt;One of my personal goals for the year 2020 was to revisit the Ubuntu OVA Fling and make it relevant again. The last release was from 3 years ago! Those 3 years have led us to this point in IT where &lt;a href=&quot;https://www.vmware.com/products/vsphere.html&quot;&gt;Kubernetes is king&lt;/a&gt; in the app modernization playing field. Windows is &lt;a href=&quot;https://vmware.github.io/photon/&quot;&gt;losing ground&lt;/a&gt; in the datacenter. Open source &lt;a href=&quot;https://blogs.vmware.com/opensource/2019/12/18/2020-open-source-predictions/&quot;&gt;is proliferating&lt;/a&gt;. With each new year comes even more change in the datacenter landscape. And with that, we’ve also seen an increase of interest in &lt;a href=&quot;https://www.vmware.com/products/horizon/horizon-linux.html&quot;&gt;VMware Horizon for Linux&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A quick survey of VMware Horizon Admins looking to provide Linux desktops to their user base reveals two interesting use cases:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Developer Desktops&lt;/strong&gt; was the most common use case expressed&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Moving away from Windows&lt;/strong&gt; was the second most voiced reason for interest in Linux VDI&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Since most VDI admins historically have little to no Linux experience, this Fling set out to ease the transition to Linux VDI in VMware Horizon by automating much of the initial required template configuration. Not to mention building pools of user-friendly Ubuntu Desktops can assist in lowering per-desktop licensing costs.&lt;/p&gt;
+
+&lt;p&gt;After 3 years of &lt;del&gt;neglecting&lt;/del&gt; version 1.1 gathering dust with dated Horizon and vSphere support, 3 years of change in the industry, 3 years of rising developer needs, it was time we refreshed the tool.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-new-in-v12&quot;&gt;What’s New in v1.2&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Support for Horizon 7.11 and later&lt;/li&gt;
+  &lt;li&gt;Support for vSphere 6.7 and later&lt;/li&gt;
+  &lt;li&gt;Updated OVA base image to Ubuntu 18.04.4 LTS&lt;/li&gt;
+  &lt;li&gt;Updated Virtual Hardware to v14&lt;/li&gt;
+  &lt;li&gt;Added option to configure static networking&lt;/li&gt;
+  &lt;li&gt;Added support for USB 3.0 and USB Redirection (via linux-agent-installer.sh)&lt;/li&gt;
+  &lt;li&gt;Added KDE Desktop Environment Option&lt;/li&gt;
+  &lt;li&gt;Added Gnome Desktop Environment Option (recommended)&lt;/li&gt;
+  &lt;li&gt;Developer Desktop Package option&lt;/li&gt;
+  &lt;li&gt;Added Keyboard Layout Option&lt;/li&gt;
+  &lt;li&gt;Added option to enable SSH&lt;/li&gt;
+  &lt;li&gt;Removed runlevel 5 setting (deprecated)&lt;/li&gt;
+  &lt;li&gt;Fixed MOTD prompt code&lt;/li&gt;
+  &lt;li&gt;Disabled auto software updates&lt;/li&gt;
+  &lt;li&gt;Removed greeter modifications to support SSO&lt;/li&gt;
+  &lt;li&gt;Numerous improvements to script&lt;/li&gt;
+  &lt;li&gt;Script renamed to ‘optimize.sh’&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;developer-desktop-package&quot;&gt;Developer Desktop Package&lt;/h3&gt;
+&lt;p&gt;One new feature in this release is the &lt;em&gt;Developer Desktop package&lt;/em&gt;. Given the No. 1 Use Case for Admins offering Linux Desktops is to meet Developer needs, it makes sense to offer a jumpstart by providing common dev tools. I have to stop and give major props to my colleague &lt;a href=&quot;https://twitter.com/vmw_rguske&quot;&gt;Robert Guske&lt;/a&gt; for suggesting the idea and helping me test.&lt;/p&gt;
+
+&lt;p&gt;For the 1.2 release, the Developer Desktop Package includes the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;snapd&lt;/li&gt;
+  &lt;li&gt;VSCode&lt;/li&gt;
+  &lt;li&gt;Docker&lt;/li&gt;
+  &lt;li&gt;Kind&lt;/li&gt;
+  &lt;li&gt;Octant&lt;/li&gt;
+  &lt;li&gt;zsh + ohmyzsh
+    &lt;ul&gt;
+      &lt;li&gt;NOTE: users will need to be added to &lt;code class=&quot;highlighter-rouge&quot;&gt;/etc/passwd&lt;/code&gt; in order to set zsh as default shell&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If there are other developer-specific tools you’d like to see in future releases, please share your feedback!&lt;/p&gt;
+
+&lt;h3 id=&quot;join-the-conversation&quot;&gt;Join the conversation&lt;/h3&gt;
+&lt;p&gt;Alongside this release, we now have a Slack presence on &lt;a href=&quot;https://code.vmware.com/web/code/join&quot;&gt;VMware {CODE}&lt;/a&gt;. Come say hi 👋 and engage with the community! You can find us at our new channel &lt;a href=&quot;https://vmwarecode.slack.com/archives/CV56WUL84&quot;&gt;#ubuntu-ova-for-horizon&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;where-to-get-it&quot;&gt;Where to get it&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://flings.vmware.com/horizon-ova-for-ubuntu&quot;&gt;OVA Download&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/thatvirtualboy/horizon-linux-vm&quot;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Please check out the Doc link above for details, instructions, and troubleshooting tips. Thanks to everyone involved who tested and provided input. Don’t forget to join the VMware {CODE} community!&lt;/p&gt;</content><author><name>Ryan Klumph</name></author><category term="Horizon" /><category term="Ubuntu" /><category term="Linux" /><category term="flings" /><summary type="html">I am so excited to finally be writing this post highlighting the new Ubuntu OVA Fling. After announcing version 1.2 earlier this month, I could barely wait to get the bits and documentation available to the community. I’m happy to announce version 1.2 is now publicly available!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/banner1.2.jpg" /><media:content medium="image" url="http://localhost:4000/assets/banner1.2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Don’t overlook these awesome vSphere 7 features</title><link href="http://localhost:4000/2020/03/10/favorite-vsphere7-features.html" rel="alternate" type="text/html" title="Don't overlook these awesome vSphere 7 features" /><published>2020-03-10T00:00:00-06:00</published><updated>2020-03-10T00:00:00-06:00</updated><id>http://localhost:4000/2020/03/10/favorite-vsphere7-features</id><content type="html" xml:base="http://localhost:4000/2020/03/10/favorite-vsphere7-features.html">&lt;p&gt;&lt;img src=&quot;/assets/images/vsphere7.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+vSphere 7 has officially been &lt;a href=&quot;https://blogs.vmware.com/vsphere/2020/03/vsphere-7.html&quot;&gt;announced&lt;/a&gt; (finally!) and man is this thing going to deliver. VMware vSphere has been, and continues to be, the engine for modernizing infrastructure and applications. And check out that sharp looking logo!&lt;/p&gt;
+
+&lt;p&gt;Tanzu is (very deservedly) getting a lot of the attention with the vSphere announcement, but there is a LOT to this new release. Here are some of my favorite new features:&lt;/p&gt;
+
+&lt;h3 id=&quot;1-scalability-enhancements-67-vs-70&quot;&gt;1. Scalability Enhancements (6.7 vs 7.0)&lt;/h3&gt;
+&lt;p&gt;vCenter Server is increasing from 2000 hosts/25,000 VMs cap to 2500 hosts and 30,000 VMs (powered on). Linked mode maximums are also increasing from 5000/50,000 to 15,000/150,000 hosts/VMs.&lt;/p&gt;
+
+&lt;p&gt;Interestingly enough vCenter Server to vCenter Server Latency is slightly increasing:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;VC to VC: going from 100ms to 150ms&lt;/li&gt;
+  &lt;li&gt;VC to ESXi: 150ms to 150ms&lt;/li&gt;
+  &lt;li&gt;vSphere Client to VC: 100ms to 100ms&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;NOTE: vCPU and vRAM maximums aren’t changing in the GA release of vSphere 7.&lt;/p&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://configmax.vmware.com/&quot;&gt;VMware Configurations Maximums portal&lt;/a&gt; for all the latest maximums and limits&lt;/p&gt;
+
+&lt;h3 id=&quot;2-multi-homing-support&quot;&gt;2. Multi-homing support&lt;/h3&gt;
+&lt;p&gt;vCenter Server 7 now supports multi-homing configurations! This means your VC can have multiple NICs (up to 4 is supported) for a variety of configuration options.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-vsphere-health-is-now-skyline-health-for-vsphere&quot;&gt;3. vSphere Health is now Skyline Health for vSphere&lt;/h3&gt;
+&lt;p&gt;Following suit of consolidation and integration of solutions, we’re now seeing Skyline natively in vCenter which is taking over the Health portion. Skyline is free to all VMware customers. This new integration will allow direct access to Skyline Advisor for a proactive support experience.&lt;/p&gt;
+
+&lt;p&gt;You can read more &lt;a href=&quot;https://blogs.vmware.com/vsphere/2019/11/introducing-vmware-skyline-health-for-vsphere.html&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-simplified-certificate-management&quot;&gt;4. Simplified Certificate Management&lt;/h3&gt;
+&lt;p&gt;Guaranteed to inspire a standing ovation, vSphere 7 has dramatically simplified the certificate management process, doing away with the complexity of cert management we’ve come to know. ESXi services also use a common cert!&lt;/p&gt;
+
+&lt;h3 id=&quot;5-vmotion--drs-improvements&quot;&gt;5. vMotion + DRS Improvements&lt;/h3&gt;
+&lt;p&gt;vMotion and DRS are datacenter management staples. We couldn’t imagine managing an enterprise environment without them. With vSphere 7, they’re getting smarter:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;DRS&lt;/strong&gt;
+DRS Logic used to run in such a way where it looked at cluster balance by ESXi resource utilization, and attempted to move workloads around using vMotion to level the playing field. In vSphere 7, DRS now computes a &lt;em&gt;VM DRS Score&lt;/em&gt; and assigns it to an ESXi host and will move a Virtual Machine to the host that provides the highest VM DRS Score. This method allows DRS to focus less on evening the playing field, and more on the metrics that matter most to VM performance.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;vMotion&lt;/strong&gt;
+vMotion logic is also greatly improved in vSphere 7. The new vMotion can support significantly more demanding workloads and systems with large compute footprints. Systems like SAP HANA and Oracle DBs backends can now be vMotioned with ease.&lt;/p&gt;
+
+&lt;h3 id=&quot;6-quickview-of-vcenter-details&quot;&gt;6. Quickview of vCenter Details&lt;/h3&gt;
+&lt;p&gt;Sometimes feature that “should have been been there all along” are the best kind. Now when you click at the top level of a vCenter Server, you can see the VC Version, Build, the Last Updated date, AND the last file-based backup date!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/vc-deets.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is only the tip of the ice burg. There are plenty of other new features and capabilities in vSphere 7, and we haven’t even touched on Profiles, Kubernetes, etc.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XKgrJXN6Q0U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Be sure to check out the official announcement linked above, as well as the many other #vExpert Community posts covering this exciting release.&lt;/p&gt;</content><author><name>Ryan Klumph</name></author><category term="vsphere7" /><category term="vsphere" /><category term="vmware" /><category term="features" /><summary type="html">vSphere 7 has officially been announced (finally!) and man is this thing going to deliver. VMware vSphere has been, and continues to be, the engine for modernizing infrastructure and applications. And check out that sharp looking logo!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/banner1.2.jpg" /><media:content medium="image" url="http://localhost:4000/assets/banner1.2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Migrating Blogger to Github Pages via Jekyll</title><link href="http://localhost:4000/2020/03/09/migrating-blogger-to-github.html" rel="alternate" type="text/html" title="Migrating Blogger to Github Pages via Jekyll" /><published>2020-03-09T00:00:00-06:00</published><updated>2020-03-09T00:00:00-06:00</updated><id>http://localhost:4000/2020/03/09/migrating-blogger-to-github</id><content type="html" xml:base="http://localhost:4000/2020/03/09/migrating-blogger-to-github.html">&lt;p&gt;Recently I made the switch from writing on Google’s Blogger platform to Github Pages using Jekyll. It’s been a welcome and refreshing change. A little more on that &lt;a href=&quot;/2020/03/05/blog-on-github.html&quot;&gt;here&lt;/a&gt;… Hopefully this post helps someone on a similar journey.&lt;/p&gt;
+
+&lt;p&gt;One fellow vExpert suggested I share my experience of the actual migration process:&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;you should blog about using Jekyll to migrate the content to github pages :D&lt;/p&gt;&amp;mdash; Dean L. (@saintdle) &lt;a href=&quot;https://twitter.com/saintdle/status/1235601408046411776?ref_src=twsrc%5Etfw&quot;&gt;March 5, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;I had found several blogs with similar documented processes, but nothing that met all the variables of my specific situation. My setup was a &lt;strong&gt;Blogger site, using a custom domain provided by GoDaddy&lt;/strong&gt; with content and images hosted on Google Services. My target platform was &lt;strong&gt;Github Pages using the same custom domain from GoDaddy while moving away from Google Services&lt;/strong&gt; (hosted images/content). Here are the steps I took:&lt;/p&gt;
+
+&lt;h2 id=&quot;step-1-setup-and-configure-jekyll&quot;&gt;Step 1: Setup And Configure Jekyll&lt;/h2&gt;
+&lt;p&gt;This process is pretty well documented. No need to reinvent the wheel - I followed a combination of the below resources:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/docs/&quot;&gt;jekyllrb.com/docs/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://onextrapixel.com/start-jekyll-blog-github-pages-free/&quot;&gt;onextrapixel.com/start-jekyll-blog-github-pages-free/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/&quot;&gt;smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-2-download-your-blogger-content&quot;&gt;Step 2: Download Your Blogger Content&lt;/h2&gt;
+&lt;p&gt;Also well &lt;a href=&quot;https://support.google.com/blogger/answer/41387?visit_id=637193239921732274-2409251499&amp;amp;rd=1&quot;&gt;documented&lt;/a&gt;. Login and snag your XML backup&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blogger_migration/blogger_export.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-3-create-your-github-pages-site&quot;&gt;Step 3: Create Your Github Pages Site&lt;/h2&gt;
+&lt;p&gt;Again, plenty of content here&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pages.github.com&quot;&gt;pages.github.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://help.github.com/en/github/working-with-github-pages/getting-started-with-github-pages&quot;&gt;help.github.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/&quot;&gt;smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-4-publish-your-jekyll-site-to-github&quot;&gt;Step 4: Publish Your Jekyll Site to Github&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~$git add --all
+
+~$git commit -m &quot;Initial commit&quot;
+
+~$git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;step-5-import-your-blogger-content&quot;&gt;Step 5: Import Your Blogger Content&lt;/h2&gt;
+&lt;p&gt;After configuring Jekyll with my theme and serving the site locally on my system for staging content, I already knew Jekyll was a powerful platform. However it wasn’t until I followed their documentation for importing my Blogger posts that I was floored about Jekyll’s capability.&lt;/p&gt;
+
+&lt;p&gt;The import was as simple as running &lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll import&lt;/code&gt; and suddenly 100 articles were added into my &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder, formatted to a compatible HTML. Check out the &lt;a href=&quot;https://import.jekyllrb.com/docs/home/&quot;&gt;official docs&lt;/a&gt; for setting it up. I just had to simply run&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rubygems&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;e&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'require &quot;jekyll-import&quot;;
+    JekyllImport::Importers::Blogger.run({
+      &quot;source&quot;                =&amp;gt; &quot;/path/to/blog-MM-DD-YYYY.xml&quot;,
+      &quot;no-blogger-info&quot;       =&amp;gt; false,
+      &quot;replace-internal-link&quot; =&amp;gt; false,
+    })'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;As great as this was, their were 2 issues:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The post previews when scrolling through my main site showed HTML code - definitely not pretty to look at.
+    &lt;ul&gt;
+      &lt;li&gt;This was fixed by using the &lt;strong&gt;excerpt&lt;/strong&gt; feature of my Jekyll theme. If I added this component to my &lt;a href=&quot;https://jekyllrb.com/docs/front-matter/&quot;&gt;front matter&lt;/a&gt;, then that’s what would be displayed on my main site for the post previews instead of the entire post itself. You can see this my visiting my home page and seeing the blurbs for each post. So yes, I painstakingly went and added an excerpt for each and every one of my posts. Worth it!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The second issue I found was that the URL format of my Github Posts were slightly different from how Blogger formatted their URL. For example, Blogger would format posts like&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;thatvirtualboy.com/YYYY/MM/title.html&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;whereas Jekyll adds the day:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;thatvirtualboy.com/YYYY/MM/DD/title.html&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This was obviously a problem for maintaining post rankings in Search Engine Results. If someone clicked on one of my articles that had been migrated, they would end up with a 404 error. After a bit of digging I discovered a Ruby Gem called &lt;a href=&quot;https://github.com/jekyll/jekyll-redirect-from&quot;&gt;Jekyll Redirect&lt;/a&gt;. This nifty nugget allows you to put in the header section what URL should redirect to that specific page. This section of the front matter looks something like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;blogger_orig_url: https://www.thatvirtualboy.com/2018/02/the-mobile-plex-media-server-local.html
+redirect_from: /2018/02/the-mobile-plex-media-server-local.html
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Yet again, I painstakingly added this to each article that was migrated. And yet again, was worth it!&lt;/p&gt;
+
+&lt;h2 id=&quot;step-6-update-global-dns&quot;&gt;Step 6: Update Global DNS&lt;/h2&gt;
+&lt;p&gt;The last step I had to configure was getting Global DNS updated so everything would route properly. I had updated my CNAME with GoDaddy and removed my A records pointing to Google servers, but after waiting 24 hours and the site was still down I figured something was wrong. I eventually found &lt;a href=&quot;https://hackernoon.com/how-to-set-up-godaddy-domain-with-github-pages-a9300366c7b&quot;&gt;this post&lt;/a&gt; which helped me get to the bottom of the issue and found how to properly configure the new A Records.&lt;/p&gt;
+
+&lt;p&gt;There was one A record leftover that I couldn’t get rid of, and when I performed dig on my site, it would only show this record, not the Github specific ones I had added. I learned that I needed to scroll all the way down in my Manage DNS page and remove the &lt;strong&gt;Forwarding&lt;/strong&gt; configuration that was There&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blogger_migration/godaddy.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After this the site was up and functional! I’m excited to continue writing more this year. Thanks for your support!&lt;/p&gt;</content><author><name>Ryan Klumph</name></author><category term="blog" /><category term="bacon" /><category term="vExpert" /><category term="github" /><category term="jekyll" /><summary type="html">Recently I made the switch from writing on Google’s Blogger platform to Github Pages using Jekyll. It’s been a welcome and refreshing change. A little more on that here… Hopefully this post helps someone on a similar journey.</summary></entry><entry><title type="html">Changes to That Virtual Boy blog + vExpert 2020</title><link href="http://localhost:4000/2020/03/05/blog-on-github.html" rel="alternate" type="text/html" title="Changes to That Virtual Boy blog + vExpert 2020" /><published>2020-03-05T00:00:00-07:00</published><updated>2020-03-05T00:00:00-07:00</updated><id>http://localhost:4000/2020/03/05/blog-on-github</id><content type="html" xml:base="http://localhost:4000/2020/03/05/blog-on-github.html">&lt;p&gt;My blog has gone through a major uplift! When I first started That Virtual Boy, I hosted the blog on Google Blogger. After a few years I migrated to Wordpress because all great blogs are on Wordpress right? 🧐 After realizing Wordpress was not the place for me, I migrated back to Blogger. But since I don’t use any other Google services (nope… none) I didn’t like the idea of still having to directly rely on Google services. Plus.. I had ads on my blog to try and rack up a buck or two, but guess what? I hate ads! And so do you! So why go through the effort of ensuring my blog forces users to ensure their ad blocker is up to date? I just didn’t like it.&lt;/p&gt;
+
+&lt;h2 id=&quot;focusing-on-content&quot;&gt;Focusing on content&lt;/h2&gt;
+
+&lt;p&gt;Then I discovered &lt;a href=&quot;https://pages.github.com&quot;&gt;Github Pages&lt;/a&gt;, and the ability to host blogs on github.io. One thing I noticed about any blog I had visited on Github had one thing in common: they focused entirely on the content. Most blogs had clean interfaces, no ads, and featured great content from great technologists. I decided I wanted that!&lt;/p&gt;
+
+&lt;p&gt;So here we are. 99% of my posts from Blogger have been migrated onto this platform. I used &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; to create the site, import the theme, and import my previous blog posts. It’s been a very interesting learning experience, but I’ve learned how powerful Jekyll is and how simple it is for managing the blog.&lt;/p&gt;
+
+&lt;p&gt;The timing is great, as I’ve been awarded vExpert 2020 for a total of five consecutive years of vExpert status. What a great program and community to be a part of and to share resources, knowledge, and life with. I’m looking forward to many more posts in 2020, and also getting to meet up with my fellow vExperts at VMworld 2020 this year (assuming… you know… that VMworld still happens…🥺). Here’s to a great year and to all the vExperts of 2020!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/vexpert2020.png&quot; alt=&quot;image&quot; height=&quot;400px&quot; width=&quot;400px&quot; class=&quot;align-left&quot; /&gt;&lt;/p&gt;</content><author><name>Ryan Klumph</name></author><category term="blog" /><category term="bacon" /><category term="vExpert" /><summary type="html">My blog has gone through a major uplift! When I first started That Virtual Boy, I hosted the blog on Google Blogger. After a few years I migrated to Wordpress because all great blogs are on Wordpress right? 🧐 After realizing Wordpress was not the place for me, I migrated back to Blogger. But since I don’t use any other Google services (nope… none) I didn’t like the idea of still having to directly rely on Google services. Plus.. I had ads on my blog to try and rack up a buck or two, but guess what? I hate ads! And so do you! So why go through the effort of ensuring my blog forces users to ensure their ad blocker is up to date? I just didn’t like it.</summary></entry><entry><title type="html">Announcing The New Horizon Ubuntu OVA</title><link href="http://localhost:4000/2020/03/02/the-new-horizon-ubuntu-ova.html" rel="alternate" type="text/html" title="Announcing The New Horizon Ubuntu OVA" /><published>2020-03-02T00:00:00-07:00</published><updated>2020-03-02T00:00:00-07:00</updated><id>http://localhost:4000/2020/03/02/the-new-horizon-ubuntu-ova</id><content type="html" xml:base="http://localhost:4000/2020/03/02/the-new-horizon-ubuntu-ova.html">&lt;p&gt;&lt;img src=&quot;https://rakcloud.duckdns.org/f/55bd976fd4304cea9dd5/?dl=1&quot; alt=&quot;image&quot; height=&quot;100px&quot; width=&quot;100px&quot; class=&quot;align-left&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+Several years ago I &lt;a href=&quot;https://flings.vmware.com/horizon-ova-for-ubuntu&quot;&gt;published a VMware Fling&lt;/a&gt; called &lt;strong&gt;Ubuntu OVA for Horizon&lt;/strong&gt;. At that time, Linux in Horizon was still fairly new and not particularly popular. With the recent &lt;a href=&quot;https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet&quot;&gt;Windows 7 EOL&lt;/a&gt; and complications of &lt;a href=&quot;https://blogs.vmware.com/euc/2017/10/10-best-practices-windows-10-migration.html&quot;&gt;managing Windows 10&lt;/a&gt;, many organizations are finding themselves interested in providing &lt;em&gt;Linux&lt;/em&gt; as a Virtual Desktop. Additionally, I’m seeing rising interest in providing Linux environments to developers as Kubernetes is taking off and IT administrators are looking for ways to manage developer access to resources.&lt;/p&gt;
+
+&lt;h4 id=&quot;update-version-12-of-the-ubuntu-ova-for-horizon-is-now-available-vmware-flings&quot;&gt;~UPDATE~ &lt;strong&gt;Version 1.2 of the Ubuntu OVA for Horizon is now available: &lt;a href=&quot;https://flings.vmware.com/horizon-ova-for-ubuntu&quot;&gt;VMware Flings&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;Horizon 7 for Linux Desktops is an excellent solution, and one that’s gaining popularity. As many Horizon Admins are historically more skilled in Windows Administration rather than Linux, I wanted to make something that helped ease the learning curve and get admins off the ground right from the beginning.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Enter the Ubuntu OVA for Horizon!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’m happy to announce version 1.2 of this Fling which brings support for the latest VMware Horizon 7 builds and uses an Ubuntu 18.04.4 LTS base image.&lt;/p&gt;
+
+&lt;p&gt;Keep an eye, subscribe, follow my Twitter…the new VMware Horizon Ubuntu OVA will be available soon!&lt;/p&gt;</content><author><name>Ryan Klumph</name></author><category term="Horizon" /><category term="Ubuntu" /><category term="Linux" /><category term="flings" /><summary type="html">Several years ago I published a VMware Fling called Ubuntu OVA for Horizon. At that time, Linux in Horizon was still fairly new and not particularly popular. With the recent Windows 7 EOL and complications of managing Windows 10, many organizations are finding themselves interested in providing Linux as a Virtual Desktop. Additionally, I’m seeing rising interest in providing Linux environments to developers as Kubernetes is taking off and IT administrators are looking for ways to manage developer access to resources.</summary></entry><entry><title type="html">Upgrading AMDGPU 18.50 to 19.30 on Ubuntu 18.04</title><link href="http://localhost:4000/2019/12/09/upgrading-amdgpu-1850-to-1930-on-ubuntu.html" rel="alternate" type="text/html" title="Upgrading AMDGPU 18.50 to 19.30 on Ubuntu 18.04" /><published>2019-12-09T10:23:00-07:00</published><updated>2019-12-09T10:23:00-07:00</updated><id>http://localhost:4000/2019/12/09/upgrading-amdgpu-1850-to-1930-on-ubuntu</id><content type="html" xml:base="http://localhost:4000/2019/12/09/upgrading-amdgpu-1850-to-1930-on-ubuntu.html">&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://1.bp.blogspot.com/-ZsHQc57Ahjs/Xe6DEMQkttI/AAAAAAAA1tk/7MkotpM3DrEf-oCHoystBx8DyVUNxms0wCLcBGAsYHQ/s1600/iu-3.jpeg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; data-original-height=&quot;720&quot; data-original-width=&quot;1280&quot; height=&quot;360&quot; src=&quot;https://1.bp.blogspot.com/-ZsHQc57Ahjs/Xe6DEMQkttI/AAAAAAAA1tk/7MkotpM3DrEf-oCHoystBx8DyVUNxms0wCLcBGAsYHQ/s640/iu-3.jpeg&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;Hope you find this post helpful. My system is running Ubuntu 18.04.3 LTS with an AMD Ryzen 5 2400g and a separate Radeon RX 570 GPU.&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Steam gameplay isn't perfect, but it's certainly good enough for my needs (minor screen tearing on most games, but it's not to the point of being overwhelmingly annoying or distracting).&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Running &lt;span style=&quot;font-family: Courier New, Courier, monospace;&quot;&gt;sudo apt list --installed |grep -i amdgpu-pro&lt;/span&gt; reveals that I'm running the amdgpu-pro driver version 18.50-708488&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Amdgpu 19.30 was released November 5th 2019 and can be found here:&amp;nbsp;https://www.amd.com/en/support/kb/release-notes/rn-rad-lin-19-30-unified and is only compatible with the following distros/versions:&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;box-sizing: border-box; font-family: &amp;quot;Noto Sans&amp;quot;, sans-serif; font-size: 14px; list-style: square outside none; margin: 0px 0px 0px 20px; padding: 0px 0px 5px;&quot;&gt;&lt;li style=&quot;box-sizing: border-box; list-style-position: outside; list-style-type: square; margin: 4px 0px; padding: 0px;&quot;&gt;Ubuntu 18.04.3&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; list-style-position: outside; list-style-type: square; margin: 4px 0px; padding: 0px;&quot;&gt;RedHat Enterprise Linux 8.0&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; list-style-position: outside; list-style-type: square; margin: 4px 0px; padding: 0px;&quot;&gt;RedHat Enterprise Linux 7.6&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; list-style-position: outside; list-style-type: square; margin: 4px 0px; padding: 0px;&quot;&gt;CentOS 8.0&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; list-style-position: outside; list-style-type: square; margin: 4px 0px; padding: 0px;&quot;&gt;CentOS 7.6&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; list-style-position: outside; list-style-type: square; margin: 4px 0px; padding: 0px;&quot;&gt;SLED/SLES 15 SP1&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span style=&quot;font-family: Noto Sans, sans-serif;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;h4&gt;Performing the Upgrade&lt;/h4&gt;&lt;div&gt;1. Backup Backup Backup. Be sure you have proper backups and restore mechanisms in place. For my system, I use multiple backup solutions including Timeshift, as well as daily, weekly, and monthly Rsync backups.&amp;nbsp;&lt;/div&gt;&lt;div&gt;2. Download the 19.30 driver for your system (Ubuntu 18.04.3 version available &lt;a href=&quot;https://drivers.amd.com/drivers/linux/amdgpu-pro-19.30-934563-ubuntu-18.04.tar.xz&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;)&lt;/div&gt;&lt;div&gt;3. Extract the archive, either using Ubuntu's GUI or using&amp;nbsp;&lt;span style=&quot;background-color: #eeffcc; caret-color: rgb(64, 64, 64); color: #404040; font-family: SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; font-size: 12px;&quot;&gt;tar -Jxvf&lt;/span&gt;&lt;/div&gt;&lt;div&gt;4. CD into the resulting directory and run the installer: &amp;nbsp;&lt;span style=&quot;font-family: Courier New, Courier, monospace;&quot;&gt;sudo ./amdgpu-pro-install&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Courier New, Courier, monospace;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: inherit;&quot;&gt;You'll find that the installer will list a number of packages to be upgraded. Go ahead and choose the default Y by hitting Enter and it will progress through the upgrade. Note you'll see it &quot;Deleting module verison 18.50&quot; during the 19.30 installation.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: inherit;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: inherit;&quot;&gt;Once complete, you won't get any obvious &quot;Complete!&quot; or &quot;Success!&quot; prompts, but will rather be taken back to the command prompt. If you scroll up a bit, you should see the message &quot;DKMS: install completed.&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: inherit;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: inherit;&quot;&gt;Assuming you don't see any errors mentioned, go ahead and reboot. You can verify 19.30 is the current driver by running&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;, Courier, monospace;&quot;&gt;sudo apt list --installed |grep -i amdgpu-pro &lt;/span&gt;&lt;span style=&quot;font-family: inherit;&quot;&gt;again.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: inherit;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;h4&gt;&lt;span style=&quot;font-family: inherit;&quot;&gt;Vulkan&lt;/span&gt;&lt;/h4&gt;&lt;div&gt;&lt;span style=&quot;font-family: inherit;&quot;&gt;Now, keep in mind that in order to use the Vulkan driver, Vulkan must be SDK needs to be at version 1.1.109.0, per the official documentation above. Running &lt;/span&gt;&lt;span style=&quot;font-family: Courier New, Courier, monospace;&quot;&gt;vulkaninfo&lt;/span&gt;&lt;span style=&quot;font-family: inherit;&quot;&gt; should show you what Vulkan Instance Version you have. In my case, I had 1.1.70 installed, so an update was needed. You'll find that 1.1.109 isn't available over at&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://vulkan.lunarg.com/sdk/home&quot;&gt;https://vulkan.lunarg.com/sdk/home&lt;/a&gt;. For the meantime, I have simply installed the latest SDK at version 1.1.126 (the latest available at the time of this writing). If you run into this issue as well, please upvote and comment over here:&amp;nbsp;&lt;a href=&quot;https://community.amd.com/message/2941548&quot;&gt;https://community.amd.com/message/2941548&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: inherit;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: inherit;&quot;&gt;Good luck!&lt;/span&gt;&lt;/div&gt;</content><author><name>thatvirtualboy</name></author><category term="radeon" /><category term="ubuntu" /><category term="linux" /><category term="gaming" /><summary type="html">I hope you find this post helpful. My system is running Ubuntu 18.04.3 LTS with an AMD Ryzen 5 2400g and a separate Radeon RX 570 GPU.</summary></entry></feed>

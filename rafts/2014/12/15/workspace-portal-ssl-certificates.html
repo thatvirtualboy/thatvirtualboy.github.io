@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<!--
+    Basically Basic Jekyll Theme 1.4.4
+    Copyright 2017-2018 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+    
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Workspace Portal SSL Certificates [updated for vIDM] | thatvirtualboy</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Workspace Portal SSL Certificates [updated for vIDM]" />
+<meta name="author" content="thatvirtualboy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Configuring CA signed SSL certs in Workspace Portal and VIDM." />
+<meta property="og:description" content="Configuring CA signed SSL certs in Workspace Portal and VIDM." />
+<link rel="canonical" href="http://localhost:4000/2014/12/15/workspace-portal-ssl-certificates.html" />
+<meta property="og:url" content="http://localhost:4000/2014/12/15/workspace-portal-ssl-certificates.html" />
+<meta property="og:site_name" content="thatvirtualboy" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2014-12-15T12:07:00-07:00" />
+<script type="application/ld+json">
+{"headline":"Workspace Portal SSL Certificates [updated for vIDM]","dateModified":"2014-12-15T12:07:00-07:00","datePublished":"2014-12-15T12:07:00-07:00","url":"http://localhost:4000/2014/12/15/workspace-portal-ssl-certificates.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2014/12/15/workspace-portal-ssl-certificates.html"},"author":{"@type":"Person","name":"thatvirtualboy"},"description":"Configuring CA signed SSL certs in Workspace Portal and VIDM.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/favicon.png"},"name":"thatvirtualboy"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/stylesheets/main.css">
+  
+
+  
+    
+    <link rel="alternate" type="application/atom+xml" title="thatvirtualboy" href="/feed.xml">
+  
+</head>
+
+
+  <body class="layout--post workspace-portal-ssl-certificates-updated-for-vidm">
+
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+
+    <div class="sidebar-toggle-wrapper">
+      
+        <button class="search-toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <title>Search</title>
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+      
+
+      <button class="toggle navicon-button larr" type="button">
+        <span class="toggle-inner">
+          <span class="sidebar-toggle-label visually-hidden">Menu</span>
+          <span class="navicon"></span>
+        </span>
+      </button>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+      <div class="inner">
+        <nav id="primary-nav" class="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+  <ul id="menu-main-navigation" class="menu">
+    <!-- Home link -->
+    <li class="menu-item">
+      <a href="/" itemprop="url">
+        <span itemprop="name">Home</span>
+      </a>
+    </li>
+
+    <!-- site.pages links -->
+    
+    
+
+    
+      
+      
+        <li class="menu-item">
+          <a href="/about/" itemprop="url">
+            <span itemprop="name">About</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/releasemenu/" itemprop="url">
+            <span itemprop="name">Release Menu</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/tags/" itemprop="url">
+            <span itemprop="name">Tag Archive</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/tools/" itemprop="url">
+            <span itemprop="name">Tools + Apps</span>
+          </a>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+        <ul class="contact-list">
+  
+    <li>
+      <a href="mailto:thatvirtualboy@icloud.com">
+        <span class="icon icon--email"><svg xmlns="http://www.w3.org/2000/svg" viewBox="313.1 3.7 16 16"><path d="M318.5 8.9c0-.2.2-.4.4-.4h4.5c.2 0 .4.2.4.4s-.2.4-.4.4h-4.5c-.3 0-.4-.2-.4-.4zm.4 2.1h4.5c.2 0 .4-.2.4-.4s-.2-.4-.4-.4h-4.5c-.2 0-.4.2-.4.4s.1.4.4.4zm3.5 1.2c0-.2-.2-.4-.4-.4h-3.1c-.2 0-.4.2-.4.4s.2.4.4.4h3.1c.2.1.4-.1.4-.4zm-1.5-8.4l-1.7 1.4c-.2.1-.2.4 0 .6s.4.2.6 0l1.4-1.2 1.4 1.2c.2.1.4.1.6 0s.1-.4 0-.6l-1.7-1.4c-.3-.1-.5-.1-.6 0zm7.8 6.2c.1.1.1.2.1.3v7.9c0 .8-.7 1.5-1.5 1.5h-12.5c-.8 0-1.5-.7-1.5-1.5v-7.9c0-.1.1-.2.1-.3l1.6-1.3c.2-.1.4-.1.6 0s.1.4 0 .6l-1.2 1 1.8 1.3v-4c0-.6.5-1.1 1.1-1.1h7.5c.6 0 1.1.5 1.1 1.1v4l1.8-1.3-1.2-1c-.2-.1-.2-.4 0-.6s.4-.2.6 0l1.6 1.3zm-11.6 2.2l4 2.8 4-2.8V7.6c0-.1-.1-.2-.2-.2h-7.5c-.1 0-.2.1-.2.2v4.6zm10.9-1l-4.7 3.4 3.4 2.6c.2.1.2.4.1.6-.1.2-.4.2-.6.1l-3.6-2.8-1.2.8c-.1.1-.3.1-.5 0l-1.2-.8-3.6 2.8c-.2.1-.4.1-.6-.1-.1-.2-.1-.4.1-.6l3.4-2.6-4.7-3.4v7.1c0 .4.3.6.6.6h12.5c.4 0 .6-.3.6-.6v-7.1z"/></svg></span>
+        <span class="label">Email</span>
+      </a>
+    </li>
+  
+
+  
+    <li><a href="https://github.com/thatvirtualboy">
+  <span class="icon icon--github"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0C3.58 0 0 3.582 0 8c0 3.535 2.292 6.533 5.47 7.59.4.075.547-.172.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.924-.89-1.17-.89-1.17-.725-.496.056-.486.056-.486.803.056 1.225.824 1.225.824.714 1.223 1.873.87 2.33.665.072-.517.278-.87.507-1.07-1.777-.2-3.644-.888-3.644-3.953 0-.873.31-1.587.823-2.147-.09-.202-.36-1.015.07-2.117 0 0 .67-.215 2.2.82.64-.178 1.32-.266 2-.27.68.004 1.36.092 2 .27 1.52-1.035 2.19-.82 2.19-.82.43 1.102.16 1.915.08 2.117.51.56.82 1.274.82 2.147 0 3.073-1.87 3.75-3.65 3.947.28.24.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.14.46.55.38C13.71 14.53 16 11.53 16 8c0-4.418-3.582-8-8-8"/></svg></span>
+  <span class="label">GitHub</span>
+</a>
+</li>
+  
+
+  
+    <li><a href="https://twitter.com/thatvirtualboy">
+  <span class="icon icon--twitter"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.37-1.337.64-2.085.79-.598-.64-1.45-1.04-2.396-1.04-1.812 0-3.282 1.47-3.282 3.28 0 .26.03.51.085.75-2.728-.13-5.147-1.44-6.766-3.42C.83 2.58.67 3.14.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.41-.02-.61-.058.42 1.304 1.63 2.253 3.07 2.28-1.12.88-2.54 1.404-4.07 1.404-.26 0-.52-.015-.78-.045 1.46.93 3.18 1.474 5.04 1.474 6.04 0 9.34-5 9.34-9.33 0-.14 0-.28-.01-.42.64-.46 1.2-1.04 1.64-1.7z" fill-rule="nonzero"/></svg></span>
+  <span class="label">Twitter</span>
+</a>
+</li>
+  
+
+  <li>
+    
+      <a href="/feed.xml" title="Atom Feed">
+        <span class="icon icon--rss"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194 11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0 13.806c0-1.21.983-2.195 2.194-2.195zM10.606 16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"/></svg></span>
+        <span class="label">Subscribe</span>
+      </a>
+    
+  </li>
+</ul>
+
+      </div>
+    </div>
+
+    <div class="canvas">
+      <div class="wrapper">
+        
+
+<header id="masthead">
+  <div class="inner">
+    <div class="title-area">
+      
+        <p class="site-title">
+          <a href="/">
+            <img src="/assets/favicon.png" alt="" class="site-logo">
+            <span>thatvirtualboy</span>
+          </a>
+        </p>
+      
+    </div>
+  </div>
+</header>
+
+        <div class="initial-content">
+          <header class="intro">
+  
+
+  <div class="inner">
+    <div class="intro-text">
+      
+      <h1 id="page-title" class="intro-title">Workspace Portal SSL Certificates [updated for vIDM]
+</h1>
+      
+      
+
+      
+        
+
+        <p class="entry-meta">
+          <span class="byline-item">by thatvirtualboy</span><span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="379 72 16 16"><g><g><path fill="none" d="M380.8,86.7h12.3v-8.8h-12.3V86.7z M389.5,78.8h1.7v1.4h-1.7V78.8z M389.5,81.3h1.7v1.4h-1.7V81.3z M389.5,83.8h1.7v1.4h-1.7V83.8z M386.1,78.8h1.7v1.4h-1.7V78.8z M386.1,81.3h1.7v1.4h-1.7V81.3z M386.1,83.8h1.7v1.4h-1.7V83.8z M382.8,78.8h1.7v1.4h-1.7V78.8z M382.8,81.3h1.7v1.4h-1.7V81.3z M382.8,83.8h1.7v1.4h-1.7V83.8z"/><polygon fill="none" points="384.7 75.1 383.4 75.1 383.4 74.3 380.8 74.3 380.8 76.6 393.2 76.6 393.2 74.3 390.6 74.3 390.6 75.1 389.3 75.1 389.3 74.3 384.7 74.3"/><rect x="382.8" y="78.8" width="1.7" height="1.4"/><rect x="386.1" y="78.8" width="1.7" height="1.4"/><rect x="389.5" y="78.8" width="1.7" height="1.4"/><rect x="382.8" y="81.3" width="1.7" height="1.4"/><rect x="386.1" y="81.3" width="1.7" height="1.4"/><rect x="389.5" y="81.3" width="1.7" height="1.4"/><rect x="382.8" y="83.8" width="1.7" height="1.4"/><rect x="386.1" y="83.8" width="1.7" height="1.4"/><rect x="389.5" y="83.8" width="1.7" height="1.4"/><path d="M383.4,72v1.1h-3.8V88h14.9V73.1h-3.8V72h-1.3v1.1h-4.7V72H383.4z M393.2,86.7h-12.3v-8.8h12.3L393.2,86.7L393.2,86.7z M389.3,74.3v0.8h1.3v-0.8h2.5v2.3h-12.3v-2.3h2.5v0.8h1.3v-0.8H389.3z"/></g></g></svg></span><time datetime="2014-12-15T12:07:00-07:00">December 15, 2014</time></span>
+        </p>
+      
+
+      
+
+      
+    </div>
+  </div>
+</header>
+
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+
+    <article class="entry-wrap">
+      <div class="entry-content">
+        <h4><span style="color:#ff0000;">[Updated September 2015]</span></h4><br/>The below process was originally written for Workspace Portal 2.1 and <span style="text-decoration:underline;">can be applied to vIDM</span>. Any differences in process has been placed appropriately within the post.<br/><br/><hr /><br/><br/>VMware strongly recommends that you configure SSL certificates that are signed by a valid Certificate Authority (CA) for use by Workspace Portal.<br/><br/>A default SSL server certificate is automatically generated when the Workspace appliance is installed. Although you can use the default, self-signed certificate for testing purposes, it should be replaced as soon as possible for a production environment. The default certificate is not signed by a CA. Use of certificates that are not signed by a CA can allow untrusted parties to intercept traffic by masquerading as your server.<br/><br/>If you deploy <span id="GUID-B76761BF-4B12-4CD5-9366-B0A1A2BF2A8B__PRODUCTNAME_3D59143A3C31483D98AC3FFB4F99418B">Workspace</span> with the self-signed SSL certificate, the <span id="GUID-B76761BF-4B12-4CD5-9366-B0A1A2BF2A8B__PRODUCTNAME_3D59143A3C31483D98AC3FFB4F99418B">Workspace</span> root CA certificate must be available as a trusted CA for any client who accesses <span id="GUID-B76761BF-4B12-4CD5-9366-B0A1A2BF2A8B__PRODUCTNAME_3D59143A3C31483D98AC3FFB4F99418B">Workspace</span>. The clients can include end user machines, load balancers, proxies, and so on. You can download the <span id="GUID-B76761BF-4B12-4CD5-9366-B0A1A2BF2A8B__PRODUCTNAME_3D59143A3C31483D98AC3FFB4F99418B">Workspace</span> root CA from <cite id="GUID-B76761BF-4B12-4CD5-9366-B0A1A2BF2A8B__CITE_F142CDCD2E574E1B8DB645C56250C174">https://<var id="GUID-B76761BF-4B12-4CD5-9366-B0A1A2BF2A8B__VARNAME_49BA81C0B95A49A395BE366EB7AD27D6" class="varname" style="font-weight:inherit;">workspacehostname.com</var>/horizon_workspace_rootca.pem</cite>.<br/><br/>Before you can import a certificate, you must generate a Certificate Signing Request (CSR) and obtain a valid, signed certificate from a CA. If the CSR is not generated according to the example procedure described in this document, the resulting certificate and its private key must be available in a PEM format file.<br/><br/>There are many ways to obtain SSL certificates from a CA. This post shows how to use OpenSSL to generate a CSR and make a certificate available to Workspace Portal. You can use another method if you are familiar with the required tools, and they are installed on your server.<br/><br/>If your organization provides you with SSL certificates that are signed by a CA, you can use these certificates. If these certificates are not in the necessary PEM format, you can convert them with third party tools, such as that from <a href="https://www.sslshopper.com/ssl-converter.html" target="_blank">SSLShopper</a><br/><br/>To make a certificate available to Workspace Portal 2.1, three things must be done:<br/><ol><br/>	<li>Create a configuration file</li><br/>	<li>Generate a certificate signing request (CSR) from the configuration file</li><br/>	<li>Send the signing request to a CA</li><br/></ol><br/><div>When the CA returns the certificate, you must import the signed certificate into Workspace Portal using the Appliance Configurator. If using a Load Balancer, you must import the signed certificate onto to the Load Balancer per the vendor's instructions, and then install the Load Balancer's Root CA Certificate on Workspace Portal.</div><br/><h3>Creating the configuration file</h3><br/><div>We will be using OpenSSL as it comes pre-installed on the Workspace Portal appliance, though you can use OpenSSL on a wide variety of operating systems,<a href="http://slproweb.com/products/Win32OpenSSL.html." target="_blank"> including Windows</a>. The below instructions will be assuming a Linux based OS.</div><br/><div></div><br/><div><br/><ol><br/>	<li>Login to your system that has OpenSSL installed (if using the Workspace appliance, either open a vSphere console, or SSH into the appliance).</li><br/>	<li>Create a folder to perform the certificate work in:<span style="font-family:Courier New, Courier, monospace;">mkdir certificates<br/>cd certificates</span></li><br/>	<li>Copy openssl.cnf into that folder<span style="font-family:Courier New, Courier, monospace;">cp /etc/ssl/openssl.cnf openssl.cnf</span><br/><a style="margin-left:1em;margin-right:1em;text-align:center;" href="https://thatvirtualboy.files.wordpress.com/2014/12/37954-1.png"><img src="https://thatvirtualboy.files.wordpress.com/2014/12/37954-1.png" alt="" width="320" height="198" border="0" /></a></li><br/>	<li>Edit the file using vi.<br/><span style="font-family:Courier New, Courier, monospace;">vi openssl.cnf<br/></span>The part of the file you have to modify in order to generate a certificate request is highlighted below. For a wildcard certificate request, subjectAltName is not relevant.</li><br/></ol><br/><div><br/><div>[ req_distinguished_name ] # Change these settings for your</div><br/><div>environment</div><br/><div><span style="color:red;">countryName_default = US</span></div><br/><div><span style="color:red;">stateOrProvinceName_default = Colorado</span></div><br/><div><span style="color:red;">localityName_default = Broomfield</span></div><br/><div><span style="color:red;">0.organizationName_default = EUC</span></div><br/><div><span style="color:red;">organizationalUnitName_default = IT</span></div><br/></div><br/></div><br/><div><span style="color:red;"> </span></div><br/><div>[ CA_defaults ] # Change sha1 to sha512</div><br/><div><span style="color:red;">default_md = sha512</span></div><br/><div><span style="color:red;"> </span></div><br/><div>[ req ]</div><br/><div><span style="color:red;">default_bits = 2048</span></div><br/><div></div><br/><div><br/><div>[ v3_req ]</div><br/><div>basicConstraints = CA:FALSE</div><br/><div>keyUsage = nonRepudiation, digitalSignature, keyEncipherment,</div><br/><div>dataEncipherment</div><br/><div>extendedKeyUsage = serverAuth, clientAuth</div><br/><div><span style="color:red;">subjectAltName = DNS: ext-con.company.com, DNS:</span></div><br/><div><span style="color:red;">view.company.com, DNS: gtw.company.com, DNS:</span></div><br/><div><span style="color:red;">services.company.com </span>Since we will request a wildcard</div><br/><div>certificate these additional hostnames are not of importance.</div><br/></div><br/><div></div><br/><div>NOTE: We are not setting the commonName here, we will do that below when prompted. If you plan to <b>not</b> use a wildcard, consider adding your subjectAltNames</div><br/><div></div><br/><div><br/><br/>Save this file<br/><br/><span style="font-family:Courier New, Courier, monospace;">:wq</span><br/><br/></div><br/><h3><span style="font-family:inherit;">Generating the certificate request</span></h3><br/><div><br/><ol><br/>	<li>Create your CSR and private key by typing<span style="font-family:Courier New, Courier, monospace;">openssl req -new -nodes -out rui.csr -keyout rui.key -config openssl.cnf</span><br/><a style="margin-left:1em;margin-right:1em;text-align:center;" href="https://thatvirtualboy.files.wordpress.com/2014/12/dd105-2.png"><img src="https://thatvirtualboy.files.wordpress.com/2014/12/dd105-2.png" alt="" width="320" height="221" border="0" /><br/></a></li><br/>	<li>Accept the default values you configured on the .cnf file. When prompted for the common name, enter either the wildcard value, or the external name you will be referencing for Workspace from outside your network (e.g., portal.acme.com)Make sure you store your private key in a safe place. Without it, your certificate becomes useless.</li><br/>	<li>Congrats! You've successfully created a certificate signing request for a sha512 hashed, 2048-bit encrypted certificate. Now to get this CSR signed.</li><br/></ol><br/><h3>Send the CSR to a Certificate Authority (CA) for signing</h3><br/></div><br/><div>Your CSR must be submitted to a CA in order to be issued a usable certificate. You can use either a <a href="https://www.sslshopper.com/certificate-authority-reviews.html" target="_blank">publicly trusted CA</a> (GoDaddy, DigiCert, etc), or an internal CA your company has, or perhaps one you even built yourself. If you don't go with a publicly trusted CA, <a href="https://www.google.com/search?q=how+to+setup+a+ca&amp;oq=how+to+setup+a+ca&amp;aqs=chrome..69i57j0l5.3738j0j7&amp;sourceid=chrome&amp;es_sm=93&amp;ie=UTF-8" target="_blank">there are plenty of options for setting up your own CA</a>. The important thing to ensure is when you've been issued your certs, download them as <b>Base 64 encoded</b>.</div><br/><h3>Installing the certificate</h3><br/>Once you've obtained your certificate(s), it's time to put it together so that Workspace can understand it. Workspace needs the certificate to be in PEM format. PEM is a widely used format these days because of its flexibility and ease of use. PEM allows you to bundle multiple certificates into a single file which a server can read and understand. This is important for Workspace. If you need to convert the certs you received to PEM format, you can use the link provided earlier in this post, or even use OpenSSL. Workspace needs at least 2 certs (usually 3) which you should have received from your CA.<br/><br/>Server (host) cert<br/>Intermediate cert(s)<br/>Root cert<br/><br/>This is how we will build our PEM file, with the host cert on top, any intermediate certs in the middle, and root on the bottom:<br/><div><span style="color:#ff6600;">-----BEGIN CERTIFICATE-----</span><br/><span style="color:#ff6600;">(Your Primary SSL certificate)</span><br/><span style="color:#ff6600;">-----END CERTIFICATE-----</span><br/><span style="color:#339966;">-----BEGIN CERTIFICATE-----</span><br/><span style="color:#339966;">(Your Intermediate certificate)</span><br/><span style="color:#339966;">-----END CERTIFICATE-----</span><br/><span style="color:#0000ff;">-----BEGIN CERTIFICATE-----</span><br/><span style="color:#0000ff;">(Your Root certificate)</span><br/><span style="color:#0000ff;">-----END CERTIFICATE----</span></div><br/>It's important to use a text editor like WordPad or Notepadd++ when handling these PEM files. Using something like Notepad can cause formatting issues that we certainly want to steer clear of.<br/><br/>Once you've built your new PEM file containing the components above, it's time to install it. If you don't have a load balancer or reverse proxy server in place, you can install this right on Workspace. This is considered <strong>terminating SSL on the Workspace Appliance</strong>.<br/><br/><span style="text-decoration:underline;">To do this on Workspace Portal:</span><br/><ol><br/>	<li>Login to the <strong>Appliance Configurator</strong> (https://your_workspace:8443), click<strong> Install Certificate</strong></li><br/>	<li>In the Terminate SSL on Workspace appliance tab, paste the complete certificate chain (what we created above) and also include the private key in its box.</li><br/>	<li>Save the SSL certificate.</li><br/></ol><br/><span style="text-decoration:underline;">To do this on vIDM:</span><br/><ol><br/>	<li>In the <strong>Administration Console</strong>, click <strong>Appliance Settings</strong></li><br/>	<li>Click <strong>Manage Configuration</strong> and enter the admin password</li><br/>	<li>Click Install Certificate</li><br/>	<li>In the <strong>Terminate SSL on Identity Manager Appliance</strong> tab, select <strong>C<span id="GUID-5D5C4B3C-21C7-44E4-86BD-6CE22C9746BE__uicontrol_0A913D0AAF82426CA447D8C876D1163D" class="uicontrol">ustom <span class="resultofText"><span class="resultofText">Certif</span>icate</span></span></strong>.</li><br/></ol><br/>If you're using a Load Balancer or Reverse Proxy, you'll need to instead install the cert on that device per the vendor's instructions. Using something like NGINX is quite simple as you simply include the cert and private key path in the configuration file (See<a href="http://thatvirtualboy.com/2014/11/20/how-to-setup-nginx-as-a-reverse-proxy-for-workspace-portal-2-1/" target="_blank"> How to Setup NGINX as a reverse proxy for Workspace Portal 2.1</a>)<br/><br/>If you're using an internal CA, or otherwise a lesser known CA, it may be necessary to install the Root CA on Workspace in order for it to gain trust. Back at the <strong>Install Certificate</strong> page, click the <strong>Terminate SSL on a Load Balancer</strong> tab, and paste the PEM output of the Root CA here.<br/><br/>NOTE: if you've previously installed custom certs on Workspace itself, and are now trying to instead use a Load Balancer, you will need to first re-generate the self signed certs on Workspace before you'll be able to properly reconfigure the Workspace FQDN.<br/><br/><span style="color:#ff0000;">[Important]</span><br/>If you happen to use a KEMP load balancer with Workspace, you may run into issues configuring your FQDN after following the recommended SSL Certificate process. Please review <a href="https://support.kemptechnologies.com/hc/en-us/articles/203858065-VMware-Horizon-Workspace" target="_blank">Kemp's Workspace Documentation</a> which should help get the load balancer configured properly.<br/><h3>Related documentation and references</h3><br/><div><a href="http://blogs.vmware.com/horizontech/2014/10/troubleshoot-workspace-portal-setup-issues-changing-fqdn.html" target="_blank">Troubleshooting changing the Workspace Portal FQDN<br/></a><a href="http://pubs.vmware.com/vidm-24/topic/com.vmware.wsp-install_24/GUID-5D5C4B3C-21C7-44E4-86BD-6CE22C9746BE.html" target="_blank">Apply Public Certificate Authority to vIDM</a></div><br/><div><a href="http://pubs.vmware.com/workspace-portal-21/topic/com.vmware.wsp-install_21/GUID-B76761BF-4B12-4CD5-9366-B0A1A2BF2A8B.html" target="_blank">Using SSL Certificates in Workspace</a></div><br/><div><a href="http://pubs.vmware.com/workspace-portal-21/topic/com.vmware.wsp-install_21/GUID-AF326FAF-FB48-4978-A0F6-ADF4CBDC0942.html" target="_blank">Apply Workspace Root Cert to the Load Balancer</a></div>
+
+      </div>
+&nbsp;&nbsp;
+     <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5e6c3f3a09ec2f0013e539d9&product=inline-share-buttons" async="async"></script>
+
+     <div class="sharethis-inline-share-buttons"></div>
+     &nbsp;
+     &nbsp;
+     &nbsp;
+
+     <div class="post-nav-buttons">
+
+  <p>
+    
+      <a href="/2014/12/12/how-to-remove-your-license-from-vmware.html" class="btn no-bold navButton"><span class="icon nav-btn-icon-left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="430 -22.8 16 16"><path d="M433.4-15.7c-.2.2-.4.5-.4.9 0 .3.1.6.4.9l6.7 6.7c.2.3.5.4.9.4.3 0 .6-.1.9-.4l.8-.8c.3-.2.4-.5.4-.9 0-.3-.1-.6-.4-.9l-5-5 5-5c.3-.2.4-.5.4-.9 0-.3-.1-.6-.4-.9l-.8-.8c-.2-.3-.5-.4-.9-.4-.3 0-.7.1-.9.4l-6.7 6.7z"/></svg></span> Previous: <i>"How to remove your Lic..."</i></a>
+    
+    
+      <a href="/2014/12/17/how-to-customize-workspace-for-windows.html" class="btn no-bold navButton">Next: <i>"How to customize the "Down..."</i> <span class="icon nav-btn-icon-right"><svg xmlns="http://www.w3.org/2000/svg" viewBox="50.4 -114.8 16 16"><path d="M63.1-107.7l-6.7-6.7c-.2-.3-.6-.4-.9-.4-.4 0-.7.1-.9.4l-.8.8c-.3.3-.4.6-.4.9 0 .4.1.7.4.9l5 5-5 5c-.3.3-.4.6-.4.9 0 .4.1.7.4.9l.8.8c.3.3.6.4.9.4.4 0 .7-.1.9-.4l6.7-6.7c.3-.3.4-.6.4-.9 0-.4-.2-.7-.4-.9z"/></svg></span></a>
+    
+  </p>
+</div>
+
+
+      
+        
+      
+    </article>
+  </div>
+    <script src="/assets/javascripts/post-nav-return-button.js"></script>
+</main>
+
+        </div>
+
+        <div class="search-content">
+          <div class="inner">
+  <label class="visually-hidden" for="search">Site Search</label>
+        <input type="text" id="search" class="search-input" aria-describedby="results-count" tabindex="-1" placeholder="Search..." />
+        <div id="results" class="results"></div>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="site-footer">
+  <div class="inner">
+    <div class="copyright">
+      
+        <p>© 2020 thatvirtualboy. Photo by <a href="https://www.flickr.com/photos/lukeas09/4129402620">Luke Andrew Scowen</a>. Logo by <a href="https://ChristinaKlumph.blogspot.com">Christina Klumph.</a></p>
+
+      
+    </div>
+  </div>
+</footer>
+
+    
+
+<script async src="/assets/javascripts/main.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="http://localhost:4000/assets/javascripts/lunr/lunr.min.js"></script>
+  <script src="http://localhost:4000/assets/javascripts/lunr/lunr.store.js"></script>
+  <script>
+    var idx = lunr(function () {
+      
+      // the, the normal lunr index initialization
+      this.field('title')
+      this.field('excerpt')
+      this.field('categories')
+      this.field('tags')
+      this.ref('id')
+
+      this.pipeline.remove(lunr.trimmer)
+
+      // add documents to index
+      for (var item in store) {
+        this.add({
+          title: store[item].title,
+          excerpt: store[item].excerpt,
+          categories: store[item].categories,
+          tags: store[item].tags,
+          id: item
+        })
+      }
+    });
+
+    $(document).ready(function () {
+      $('input#search').on('keyup', function () {
+        var resultdiv = $('#results');
+        var query = $(this).val().toLowerCase();
+        var result =
+          idx.query(function (q) {
+            query.split(lunr.tokenizer.separator).forEach(function (term) {
+              q.term(term, { boost: 100 })
+              if (query.lastIndexOf(" ") != query.length - 1) {
+                q.term(term, { usePipeline: false, wildcard: lunr.Query.wildcard.TRAILING, boost: 10 })
+              }
+              if (term != "") {
+                q.term(term, { usePipeline: false, editDistance: 1, boost: 1 })
+              }
+            })
+          });
+        resultdiv.empty();
+        resultdiv.prepend('<p id="results-count" class="results-found">' + result.length + ' Result(s) found</p>');
+        for (var item in result) {
+          var ref = result[item].ref;
+          var searchitem =
+            '<article class="entry">' +
+              '<h3 class="entry-title">' +
+                '<a href="' + store[ref].url + '">' + store[ref].title + '</a>' +
+              '</h3>' +
+              '<div class="entry-excerpt">' +
+                '<p>' + store[ref].excerpt.split(" ").splice(0, 20).join(" ") + '...</p>' +
+              '</div>' +
+            '</article>';
+          resultdiv.append(searchitem);
+        }
+      });
+    });
+  </script>
+
+
+
+  </body>
+
+</html>

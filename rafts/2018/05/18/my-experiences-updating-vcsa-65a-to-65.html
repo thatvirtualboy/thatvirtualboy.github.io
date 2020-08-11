@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<!--
+    Basically Basic Jekyll Theme 1.4.4
+    Copyright 2017-2018 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+    
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>My Experiences Updating VCSA 6.5a to 6.5 U2 | thatvirtualboy</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="My Experiences Updating VCSA 6.5a to 6.5 U2" />
+<meta name="author" content="thatvirtualboy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Today we’ll be updating my lab’s VCSA 6.5a (build 4944578) to version 6.5 Update 2 (build 8307201) which was released May 3 2018. Here’s how it went!" />
+<meta property="og:description" content="Today we’ll be updating my lab’s VCSA 6.5a (build 4944578) to version 6.5 Update 2 (build 8307201) which was released May 3 2018. Here’s how it went!" />
+<link rel="canonical" href="http://localhost:4000/2018/05/18/my-experiences-updating-vcsa-65a-to-65.html" />
+<meta property="og:url" content="http://localhost:4000/2018/05/18/my-experiences-updating-vcsa-65a-to-65.html" />
+<meta property="og:site_name" content="thatvirtualboy" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-05-18T11:42:00-06:00" />
+<script type="application/ld+json">
+{"headline":"My Experiences Updating VCSA 6.5a to 6.5 U2","dateModified":"2018-05-18T11:42:00-06:00","datePublished":"2018-05-18T11:42:00-06:00","url":"http://localhost:4000/2018/05/18/my-experiences-updating-vcsa-65a-to-65.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2018/05/18/my-experiences-updating-vcsa-65a-to-65.html"},"author":{"@type":"Person","name":"thatvirtualboy"},"description":"Today we’ll be updating my lab’s VCSA 6.5a (build 4944578) to version 6.5 Update 2 (build 8307201) which was released May 3 2018. Here’s how it went!","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/favicon.png"},"name":"thatvirtualboy"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/stylesheets/main.css">
+  
+
+  
+    
+    <link rel="alternate" type="application/atom+xml" title="thatvirtualboy" href="/feed.xml">
+  
+</head>
+
+
+  <body class="layout--post my-experiences-updating-vcsa-6-5a-to-6-5-u2">
+
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+
+    <div class="sidebar-toggle-wrapper">
+      
+        <button class="search-toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <title>Search</title>
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+      
+
+      <button class="toggle navicon-button larr" type="button">
+        <span class="toggle-inner">
+          <span class="sidebar-toggle-label visually-hidden">Menu</span>
+          <span class="navicon"></span>
+        </span>
+      </button>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+      <div class="inner">
+        <nav id="primary-nav" class="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+  <ul id="menu-main-navigation" class="menu">
+    <!-- Home link -->
+    <li class="menu-item">
+      <a href="/" itemprop="url">
+        <span itemprop="name">Home</span>
+      </a>
+    </li>
+
+    <!-- site.pages links -->
+    
+    
+
+    
+      
+      
+        <li class="menu-item">
+          <a href="/about/" itemprop="url">
+            <span itemprop="name">About</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/releasemenu/" itemprop="url">
+            <span itemprop="name">Release Menu</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/tags/" itemprop="url">
+            <span itemprop="name">Tag Archive</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/tools/" itemprop="url">
+            <span itemprop="name">Tools + Apps</span>
+          </a>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+        <ul class="contact-list">
+  
+    <li>
+      <a href="mailto:thatvirtualboy@icloud.com">
+        <span class="icon icon--email"><svg xmlns="http://www.w3.org/2000/svg" viewBox="313.1 3.7 16 16"><path d="M318.5 8.9c0-.2.2-.4.4-.4h4.5c.2 0 .4.2.4.4s-.2.4-.4.4h-4.5c-.3 0-.4-.2-.4-.4zm.4 2.1h4.5c.2 0 .4-.2.4-.4s-.2-.4-.4-.4h-4.5c-.2 0-.4.2-.4.4s.1.4.4.4zm3.5 1.2c0-.2-.2-.4-.4-.4h-3.1c-.2 0-.4.2-.4.4s.2.4.4.4h3.1c.2.1.4-.1.4-.4zm-1.5-8.4l-1.7 1.4c-.2.1-.2.4 0 .6s.4.2.6 0l1.4-1.2 1.4 1.2c.2.1.4.1.6 0s.1-.4 0-.6l-1.7-1.4c-.3-.1-.5-.1-.6 0zm7.8 6.2c.1.1.1.2.1.3v7.9c0 .8-.7 1.5-1.5 1.5h-12.5c-.8 0-1.5-.7-1.5-1.5v-7.9c0-.1.1-.2.1-.3l1.6-1.3c.2-.1.4-.1.6 0s.1.4 0 .6l-1.2 1 1.8 1.3v-4c0-.6.5-1.1 1.1-1.1h7.5c.6 0 1.1.5 1.1 1.1v4l1.8-1.3-1.2-1c-.2-.1-.2-.4 0-.6s.4-.2.6 0l1.6 1.3zm-11.6 2.2l4 2.8 4-2.8V7.6c0-.1-.1-.2-.2-.2h-7.5c-.1 0-.2.1-.2.2v4.6zm10.9-1l-4.7 3.4 3.4 2.6c.2.1.2.4.1.6-.1.2-.4.2-.6.1l-3.6-2.8-1.2.8c-.1.1-.3.1-.5 0l-1.2-.8-3.6 2.8c-.2.1-.4.1-.6-.1-.1-.2-.1-.4.1-.6l3.4-2.6-4.7-3.4v7.1c0 .4.3.6.6.6h12.5c.4 0 .6-.3.6-.6v-7.1z"/></svg></span>
+        <span class="label">Email</span>
+      </a>
+    </li>
+  
+
+  
+    <li><a href="https://github.com/thatvirtualboy">
+  <span class="icon icon--github"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0C3.58 0 0 3.582 0 8c0 3.535 2.292 6.533 5.47 7.59.4.075.547-.172.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.924-.89-1.17-.89-1.17-.725-.496.056-.486.056-.486.803.056 1.225.824 1.225.824.714 1.223 1.873.87 2.33.665.072-.517.278-.87.507-1.07-1.777-.2-3.644-.888-3.644-3.953 0-.873.31-1.587.823-2.147-.09-.202-.36-1.015.07-2.117 0 0 .67-.215 2.2.82.64-.178 1.32-.266 2-.27.68.004 1.36.092 2 .27 1.52-1.035 2.19-.82 2.19-.82.43 1.102.16 1.915.08 2.117.51.56.82 1.274.82 2.147 0 3.073-1.87 3.75-3.65 3.947.28.24.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.14.46.55.38C13.71 14.53 16 11.53 16 8c0-4.418-3.582-8-8-8"/></svg></span>
+  <span class="label">GitHub</span>
+</a>
+</li>
+  
+
+  
+    <li><a href="https://twitter.com/thatvirtualboy">
+  <span class="icon icon--twitter"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.37-1.337.64-2.085.79-.598-.64-1.45-1.04-2.396-1.04-1.812 0-3.282 1.47-3.282 3.28 0 .26.03.51.085.75-2.728-.13-5.147-1.44-6.766-3.42C.83 2.58.67 3.14.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.41-.02-.61-.058.42 1.304 1.63 2.253 3.07 2.28-1.12.88-2.54 1.404-4.07 1.404-.26 0-.52-.015-.78-.045 1.46.93 3.18 1.474 5.04 1.474 6.04 0 9.34-5 9.34-9.33 0-.14 0-.28-.01-.42.64-.46 1.2-1.04 1.64-1.7z" fill-rule="nonzero"/></svg></span>
+  <span class="label">Twitter</span>
+</a>
+</li>
+  
+
+  <li>
+    
+      <a href="/feed.xml" title="Atom Feed">
+        <span class="icon icon--rss"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194 11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0 13.806c0-1.21.983-2.195 2.194-2.195zM10.606 16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"/></svg></span>
+        <span class="label">Subscribe</span>
+      </a>
+    
+  </li>
+</ul>
+
+      </div>
+    </div>
+
+    <div class="canvas">
+      <div class="wrapper">
+        
+
+<header id="masthead">
+  <div class="inner">
+    <div class="title-area">
+      
+        <p class="site-title">
+          <a href="/">
+            <img src="/assets/favicon.png" alt="" class="site-logo">
+            <span>thatvirtualboy</span>
+          </a>
+        </p>
+      
+    </div>
+  </div>
+</header>
+
+        <div class="initial-content">
+          <header class="intro">
+  
+
+  <div class="inner">
+    <div class="intro-text">
+      
+      <h1 id="page-title" class="intro-title">My Experiences Updating VCSA 6.5a to 6.5 U2
+</h1>
+      
+      
+
+      
+        
+
+        <p class="entry-meta">
+          <span class="byline-item">by thatvirtualboy</span><span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="379 72 16 16"><g><g><path fill="none" d="M380.8,86.7h12.3v-8.8h-12.3V86.7z M389.5,78.8h1.7v1.4h-1.7V78.8z M389.5,81.3h1.7v1.4h-1.7V81.3z M389.5,83.8h1.7v1.4h-1.7V83.8z M386.1,78.8h1.7v1.4h-1.7V78.8z M386.1,81.3h1.7v1.4h-1.7V81.3z M386.1,83.8h1.7v1.4h-1.7V83.8z M382.8,78.8h1.7v1.4h-1.7V78.8z M382.8,81.3h1.7v1.4h-1.7V81.3z M382.8,83.8h1.7v1.4h-1.7V83.8z"/><polygon fill="none" points="384.7 75.1 383.4 75.1 383.4 74.3 380.8 74.3 380.8 76.6 393.2 76.6 393.2 74.3 390.6 74.3 390.6 75.1 389.3 75.1 389.3 74.3 384.7 74.3"/><rect x="382.8" y="78.8" width="1.7" height="1.4"/><rect x="386.1" y="78.8" width="1.7" height="1.4"/><rect x="389.5" y="78.8" width="1.7" height="1.4"/><rect x="382.8" y="81.3" width="1.7" height="1.4"/><rect x="386.1" y="81.3" width="1.7" height="1.4"/><rect x="389.5" y="81.3" width="1.7" height="1.4"/><rect x="382.8" y="83.8" width="1.7" height="1.4"/><rect x="386.1" y="83.8" width="1.7" height="1.4"/><rect x="389.5" y="83.8" width="1.7" height="1.4"/><path d="M383.4,72v1.1h-3.8V88h14.9V73.1h-3.8V72h-1.3v1.1h-4.7V72H383.4z M393.2,86.7h-12.3v-8.8h12.3L393.2,86.7L393.2,86.7z M389.3,74.3v0.8h1.3v-0.8h2.5v2.3h-12.3v-2.3h2.5v0.8h1.3v-0.8H389.3z"/></g></g></svg></span><time datetime="2018-05-18T11:42:00-06:00">May 18, 2018</time></span>
+        </p>
+      
+
+      
+
+      
+    </div>
+  </div>
+</header>
+
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+
+    <article class="entry-wrap">
+      <div class="entry-content">
+        <div style="font-family: Calibri; font-size: 11pt; margin: 0in;">Today we'll be updating my lab's VCSA 6.5a (build 4944578) to version 6.5 Update 2 (build 8307201) which was released&nbsp;&nbsp;May 3 2018. vCenter Server 6.5 U2 includes some backported features of vSphere 6.7 making it a slick update for users not quite ready to move to version 6.7. Some of the new features include</div><ul style="direction: ltr; margin-bottom: 0in; margin-left: 0.375in; margin-top: 0in; unicode-bidi: embed;" type="disc"><li style="margin-bottom: 0px; margin-top: 0px; vertical-align: middle;"><span style="font-family: &quot;calibri&quot;; font-size: 11pt;">Enhanced Linked Mode (ELM) for Embedded Platform Service Controller Architecture</span></li><li style="margin-bottom: 0px; margin-top: 0px; vertical-align: middle;"><span style="font-family: &quot;calibri&quot;; font-size: 11pt;">Backup &amp; Restore to ELM with replication deployment topology API</span></li><li style="margin-bottom: 0px; margin-top: 0px; vertical-align: middle;"><span style="font-family: &quot;calibri&quot;; font-size: 11pt;">vMotion and cold migration of VMs across vCenters 6.0 U3+</span></li><li style="margin-bottom: 0px; margin-top: 0px; vertical-align: middle;"><span style="font-family: &quot;calibri&quot;; font-size: 11pt;">And more:&nbsp;</span><a href="https://blogs.vmware.com/vsphere/2018/05/vsphere-6-5-update-2-now-available.html"><span style="font-family: &quot;calibri&quot;; font-size: 11pt;">https://blogs.vmware.com/vsphere/2018/05/vsphere-6-5-update-2-now-available.html</span></a></li></ul><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;">NOTE: Currently, upgrading from vSphere 6.5 U2 to vSphere 6.7 GA is not supported</div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;">You can verify your VCSA version by clicking on the top most level of the hierarchy tree in the vSphere Web Client and viewing the Summary tab</div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-23xn4maeH4w/Wv8N7ByoR2I/AAAAAAAAwO0/d36BzcOSSVEYxl73Aw-KDVts28L7IWbVQCLcBGAs/s1600/1.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="460" data-original-width="973" height="300" src="https://1.bp.blogspot.com/-23xn4maeH4w/Wv8N7ByoR2I/AAAAAAAAwO0/d36BzcOSSVEYxl73Aw-KDVts28L7IWbVQCLcBGAs/s640/1.png" width="640" /></a></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;">Before I perform this update, I'm going to verify compatibility with my registered and connected solutions with the&nbsp;<a href="https://partnerweb.vmware.com/comp_guide2/sim/interop_matrix.php">VMware Interoperability Matrix</a>.&nbsp;</div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;">Then, I'm going to login to the vCenter Server Appliance Management Interface (VAMI) at &lt;<a href="https://fqdn-of-vc:5480/">https://fqdn-of-vc:5480</a>and ensure overall Health Status is green, take a VM-level snapshot (not pictured) and create a native VCSA Backup.</div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-MUyI3ZlQcr4/Wv8OCRS00EI/AAAAAAAAwPI/EL6K3GC36x4qIO6YsEWfpYdZJZDu8eQ0gCLcBGAs/s1600/2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="440" data-original-width="1231" height="228" src="https://1.bp.blogspot.com/-MUyI3ZlQcr4/Wv8OCRS00EI/AAAAAAAAwPI/EL6K3GC36x4qIO6YsEWfpYdZJZDu8eQ0gCLcBGAs/s640/2.png" width="640" /></a></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;">Upon entering my Backup details and clicking Next, I got a message stating that the service 'statsmonitor' wasn't running</div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-X9KfGUN_hjg/Wv8OIWRhjTI/AAAAAAAAwPk/zksWL2uwi1ckI4xo_nEI-bwwXBInbAipwCLcBGAs/s1600/3.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="694" data-original-width="1114" height="398" src="https://3.bp.blogspot.com/-X9KfGUN_hjg/Wv8OIWRhjTI/AAAAAAAAwPk/zksWL2uwi1ckI4xo_nEI-bwwXBInbAipwCLcBGAs/s640/3.png" width="640" /></a></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-size: 11pt; margin: 0in;"><span style="font-family: &quot;calibri&quot;;">A quick SSH session to the VCSA and running </span><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">service-control --start vmware-statsmonitor</span><span style="font-family: &quot;calibri&quot;;">&nbsp;resulted in starting the service</span></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-1MwU9mICtCU/Wv8OVGIAaiI/AAAAAAAAwRI/QyDsFvJ9uRcOfKTgYsdyBd04DBNN2izQQCLcBGAs/s1600/4-1.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="116" data-original-width="643" height="114" src="https://1.bp.blogspot.com/-1MwU9mICtCU/Wv8OVGIAaiI/AAAAAAAAwRI/QyDsFvJ9uRcOfKTgYsdyBd04DBNN2izQQCLcBGAs/s640/4-1.png" width="640" /></a></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;">This allowed the Backup to continue</div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-og8FFS6_Kk0/Wv8OcowhyOI/AAAAAAAAwRY/U66f16Ed-T0W9w3MI6gdfgBNSff7us2swCLcBGAs/s1600/5.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="728" data-original-width="1217" height="382" src="https://1.bp.blogspot.com/-og8FFS6_Kk0/Wv8OcowhyOI/AAAAAAAAwRY/U66f16Ed-T0W9w3MI6gdfgBNSff7us2swCLcBGAs/s640/5.png" width="640" /></a></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;">After it validated the input, we're ready to click Finish, which initiated the backup and showed a Backup Progress Bar</div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://2.bp.blogspot.com/-eFj7lweq6bg/Wv8OpV50JFI/AAAAAAAAwRw/AD-pj3CquDoY0mLC_DSIouaXcEcGYwQbwCLcBGAs/s1600/7-0.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="702" data-original-width="1140" height="394" src="https://2.bp.blogspot.com/-eFj7lweq6bg/Wv8OpV50JFI/AAAAAAAAwRw/AD-pj3CquDoY0mLC_DSIouaXcEcGYwQbwCLcBGAs/s640/7-0.png" width="640" /></a></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-aL1qimMQsr4/Wv8Ok4BUgXI/AAAAAAAAwRs/70fu9DQGmV0jJC2PkaWVtNS8WIwkOoGMgCLcBGAs/s1600/7.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="456" data-original-width="819" height="356" src="https://3.bp.blogspot.com/-aL1qimMQsr4/Wv8Ok4BUgXI/AAAAAAAAwRs/70fu9DQGmV0jJC2PkaWVtNS8WIwkOoGMgCLcBGAs/s640/7.png" width="640" /></a></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;">With our VM snapshot and VCSA Backup in place, we're ready to go to the Update section of the VAMI and check for Updates</div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://4.bp.blogspot.com/-kXNvw8QZSW8/Wv8O07akwQI/AAAAAAAAwR4/yEnnQMG_rWYYLFmLp5zXW4n82bqZJqD3QCLcBGAs/s1600/8.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="415" data-original-width="1263" height="210" src="https://4.bp.blogspot.com/-kXNvw8QZSW8/Wv8O07akwQI/AAAAAAAAwR4/yEnnQMG_rWYYLFmLp5zXW4n82bqZJqD3QCLcBGAs/s640/8.png" width="640" /></a></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;">Click Install Updates and accept the EULA to begin the update. My update jumped straight to 40% with status "Start staging packages" then had a "Download Failed"</div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://4.bp.blogspot.com/-pFkERb_0fro/Wv8PBFBEI-I/AAAAAAAAwSA/mXxLfXx7-X4FM5xPqHvb4Fzu4HEABoFlgCLcBGAs/s1600/9.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="409" data-original-width="730" height="358" src="https://4.bp.blogspot.com/-pFkERb_0fro/Wv8PBFBEI-I/AAAAAAAAwSA/mXxLfXx7-X4FM5xPqHvb4Fzu4HEABoFlgCLcBGAs/s640/9.png" width="640" /></a></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-size: 11pt; margin: 0in;"><span style="font-family: &quot;calibri&quot;;">At this point, I took a break for the evening (hey can't a man eat and unwind with some SNES Classic?!) and revisited it in the morning. This time, I did a&nbsp;</span><span style="font-weight: bold;"><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">tail -f</span><span style="font-family: &quot;calibri&quot;;">&nbsp;</span></span><span style="font-family: &quot;calibri&quot;;">on <b>/var/log/vmware/applmgmt/software-packages.log</b> to watch the progress of the downloads and to my surprise, the downloads worked this time without any changes made. If you run into a similar error, I would review this log to see what could be causing the downloads to fail (proxy config, incorrect URL, etc).</span></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;">The Update window status changed to "Start running pre-install scripts"</div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-5IrnPJr37IU/Wv8PP5MkRNI/AAAAAAAAwSI/hcT25FFnCng6jQb8JheyMkvOJURO3-3zwCLcBGAs/s1600/10.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="884" data-original-width="1588" height="356" src="https://3.bp.blogspot.com/-5IrnPJr37IU/Wv8PP5MkRNI/AAAAAAAAwSI/hcT25FFnCng6jQb8JheyMkvOJURO3-3zwCLcBGAs/s640/10.png" width="640" /></a></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;">Then made its way to 100% with the message "Packages upgraded successfully, reboot required to complete the installation"</div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://4.bp.blogspot.com/-ZgZE96_pFgA/Wv8PXsag0_I/AAAAAAAAwSQ/ftO3kZa5Q1QClXDOerV6q90CK-qnTtFOwCLcBGAs/s1600/10-0.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="899" data-original-width="1600" height="358" src="https://4.bp.blogspot.com/-ZgZE96_pFgA/Wv8PXsag0_I/AAAAAAAAwSQ/ftO3kZa5Q1QClXDOerV6q90CK-qnTtFOwCLcBGAs/s640/10-0.png" width="640" /></a></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;">And checking the software-packages.log we can confirm the packages were properly staged and ready for reboot</div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-jjY3_EF3KL4/Wv8Pb-hoqeI/AAAAAAAAwSU/QgWTIEvcXQApSH7VoflEf3UjaNnWKMH_ACLcBGAs/s1600/11.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="202" data-original-width="1600" height="80" src="https://3.bp.blogspot.com/-jjY3_EF3KL4/Wv8Pb-hoqeI/AAAAAAAAwSU/QgWTIEvcXQApSH7VoflEf3UjaNnWKMH_ACLcBGAs/s640/11.png" width="640" /></a></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;">Clicking OK, I proceeded to the Summary Tab where I could click Reboot</div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-hUXIkH-jT6g/Wv8PkX6M8pI/AAAAAAAAwUQ/lY2ZtPkBvQwDQH_XvnXJk75321I5GKcEwCLcBGAs/s1600/12.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="560" data-original-width="1600" height="224" src="https://1.bp.blogspot.com/-hUXIkH-jT6g/Wv8PkX6M8pI/AAAAAAAAwUQ/lY2ZtPkBvQwDQH_XvnXJk75321I5GKcEwCLcBGAs/s640/12.png" width="640" /></a></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;">Upon logging back in to the VAMI, we can verify the new build version!</div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://4.bp.blogspot.com/-qCpPb6TrzLE/Wv8PuNaKeGI/AAAAAAAAwUY/jb5K-Dk5QOMtSEzSoD4rteqavm3rWqeBwCLcBGAs/s1600/13.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="550" data-original-width="1600" height="220" src="https://4.bp.blogspot.com/-qCpPb6TrzLE/Wv8PuNaKeGI/AAAAAAAAwUY/jb5K-Dk5QOMtSEzSoD4rteqavm3rWqeBwCLcBGAs/s640/13.png" width="640" /></a></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;">Confirming in vSphere Web Client</div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://2.bp.blogspot.com/-EMfudl6TTgg/Wv8PzBbiYSI/AAAAAAAAwUo/7J62OFMEgXEb57jV-vG9owQqy64EzIUnQCLcBGAs/s1600/14.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="764" data-original-width="1600" height="304" src="https://2.bp.blogspot.com/-EMfudl6TTgg/Wv8PzBbiYSI/AAAAAAAAwUo/7J62OFMEgXEb57jV-vG9owQqy64EzIUnQCLcBGAs/s640/14.png" width="640" /></a></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;">Remember, we haven't fully upgraded to vSphere 6.5 U2 until the ESXi hosts are also updated. The embedded VUM instance in VCSA 6.5 makes that an almost effortless task.</div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;"><br /></div><div style="font-family: Calibri; font-size: 11pt; margin: 0in;">Thanks for reading and good luck with your updates!</div>
+
+      </div>
+&nbsp;&nbsp;
+     <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5e6c3f3a09ec2f0013e539d9&product=inline-share-buttons" async="async"></script>
+
+     <div class="sharethis-inline-share-buttons"></div>
+     &nbsp;
+     &nbsp;
+     &nbsp;
+
+     <div class="post-nav-buttons">
+
+  <p>
+    
+      <a href="/2018/02/04/the-mobile-plex-media-server-local.html" class="btn no-bold navButton"><span class="icon nav-btn-icon-left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="430 -22.8 16 16"><path d="M433.4-15.7c-.2.2-.4.5-.4.9 0 .3.1.6.4.9l6.7 6.7c.2.3.5.4.9.4.3 0 .6-.1.9-.4l.8-.8c.3-.2.4-.5.4-.9 0-.3-.1-.6-.4-.9l-5-5 5-5c.3-.2.4-.5.4-.9 0-.3-.1-.6-.4-.9l-.8-.8c-.2-.3-.5-.4-.9-.4-.3 0-.7.1-.9.4l-6.7 6.7z"/></svg></span> Previous: <i>"The Mobile Plex Media ..."</i></a>
+    
+    
+      <a href="/2018/10/10/if-youve-followed-this-blog-for-any.html" class="btn no-bold navButton">Next: <i>"Home Server Update"</i> <span class="icon nav-btn-icon-right"><svg xmlns="http://www.w3.org/2000/svg" viewBox="50.4 -114.8 16 16"><path d="M63.1-107.7l-6.7-6.7c-.2-.3-.6-.4-.9-.4-.4 0-.7.1-.9.4l-.8.8c-.3.3-.4.6-.4.9 0 .4.1.7.4.9l5 5-5 5c-.3.3-.4.6-.4.9 0 .4.1.7.4.9l.8.8c.3.3.6.4.9.4.4 0 .7-.1.9-.4l6.7-6.7c.3-.3.4-.6.4-.9 0-.4-.2-.7-.4-.9z"/></svg></span></a>
+    
+  </p>
+</div>
+
+
+      
+        
+      
+    </article>
+  </div>
+    <script src="/assets/javascripts/post-nav-return-button.js"></script>
+</main>
+
+        </div>
+
+        <div class="search-content">
+          <div class="inner">
+  <label class="visually-hidden" for="search">Site Search</label>
+        <input type="text" id="search" class="search-input" aria-describedby="results-count" tabindex="-1" placeholder="Search..." />
+        <div id="results" class="results"></div>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="site-footer">
+  <div class="inner">
+    <div class="copyright">
+      
+        <p>© 2020 thatvirtualboy. Photo by <a href="https://www.flickr.com/photos/lukeas09/4129402620">Luke Andrew Scowen</a>. Logo by <a href="https://ChristinaKlumph.blogspot.com">Christina Klumph.</a></p>
+
+      
+    </div>
+  </div>
+</footer>
+
+    
+
+<script async src="/assets/javascripts/main.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="http://localhost:4000/assets/javascripts/lunr/lunr.min.js"></script>
+  <script src="http://localhost:4000/assets/javascripts/lunr/lunr.store.js"></script>
+  <script>
+    var idx = lunr(function () {
+      
+      // the, the normal lunr index initialization
+      this.field('title')
+      this.field('excerpt')
+      this.field('categories')
+      this.field('tags')
+      this.ref('id')
+
+      this.pipeline.remove(lunr.trimmer)
+
+      // add documents to index
+      for (var item in store) {
+        this.add({
+          title: store[item].title,
+          excerpt: store[item].excerpt,
+          categories: store[item].categories,
+          tags: store[item].tags,
+          id: item
+        })
+      }
+    });
+
+    $(document).ready(function () {
+      $('input#search').on('keyup', function () {
+        var resultdiv = $('#results');
+        var query = $(this).val().toLowerCase();
+        var result =
+          idx.query(function (q) {
+            query.split(lunr.tokenizer.separator).forEach(function (term) {
+              q.term(term, { boost: 100 })
+              if (query.lastIndexOf(" ") != query.length - 1) {
+                q.term(term, { usePipeline: false, wildcard: lunr.Query.wildcard.TRAILING, boost: 10 })
+              }
+              if (term != "") {
+                q.term(term, { usePipeline: false, editDistance: 1, boost: 1 })
+              }
+            })
+          });
+        resultdiv.empty();
+        resultdiv.prepend('<p id="results-count" class="results-found">' + result.length + ' Result(s) found</p>');
+        for (var item in result) {
+          var ref = result[item].ref;
+          var searchitem =
+            '<article class="entry">' +
+              '<h3 class="entry-title">' +
+                '<a href="' + store[ref].url + '">' + store[ref].title + '</a>' +
+              '</h3>' +
+              '<div class="entry-excerpt">' +
+                '<p>' + store[ref].excerpt.split(" ").splice(0, 20).join(" ") + '...</p>' +
+              '</div>' +
+            '</article>';
+          resultdiv.append(searchitem);
+        }
+      });
+    });
+  </script>
+
+
+
+  </body>
+
+</html>

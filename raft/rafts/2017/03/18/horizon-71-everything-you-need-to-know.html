@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<!--
+    Basically Basic Jekyll Theme 1.4.4
+    Copyright 2017-2018 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+    
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Horizon 7.1 Everything you need to know [Updated] | thatvirtualboy</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Horizon 7.1 Everything you need to know [Updated]" />
+<meta name="author" content="thatvirtualboy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="VMware released the highly anticipated Horizon 7.1 this week and there are all sorts of enhancements and new features related to the next-gen virtual desktop infrastructure. Here’s your one-stop-shop for everything you need to know." />
+<meta property="og:description" content="VMware released the highly anticipated Horizon 7.1 this week and there are all sorts of enhancements and new features related to the next-gen virtual desktop infrastructure. Here’s your one-stop-shop for everything you need to know." />
+<link rel="canonical" href="http://localhost:4000/2017/03/18/horizon-71-everything-you-need-to-know.html" />
+<meta property="og:url" content="http://localhost:4000/2017/03/18/horizon-71-everything-you-need-to-know.html" />
+<meta property="og:site_name" content="thatvirtualboy" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-03-18T02:00:00-06:00" />
+<script type="application/ld+json">
+{"headline":"Horizon 7.1 Everything you need to know [Updated]","dateModified":"2017-03-18T02:00:00-06:00","datePublished":"2017-03-18T02:00:00-06:00","url":"http://localhost:4000/2017/03/18/horizon-71-everything-you-need-to-know.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2017/03/18/horizon-71-everything-you-need-to-know.html"},"author":{"@type":"Person","name":"thatvirtualboy"},"description":"VMware released the highly anticipated Horizon 7.1 this week and there are all sorts of enhancements and new features related to the next-gen virtual desktop infrastructure. Here’s your one-stop-shop for everything you need to know.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/favicon.png"},"name":"thatvirtualboy"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/stylesheets/main.css">
+  
+
+  
+    
+    <link rel="alternate" type="application/atom+xml" title="thatvirtualboy" href="/feed.xml">
+  
+</head>
+
+
+  <body class="layout--post horizon-7-1-everything-you-need-to-know-updated">
+
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+
+    <div class="sidebar-toggle-wrapper">
+      
+        <button class="search-toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <title>Search</title>
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+      
+
+      <button class="toggle navicon-button larr" type="button">
+        <span class="toggle-inner">
+          <span class="sidebar-toggle-label visually-hidden">Menu</span>
+          <span class="navicon"></span>
+        </span>
+      </button>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+      <div class="inner">
+        <nav id="primary-nav" class="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+  <ul id="menu-main-navigation" class="menu">
+    <!-- Home link -->
+    <li class="menu-item">
+      <a href="/" itemprop="url">
+        <span itemprop="name">Home</span>
+      </a>
+    </li>
+
+    <!-- site.pages links -->
+    
+    
+
+    
+      
+      
+        <li class="menu-item">
+          <a href="/about/" itemprop="url">
+            <span itemprop="name">About</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/releasemenu/" itemprop="url">
+            <span itemprop="name">Release Menu</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/tags/" itemprop="url">
+            <span itemprop="name">Tag Archive</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/tools/" itemprop="url">
+            <span itemprop="name">Tools + Apps</span>
+          </a>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+        <ul class="contact-list">
+  
+    <li>
+      <a href="mailto:thatvirtualboy@icloud.com">
+        <span class="icon icon--email"><svg xmlns="http://www.w3.org/2000/svg" viewBox="313.1 3.7 16 16"><path d="M318.5 8.9c0-.2.2-.4.4-.4h4.5c.2 0 .4.2.4.4s-.2.4-.4.4h-4.5c-.3 0-.4-.2-.4-.4zm.4 2.1h4.5c.2 0 .4-.2.4-.4s-.2-.4-.4-.4h-4.5c-.2 0-.4.2-.4.4s.1.4.4.4zm3.5 1.2c0-.2-.2-.4-.4-.4h-3.1c-.2 0-.4.2-.4.4s.2.4.4.4h3.1c.2.1.4-.1.4-.4zm-1.5-8.4l-1.7 1.4c-.2.1-.2.4 0 .6s.4.2.6 0l1.4-1.2 1.4 1.2c.2.1.4.1.6 0s.1-.4 0-.6l-1.7-1.4c-.3-.1-.5-.1-.6 0zm7.8 6.2c.1.1.1.2.1.3v7.9c0 .8-.7 1.5-1.5 1.5h-12.5c-.8 0-1.5-.7-1.5-1.5v-7.9c0-.1.1-.2.1-.3l1.6-1.3c.2-.1.4-.1.6 0s.1.4 0 .6l-1.2 1 1.8 1.3v-4c0-.6.5-1.1 1.1-1.1h7.5c.6 0 1.1.5 1.1 1.1v4l1.8-1.3-1.2-1c-.2-.1-.2-.4 0-.6s.4-.2.6 0l1.6 1.3zm-11.6 2.2l4 2.8 4-2.8V7.6c0-.1-.1-.2-.2-.2h-7.5c-.1 0-.2.1-.2.2v4.6zm10.9-1l-4.7 3.4 3.4 2.6c.2.1.2.4.1.6-.1.2-.4.2-.6.1l-3.6-2.8-1.2.8c-.1.1-.3.1-.5 0l-1.2-.8-3.6 2.8c-.2.1-.4.1-.6-.1-.1-.2-.1-.4.1-.6l3.4-2.6-4.7-3.4v7.1c0 .4.3.6.6.6h12.5c.4 0 .6-.3.6-.6v-7.1z"/></svg></span>
+        <span class="label">Email</span>
+      </a>
+    </li>
+  
+
+  
+    <li><a href="https://github.com/thatvirtualboy">
+  <span class="icon icon--github"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0C3.58 0 0 3.582 0 8c0 3.535 2.292 6.533 5.47 7.59.4.075.547-.172.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.924-.89-1.17-.89-1.17-.725-.496.056-.486.056-.486.803.056 1.225.824 1.225.824.714 1.223 1.873.87 2.33.665.072-.517.278-.87.507-1.07-1.777-.2-3.644-.888-3.644-3.953 0-.873.31-1.587.823-2.147-.09-.202-.36-1.015.07-2.117 0 0 .67-.215 2.2.82.64-.178 1.32-.266 2-.27.68.004 1.36.092 2 .27 1.52-1.035 2.19-.82 2.19-.82.43 1.102.16 1.915.08 2.117.51.56.82 1.274.82 2.147 0 3.073-1.87 3.75-3.65 3.947.28.24.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.14.46.55.38C13.71 14.53 16 11.53 16 8c0-4.418-3.582-8-8-8"/></svg></span>
+  <span class="label">GitHub</span>
+</a>
+</li>
+  
+
+  
+    <li><a href="https://twitter.com/thatvirtualboy">
+  <span class="icon icon--twitter"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.37-1.337.64-2.085.79-.598-.64-1.45-1.04-2.396-1.04-1.812 0-3.282 1.47-3.282 3.28 0 .26.03.51.085.75-2.728-.13-5.147-1.44-6.766-3.42C.83 2.58.67 3.14.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.41-.02-.61-.058.42 1.304 1.63 2.253 3.07 2.28-1.12.88-2.54 1.404-4.07 1.404-.26 0-.52-.015-.78-.045 1.46.93 3.18 1.474 5.04 1.474 6.04 0 9.34-5 9.34-9.33 0-.14 0-.28-.01-.42.64-.46 1.2-1.04 1.64-1.7z" fill-rule="nonzero"/></svg></span>
+  <span class="label">Twitter</span>
+</a>
+</li>
+  
+
+  <li>
+    
+      <a href="/feed.xml" title="Atom Feed">
+        <span class="icon icon--rss"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194 11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0 13.806c0-1.21.983-2.195 2.194-2.195zM10.606 16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"/></svg></span>
+        <span class="label">Subscribe</span>
+      </a>
+    
+  </li>
+</ul>
+
+      </div>
+    </div>
+
+    <div class="canvas">
+      <div class="wrapper">
+        
+
+<header id="masthead">
+  <div class="inner">
+    <div class="title-area">
+      
+        <p class="site-title">
+          <a href="/">
+            <img src="/assets/favicon.png" alt="" class="site-logo">
+            <span>thatvirtualboy</span>
+          </a>
+        </p>
+      
+    </div>
+  </div>
+</header>
+
+        <div class="initial-content">
+          <header class="intro">
+  
+
+  <div class="inner">
+    <div class="intro-text">
+      
+      <h1 id="page-title" class="intro-title">
+  
+    
+      Horizon 7.1
+      Everything you need to know [Updated]
+    
+  
+
+</h1>
+      
+      
+
+      
+        
+
+        <p class="entry-meta">
+          <span class="byline-item">by thatvirtualboy</span><span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="379 72 16 16"><g><g><path fill="none" d="M380.8,86.7h12.3v-8.8h-12.3V86.7z M389.5,78.8h1.7v1.4h-1.7V78.8z M389.5,81.3h1.7v1.4h-1.7V81.3z M389.5,83.8h1.7v1.4h-1.7V83.8z M386.1,78.8h1.7v1.4h-1.7V78.8z M386.1,81.3h1.7v1.4h-1.7V81.3z M386.1,83.8h1.7v1.4h-1.7V83.8z M382.8,78.8h1.7v1.4h-1.7V78.8z M382.8,81.3h1.7v1.4h-1.7V81.3z M382.8,83.8h1.7v1.4h-1.7V83.8z"/><polygon fill="none" points="384.7 75.1 383.4 75.1 383.4 74.3 380.8 74.3 380.8 76.6 393.2 76.6 393.2 74.3 390.6 74.3 390.6 75.1 389.3 75.1 389.3 74.3 384.7 74.3"/><rect x="382.8" y="78.8" width="1.7" height="1.4"/><rect x="386.1" y="78.8" width="1.7" height="1.4"/><rect x="389.5" y="78.8" width="1.7" height="1.4"/><rect x="382.8" y="81.3" width="1.7" height="1.4"/><rect x="386.1" y="81.3" width="1.7" height="1.4"/><rect x="389.5" y="81.3" width="1.7" height="1.4"/><rect x="382.8" y="83.8" width="1.7" height="1.4"/><rect x="386.1" y="83.8" width="1.7" height="1.4"/><rect x="389.5" y="83.8" width="1.7" height="1.4"/><path d="M383.4,72v1.1h-3.8V88h14.9V73.1h-3.8V72h-1.3v1.1h-4.7V72H383.4z M393.2,86.7h-12.3v-8.8h12.3L393.2,86.7L393.2,86.7z M389.3,74.3v0.8h1.3v-0.8h2.5v2.3h-12.3v-2.3h2.5v0.8h1.3v-0.8H389.3z"/></g></g></svg></span><time datetime="2017-03-18T02:00:00-06:00">March 18, 2017</time></span>
+        </p>
+      
+
+      
+
+      
+    </div>
+  </div>
+</header>
+
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+
+    <article class="entry-wrap">
+      <div class="entry-content">
+        <br /><div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-QwoECGAjfp0/WgtzDHZCkeI/AAAAAAAAvyw/1rcjwa1WMCsUOjgLqJrEKtmvZn_9PVDgACLcBGAs/s1600/images.duckduckgo.com.jpeg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="720" data-original-width="1280" height="360" src="https://1.bp.blogspot.com/-QwoECGAjfp0/WgtzDHZCkeI/AAAAAAAAvyw/1rcjwa1WMCsUOjgLqJrEKtmvZn_9PVDgACLcBGAs/s640/images.duckduckgo.com.jpeg" width="640" /></a></div><br />VMware released the highly anticipated <i>Horizon 7.1</i> this week and there are all sorts of enhancements and new features related to the next-gen virtual desktop infrastructure. Here's your one-stop-shop for everything you need to know.<br /><br /><span style="color: red;">[Update]</span> Check out the new <a href="https://www.youtube.com/watch?v=VQBex404gPo" target="_blank">Horizon 7.1 Technical Overview Video</a> on YouTube and ensure sure your environment is configured properly for a successful upgrade.<br /><br /><a href="http://pubs.vmware.com/horizon-71-view/index.jsp#com.vmware.ICbase/Welcome/welcome.html" target="_blank">Horizon 7.1 Official Pubs</a> including installation, upgrades, configuration, and administration.<br /><br />See the official <a href="https://blogs.vmware.com/euc/2017/03/vmware-horizon-7-1-whats-new.html" target="_blank">What's New</a> post hosted on the&nbsp;<a href="https://blogs.vmware.com/euc/" target="_blank">VMware EUC Official Blog</a><br /><br />Always review the <a href="http://pubs.vmware.com/Release_Notes/en/horizon-7-view/horizon-71-view-release-notes.html" target="_blank">Official Release Notes</a> prior to upgrading your environment<br /><br /><i>Credit to Tony Huynh, VMware Director of Horizon Product Management and the EUC Technical Marketing Team</i><br /><h3>Enhancements to Horizon</h3><ul><br /><li>Instant Clone (IC) updates<br /><ul><br /><li>Instant clone support for RDS hosts provides the ability to rapidly provision RDS hosts and build out your RDSH farms.</li><br /><li>Automated maintenance mode allows the administrator to schedule windows and put their RDS hosts in maintenance mode.</li><br /><li>Multi-vLAN support for Instant Clones removes the limitation of 1 vLAN per 1 IC pool, and enables multiple vLANs per pool.</li><br /><li>vGPU-backed Instant Clones provides the option to provision IC desktop pools with vGPU enabled.</li><br /><li>Automatic deletion of Instant Clone parent VMs with host maintenance mode – currently, administrators must manually delete ParentVMs before ESX can go into maintenance mode. This feature eliminates the need for admin intervention.</li></ul></li><br /><li>Unauthenticated Access - allows users to directly access their RDSH applications without having to logon using Windows AD credentials. This preserves workflows for nurses and doctors using kiosk stations (Windows and Linux clients only).</li><br /><li>RDSH Application Icon Customization - administrators can now customize the icon for their RDSH Applications.</li><br /><li>Windows Server 2016 support for Horizon infrastructure - deploy Horizon Broker and Composer using Windows Server 2016.</li><br /><li>Enterprise scale Cloud Pod Architecture (CPA) – increases the scale for CPA up to 75k sessions across 5 sites</li><br /><li>Support for ADMX files - upgrade to ADMX files, which are used exclusively by Windows 10, 2012, 2016.</li><br /><li>Support of tags for global entitlements in CPA – supports the use of tags to allow the administrator to control desktop accessed based on admin-specified attributes and extends support for global entitlement in CPA environments.</li><br /><li>Protect full clone pools with vSphere VM encryption – for environments running vSphere 6.5 and above, VMware has qualified and now support encryption with full clone pools.</li><br /><li>Horizon desktop restart – allows users to restart their virtual desktop from the client menu without administrative intervention.</li><br /><li>Horizon PowerCLI updates – instead of requiring a separate package to support PowerShell, Horizon 7 now provides an integrated module included in VMware PowerCLI 6.5 R1.&nbsp; These PowerCLI samples have now been posted to GitHub to be shared with community.</li></ul><br /><h3>Unified Access Gateway (UAG) 2.9.1</h3><ul><br /><li>Formerly known as Access Point</li><br /><li>Blast Extreme Adaptive Transport (BEAT) support – supports a new release of Blast Extreme.</li><br /><li>FIPs OVA - Separate OVA for FIPS-140-2 with restrictive functionality with only PSG support available in this release, BSG support will be released in patch v2.9.1</li><br /><li>Admin User Interface (UI) - minimal UI enhancements<br /><ul><br /><li>To make deployment and troubleshooting easy, new health status for services and backend resources using color coding has been added in the UI</li><br /><li>Ability to change log levels from UI for ease of debugging</li></ul></li><br /><li>Access to on premise legacy apps - Supports access to on premise legacy apps using headers and Kerberos based authentication. UAG acts as Identity Bridge to convert SAML to Kerberos or headers for back end resources access.</li><br /><li>Security enhancements - SLES 12 SP2 with updated opens’ version.</li><br /><li>Hyper-V support - Provides additional flexibility and footprint for UAG in Microsoft environments. Current release only AirWatch uses cases has been qualified by QE. Horizon use cases to be qualified in future</li></ul><h3>Blast Extreme Updates</h3><ul><li>Blast Extreme Adaptive Transport (BEAT) – a new end-to-end protocol optimized for LAN and WAN environments, while delivering higher frame rates, faster file transfers and consuming up to 50% less bandwidth.</li><br /><li>UDP-based transport is specially designed for low bandwidth, high latency, and high packet loss networks. UDP mode is only available with the Unified Access Gateway.</li><br /><li>Over 4X faster file transfers for transcontinental connections and over 6X faster file transfers for intercontinental connections when compared to Horizon 7.0.2.</li><br /><li>Automatically connects using UDP (primary) or TCP (secondary) transport protocol.</li><br /><li>Intelligent error correction for increased data reliability.</li><br /><li>Enterprise level security with SSL web sockets<br /><ul><br /><li>AES encryption for TCP</li><br /><li>DTLS encryption for UDP</li></ul></li><br /><li>Available across all Horizon desktop and mobile clients</li></ul><br /><h3>Remote Experience Updates</h3><ul><br /><li>Skype for Business (beta release) – with the new VMware Horizonâ Virtualization Pack for Skype for Business, customers can now communicate using rich audio and video codecs native to Skype. This initial release is only available for Windows clients. For more information, please refer to the Skype beta community page - <a href="https://communities.vmware.com/community/vmtn/beta/horizon-skype4business-beta/overview">https://communities.vmware.com/community/vmtn/beta/horizon-skype4business-beta/overview</a></li><br /><li>User login enhancements – allows administrators to hide domain name from login list for increased security. Users can login using &lt;domain name&gt;/&lt;user name&gt; to access their desktops and apps.</li><br /><li>Windows 10 Aero Peak and Aero Snap – allows users to take advantage of Windows 10 enhancements.</li></ul><br /><h3>Horizon Client Updates</h3><ul><li>Windows 4.4 client updates<br /><ul><br /><li>Support for Unauthenticated Access with Horizon Apps</li><br /><li>Support for multiple proxy servers configured with proxy auto-config (PAC) file</li><br /><li>Hide domain list and server URL from client UI for enhanced security</li><br /><li>Support &lt;domain&gt;/&lt;user name&gt; format in username field</li><br /><li>Desktop restart option from client menu</li><br /><li>Resolution helper to show the resolution of virtual desktop</li><br /><li>Aero snap-assist mode in Windows 10</li><br /><li>Support for Aero Peak</li></ul></li><br /><li>Mac 4.4 client updates<br /><ul><br /><li>Biometric authentication support with Touch ID</li><br /><li>Touch bar integration for enhanced user experience</li><br /><li>Hide domain list and server URL from client UI for enhanced security</li><br /><li>Support &lt;domain&gt;/&lt;user name&gt; format in username field</li><br /><li>Desktop restart option from client menu</li><br /><li>Automatic client update</li></ul></li><br /><li>Linux 4.4 client updates<br /><ul><br /><li>Unauthenticated Access for Horizon Apps</li><br /><li>Support for Ubuntu 16.0 x86_64</li><br /><li>Support for RHEL 7.3 x86_64</li><br /><li>Hide domain list and server URL from client UI for enhanced security</li><br /><li>Support &lt;domain&gt;/&lt;user name&gt; format in username field</li><br /><li>Desktop restart option from client menu</li><br /><li>USB redirection UI for Horizon Apps</li></ul></li><br /><li>iOS 4.4 client updates<br /><ul><br /><li>New widget to easily launch Desktops and Apps</li><br /><li>Push default user name to client with Airwatch using AppConfig</li><br /><li>Hide domain list and server URL from client UI for enhanced security</li><br /><li>Support &lt;domain&gt;/&lt;user name&gt; format in username field</li><br /><li>Desktop restart option from client menu</li><br /><li>Support App Transport Security (ATS) for enhanced security</li></ul></li><br /><li>Android 4.4 client updates<br /><ul><br /><li>Support for multiple monitors (2 monitors) – Tech Preview</li><br /><li>Immersive full screen experience and system mouse icon</li><br /><li>Hide domain list and server URL from client UI for enhanced security</li><br /><li>Support &lt;domain&gt;/&lt;user name&gt; format in username field</li><br /><li>Desktop restart option from client menu</li><br /><li>Preservation of sidebar and touch ball position</li><br /><li>Connect to PCoIP secure gateway with FQDN</li></ul></li><br /><li>Chrome 4.4 client updates<br /><ul><br /><li>Support for multiple monitors (2 monitors) – Tech Preview</li><br /><li>Hide domain list and server URL from client UI for enhanced security</li><br /><li>Support &lt;domain&gt;/&lt;user name&gt; format in username field</li><br /><li>Desktop restart option from client menu</li><br /><li>Connect to PCoIP secure gateway with FQDN</li></ul></li><br /><li>HTML 4.4 Access<br /><ul><br /><li>UX redesign for enhanced user experience</li><br /><li>Hide domain list from client UI for enhanced security</li><br /><li>Support &lt;domain&gt;/&lt;user name&gt; format in username field</li><br /><li>DPI Sync to deliver extremely sharp graphics and text</li><br /><li>Desktop restart option from client menu</li><br /><li>Support for multiple monitors (2 monitors with 2560*1600) – Tech Preview</li></ul></li><br /><li>Windows 10 4.4 UWP client updates<br /><ul><br /><li>Support for Xbox One device</li><br /><li>PCoIP General Availability</li><br /><li>Pin Horizon client to start menu</li><br /><li>Launch UWP client from Workspace ONE portal with vIDM integration</li><br /><li>Screen rotation support for enhanced user experience</li><br /><li>Enhanced stability and performance with H.264 codec of Blast Protocol</li></ul></li></ul><br /><h3>Horizon for Linux Updates</h3><ul><li>Support for USB redirection – Tech Preview</li><br /><li>Support for CDR – Tech Preview</li><br /><li>SSO with Ubuntu 14.04 and 16.04</li><br /><li>Keyboard layout and locale sync-up</li><br /><li>Support RHEL 7.3 x84_64 as guest OS</li><br /><li>Support Cent OS 7.3 x84_64 as guest OS</li><br /><li>Support for SUSE Linux Enterprise Desktop/Server 12 SP2 as guest OS</li></ul><br />
+
+      </div>
+&nbsp;&nbsp;
+     <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5e6c3f3a09ec2f0013e539d9&product=inline-share-buttons" async="async"></script>
+
+     <div class="sharethis-inline-share-buttons"></div>
+     &nbsp;
+     &nbsp;
+     &nbsp;
+
+     <div class="post-nav-buttons">
+
+  <p>
+    
+      <a href="/2017/01/17/my-top-10-horizon-view-tips.html" class="btn no-bold navButton"><span class="icon nav-btn-icon-left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="430 -22.8 16 16"><path d="M433.4-15.7c-.2.2-.4.5-.4.9 0 .3.1.6.4.9l6.7 6.7c.2.3.5.4.9.4.3 0 .6-.1.9-.4l.8-.8c.3-.2.4-.5.4-.9 0-.3-.1-.6-.4-.9l-5-5 5-5c.3-.2.4-.5.4-.9 0-.3-.1-.6-.4-.9l-.8-.8c-.2-.3-.5-.4-.9-.4-.3 0-.7.1-.9.4l-6.7 6.7z"/></svg></span> Previous: <i>"My Top 10 Horizon View..."</i></a>
+    
+    
+      <a href="/2017/08/07/mapping-vmware-updates-and-tools-to.html" class="btn no-bold navButton">Next: <i>"Mapping VMware Updates and..."</i> <span class="icon nav-btn-icon-right"><svg xmlns="http://www.w3.org/2000/svg" viewBox="50.4 -114.8 16 16"><path d="M63.1-107.7l-6.7-6.7c-.2-.3-.6-.4-.9-.4-.4 0-.7.1-.9.4l-.8.8c-.3.3-.4.6-.4.9 0 .4.1.7.4.9l5 5-5 5c-.3.3-.4.6-.4.9 0 .4.1.7.4.9l.8.8c.3.3.6.4.9.4.4 0 .7-.1.9-.4l6.7-6.7c.3-.3.4-.6.4-.9 0-.4-.2-.7-.4-.9z"/></svg></span></a>
+    
+  </p>
+</div>
+
+
+      
+        
+      
+    </article>
+  </div>
+    <script src="/assets/javascripts/post-nav-return-button.js"></script>
+</main>
+
+        </div>
+
+        <div class="search-content">
+          <div class="inner">
+  <label class="visually-hidden" for="search">Site Search</label>
+        <input type="text" id="search" class="search-input" aria-describedby="results-count" tabindex="-1" placeholder="Search..." />
+        <div id="results" class="results"></div>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="site-footer">
+  <div class="inner">
+    <div class="copyright">
+      
+        <p>© 2020 thatvirtualboy. Photo by <a href="https://www.flickr.com/photos/lukeas09/4129402620">Luke Andrew Scowen</a>. Logo by <a href="https://ChristinaKlumph.blogspot.com">Christina Klumph.</a></p>
+
+      
+    </div>
+  </div>
+</footer>
+
+    
+
+<script async src="/assets/javascripts/main.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="http://localhost:4000/assets/javascripts/lunr/lunr.min.js"></script>
+  <script src="http://localhost:4000/assets/javascripts/lunr/lunr.store.js"></script>
+  <script>
+    var idx = lunr(function () {
+      
+      // the, the normal lunr index initialization
+      this.field('title')
+      this.field('excerpt')
+      this.field('categories')
+      this.field('tags')
+      this.ref('id')
+
+      this.pipeline.remove(lunr.trimmer)
+
+      // add documents to index
+      for (var item in store) {
+        this.add({
+          title: store[item].title,
+          excerpt: store[item].excerpt,
+          categories: store[item].categories,
+          tags: store[item].tags,
+          id: item
+        })
+      }
+    });
+
+    $(document).ready(function () {
+      $('input#search').on('keyup', function () {
+        var resultdiv = $('#results');
+        var query = $(this).val().toLowerCase();
+        var result =
+          idx.query(function (q) {
+            query.split(lunr.tokenizer.separator).forEach(function (term) {
+              q.term(term, { boost: 100 })
+              if (query.lastIndexOf(" ") != query.length - 1) {
+                q.term(term, { usePipeline: false, wildcard: lunr.Query.wildcard.TRAILING, boost: 10 })
+              }
+              if (term != "") {
+                q.term(term, { usePipeline: false, editDistance: 1, boost: 1 })
+              }
+            })
+          });
+        resultdiv.empty();
+        resultdiv.prepend('<p id="results-count" class="results-found">' + result.length + ' Result(s) found</p>');
+        for (var item in result) {
+          var ref = result[item].ref;
+          var searchitem =
+            '<article class="entry">' +
+              '<h3 class="entry-title">' +
+                '<a href="' + store[ref].url + '">' + store[ref].title + '</a>' +
+              '</h3>' +
+              '<div class="entry-excerpt">' +
+                '<p>' + store[ref].excerpt.split(" ").splice(0, 20).join(" ") + '...</p>' +
+              '</div>' +
+            '</article>';
+          resultdiv.append(searchitem);
+        }
+      });
+    });
+  </script>
+
+
+
+  </body>
+
+</html>

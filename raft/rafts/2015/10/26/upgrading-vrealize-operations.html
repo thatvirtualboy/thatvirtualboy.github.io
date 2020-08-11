@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<!--
+    Basically Basic Jekyll Theme 1.4.4
+    Copyright 2017-2018 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+    
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Upgrading vRealize Operations | thatvirtualboy</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Upgrading vRealize Operations" />
+<meta name="author" content="thatvirtualboy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Guest Post Ahead! vRealize Operations (formerly known as vCenter Operations Manager) is an indispensable tool for monitoring a VMware environment. The upgrade process between recent versions is riddled with pitfalls, however. Here, I will cover the process and make notes of all the gotchas so that you can have as smooth of an experience as possible." />
+<meta property="og:description" content="Guest Post Ahead! vRealize Operations (formerly known as vCenter Operations Manager) is an indispensable tool for monitoring a VMware environment. The upgrade process between recent versions is riddled with pitfalls, however. Here, I will cover the process and make notes of all the gotchas so that you can have as smooth of an experience as possible." />
+<link rel="canonical" href="http://localhost:4000/2015/10/26/upgrading-vrealize-operations.html" />
+<meta property="og:url" content="http://localhost:4000/2015/10/26/upgrading-vrealize-operations.html" />
+<meta property="og:site_name" content="thatvirtualboy" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2015-10-26T04:44:00-06:00" />
+<script type="application/ld+json">
+{"headline":"Upgrading vRealize Operations","dateModified":"2015-10-26T04:44:00-06:00","datePublished":"2015-10-26T04:44:00-06:00","url":"http://localhost:4000/2015/10/26/upgrading-vrealize-operations.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2015/10/26/upgrading-vrealize-operations.html"},"author":{"@type":"Person","name":"thatvirtualboy"},"description":"Guest Post Ahead! vRealize Operations (formerly known as vCenter Operations Manager) is an indispensable tool for monitoring a VMware environment. The upgrade process between recent versions is riddled with pitfalls, however. Here, I will cover the process and make notes of all the gotchas so that you can have as smooth of an experience as possible.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/favicon.png"},"name":"thatvirtualboy"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/stylesheets/main.css">
+  
+
+  
+    
+    <link rel="alternate" type="application/atom+xml" title="thatvirtualboy" href="/feed.xml">
+  
+</head>
+
+
+  <body class="layout--post upgrading-vrealize-operations">
+
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+
+    <div class="sidebar-toggle-wrapper">
+      
+        <button class="search-toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <title>Search</title>
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+      
+
+      <button class="toggle navicon-button larr" type="button">
+        <span class="toggle-inner">
+          <span class="sidebar-toggle-label visually-hidden">Menu</span>
+          <span class="navicon"></span>
+        </span>
+      </button>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+      <div class="inner">
+        <nav id="primary-nav" class="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+  <ul id="menu-main-navigation" class="menu">
+    <!-- Home link -->
+    <li class="menu-item">
+      <a href="/" itemprop="url">
+        <span itemprop="name">Home</span>
+      </a>
+    </li>
+
+    <!-- site.pages links -->
+    
+    
+
+    
+      
+      
+        <li class="menu-item">
+          <a href="/about/" itemprop="url">
+            <span itemprop="name">About</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/releasemenu/" itemprop="url">
+            <span itemprop="name">Release Menu</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/tags/" itemprop="url">
+            <span itemprop="name">Tag Archive</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/tools/" itemprop="url">
+            <span itemprop="name">Tools + Apps</span>
+          </a>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+        <ul class="contact-list">
+  
+    <li>
+      <a href="mailto:thatvirtualboy@icloud.com">
+        <span class="icon icon--email"><svg xmlns="http://www.w3.org/2000/svg" viewBox="313.1 3.7 16 16"><path d="M318.5 8.9c0-.2.2-.4.4-.4h4.5c.2 0 .4.2.4.4s-.2.4-.4.4h-4.5c-.3 0-.4-.2-.4-.4zm.4 2.1h4.5c.2 0 .4-.2.4-.4s-.2-.4-.4-.4h-4.5c-.2 0-.4.2-.4.4s.1.4.4.4zm3.5 1.2c0-.2-.2-.4-.4-.4h-3.1c-.2 0-.4.2-.4.4s.2.4.4.4h3.1c.2.1.4-.1.4-.4zm-1.5-8.4l-1.7 1.4c-.2.1-.2.4 0 .6s.4.2.6 0l1.4-1.2 1.4 1.2c.2.1.4.1.6 0s.1-.4 0-.6l-1.7-1.4c-.3-.1-.5-.1-.6 0zm7.8 6.2c.1.1.1.2.1.3v7.9c0 .8-.7 1.5-1.5 1.5h-12.5c-.8 0-1.5-.7-1.5-1.5v-7.9c0-.1.1-.2.1-.3l1.6-1.3c.2-.1.4-.1.6 0s.1.4 0 .6l-1.2 1 1.8 1.3v-4c0-.6.5-1.1 1.1-1.1h7.5c.6 0 1.1.5 1.1 1.1v4l1.8-1.3-1.2-1c-.2-.1-.2-.4 0-.6s.4-.2.6 0l1.6 1.3zm-11.6 2.2l4 2.8 4-2.8V7.6c0-.1-.1-.2-.2-.2h-7.5c-.1 0-.2.1-.2.2v4.6zm10.9-1l-4.7 3.4 3.4 2.6c.2.1.2.4.1.6-.1.2-.4.2-.6.1l-3.6-2.8-1.2.8c-.1.1-.3.1-.5 0l-1.2-.8-3.6 2.8c-.2.1-.4.1-.6-.1-.1-.2-.1-.4.1-.6l3.4-2.6-4.7-3.4v7.1c0 .4.3.6.6.6h12.5c.4 0 .6-.3.6-.6v-7.1z"/></svg></span>
+        <span class="label">Email</span>
+      </a>
+    </li>
+  
+
+  
+    <li><a href="https://github.com/thatvirtualboy">
+  <span class="icon icon--github"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0C3.58 0 0 3.582 0 8c0 3.535 2.292 6.533 5.47 7.59.4.075.547-.172.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.924-.89-1.17-.89-1.17-.725-.496.056-.486.056-.486.803.056 1.225.824 1.225.824.714 1.223 1.873.87 2.33.665.072-.517.278-.87.507-1.07-1.777-.2-3.644-.888-3.644-3.953 0-.873.31-1.587.823-2.147-.09-.202-.36-1.015.07-2.117 0 0 .67-.215 2.2.82.64-.178 1.32-.266 2-.27.68.004 1.36.092 2 .27 1.52-1.035 2.19-.82 2.19-.82.43 1.102.16 1.915.08 2.117.51.56.82 1.274.82 2.147 0 3.073-1.87 3.75-3.65 3.947.28.24.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.14.46.55.38C13.71 14.53 16 11.53 16 8c0-4.418-3.582-8-8-8"/></svg></span>
+  <span class="label">GitHub</span>
+</a>
+</li>
+  
+
+  
+    <li><a href="https://twitter.com/thatvirtualboy">
+  <span class="icon icon--twitter"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.37-1.337.64-2.085.79-.598-.64-1.45-1.04-2.396-1.04-1.812 0-3.282 1.47-3.282 3.28 0 .26.03.51.085.75-2.728-.13-5.147-1.44-6.766-3.42C.83 2.58.67 3.14.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.41-.02-.61-.058.42 1.304 1.63 2.253 3.07 2.28-1.12.88-2.54 1.404-4.07 1.404-.26 0-.52-.015-.78-.045 1.46.93 3.18 1.474 5.04 1.474 6.04 0 9.34-5 9.34-9.33 0-.14 0-.28-.01-.42.64-.46 1.2-1.04 1.64-1.7z" fill-rule="nonzero"/></svg></span>
+  <span class="label">Twitter</span>
+</a>
+</li>
+  
+
+  <li>
+    
+      <a href="/feed.xml" title="Atom Feed">
+        <span class="icon icon--rss"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194 11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0 13.806c0-1.21.983-2.195 2.194-2.195zM10.606 16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"/></svg></span>
+        <span class="label">Subscribe</span>
+      </a>
+    
+  </li>
+</ul>
+
+      </div>
+    </div>
+
+    <div class="canvas">
+      <div class="wrapper">
+        
+
+<header id="masthead">
+  <div class="inner">
+    <div class="title-area">
+      
+        <p class="site-title">
+          <a href="/">
+            <img src="/assets/favicon.png" alt="" class="site-logo">
+            <span>thatvirtualboy</span>
+          </a>
+        </p>
+      
+    </div>
+  </div>
+</header>
+
+        <div class="initial-content">
+          <header class="intro">
+  
+
+  <div class="inner">
+    <div class="intro-text">
+      
+      <h1 id="page-title" class="intro-title">Upgrading vRealize Operations
+</h1>
+      
+      
+
+      
+        
+
+        <p class="entry-meta">
+          <span class="byline-item">by thatvirtualboy</span><span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="379 72 16 16"><g><g><path fill="none" d="M380.8,86.7h12.3v-8.8h-12.3V86.7z M389.5,78.8h1.7v1.4h-1.7V78.8z M389.5,81.3h1.7v1.4h-1.7V81.3z M389.5,83.8h1.7v1.4h-1.7V83.8z M386.1,78.8h1.7v1.4h-1.7V78.8z M386.1,81.3h1.7v1.4h-1.7V81.3z M386.1,83.8h1.7v1.4h-1.7V83.8z M382.8,78.8h1.7v1.4h-1.7V78.8z M382.8,81.3h1.7v1.4h-1.7V81.3z M382.8,83.8h1.7v1.4h-1.7V83.8z"/><polygon fill="none" points="384.7 75.1 383.4 75.1 383.4 74.3 380.8 74.3 380.8 76.6 393.2 76.6 393.2 74.3 390.6 74.3 390.6 75.1 389.3 75.1 389.3 74.3 384.7 74.3"/><rect x="382.8" y="78.8" width="1.7" height="1.4"/><rect x="386.1" y="78.8" width="1.7" height="1.4"/><rect x="389.5" y="78.8" width="1.7" height="1.4"/><rect x="382.8" y="81.3" width="1.7" height="1.4"/><rect x="386.1" y="81.3" width="1.7" height="1.4"/><rect x="389.5" y="81.3" width="1.7" height="1.4"/><rect x="382.8" y="83.8" width="1.7" height="1.4"/><rect x="386.1" y="83.8" width="1.7" height="1.4"/><rect x="389.5" y="83.8" width="1.7" height="1.4"/><path d="M383.4,72v1.1h-3.8V88h14.9V73.1h-3.8V72h-1.3v1.1h-4.7V72H383.4z M393.2,86.7h-12.3v-8.8h12.3L393.2,86.7L393.2,86.7z M389.3,74.3v0.8h1.3v-0.8h2.5v2.3h-12.3v-2.3h2.5v0.8h1.3v-0.8H389.3z"/></g></g></svg></span><time datetime="2015-10-26T04:44:00-06:00">October 26, 2015</time></span>
+        </p>
+      
+
+      
+
+      
+    </div>
+  </div>
+</header>
+
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+
+    <article class="entry-wrap">
+      <div class="entry-content">
+        vRealize Operations (formerly known as vCenter Operations Manager) is an indispensable tool for monitoring a VMware environment. The upgrade process between recent versions is riddled with pitfalls, however. Here, I will cover the process and make notes of all the gotchas so that you can have as smooth of an experience as possible.<br/><br/>The upgrade process goes from 5.x -&gt; 5.8.1+ -&gt; 6.0.x -&gt; 6.2.<br/><h2>Upgrading from 5.x to 5.8.5</h2><br/><b>Prerequisites and Common Pitfalls:</b><br/><ul><br/>	<li>You should change your admin password before attempting the upgrade. New security policies that come with this upgrade will expire older passwords for admin. It must be a complex password that you have not used before. <a href="http://kb.vmware.com/kb/2013358" target="_blank">http://kb.vmware.com/kb/2013358</a></li><br/>	<li>You should ensure that you have a good amount of free disk space on the UI and Analytics VMs. You can check this with “df -h” on the command line.<br/><ul><br/>	<li>Appliances that were originally deployed as 5.6 and earlier had a smaller root partition that may get filled by the update. If you run into any issues caused by this, you can follow <a href="http://kb.vmware.com/kb/2074688" target="_blank">http://kb.vmware.com/kb/2074688</a></li><br/>	<li>If the /data partition is &gt;85% full on either VM, you should add a disk and reboot. Boot-time scripts will handle data volume expansion onto new disks for you.</li><br/></ul><br/></li><br/></ul><br/><b>Steps to Upgrade:</b><br/><ol><br/>	<li>Take a snapshot of both VMs.</li><br/>	<li>Follow the instructions in the release notes for the upgrade at <a href="https://www.vmware.com/support/vcops/doc/vcops-585-vapp-release-notes.html#upgrade" target="_blank">https://www.vmware.com/support/vcops/doc/vcops-585-vapp-release-notes.html#upgrade</a></li><br/>	<li>After ensuring that you can get in to the UI, delete the snapshots.</li><br/></ol><br/><h2>Migrating data from 5.8.1+ to 6.0.x</h2><br/><b>Prerequisites and Common Pitfalls:</b><br/><ul><br/>	<li>You must be migrating from version 5.8.1 or higher. The data migration will be more reliable with version 5.8.5, but is known to work with all versions from 5.8.1+.</li><br/>	<li>You must have forward and reverse DNS entries in place for your source 5.8.1+ VMs, as well as for every node in your new 6.0.x cluster.</li><br/>	<li>Please size your nodes appropriately per the handy Excel spreadsheet attached to the bottom of <a href="http://kb.vmware.com/kb/2130551" target="_blank">http://kb.vmware.com/kb/2130551</a></li><br/>	<li>When naming and addressing your version 6 nodes, please note:<br/><ul><br/>	<li>Node and host names can not have underscores</li><br/>	<li>The roles of a node are subject to change, so naming a node according to a role may get confusing in the future.</li><br/>	<li>Node names are extremely difficult to change, and attempting to do so is quite likely to break things.</li><br/></ul><br/></li><br/>	<li>All nodes of a vROps 6 cluster (with the exception of remote collectors) must be on the same physical LAN (&gt;1MS latency <span style="text-decoration:underline;"><strong><i>will</i></strong></span> cause problems) and must not be separated by a firewall.</li><br/>	<li>You should change your admin password on 5.8.1+ before attempting the migration. An expired password is common, sometimes difficult to identify, and will cause vague errors. It must be a complex password that you have not used before. <a href="http://kb.vmware.com/kb/2013358" target="_blank">http://kb.vmware.com/kb/2013358</a></li><br/>	<li>If you suspect that performance may be an issue, stopping DT calculation and new data collection on the 5.8.1+ appliance will improve the speed of the data migration greatly. <a href="http://kb.vmware.com/kb/2040008" target="_blank">http://kb.vmware.com/kb/2040008</a></li><br/>	<li>Although it is not supposed to be an issue anymore, there are some cases where DNS resolution does not work properly and this KB may still be necessary: <a href="http://kb.vmware.com/kb/2100944" target="_blank">http://kb.vmware.com/kb/2100944</a></li><br/></ul><br/><b>Steps to upgrade:</b><br/><ol><br/>	<li>Install the latest version of 6.0.x per the documentation at <a href="http://pubs.vmware.com/vrealizeoperationsmanager-6/index.jsp" target="_blank">http://pubs.vmware.com/vrealizeoperationsmanager-6/index.jsp</a></li><br/>	<li>After you bring your cluster online, you will be presented with a wizard. Don’t select the option for importing data or enter a license key when it asks you. Even though you are going to import data and probably have a license key, it is more reliable to do these things after the setup wizard completes in my experience.</li><br/>	<li>Go to Administration&gt;Solutions and select the tab called “Import Data”</li><br/>	<li>Follow the prompts for importing data.</li><br/>	<li>Once the import is complete, you can run the old 5.8 instance in parallel with 6.0 until you are comfortable with the results, then delete the 5.8 instance when you are ready.</li><br/></ol><br/><h2>Upgrading from 6.x to 6.2</h2><br/><b>Prerequisites and Common Pitfalls:</b><br/><ul><br/>	<li>Because the upgrade process will convert two of the databases to another type and not delete the source data sets (in case of issues), you must plan for this extra disk space to be consumed.<br/><ul><br/>	<li>To calculate how much extra space will be consumed by the database conversion, you can log in to the shell of each data/master/replica node and run:<br/>$  du -sch $STORAGE/db/vcops/*xdb* | tail -n1<br/>You should add around 10% to this value to be safe, which is in addition to the 15% total free space you ought to maintain on /storage/db for general stability.</li><br/>	<li>To check how much total free space is available on the system, run:<br/>$ df -h $STORAGE/db</li><br/></ul><br/></li><br/>	<li>If you have nodes that are separated by slow, latent, or unreliable links, the update may time out when the master node pushes the update out to them. This will be apparent if the upgrade fails without presenting you with an EULA. You can pre-stage the update pak files to work around this: <a href="http://kb.vmware.com/kb/2127895" target="_blank">http://kb.vmware.com/kb/2127895</a></li><br/>	<li><del>There are a few instances where upgrading to 6.2 or 6.2a will take an indefinite amount of time to complete. If your upgrade takes more than 24 hours to complete, please contact VMware support. They will be able to help finish the upgrade.</del><br/>This is fixed in 6.2.1.</li><br/>	<li>These should no longer be necessary, but I'll leaving them here for reference:<br/><ul><br/>	<li>Previous updates, patches and add-on Management Packs may cause issues if their files still linger in your update queue. To avoid issues with this, you should log in to each node via console or SSH and move the pak files in “$STORAGE/db/casa/pak/dist_pak_files/” somewhere else.</li><br/>	<li>Large database blobs from a previous data migration may choke the update process. <a href="http://kb.vmware.com/kb/2132479" target="_blank">http://kb.vmware.com/kb/2132479</a></li><br/>	<li>The cluster state files may have some malformed data in them. <a href="http://kb.vmware.com/kb/2106950">http://kb.vmware.com/kb/2106950</a></li><br/>	<li>Expired projects may cause an upgrade failure when going from 6.1 to 6.2 <a href="http://kb.vmware.com/kb/2136536" target="_blank">http://kb.vmware.com/kb/2136536</a></li><br/>	<li>There may be a malformed upgrade state file from previous versions. You should remove this before upgrading. <a href="http://kb.vmware.com/kb/2120616" target="_blank">http://kb.vmware.com/kb/2120616</a></li><br/>	<li>I have a script that can automate many of the above tasks and more at<br/><a href="https://github.com/nakedhitman/vrops-cluster-repair" target="_blank">https://github.com/nakedhitman/vrops-cluster-repair</a></li><br/></ul><br/></li><br/></ul><br/><b>Steps to upgrade:</b><br/><ol><br/>	<li>Take a snapshot of all your nodes.</li><br/>	<li><strong>Install the OS Update pak file. </strong>(This step is very important and <span style="text-decoration:underline;">must be done before the application update</span>.)</li><br/>	<li>Install the Application Update pak file.<br/><ol><br/>	<li>Ensure that you check both the boxes so that the “Reset out of the box content” option is selected. If you do not do this, some parts of the system may not be upgraded. This will not affect custom dashboards or other user-created content. Only the content that ships with the system that you ought not to have changed will be affected. If you do have customizations to the built-in content, you can clone them to preserve your changes.</li><br/></ol><br/></li><br/>	<li>Log in to the product UI as admin and ensure that your dashboards, adapter instances, and other data are present and working as expected.<br/><ol><br/>	<li>If it makes you go through the first run setup wizard again: don’t panic, its probably fine. Just choose evaluation mode and complete the wizard. Everything should be there when it’s complete. <a href="http://kb.vmware.com/kb/2132452" target="_blank">http://kb.vmware.com/kb/2132452</a></li><br/>	<li>If you end up with vCenter adapter instances that cannot be configured, missing dashboards or licenses, or end up loosing historical data, you should revert your snapshot and tell VMware about it immediately. If you don’t have a support contract, then make some noise on the communities site. VMware pays attention to this stuff and wants to prevent it from happening.</li><br/></ol><br/></li><br/>	<li>Once you’re sure that everything is running OK, delete the snapshots.</li><br/></ol><br/><h2>Conclusion</h2><br/>Although the upgrade process is a bit of an ordeal that can consume a good chunk of time, the features, stability, and performance of a <i>successful</i> upgrade really are worth it. VMware is working hard to make it better, and does listen to the things that are said on the <a href="https://communities.vmware.com/community/vmtn/vcenter/vcops" target="_blank">communities site</a> should you have any issues.
+
+      </div>
+&nbsp;&nbsp;
+     <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5e6c3f3a09ec2f0013e539d9&product=inline-share-buttons" async="async"></script>
+
+     <div class="sharethis-inline-share-buttons"></div>
+     &nbsp;
+     &nbsp;
+     &nbsp;
+
+     <div class="post-nav-buttons">
+
+  <p>
+    
+      <a href="/2015/10/13/horizon-collector-for-mac-now-on-vmware.html" class="btn no-bold navButton"><span class="icon nav-btn-icon-left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="430 -22.8 16 16"><path d="M433.4-15.7c-.2.2-.4.5-.4.9 0 .3.1.6.4.9l6.7 6.7c.2.3.5.4.9.4.3 0 .6-.1.9-.4l.8-.8c.3-.2.4-.5.4-.9 0-.3-.1-.6-.4-.9l-5-5 5-5c.3-.2.4-.5.4-.9 0-.3-.1-.6-.4-.9l-.8-.8c-.2-.3-.5-.4-.9-.4-.3 0-.7.1-.9.4l-6.7 6.7z"/></svg></span> Previous: <i>"Horizon Collector for ..."</i></a>
+    
+    
+      <a href="/2015/11/05/why-vmware-premier-services.html" class="btn no-bold navButton">Next: <i>"Why VMware Premier Services?"</i> <span class="icon nav-btn-icon-right"><svg xmlns="http://www.w3.org/2000/svg" viewBox="50.4 -114.8 16 16"><path d="M63.1-107.7l-6.7-6.7c-.2-.3-.6-.4-.9-.4-.4 0-.7.1-.9.4l-.8.8c-.3.3-.4.6-.4.9 0 .4.1.7.4.9l5 5-5 5c-.3.3-.4.6-.4.9 0 .4.1.7.4.9l.8.8c.3.3.6.4.9.4.4 0 .7-.1.9-.4l6.7-6.7c.3-.3.4-.6.4-.9 0-.4-.2-.7-.4-.9z"/></svg></span></a>
+    
+  </p>
+</div>
+
+
+      
+        
+      
+    </article>
+  </div>
+    <script src="/assets/javascripts/post-nav-return-button.js"></script>
+</main>
+
+        </div>
+
+        <div class="search-content">
+          <div class="inner">
+  <label class="visually-hidden" for="search">Site Search</label>
+        <input type="text" id="search" class="search-input" aria-describedby="results-count" tabindex="-1" placeholder="Search..." />
+        <div id="results" class="results"></div>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="site-footer">
+  <div class="inner">
+    <div class="copyright">
+      
+        <p>© 2020 thatvirtualboy. Photo by <a href="https://www.flickr.com/photos/lukeas09/4129402620">Luke Andrew Scowen</a>. Logo by <a href="https://ChristinaKlumph.blogspot.com">Christina Klumph.</a></p>
+
+      
+    </div>
+  </div>
+</footer>
+
+    
+
+<script async src="/assets/javascripts/main.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="http://localhost:4000/assets/javascripts/lunr/lunr.min.js"></script>
+  <script src="http://localhost:4000/assets/javascripts/lunr/lunr.store.js"></script>
+  <script>
+    var idx = lunr(function () {
+      
+      // the, the normal lunr index initialization
+      this.field('title')
+      this.field('excerpt')
+      this.field('categories')
+      this.field('tags')
+      this.ref('id')
+
+      this.pipeline.remove(lunr.trimmer)
+
+      // add documents to index
+      for (var item in store) {
+        this.add({
+          title: store[item].title,
+          excerpt: store[item].excerpt,
+          categories: store[item].categories,
+          tags: store[item].tags,
+          id: item
+        })
+      }
+    });
+
+    $(document).ready(function () {
+      $('input#search').on('keyup', function () {
+        var resultdiv = $('#results');
+        var query = $(this).val().toLowerCase();
+        var result =
+          idx.query(function (q) {
+            query.split(lunr.tokenizer.separator).forEach(function (term) {
+              q.term(term, { boost: 100 })
+              if (query.lastIndexOf(" ") != query.length - 1) {
+                q.term(term, { usePipeline: false, wildcard: lunr.Query.wildcard.TRAILING, boost: 10 })
+              }
+              if (term != "") {
+                q.term(term, { usePipeline: false, editDistance: 1, boost: 1 })
+              }
+            })
+          });
+        resultdiv.empty();
+        resultdiv.prepend('<p id="results-count" class="results-found">' + result.length + ' Result(s) found</p>');
+        for (var item in result) {
+          var ref = result[item].ref;
+          var searchitem =
+            '<article class="entry">' +
+              '<h3 class="entry-title">' +
+                '<a href="' + store[ref].url + '">' + store[ref].title + '</a>' +
+              '</h3>' +
+              '<div class="entry-excerpt">' +
+                '<p>' + store[ref].excerpt.split(" ").splice(0, 20).join(" ") + '...</p>' +
+              '</div>' +
+            '</article>';
+          resultdiv.append(searchitem);
+        }
+      });
+    });
+  </script>
+
+
+
+  </body>
+
+</html>
