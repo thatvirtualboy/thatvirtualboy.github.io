@@ -15,6 +15,7 @@ All content + opinions belong to Ryan and do not represent VMware in any officia
 ## Author
 
 ![stars](/assets/certs/stars.png){:height="80px" width="80px"}
+![stars](/assets/certs/vcp2020.png){:height="80px" width="80px"}
 ![stars](/assets/certs/foundations.png){:height="80px" width="80px"}
 ![stars](/assets/certs/ofa.png){:height="80px" width="80px"}
 ![stars](/assets/certs/fling.png){:height="70px" width="70px"}
