@@ -24,4 +24,4 @@ All content + opinions belong to Ryan and do not represent VMware in any officia
 ![stars](/assets/certs/VCP-DT.png){:height="80px" width="80px"}
 ![stars](/assets/certs/cla.png){:height="80px" width="80px"}
 
-Ryan has been customer-focused since joining VMware in 2011 working in a variety of roles. He is currently a Senior Technical Account Manager with VMware’s Professional Services and has worked with all types of customers in public and private sectors. He has multiple VCP & VCA certifications, as well as Novell’s Certified Linux Administration certification, and is a 5-time recognized [vExpert](https://vexpert.vmware.com/directory/1274).
+Ryan has been customer-focused since joining VMware in 2011 working in a variety of roles. He is currently a Senior Technical Account Manager with VMware’s Professional Services and has worked with all types of customers in public and private sectors. He holds [multiple VCP & VCA certifications](https://www.youracclaim.com/users/ryan-klumph), as well as Novell’s Certified Linux Administration certification, and is a 5-time recognized [vExpert](https://vexpert.vmware.com/directory/1274).
