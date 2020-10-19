@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Home Arcade: Stepmania (DDR) running on RaspberryPi"
+title:  "Home Arcade: StepMania (DDR) running on RaspberryPi"
 date:   2020-10-19
 tags:
 - bacon
@@ -56,7 +56,7 @@ The reason for going with the Argon1 Pi 4 case wasn't just because it's one of t
 After you've installed RaspberryPi OS and built out the Argon case, it's a quick sprint to the end by following the installation instructions from Matthias's script above. As a baseline on my Pi 4B, I used the default overclock scripts provided in the install instructions. Since I'm only outputting to a 720p Television, I'm getting near 60 FPS with amazing performance and sound. In fact, the Argon's built in fan hasn't even needed to kick on during gameplay. Keep in mind your mileage may vary depending on many factors, including your target resolution. Be sure to review Matthias's documented FPS you can expect when using the Pi 4B:<br>
 ![](/assets/images/stepmania/fps.png){:height="500px" width="500px"}
 
-![](/assets/images/stepmania/stepmania.mp4){:height="600px" width="600px"} 
+![](/assets/images/stepmania/stepmania.mp4){:height="600px" width="600px"}
 
 
 Happy Dancing!
