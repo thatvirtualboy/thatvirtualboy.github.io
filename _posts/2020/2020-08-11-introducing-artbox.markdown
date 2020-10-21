@@ -11,7 +11,7 @@ read_time: true
 author: Ryan Klumph
 ---
 ![](/assets/apps/artbox/artbox-coverflow.png)<br><br>
-I'm happy to share a project I've spent the last few months working on. A new iOS app for parents called Artbox! https://artbox.app 📱  
+I'm happy to share a project I've spent the last few months working on. A new iOS app for parents called Artbox! [https://artbox.app](https://artbox.app) 📱  
 
 <a href="https://apps.apple.com/us/app/artbox-store-all-the-artwork/id1516027610?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-07-01&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a>
 
@@ -63,6 +63,6 @@ Found a typo? Need a better picture? You can easily edit your entries with the t
 #### Dark Theme
 If you fancy a darker look to the app, you can turn the lights off in the Settings section from inside the app.
 
-The app is available for iPhone on the App Store. If you happen to download it, please take a moment to rate or review the app. It really helps! Lastly, visit https://artbox.app for a full Press Kit if you'd like to review or do a write up.
+The app is available for iPhone on the App Store. If you happen to download it, please take a moment to rate or review the app. It really helps! Lastly, visit [https://artbox.app](https://artbox.app) for a full Press Kit if you'd like to review or do a write up.
 
 <a href="https://apps.apple.com/us/app/artbox-store-all-the-artwork/id1516027610?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-07-01&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a>
