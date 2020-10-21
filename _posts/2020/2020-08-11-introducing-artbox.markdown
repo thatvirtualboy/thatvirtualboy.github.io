@@ -22,9 +22,8 @@ I could certainly keep these projects in a box to store them forever in my garag
 
 Some people will certainly want to keep the physical pictures, water color paintings, and play dough sculptures their kids make. I'm not one of those people. Sure there are certain things they've made for me that are special and I do indeed keep. But I can't keep everything. The minimalist in me panics every time I'm handed a "hot off the press" masterpiece from the Disney Princess Coloring Book.
 
-Enter Artbox!
+#### Enter Artbox!
 
-![](/assets/apps/artbox/headline.png)
 <iframe src="https://player.vimeo.com/video/446949606" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br>
 
 I really wanted this app to achieve 3 things:
