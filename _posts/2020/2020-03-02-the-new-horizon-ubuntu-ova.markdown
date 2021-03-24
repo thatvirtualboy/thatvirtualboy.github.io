@@ -2,11 +2,7 @@
 layout: post
 title:  "Announcing The New Horizon Ubuntu OVA"
 date:   2020-03-02
-tags:
-- Horizon
-- Ubuntu
-- Linux
-- flings
+categories: [horizon, ubuntu, linux, flings]
 read_time: true
 author: Ryan Klumph
 ---

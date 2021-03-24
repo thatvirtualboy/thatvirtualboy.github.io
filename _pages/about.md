@@ -1,23 +1,26 @@
 ---
 layout: page
-title: Mediumish Template for Jekyll
+title: About
 permalink: /about
-comments: true
+comments: false
 ---
 
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>This website is built with Jekyll and Mediumish template for Jekyll. It's for demonstration purposes, no real content can be found. Mediumish template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github.</p>
+<p>Hello! My name is Ryan -- thank you for visiting my site! I started this blog back in 2014 as a place to share about the things I was learning in the virtualization space. It has evolved into a general landing spot for all things tech and has a little something for everybody.
+<br><br>
+All content + opinions belong to me and do not represent my current employer. Enjoy!</p>
 
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
-<h4>Documentation</h4>
+<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/profile.jpeg" alt="profile" /></p>
 
-<p>Please, read the docs <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
+<p>Ryan has been customer-focused since joining VMware in 2011 working in a variety of roles. He is currently a Senior Technical Account Manager and has worked with all types of customers in public and private sectors. He holds several certifications and is a 6-time recognized vExpert.</p>
 
-<h4>Questions or bug reports?</h4>
+<h4>Acclaim</h4>
 
-<p>Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!</p>
+<p>View my recent certifications on <a href="https://www.youracclaim.com/users/ryan-klumph/badges">Acclaim</a>.</p>
+
+
 
 </div>
 
@@ -26,9 +29,85 @@ comments: true
 <div class="sticky-top sticky-top-80">
 <h5>Buy me a coffee</h5>
 
-<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
+<p>Thank you for your support! Your donation helps me to maintain and improve thatvirtualboy.com.</p>
 
-<a target="_blank" href="https://www.wowthemes.net/donate/" class="btn btn-danger">Buy me a coffee</a> <a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/" class="btn btn-warning">Documentation</a>
+<a target="_blank" href="https://www.buymeacoffee.com/thatvirtualboy" class="btn btn-success">Buy me a coffee</a> <a target="_blank" href="https://twitter.com/thatvirtualboy" class="btn btn-primary">Follow on Twitter</a>
+
+<br><br><br>
+
+<h5>Certifications</h5>
+<div class="row">
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="{{site.baseurl}}/assets/certs/stars.png">
+       <img src="{{site.baseurl}}/assets/certs/stars.png" alt="Lights" style="width:100%">
+     </a>
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="{{site.baseurl}}/assets/certs/vcp2020.png">
+       <img src="{{site.baseurl}}/assets/certs/vcp2020.png">
+     </a>
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="{{site.baseurl}}/assets/certs/foundations.png">
+       <img src="{{site.baseurl}}/assets/certs/foundations.png">
+     </a>
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="{{site.baseurl}}/assets/certs/ofa.png">
+       <img src="{{site.baseurl}}/assets/certs/ofa.png">
+     </a>
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="{{site.baseurl}}/assets/certs/fling.png">
+       <img src="{{site.baseurl}}/assets/certs/fling.png">
+     </a>
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="{{site.baseurl}}/assets/certs/VCA-Cloud.png">
+       <img src="{{site.baseurl}}/assets/certs/VCA-Cloud.png">
+     </a>
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="{{site.baseurl}}/assets/certs/VCA-WM.png">
+       <img src="{{site.baseurl}}/assets/certs/VCA-WM.png">
+     </a>
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="{{site.baseurl}}/assets/certs/VCP-DCV.png">
+       <img src="{{site.baseurl}}/assets/certs/VCP-DCV.png">
+     </a>
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="{{site.baseurl}}/assets/certs/VCP-DT.png">
+       <img src="{{site.baseurl}}/assets/certs/VCP-DT.png">
+     </a>
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="{{site.baseurl}}/assets/certs/cla.png">
+       <img src="{{site.baseurl}}/assets/certs/cla.png">
+     </a>
+   </div>
+ </div>
+</div>
 
 </div>
 </div>

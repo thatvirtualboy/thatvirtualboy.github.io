@@ -2,14 +2,11 @@
 layout: post
 title:  "I just took the VMware VCP exam from home. Here's what it was like."
 date:   2020-08-18
-tags:
-- vmware
-- vcp
-- certification
+categories: [vmware, vcp, certification]
 read_time: true
 author: Ryan Klumph
+image: assets/images/vcp-home/blog_vcp_home.png
 ---
-![](/assets/images/vcp-home/blog_vcp_home.png)<br><br>
 VMware now allows for remote testing of their Certified Professional exam. I just took the test from my home and here's what it was like 👨‍💻
 
 Back in April, VMware Certification [announced](https://blogs.vmware.com/education/2020/04/16/remote-exam-testing-is-here/) remote proctoring of its exams promising the use of Artificial Intelligence in combination with LIVE monitoring. Using the latest technology in face-matching software, session monitoring and recording, browser lockdown and virtual ID verification, testing can now happen virtually anywhere.

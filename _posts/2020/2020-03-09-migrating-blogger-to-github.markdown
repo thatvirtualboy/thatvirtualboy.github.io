@@ -2,12 +2,7 @@
 layout: post
 title:  "Migrating Blogger to Github Pages via Jekyll"
 date:   2020-03-09
-tags:
-- blog
-- bacon
-- vExpert
-- github
-- jekyll
+categories: [Blog, bacon, vExpert, Github, Jekyll]
 author: Ryan Klumph
 read_time: true
 ---

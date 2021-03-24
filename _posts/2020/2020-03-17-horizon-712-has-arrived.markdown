@@ -2,14 +2,11 @@
 layout: post
 title:  "VMware Horizon 7.12 Has Arrived"
 date:   2020-03-17
-tags:
-- Horizon
-- vmware
-- work from home
+categories: [Horizon, VMware, work from home]
 read_time: true
 author: Ryan Klumph
+image: assets/images/horizon12/horizon12-hero.png
 ---
-![](/assets/images/horizon12/horizon12-hero.png)<br><br>
 VMware has just released Horizon 7.12 which is kind of a big deal! Packed with new features and fixes, this release is timely amid a massive increase in the **Work From Home** movement in attempt to _flatten the curve_ of the COVID-19 spread. This release comes alongside publication of additional methods to securely connecting to your office's physical workstations from your home. Let's take a closer look.
 
 ## Supporting the Work From Home Movement

@@ -3,15 +3,11 @@ layout: post
 title:  "Don't overlook these awesome vSphere 7 features"
 date:   2020-03-10
 image: /assets/banner1.2.jpg
-tags:
-- vsphere7
-- vsphere
-- vmware
-- features
+categories: [vSphere, VMware]
 author: Ryan Klumph
 read_time: true
+image: assets/images/vsphere7.png
 ---
-![](/assets/images/vsphere7.png)<br/><br/>
 vSphere 7 has officially been [announced](https://blogs.vmware.com/vsphere/2020/03/vsphere-7.html) (finally!) and man is this thing going to deliver. VMware vSphere has been, and continues to be, the engine for modernizing infrastructure and applications. And check out that sharp looking logo!
 
 Tanzu is (very deservedly) getting a lot of the attention with the vSphere announcement, but there is a LOT to this new release. Here are some of my favorite new features:

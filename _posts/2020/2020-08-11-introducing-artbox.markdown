@@ -2,15 +2,11 @@
 layout: post
 title:  Introducing Artbox
 date:   2020-08-11
-tags:
-- bacon
-- iOS
-- development
-- apps
+categories: [bacon, iOS, development, apps]
 read_time: true
 author: Ryan Klumph
+image: assets/apps/artbox/artbox-coverflow.png
 ---
-![](/assets/apps/artbox/artbox-coverflow.png)<br><br>
 I'm happy to share a project I've spent the last few months working on. A new iOS app for parents called Artbox! [https://artbox.app](https://artbox.app) 📱  
 
 <a href="https://apps.apple.com/us/app/artbox-store-all-the-artwork/id1516027610?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-07-01&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a>

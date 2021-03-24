@@ -2,10 +2,7 @@
 layout: post
 title:  "Changes to That Virtual Boy blog + vExpert 2020"
 date:   2020-03-05
-tags:
-- blog
-- bacon
-- vExpert
+categories: [blog, bacon, vexpert]
 author: Ryan Klumph
 read_time: true
 ---

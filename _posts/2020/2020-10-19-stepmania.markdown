@@ -2,14 +2,12 @@
 layout: post
 title:  "Home Arcade: StepMania (DDR) running on RaspberryPi"
 date:   2020-10-19
-tags:
-- bacon
-- work from home
-- gaming
+categories: [bacon, work from home, gaming]
 read_time: true
+image: assets/images/stepmania/ddr.jpeg
+featured: true
 author: Ryan Klumph
 ---
-![](/assets/images/stepmania/ddr.jpeg)<br><br>
 Remember Arcades? They were these massive buildings filled with mystery and wonder where games, lights, and sounds would expand as far as the eye could see. Sadly, they're also nesting grounds for germs, grime, and bratty kids.
 
 You probably remember seeing these Dance Dance Revolution (DDR) machines at the arcade back in the early 2000s. They were so popular, you could even buy DDR with pads for systems like the XBOX 360.
@@ -19,7 +17,7 @@ With all of us looking for additional activities to do in the home, especially w
 Unless you have legacy systems like the XBOX 360, you'll be hard pressed to find a current DDR game with functional DDR Dance Pads for a plug and play setup in the home. Luckily, there's an open source solution that with just a little bit of elbow grease, starts as a fun project and ends with a fully functional home based DDR!
 
 ## Enter StepMania
-![](/assets/images/stepmania/splash.png){:height="400px" width="400px"}<br><br>
+![](/assets/images/stepmania/splash.png)<br><br>
 [StepMania](https://www.stepmania.com) is an independent, cross-platform [open source project](https://github.com/stepmania) that's not affiliated with the original makers of DDR. It works on Windows, macOS, and Linux, and is fully customizable. It even works for building a full on arcade cabinet!
 
 [StepMania on Github](https://github.com/stepmania/stepmania)<br>
@@ -56,7 +54,7 @@ The reason for going with the Argon1 Pi 4 case wasn't just because it's one of t
 After you've installed RaspberryPi OS and built out the Argon case, it's a quick sprint to the end by following the installation instructions from Matthias's script above. As a baseline on my Pi 4B, I used the default overclock scripts provided in the install instructions. Since I'm only outputting to a 720p Television, I'm getting near 60 FPS with amazing performance and sound. In fact, the Argon's built in fan hasn't even needed to kick on during gameplay. Keep in mind your mileage may vary depending on many factors, including your target resolution. Be sure to review Matthias's documented FPS you can expect when using the Pi 4B:<br>
 ![](/assets/images/stepmania/fps.png){:height="500px" width="500px"}
 
-![](/assets/images/stepmania/stepmania.mp4){:height="600px" width="600px"}
+![](/assets/images/stepmania/stepmania.mp4)
 
 
 Happy Dancing!

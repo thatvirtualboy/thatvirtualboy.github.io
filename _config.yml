@@ -1,35 +1,32 @@
 # Site
-name: "Mediumish"
-title: "Mediumish"
-description: "Jekyll template, Medium styled, free for bloggers."
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
-baseurl: /mediumish-theme-jekyll
-google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+name: "thatvirtualboy"
+title: "thatvirtualboy"
+description: "Sometimes I do things and write about it"
+logo: 'assets/favicon.png'
+favicon: 'assets/favicon.png'
+baseurl: ""
+google_analytics: 'UA-104130481-1'
+disqus: 'thatvirtualboy'
+#mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John    
-    avatar: 'assets/images/avatar.png'
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+  Ryan Klumph:
+    name: Ryan Klumph
+    display_name: Ryan
+    gravatar: b89e73248ca25117c3c4382cc1da65ab
+    email: thatvirtualboy@icloud.com
+    web: https://www.thatvirtualboy.com
+    twitter: https://twitter.com/thatvirtualboy
+    description: "Author and sole creator of That Virtual Boy and its content, including posts, tools, and apps."
+  Jeremy McCoy:
+    name: Jeremy McCoy
+    display_name: Jeremy McCoy
+    web: https://github.com/MrDrMcCoy
+    twitter: https://twitter.com/nakedhitman
+    description: "Guest writer on thatvirtualboy.com."
 
 # Plugins
 plugins:
@@ -38,19 +35,21 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
+
 # Archives
 jekyll-archives:
   enabled:
-    - categories
+    - category
+    - tags
   layout: archive
   permalinks:
     category: '/category/:name/'
-    
-# Pagination 
+    tag: '/tag/:name/'
+
+# Pagination
 paginate: 6
 paginate_path: /page:num/
-    
+
 # Other
 markdown: kramdown
 

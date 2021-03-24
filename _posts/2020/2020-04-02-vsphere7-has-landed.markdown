@@ -2,14 +2,11 @@
 layout: post
 title:  vSphere 7.0 has landed! Here's some things you need to know!
 date:   2020-04-02
-tags:
-- vsphere
-- VMware
-- new release
+categories: [vSphere, VMware, new release]
 read_time: true
 author: Ryan Klumph
+image: assets/images/vsphere7landed/vsphere7cover.png
 ---
-![](/assets/images/vsphere7landed/vsphere7cover.png)<br><br>
 VMware announced vSphere 7 🚀 last month, and today they're making it a reality. vSphere 7 with Kubernetes is now Generally Available! 🥳 Here are some things you need to know!  
 
 * TOC

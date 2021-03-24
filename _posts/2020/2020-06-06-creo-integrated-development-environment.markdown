@@ -2,15 +2,11 @@
 layout: post
 title:  The Creo Integrated Development Environment
 date:   2020-06-06
-tags:
-- iOS
-- development
-- IDE
-- Creo
+categories: [iOS, development, IDE]
 read_time: true
 author: Ryan Klumph
+image: assets/images/creo/creo_1.png
 ---
-![](/assets/images/creo/creo_1.png)<br><br>
 I've had the pleasure of learning iOS Development 📱 on the beautifully architected IDE, [Creo](https://creolabs.com), from Creolabs. It's been such a fun experience, I can't help but spread the word about this amazing tool. Come take a look!
 
 ## The Quarantine Challenge 💪

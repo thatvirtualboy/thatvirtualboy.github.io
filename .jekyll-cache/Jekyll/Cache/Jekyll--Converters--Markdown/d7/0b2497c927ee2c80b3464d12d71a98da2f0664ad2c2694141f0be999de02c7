@@ -1,0 +1,72 @@
+I"�<h2 id="vmware-horizon-linux-ova-template">VMware Horizon Linux OVA Template</h2>
+<p><img src="/assets/horizon-ubuntu-ova.png" alt="logo" height="100px" width="88px" class="align-left" /><br />
+A pre-packaged OVA built on Ubuntu 18.04 LTS that automates the initial image configuration needed for a Linux Desktop Template for use with VMware Horizon 7. This project is open source on <a href="https://github.com/thatvirtualboy/horizon-linux-vm">Github</a> as well as published on <a href="https://flings.vmware.com/horizon-ova-for-ubuntu">VMware Flings</a>.
+<br /><br /></p>
+
+<hr />
+
+<p><br /></p>
+<h2 id="vmware-horizon-collector-for-macos">VMware Horizon Collector for macOS</h2>
+<p><img src="/assets/hc_icon.png" alt="logo" height="100px" width="100px" class="align-left" /><br />
+A shell script to automate the process of collecting Horizon View Client logs for macOS, including USB and ThinPrint logs.
+This tool was originally published as a <a href="https://flings.vmware.com/horizon-collector-for-mac">VMware Fling</a> and has now been productized into the macOS Horizon Client</p>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thrilled to learn that my modest VMware Fling “Horizon Collector for Mac” was productized into the Horizon Client for macOS! <a href="https://t.co/LRtQDifCdZ">https://t.co/LRtQDifCdZ</a> <a href="https://twitter.com/hashtag/vExpert?src=hash&amp;ref_src=twsrc%5Etfw">#vExpert</a> <a href="https://t.co/2RAalVOR6C">pic.twitter.com/2RAalVOR6C</a></p>&mdash; Ryan (@thatvirtualboy) <a href="https://twitter.com/thatvirtualboy/status/1129125016774123520?ref_src=twsrc%5Etfw">May 16, 2019</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p><br /></p>
+
+<hr />
+
+<p><br /></p>
+<h2 id="virtual-backgrounds-ios-ipados-macos">Virtual Backgrounds (iOS, iPadOS, macOS)</h2>
+<p><img src="/assets/apps/VirtualBackgrounds/icon-round.png" alt="logo" height="100px" width="100px" class="align-left" /><br />
+An app featuring hand-picked virtual backgrounds to be used with your video conferencing tool (e.g., Zoom).</p>
+
+<p><a href="https://apps.apple.com/us/app/virtual-backgrounds/id1506825381?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-04-10&amp;kind=iossoftware&amp;bubble=ios_apps) no-repeat;width:135px;height:40px;"></a>
+<br /></p>
+
+<hr />
+
+<p><br /></p>
+<h2 id="artbox-ios-ipados">Artbox (iOS, iPadOS)</h2>
+<p><img src="/assets/apps/artbox/artbox-icon.png" alt="logo" height="100px" width="100px" class="align-left" /><br />
+A convenient and refreshing way to keep a digital record your children’s art projects.</p>
+
+<p><a href="https://apps.apple.com/us/app/artbox-store-all-the-artwork/id1516027610?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-07-01&amp;kind=iossoftware&amp;bubble=ios_apps) no-repeat;width:135px;height:40px;"></a></p>
+
+<hr />
+
+<p><br /></p>
+<h2 id="stickers-about-nothig-ios-ipados">Stickers About Nothig (iOS, iPadOS)</h2>
+<p><img src="/assets/apps/stickers/stickers-about-nothing.png" alt="logo" height="100px" width="100px" class="align-left" /> A fun iMessage sticker pack for Seinfeld fans.</p>
+
+<p><a href="https://apps.apple.com/us/app/stickers-about-nothing/id1548219622?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-07-01&amp;kind=iossoftware&amp;bubble=ios_apps) no-repeat;width:135px;height:40px;"></a></p>
+
+<p><br /></p>
+<h2 id="sonas-journal-ios">Sonas Journal (iOS)</h2>
+<p><img src="/assets/apps/SonasJournal/sonasIcon.png" alt="logo" height="100px" width="100px" class="align-left" /><br />
+A private journal built to capture life’s best moments.</p>
+
+<p><a href="https://apps.apple.com/us/app/sonas-journal/id1506245083?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-05-08&amp;kind=iossoftware&amp;bubble=ios_apps) no-repeat;width:135px;height:40px;"></a></p>
+
+<hr />
+
+<p><br /></p>
+<h2 id="sonas-workout-journal-ios">Sonas Workout Journal (iOS)</h2>
+<p><img src="/assets/apps/SonasWorkout/sonasworkout-icon.png" alt="logo" height="100px" width="100px" class="align-left" /><br />
+A private journal built specifically for tracking the things you do to move your body.</p>
+
+<p><a href="https://apps.apple.com/us/app/sonas-workout-journal/id1513653298?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-05-16&amp;kind=iossoftware&amp;bubble=ios_apps) no-repeat;width:135px;height:40px;"></a></p>
+
+<hr />
+
+<p><br /></p>
+<h2 id="sonas-chef-journal-ios">Sonas Chef Journal (iOS)</h2>
+<p><img src="/assets/apps/chef/icon.png" alt="logo" height="100px" width="100px" class="align-left" /><br />
+The best way to track your culinary creations.</p>
+
+<p><a href="https://apps.apple.com/us/app/sonas-chef-journal/id1536951278?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-05-16&amp;kind=iossoftware&amp;bubble=ios_apps) no-repeat;width:135px;height:40px;"></a></p>
+
+<hr />
+:ET

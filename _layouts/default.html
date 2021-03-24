@@ -11,7 +11,7 @@
 {% seo %}
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
+
 <link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
 
 <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
@@ -68,27 +68,27 @@ ga('send', 'pageview');
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
+                <a class="nav-link" href="{{ site.baseurl }}/index.html"><i class="fab fa-home"></i> Blog</a>
                 </li>
 
                 <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+                <a class="nav-link" href="{{ site.baseurl }}/about"><i class="fab fa-address-card"></i> About</a>
                 </li>
 
                 <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/"> Docs</a>
+                <a class="nav-link" href="{{ site.baseurl }}/tools"><i class="fab fa-app-store"></i> Tools + Apps</a>
                 </li>
 
                 <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-wordpress/"><i class="fab fa-wordpress-simple"></i> WP Version</a>
+                <a target="_blank" class="nav-link" href="https://steamcommunity.com/id/phiredrop"><i class="fab fa-steam"></i> Steam</a>
                 </li>
 
                 <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-ghost/"><i class="fab fa-snapchat-ghost"></i> Ghost Version</a>
+                <a target="_blank" class="nav-link" href="https://github.com/thatvirtualboy"><i class="fab fa-github"></i> Github</a>
                 </li>
 
                 <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://github.com/wowthemesnet/mediumish-theme-jekyll"><i class="fab fa-github"></i> Fork on Github</a>
+                <a target="_blank" class="nav-link" href="https://twitter.com/thatvirtualboy"><i class="fab fa-twitter"></i> Twitter</a>
                 </li>
 
                 {% include search-lunr.html %}
@@ -138,7 +138,7 @@ ga('send', 'pageview');
 	</div>
 </div>
 {% endif %}
-    
+
 </div>
 
 <!-- Categories Jumbotron
@@ -147,7 +147,7 @@ ga('send', 'pageview');
 	<div class="d-md-flex h-100">
 		<div class="col-md-4 transpdark align-self-center text-center h-100">
             <div class="d-md-flex align-items-center justify-content-center h-100">
-                <h2 class="d-md-block align-self-center py-1 font-weight-light">Explore <span class="d-none d-md-inline">→</span></h2>
+                <h2 class="d-md-block align-self-center py-1 font-weight-light">Explore tags <span class="d-none d-md-inline">→</span></h2>
             </div>
 		</div>
 		<div class="col-md-8 p-5 align-self-center text-center">
@@ -172,10 +172,10 @@ ga('send', 'pageview');
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
+                Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
             </div>
-            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
-                <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
+            <div class="col-md-6 col-sm-6 text-center text-lg-right">
+                <a target="_blank" href="https://www.buymeacoffee.com/thatvirtualboy">Buy me a coffee</a> if you enjoy my content
             </div>
         </div>
     </div>
@@ -198,7 +198,7 @@ ga('send', 'pageview');
 <script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
 {% endif %}
 
-<script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script> 
+<script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
 
 {% if page.layout == 'post' %}
 <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
