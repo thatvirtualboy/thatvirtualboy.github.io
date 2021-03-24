@@ -1,0 +1,18 @@
+---
+layout: post
+title: Mapping VMware Updates and Tools to Build Numbers
+date: '2017-08-07T11:36:00.000-07:00'
+author: thatvirtualboy
+excerpt: "VMware has always branded its software as GA, Update 1, Express Patch 4, etc etc. This makes it easy to discuss features and fixes among employees and customers alike. The challenge, as many of you know, is knowing the exact build numbers that correlate to these upgrades and patches."
+tags:
+- Tools
+- vmware
+- administration
+modified_time: '2017-08-07T11:36:46.403-07:00'
+thumbnail: https://1.bp.blogspot.com/-8jqA1GFyHkY/WYivt-e8QkI/AAAAAAAAvuk/rSQ33jAGBTMlpDU4LgC_S-Sg1UdPIaIWACLcBGAs/s72-c/Screen%2BShot%2B2017-08-07%2Bat%2B12.18.00%2BPM.png
+blogger_id: tag:blogger.com,1999:blog-733606464149134140.post-774522324754877180
+blogger_orig_url: https://www.thatvirtualboy.com/2017/08/mapping-vmware-updates-and-tools-to.html
+redirect_from: /2017/08/mapping-vmware-updates-and-tools-to.html
+---
+
+VMware has always branded its software as GA, Update 1, Express Patch 4, etc etc. This makes it easy to discuss features and fixes among employees and customers alike. The challenge, as many of you know, is knowing the exact build numbers that correlate to these upgrades and patches. Those specific build numbers are often requested by TAMs, Support, and Engineering in order to ensure accurate recommendations when upgrade planning or troubleshooting.<br /><br />Another challenge is knowing where in the stack of released versions you line up. If you're on vSphere 6.5.0b Patch 1, is that before or after Express Patch 1b? When did Update 1 come out again?<br /><br />Luckily, VMware has made it easy for you to track down these build numbers, and know where you are in the greater timeline of releases. VMware Knowledge Base Article <a href="https://kb.vmware.com/kb/1014508" target="_blank">1014508</a> is a hub of build numbers for most VMware products. Be sure to bookmark this page!<br /><br /><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><span style="margin-left: auto; margin-right: auto;"><a href="https://kb.vmware.com/kb/1014508" target="_blank"><img border="0" data-original-height="452" data-original-width="712" height="406" src="https://1.bp.blogspot.com/-8jqA1GFyHkY/WYivt-e8QkI/AAAAAAAAvuk/rSQ33jAGBTMlpDU4LgC_S-Sg1UdPIaIWACLcBGAs/s640/Screen%2BShot%2B2017-08-07%2Bat%2B12.18.00%2BPM.png" width="640" /></a></span></td></tr><tr><td class="tr-caption" style="text-align: center;"><a href="https://kb.vmware.com/kb/1014508" target="_blank">Table from KB1014508</a></td></tr></tbody></table><br />You may notice a key component missing from this table, and that would be VMware Tools, VMware's guest operating system management and performance solution. VMware Tools can throw in some complexity since there are versions that come bundled with ESXi hosts, and there are separate build numbers for how ESXi sees it, vs how the Guest OS sees it. This can be overly complicated in mapping out. Here's the second page to bookmark:<br /><blockquote class="tr_bq"><a href="https://packages.vmware.com/tools/versions">https://packages.vmware.com/tools/versions</a>&nbsp;</blockquote>Notice the 4 columns of information. As the page states, the columns represent the Tools Client registered build, the source ESXi build bundle, the GOS identified build, and the ESXi server build number. All in a public setting that easy to consume and report on.<br /><br />Thanks for reading!<br /><br />

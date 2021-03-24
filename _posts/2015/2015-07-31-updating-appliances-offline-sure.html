@@ -1,0 +1,24 @@
+---
+layout: post
+title: Updating Appliances Offline? Sure!
+date: '2015-07-31T08:27:00.000-07:00'
+author: thatvirtualboy
+excerpt: "Guest Post Ahead! If you are a VMware user that has discovered the joys and simplicity of Virtual Appliances, you have probably run in to applications built on top of VMware Studio’s VAMI utilities. VAMI is the background service that provides the administration page for configuring and updating VMware Studio-based appliances."
+tags:
+- VAMI
+- vmware
+- Appliances
+- Python
+- Updates
+- Flings
+- vApp
+- VURA
+- Shameless Plug
+- Offline
+modified_time: '2017-08-03T10:14:47.441-07:00'
+blogger_id: tag:blogger.com,1999:blog-733606464149134140.post-1012698902919054704
+blogger_orig_url: https://www.thatvirtualboy.com/2015/07/updating-appliances-offline-sure.html
+redirect_from: /2015/07/updating-appliances-offline-sure.html
+---
+
+// This is a guest post by <strong>Jeremy (<a href="https://twitter.com/nakedhitman" target="_blank">@nakedhitman</a>)</strong><br/><br/>[youtube https://www.youtube.com/watch?v=_9OxB_k5a3w]<br/><br/>If you are a VMware user that has discovered the joys and simplicity of Virtual Appliances, you have probably run in to applications built on top of VMware Studio's VAMI utilities. VAMI is the background service that provides the administration page for configuring and updating VMware Studio-based appliances.<br/><br/><img src="https://thatvirtualboy.files.wordpress.com/2015/07/79346-virtual-appliance-offline-repo-update-8.png" alt="" /><br/><br/>VAMI is super cool, and supports multiple upgrade methods. In addition to downloading straight from the web, there are options for secure environments to use local repositories and ISO images as your update source. As nice as this is however, there is almost no documentation for making these offline update repositories, and not every product provides an ISO image for offline use. There are a few blog posts out there that provide workarounds, but they are often more effort than they are worth if you have a lot of updates to do. Is there an easier way?<br/><br/>Thanks to <a href="http://www.virtuallyghetto.com/2013/05/how-to-create-offline-update-repository.html" target="_blank">the work of William Lam</a>, the necessary steps to make an offline repository were at least well documented. So I set out on a mission to make this process easier, and created the <a href="https://labs.vmware.com/flings/vami-update-repository-appliance-vura" target="_blank">VAMI Update Repository Appliance</a> (or VURA for short). VURA is fairly straightforward. Once deployed, it will display the address of its web interface on the console and from there you can start adding repositories to it.<br/><br/><img src="http://labs.vmware.com/wp-content/uploads/2015/07/vura-0.4-screenshot680.png" alt="vura-0.4-screenshot680" /><br/><br/>For every public web repository URL you give it, it will download the repository locally and serve up a mirror for it. It also will optionally create an ISO image that you can attach to your appliances and use as the update source. Once it is loaded up with repositories, you can move the VM to your internal network and use it to serve up updates to your appliances.<br/><br/>Since it is quite likely that multiple repositories will fill up its tiny disk, I wanted to make it easy to expand it as needed. At boot time, it will scan for new disks and automatically partition them for use as storage for the local repositories. If you plan to use this to host many repositories, all you have to do is slap a new disk on it and reboot.<br/><br/>If you find this project useful, please be sure to comment and share!<br/><br/>[contact-form to='jeremy@awesomegeek.com' subject='New comment regarding VURA!'][contact-field label='Name' type='name' required='1'/][contact-field label='Email' type='email' required='1'/][contact-field label='Website' type='url'/][contact-field label='Comment' type='textarea' required='1'/][/contact-form]
