@@ -1,0 +1,46 @@
+I"]<p><img src="/assets/images/release-menu.png" alt="" /><br /><br />
+It’s Friday! 🎉 Which means it’s time for the Friday New Release Menu! 🍽 These posts document VMware’s new and recent releases over the past two weeks.
+The Release Notes come highly recommended. 🍿
+Or if sampling is more your style, you can jump in with a VMware eval key (check with your TAM or account rep). Bon Appétit! 🥘</p>
+
+<blockquote>
+  <p>Today’s post marks the inauguration of including <strong>VMware Flings</strong> into the menu. Scroll down to learn more.</p>
+</blockquote>
+
+<h4 id="vmware-remote-console-1101">VMware Remote Console 11.0.1</h4>
+<p>🗓 Released: March 17 2020<br />
+⬇ <a href="https://my.vmware.com/web/vmware/details?downloadGroup=VMRC1101&amp;productId=742">Download</a><br />
+🗒 <a href="https://docs.vmware.com/en/VMware-Remote-Console/11/rn/VMware-Remote-Console-1101-Release-Notes.html">Release Notes</a></p>
+
+<h4 id="dynamic-environment-manager-911">Dynamic Environment Manager 9.11</h4>
+<p>🗓 Released: March 17 2020<br />
+⬇ <a href="https://my.vmware.com/en/web/vmware/info/slug/desktop_end_user_computing/vmware_dynamic_environment_manager/9_11">Download</a><br />
+🗒 <a href="https://docs.vmware.com/en/VMware-Dynamic-Environment-Manager/9.11.0/rn/VMware-Dynamic-Environment-Manager-Release-Notes-9110.html">Release Notes</a></p>
+
+<h4 id="app-volumes-2182">App Volumes 2.18.2</h4>
+<p>🗓 Released: March 17 2020<br />
+⬇ <a href="https://my.vmware.com/web/vmware/info/slug/desktop_end_user_computing/vmware_app_volumes/2_x">Download</a><br />
+🗒 <a href="https://docs.vmware.com/en/VMware-App-Volumes/2.18.2/rn/VMware-App-Volumes-2182-Release-Notes.html">Release Notes</a></p>
+
+<h4 id="unified-access-gateway-39">Unified Access Gateway 3.9</h4>
+<p>🗓 Released: March 17 2020<br />
+⬇ <a href="https://my.vmware.com/en/web/vmware/info/slug/desktop_end_user_computing/vmware_unified_access_gateway/3_9">Download</a><br />
+🗒 <a href="https://docs.vmware.com/en/Unified-Access-Gateway/3.9/rn/Release-Notes-for-VMware-Unified-Access-Gateway-39.html">Release Notes</a></p>
+
+<h4 id="horizon-cloud-service-2021fq1">Horizon Cloud Service 2021FQ1</h4>
+<p>🗓 Released: March 17 2020<br />
+🗒 <a href="https://docs.vmware.com/en/VMware-Horizon-Cloud-Service/services/rn/horizon-cloud-service-relnotes-30.html">Release Notes</a></p>
+
+<h1 id="vmware-flings">VMware Flings</h1>
+<p><a href="https://flings.vmware.com">VMware Flings</a> are tools built by VMware employees that are intended to be explored, played with, and tested. They are totally free and often expand VMware software capability, or fill functionality gaps. Some Flings eventually become productized into official code like the amazing <a href="https://flings.vmware.com/vsphere-html5-web-client">vSphere HTML5 Web Client</a> or my own <a href="https://flings.vmware.com/horizon-collector-for-mac">Horizon Collector for macOS</a>. Many flings are also open source!</p>
+
+<h4 id="vmware-fling-vmware-appliance-for-foldinghome">[VMware Fling] VMware Appliance for Folding@Home</h4>
+<p>🗓 Released: March 20 2020<br />
+⚡️ <a href="https://flings.vmware.com/vmware-appliance-for-folding-home">Landing Page</a><br />
+🗒 <a href="https://flings.vmware.com/vmware-appliance-for-folding-home#requirements">Requirements</a></p>
+
+<h4 id="vmware-fling-workspace-one-uem-scim-adapter">[VMware Fling] Workspace ONE UEM SCIM Adapter</h4>
+<p>🗓 Released: March 19 2020<br />
+⚡️ <a href="https://flings.vmware.com/workspace-one-uem-scim-adapter">Landing Page</a><br />
+🗒 <a href="https://flings.vmware.com/workspace-one-uem-scim-adapter#requirements">Requirements</a></p>
+:ET

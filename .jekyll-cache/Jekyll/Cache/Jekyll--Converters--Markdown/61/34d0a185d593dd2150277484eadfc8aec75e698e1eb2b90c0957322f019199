@@ -1,0 +1,6 @@
+I"><p>Recently I had a need to remove the widget capability of my Mac Catalyst app. The Catalyst, obviously being a port of the iPadOS version of the application, was rejected by the Apple App Store Review team stating the widget application was “insufficient features or functionality”</p>
+
+<p class="mb-5"><img class="shadow-lg" src="/assets/images/widgetrejection.png" alt="rejected" /></p>
+
+<p>I was puzzled by this rejection, given the fact that the iOS/iPadOS equivalents of the application had been approved with the exact same widget. Multiple times over even.</p>
+:ET
