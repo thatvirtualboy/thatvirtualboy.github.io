@@ -1,0 +1,12 @@
+I"�<p>I’m very excited to announce that Virtual Backgrounds app is now available on macOS as a Mac Catalyst app! 🥳</p>
+
+<p>Virtual Backgrounds was my first ever app built for iOS. It started out as an experiment as I was learning app development last year during quarantine. It’s certainly a simple app from an architecture standpoint, but the proof of concept was successful and the app itself has proven to be mildly successful on the App Store.</p>
+
+<p>Version 3.0 of the app was rebuilt from the ground up in native SwiftUI which has really been a fun adventure. Part of the capability this opened up for the app is being able to port it from iPadOS to macOS with relatively little effort. Now, a single download of the Virtual Backgrounds app gives you access to it on you iPhone, iPad, and Mac!</p>
+
+<h2 id="virtual-backgrounds-ios-ipados-macos">Virtual Backgrounds (iOS, iPadOS, macOS)</h2>
+<p><img src="/assets/apps/VirtualBackgrounds/icon-round.png" alt="logo" height="100px" width="100px" class="align-left" /><br />
+An app featuring hand-picked virtual backgrounds to be used with your video conferencing tool (e.g., Zoom).</p>
+
+<p><a href="https://apps.apple.com/us/app/virtual-backgrounds/id1506825381?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-04-10&amp;kind=iossoftware&amp;bubble=ios_apps) no-repeat;width:135px;height:40px;"></a></p>
+:ET

@@ -1,4 +1,4 @@
-I"�S
+I"�S
 <!-- Featured
 ================================================== -->
 <section class="featured-posts">
@@ -6,6 +6,10 @@
         <h2><span>Featured</span></h2>
     </div>
     <div class="row">
+
+    
+
+        
 
     
 
@@ -572,6 +576,53 @@
 <div class="col-lg-4 col-md-6 mb-30px card-group">
     <div class="card h-100">
         <div class="maxthumb">
+            <a href="/remove-widget-mac-catalyst0/">
+                
+
+                    
+                        <img class="img-fluid" src="/assets\images\vbmacos.png" alt="Virtual Backgrounds App now available for macOS" /> 
+                    
+
+                
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/remove-widget-mac-catalyst0/">Virtual Backgrounds App now available for macOS</a>
+                
+            </h2>
+            <h4 class="card-text">I’m very excited to announce that Virtual Backgrounds app is now available on macOS as a Mac Catalyst app! 🥳
+</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                
+                <span class="meta-footer-thumb">
+                
+                <img class="author-thumb" src="https://www.gravatar.com/avatar/b89e73248ca25117c3c4382cc1da65ab?s=250&amp;d=mm&amp;r=x" alt="Ryan" />
+                
+                </span>
+                <span class="author-meta">
+                <span class="post-name"><a target="_blank" href="https://www.thatvirtualboy.com">Ryan</a></span><br />
+                
+                <span class="post-date">26 Mar 2021</span>
+                </span>
+                <span class="post-read-more"><a href="/remove-widget-mac-catalyst0/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+
+        
+
+        <!-- begin post -->
+
+
+<div class="col-lg-4 col-md-6 mb-30px card-group">
+    <div class="card h-100">
+        <div class="maxthumb">
             <a href="/remove-widget-mac-catalyst/">
                 
 
@@ -783,53 +834,6 @@
 
         
 
-        <!-- begin post -->
-
-
-<div class="col-lg-4 col-md-6 mb-30px card-group">
-    <div class="card h-100">
-        <div class="maxthumb">
-            <a href="/remote-vcp-exam/">
-                
-
-                    
-                        <img class="img-fluid" src="/assets/images/vcp-home/blog_vcp_home.png" alt="I just took the VMware VCP exam from home. Here's what it was like." /> 
-                    
-
-                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title">
-                <a class="text-dark" href="/remote-vcp-exam/">I just took the VMware VCP exam from home. Here's what it was like.</a>
-                
-            </h2>
-            <h4 class="card-text">VMware now allows for remote testing of their Certified Professional exam. I just took the test from my home and here’s what it was like 👨‍💻
-</h4>
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                
-                <span class="meta-footer-thumb">
-                
-                <img class="author-thumb" src="https://www.gravatar.com/avatar/b89e73248ca25117c3c4382cc1da65ab?s=250&amp;d=mm&amp;r=x" alt="Ryan" />
-                
-                </span>
-                <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://www.thatvirtualboy.com">Ryan</a></span><br />
-                
-                <span class="post-date">18 Aug 2020</span>
-                </span>
-                <span class="post-read-more"><a href="/remote-vcp-exam/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- end post -->
-
-        
-
     </div>
 
 </section>
@@ -916,6 +920,10 @@
   
     
       <a class="ml-1 mr-1" href="/page18/">18</a>
+    
+  
+    
+      <a class="ml-1 mr-1" href="/page19/">19</a>
     
   
 
