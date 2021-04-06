@@ -5,7 +5,7 @@ date:   2020-03-18
 categories: [bacon, work from home]
 read_time: true
 author: Ryan Klumph
-featured: true
+featured: false
 image: assets/images/wfh/office1.jpeg
 ---
 Public health safety is top of mind today and the driving force behind the **Work From Home** movement amid COVID-19 fears. Both internally and externally I've seen a number of questions on how to handle these changes. I've been working from home almost exclusively for the past 3 years and have gotten quite comfortable with my routine. I still visit my local company office 1-2 times a week, but the majority of my "8 to 5" is in "the basement." As I was thinking about ways I could share helpful information with the community on how to work from home efficiently, I discovered a common theme threaded throughout every suggestion: **Create the environment that fosters your productivity**
