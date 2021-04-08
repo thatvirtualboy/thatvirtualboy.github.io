@@ -27,7 +27,7 @@ Artbox 2 has the same features you love from Artbox Classic like a private profi
 • Widget Support  
 • Expanded Language Support (Spanish, Dutch, French, and Chinese)  
 
-With Artbox 2 being built natively in SwiftUI, longevity of support and enhancements will be much easier to maintain.
+With Artbox 2 being built natively in Apple's new SwiftUI, longevity of support and enhancements will be much easier to maintain.
 
 ### What makes Artbox different?
 I'm proud to make Artbox 2 available with
