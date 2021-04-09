@@ -8,7 +8,7 @@ read_time: true
 featured: false
 author: Ryan Klumph
 ---
-In developing *Artbox 2*, one thing I really wanted was the ability to make the user experience more immersive and personable. One of the ways to achieve this is to add *haptic feedback*. Haptics are the vibration responses to the user interacting with the application. When you're buying something with Apple Pay, scrolling through a picker, or receiving confirmations and alerts - haptics are widely used in mobile apps and can greatly enhance the user experience.  
+In developing *Artbox 2*, one thing I set out to accomplish was making the user experience more immersive and personable. One of the ways to achieve this is to add *haptic feedback*. Haptics are the vibration responses to the user interacting with the application. When you're buying something with Apple Pay, scrolling through a picker, or receiving confirmations and alerts - haptics are widely used in mobile apps and can greatly enhance the user experience.  
 
 You can read more about haptics at [ Docs](https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/haptics/).
 
@@ -50,6 +50,6 @@ Go ahead and play around with these to get a feeling for where they might be app
 Apple's Documentation warns against over-doing haptics, so you'll want to use them sparingly. Take time to explore your app's interface and apply haptics where it makes the most sense.  
 
 ### Summary
-In this post you learned about `UINotificationFeedbackGenerator` and how adding different styled haptic feedback operations can greatly improve your SwiftUI app. 
+In this post you learned about `UINotificationFeedbackGenerator` and how adding different styled haptic feedback operations can greatly improve your SwiftUI app.
 
 I hope you found this post useful. Thanks for stopping by!
