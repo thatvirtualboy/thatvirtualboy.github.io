@@ -43,7 +43,7 @@ A convenient and refreshing way to keep a digital record your children's art pro
 ---
 
 <br>
-## Stickers About Nothig (iOS, iPadOS)
+## Stickers About Nothing (iOS, iPadOS)
 ![logo](/assets/apps/stickers/stickers-about-nothing.png){:height="100px" width="100px" .align-left} A fun iMessage sticker pack for Seinfeld fans.   
 
 <a href="https://apps.apple.com/us/app/stickers-about-nothing/id1548219622?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-07-01&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a>

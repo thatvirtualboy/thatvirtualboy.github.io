@@ -25,7 +25,7 @@ Artbox 2 has the same features you love from Artbox Classic like a private profi
 • iCloud Backup / Sync  
 • iPad support  
 • Widget Support  
-• Expanded Language Support (Spanish, Dutch, French, and Chinese)  
+• Expanded Language Support (Spanish, Dutch, French, and Chinese at launch)  
 
 With Artbox 2 being built natively in Apple's new SwiftUI, longevity of support and enhancements will be much easier to maintain.
 
