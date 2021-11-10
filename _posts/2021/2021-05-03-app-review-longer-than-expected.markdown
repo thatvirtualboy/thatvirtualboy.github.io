@@ -3,7 +3,7 @@ layout: post
 title:  "Review of your app is taking longer than expected"
 date:   2021-05-03
 categories: [apple, swiftui, ios, development]
-image: "https://cdn-0.macobserver.com/wp-content/uploads/2018/06/app-store-connect-1024x538.jpg?ezimgfmt=ng:webp/ngcb11"
+image: "https://photos5.appleinsider.com/gallery/26319-37220-180605-App_Store_Connect-xl.jpg"
 read_time: true
 featured: false
 author: Ryan Klumph
