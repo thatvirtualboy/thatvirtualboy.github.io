@@ -7,7 +7,7 @@ image: /assets/tools.jpg
 
 ### VMware Horizon Linux OVA Template
 ![logo](/assets/horizon-ubuntu-ova.png){:height="100px" width="88px" .align-left}  
-A pre-packaged OVA built on Ubuntu 18.04 LTS that automates the initial image configuration needed for a Linux Desktop Template for use with VMware Horizon 7. This project is open source on [Github](https://github.com/thatvirtualboy/horizon-linux-vm) as well as published on [VMware Flings](https://flings.vmware.com/horizon-ova-for-ubuntu).
+A pre-packaged OVA built on Ubuntu 18.04 LTS that automates the initial image configuration needed for a Linux Desktop Template for use with VMware Horizon 7. This project is open source on [Github](https://github.com/thatvirtualboy/horizon-linux-vm) as well as published on [VMware Flings](https://flings.vmware.com/horizon-ova-for-ubuntu). It's also been featured on VMware's [Digital Workspace Tech Zone](https://techzone.vmware.com/blog/featured-flings-vmware-horizon).
 <br><br>
 
 ---  
@@ -34,9 +34,9 @@ An app featuring hand-picked virtual backgrounds to be used with your video conf
 ---
 
 <br>
-### Artbox (iOS, iPadOS, macOS)
+### Artbox (iOS, iPadOS)
 ![logo](/assets/apps/artbox/artbox2.png){:height="100px" width="100px" .align-left}  
-A convenient and modern way to safely store your kids' artwork.   
+A convenient and modern way to secure arts & crafts.   
 
 <a href="https://apps.apple.com/us/app/artbox-2/id1557964462?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1619568000&h=592ca0fbd3178d7c7384a6379fe65c1b" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"></a>
 

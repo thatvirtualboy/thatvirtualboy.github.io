@@ -1,0 +1,134 @@
+I"�<p>I’m thrilled to announce a major update coming soon to Artbox: version 2.7 - Crafting Memories.</p>
+
+<p>Artbox is the stand-out solution for documenting arts and crafts. Whether you’re an artist wanting to document your sketches and paintings, a creator needing to capture your knitting and crocheting creations, or a parent who has creative kids at home, Artbox is the quintessential app for crafting memories.</p>
+
+<p>This update includes over 40 new features, improvements, and fixes making this update the best one to date. Here are just a few worth calling out:</p>
+
+<h4 id="redesigned-project-view">Redesigned Project View</h4>
+<p>In this new project view, users can swipe through multiple photos, turn off the background, and double-tap to add the project to favorites.<br />
+<img src="/assets/images/ab27_project.png" alt="" height="600px" class="align-left" /></p>
+
+<h4 id="color-matched-widgets-pro">Color-matched widgets (Pro)</h4>
+<p>Widgets come with your free download of Artbox, however one nifty feature that’s reserved for <em>Pro</em> users is having the widgets automatically be color-matched to the artist’s profile.<br />
+<img src="/assets/images/ab27_widgets.png" alt="" height="600px" class="align-left" /></p>
+
+<h4 id="four-all-new-exclusive-icons-pro">Four all-new exclusive icons (Pro)</h4>
+<p>I’m excited to add these fun new icons for <em>Pro</em> users. My goal is to add new icons regularly!<br />
+<img src="/assets/images/ab27_icons.png" alt="" height="600px" class="align-left" /></p>
+
+<h4 id="other-callouts">Other callouts</h4>
+<p><strong>Birthday Settings can now be turned on/off for individual profiles</strong><br />
+When Birthday Settings are enabled, artist profiles will display the artist’s age. Even better, when viewing a project the artist’s age <em>at the tie the project was added</em> will be calculated and displayed in the details.</p>
+
+<p>Previously this was a global setting where enabling or disabling the feature would impact every profile. However now with version 2.7, this feature can be turned on and off per profile.</p>
+
+<p><strong>Localization updates</strong><br />
+Artbox’s primary supported language is English, with support for Chinese (Simplified), Dutch, French, German, and Spanish. I’m by no means <em>quintilingual</em> and rely on translation services to add this support.</p>
+
+<p>I must admit the last few updates to Artbox didn’t have a lot of focus on localization and translations got further out of date. With this release, they should be much better (though certainly not perfect!)</p>
+
+<p><strong>Loads of stability fixes</strong><br />
+This release includes a lot of refinements that improve the overall stability. Most bugs that were fixed were related to how Artbox handles missing data where it expected there to be data.</p>
+
+<h2 id="artbox-pro">Artbox Pro</h2>
+<p>Perhaps the biggest change is that Artbox will now be a <strong>free</strong> app for basic usage, with premium features available with a subscription, or one-time payment.</p>
+
+<p><em>Artbox Pro</em> offers the best user experience and is available in 3 flavors:</p>
+
+<ol>
+  <li>$0.99 / month</li>
+  <li>$9.99 / year</li>
+  <li>One-time payment of $24.99 for a Lifetime Subscription</li>
+</ol>
+
+<p>I spent a lot of time thinking about the app’s features - what should be included in basic usage and what should be considered <em>Premium</em>. Here’s the feature comparison chart:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Basic</th>
+      <th>Pro</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Unlimited Profiles</td>
+      <td>*</td>
+      <td>*</td>
+    </tr>
+    <tr>
+      <td>Unlimited Projects</td>
+      <td>*</td>
+      <td>*</td>
+    </tr>
+    <tr>
+      <td>Configurable Text Overlays</td>
+      <td>*</td>
+      <td>*</td>
+    </tr>
+    <tr>
+      <td>Metadata Export</td>
+      <td>*</td>
+      <td>*</td>
+    </tr>
+    <tr>
+      <td>Share Individual Projects</td>
+      <td>*</td>
+      <td>*</td>
+    </tr>
+    <tr>
+      <td>Multiple Photos per Project</td>
+      <td> </td>
+      <td>* (up to 4)</td>
+    </tr>
+    <tr>
+      <td>Widgets</td>
+      <td>*</td>
+      <td>*</td>
+    </tr>
+    <tr>
+      <td>Color-Matched Widgets</td>
+      <td> </td>
+      <td>*</td>
+    </tr>
+    <tr>
+      <td>iCloud Sync &amp; Backup</td>
+      <td> </td>
+      <td>*</td>
+    </tr>
+    <tr>
+      <td>Additional Color Profiles</td>
+      <td> </td>
+      <td>*</td>
+    </tr>
+    <tr>
+      <td>Custom Icons</td>
+      <td> </td>
+      <td>*</td>
+    </tr>
+    <tr>
+      <td>Touch ID / Face ID</td>
+      <td> </td>
+      <td>*</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+<blockquote>
+  <p>If you previously bought Artbox, you will be upgraded to an Artbox Pro Lifetime subscription for free.</p>
+</blockquote>
+
+<h2 id="why-change-the-pricing-model">Why change the pricing model</h2>
+<p>Developing and publishing Artbox has been one of the most fun and rewarding hobbies I’ve pursued. It’s also been the most challenging. In most cases, developing a quality app isn’t just something you work on for a while, then publish to an app store and then you’re done. In fact that’s when the real work begins in supporting users, marketing, and adding improvements / new features.</p>
+
+<p>The new pricing model is designed to allow ongoing maintenance and support of the app because I want the app to continue to grow and thrive and be an essential tool for anyone looking to catalog their arts &amp; crafts.</p>
+
+<h2 id="concluding-thoughts">Concluding Thoughts</h2>
+<p>Version 2.7 is expected to be out later this month so keep on the lookout! And if you find yourself taking the app for a spin, please consider leaving a review, I would really appreciate it! 🤙</p>
+
+<p>👉 Landing Page: <a href="https://artbox.app">https://artbox.app</a><br />
+👉 Twitter: <a href="https://twitter.com/artboxtheapp">@artboxtheapp</a><br />
+👉 Instagram: <a href="https://instagram.com/artboxtheapp">@artboxtheapp</a></p>
+:ET
