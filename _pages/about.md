@@ -14,11 +14,11 @@ All content + opinions belong to me and do not represent my employer. Enjoy!</p>
 
 <p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/profile.jpeg" alt="profile" /></p>
 
-<p>Ryan has been customer-focused since joining VMware in 2011 working in a variety of roles. He is currently a Senior Technical Account Manager and has worked with all types of customers in public and private sectors. He holds several certifications and is a 6-time recognized vExpert.</p>
+<p>Ryan has been customer-focused since joining VMware in 2011 working in a variety of roles. He is currently a Senior Technical Account Manager and has worked with all types of customers in public and private sectors. He holds several certifications and is a 7-time recognized vExpert.</p>
 
 <h4>Acclaim</h4>
 
-<p>View my recent certifications on <a href="https://www.youracclaim.com/users/ryan-klumph/badges">Acclaim</a>.</p>
+<p>View my recent certifications on <a href="https://www.credly.com/users/ryan-klumph/badges">Credly</a>.</p>
 
 
 
