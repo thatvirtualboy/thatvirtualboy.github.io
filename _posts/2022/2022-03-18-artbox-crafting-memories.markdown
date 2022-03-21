@@ -32,6 +32,9 @@ When Birthday Settings are enabled, artist profiles will display the artist's ag
 
 Previously this was a global setting where enabling or disabling the feature would impact every profile. However now with version 2.7, this feature can be turned on and off per profile.  
 
+**Photo export for Mac**  
+Mac Catalyst users can now export images from individual projects. When an image is saved, it creates an album in your Photos app called 'Artbox' and saves the images there.
+
 **Localization updates**  
 Artbox's primary supported language is English, with support for Chinese (Simplified), Dutch, French, German, and Spanish. I'm by no means *quintilingual* and rely on translation services to add this support.
 
@@ -72,10 +75,10 @@ I spent a lot of time thinking about the app's features - what should be include
 ## Why change the pricing model
 Developing and publishing Artbox has been one of the most fun and rewarding hobbies I've pursued. It's also been the most challenging. In most cases, developing a quality app isn't just something you work on for a while, then publish to an app store and then you're done. In fact that's when the real work begins in supporting users, marketing, and adding improvements / new features.
 
-The new pricing model is designed to allow ongoing maintenance and support of the app because I want the app to continue to grow and thrive and be an essential tool for anyone looking to catalog their arts & crafts.
+The new pricing model is designed to allow ongoing maintenance and support of the app. If I've learned one thing about app development, it's that it never stops! Artbox has become an essential tool in my family, and I hope it is for my users as well.
 
 ## Concluding Thoughts
-Version 2.7 is expected to be out later this month so keep on the lookout! And if you find yourself taking the app for a spin, please consider leaving a review, I would really appreciate it! 🤙
+Version 2.7 is undergoing a phased rollout and should be available to everyone by March 28th. Thanks for making it this far into the post! If you'd like to help spread the word, you can upvote and share a comment [here](https://www.reddit.com/r/apple/comments/tirdhc/i_released_an_anniversary_update_to_my_app_artbox/). And if you find yourself taking the app for a spin, please consider leaving a review, I would really appreciate it! 🤙
 
 👉 Landing Page: [https://artbox.app](https://artbox.app)  
 👉 Twitter: [@artboxtheapp](https://twitter.com/artboxtheapp)  

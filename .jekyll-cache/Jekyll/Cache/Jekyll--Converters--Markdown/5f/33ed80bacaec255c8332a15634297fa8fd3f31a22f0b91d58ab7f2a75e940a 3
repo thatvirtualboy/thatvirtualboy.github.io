@@ -1,3 +1,0 @@
-I"{
-<p>If you’ve ever run into this error when composing linked clones with VMware Horizon View Composer, you are very much not alone. This is a common error that ultimately comes down to this: your Composer database already has an entry with that VM name in it. There are 3 ways to fix it depending on your View version and scenario. But first, let’s understand the issue.</p>
-:ET
