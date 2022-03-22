@@ -8,7 +8,7 @@ read_time: true
 author: Ryan Klumph
 ---
 
-I'm thrilled to announce a major update coming soon to Artbox: version 2.7 - Crafting Memories.
+I'm thrilled to announce a major update to Artbox: version 2.7 - Crafting Memories.
 
 Artbox is the stand-out solution for documenting arts and crafts. Whether you’re an artist wanting to document your sketches and paintings, a creator needing to capture your knitting and crocheting creations, or a parent who has creative kids at home, Artbox is the quintessential app for crafting memories.
 
