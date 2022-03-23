@@ -1,2 +1,0 @@
-I"�<p>If you’ve found yourself building a modern application in SwiftUI, there’s a good chance you started building it as an <em>iOS</em> app, and eventually began tinkering with WidgetKit. As you progressed through your development, you realized that only a few tweaks were needed to make it a really good iPad app as well. Once you were satisfied with iOS and iPadOS you figured, “What the heck… let’s test this thing on Mac Catalyst!”</p>
-:ET

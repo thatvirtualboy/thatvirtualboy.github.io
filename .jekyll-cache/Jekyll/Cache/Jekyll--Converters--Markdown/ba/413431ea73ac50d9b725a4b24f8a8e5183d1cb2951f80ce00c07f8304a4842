@@ -1,0 +1,43 @@
+I"�<p>If I’ve learned anything from developing apps, it’s that there’s always something to fix. Something to change. Something to improve. The work is never finished, and therein lies the demon with any hobby. “I can stop whenever I want” we say…</p>
+
+<p>One such change I had been wanting to make was to rethink my app’s payment strategy. My app was a pay-up-front design which not only set it apart from its competition, but also deterred a lot of potential users. A low cost to entry, but a gamble to pay up front.</p>
+
+<p>Sure many paid apps have followed the pay-up-front model for years and have been doing just fine. But most of those apps are built, maintained, and supported by teams of people, not a single indie developer.</p>
+
+<p>In an effort to get my app into the hands of more people, I decided it was time to make the change. Make it free. Remove the barrier to entry so people could haphazardly download it without giving it a second thought. Then, if things go well, they might get curious what’s behind that paywall for the premium features. Maybe they’ll ask themselves, “Why are those features considered so valuable?” Maybe they’ll discover the those features are actually quite useful. Maybe they’ll become a subscriber…</p>
+
+<h3 id="freemium-vs-subscription">Freemium vs. Subscription</h3>
+
+<p><img src="https://images.unsplash.com/photo-1550039120-5d6529f0c4de?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=3540&amp;q=80" alt="" /></p>
+
+<p>Getting to this point, you might be mulling over whether to go the Freemium route, or the Subscription route. Some define these terms similarly. However I think it’s beneficial to break them down further. Let’s cover what those options entail:</p>
+
+<p><strong>Freemium</strong> means your app is free to download and allows basic usage, but the bells and whistles are stuck behind a one-time paywall.</p>
+
+<p><strong>Subscription</strong> is similar, in that your app with basic usage is free to download, but instead of a one-time payment to unlock additional features and capabilities, users must subscribe to a recurring payment to continue their access to premium features.</p>
+
+<p>For my app, I wanted to introduce the most flexibility for my users. This included 3 options:</p>
+
+<ol>
+  <li>Use the app for free. You get basic usage and it costs you nothing (Free)</li>
+  <li>Pay a monthly or yearly subscription to unlock additional premium content (Subscription)</li>
+  <li>For users who don’t want a subscription, pay a one-time fee to unlock premium content for life (Freemium)</li>
+</ol>
+
+<p><strong>Number 1</strong> suits users who never pay for apps or subscribe to anything, but they’re a user who can help spread the word about your app to friends and family.</p>
+
+<p><strong>Number 2</strong> is the sweet spot (for the developer) as you can track Monthly Recurring Revenue (MRR) and count on that income. Users benefit from low payments to utilize the premium features for as long as they see fit.</p>
+
+<p><strong>Number 3</strong> scratches the itch for folks who don’t like subscriptions. Pay once and call it a day.</p>
+
+<p>Offering all 3 options covers all the bases and gives users the most flexibility. Determining the optimal dollar amount for each option will take some careful thought. In my model, I wanted to keep the barrier-to-entry low across all options, fostering the end user to think that all options are attainable.</p>
+
+<p>Now that I had my target payment strategy out of the way, I needed to figure out how to make it happen. My app was pay-up-front, and contains no login requirements. My app was essentially used anonymously by every user that ever purchased it.</p>
+
+<p>How would I implement these new payment models?<br />
+How should I handle users who previously bought the app?</p>
+
+<p>I’ll cover the technical details and implementation of RevenueCat in Part 2 (coming soon)</p>
+
+<p>Thanks for reading!</p>
+:ET
