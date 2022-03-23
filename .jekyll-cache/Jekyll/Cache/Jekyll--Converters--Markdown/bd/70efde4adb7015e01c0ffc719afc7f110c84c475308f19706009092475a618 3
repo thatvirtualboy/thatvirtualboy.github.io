@@ -1,0 +1,2 @@
+I"<p>In this post, we’ll be upgrading an HA Cluster of Workspace Portal 2.1.1 to vIDM 2.4 per the official documentation instructions. Some technical knowledge of pgAdmin and other tools is assumed in the official guide, so hopefully this post can help fill the gaps.</p>
+:ET

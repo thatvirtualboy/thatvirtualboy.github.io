@@ -1,0 +1,32 @@
+I"
+<p>At WWDC21, Apple introduced a new capability to developers called <em>In-App Events</em> which are timely events within your apps and games such as a <strong>game competition</strong>, a <strong>fitness challenge</strong>, a <strong>movie premier</strong>, and more.</p>
+
+<p>These events are discoverable right in the App Store in what’s called an <em>Event Card</em>. The Event Card shows details like the event name, a short description, and a time indicator. These event cards can be static images, or videos highlighting the contents of the event. Event cards are displayed on your App’s product page, and can also show up in the App Store’s search results.</p>
+
+<blockquote>
+  <p>One interesting tidbit about the placement of Event Cards: users who have already downloaded your app will see the events <strong>above</strong> the screenshots in your product page. Users who have not downloaded your app will see them <strong>below</strong> the app screenshots.</p>
+</blockquote>
+
+<p>When a user taps on the Event Card, it brings up the <em>Event Details Page</em>. The details page can include slightly more text and a larger image. From the details page, users can open your app directly to the event using a Universal Link. They can even share the Event with others. If your event hasn’t started yet, users can choose to get notified when it starts. Developers can publish Event Cards up to 2 weeks prior to the start of an event.</p>
+
+<p><img src="assets/images/In_App_Events/IAE-description.png" alt="" /></p>
+
+<p>When you create an event, you assign it a <strong>badge</strong> which categorizes some properties around that specific type of event. As of this writing, there are 7 badge types available: Live Event, Premiere, Challenge, Competition, New Season, Major Update, and Special Event.
+Source: https://help.apple.com/app-store-connect/#/dev722080efc</p>
+
+<p>Before you can submit an event, there are certain requirements you’ll need.</p>
+
+<h3 id="requirements">Requirements</h3>
+<ol>
+  <li>
+    <p>Deep Links
+Deep Links, or Universal Links, are how Event Cards are linked to your app’s event. These need to be configured before you submit an In-App Event. For an example of setting these up, check out Fernando Moya de Rivas’ <a href="https://morioh.com/p/b2b8a09bc3e1">post</a> and <a href="https://github.com/fermoya/TripsCalendar">example Github project</a>.</p>
+  </li>
+  <li>
+    <p>Event Card Media
+You’ll need 2 images for your Event Cards: 
+• 1920x1080 for the small Event Card
+• 1080x1920 for the Event Details Page</p>
+  </li>
+</ol>
+:ET
