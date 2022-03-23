@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Migrating A Paid App To Subscription/Freemium (Part 2)"
-date: 2022-03-24
+date: 2022-03-23
 categories: [bacon, Apple, developer, SwiftUI, Xcode]
 image: "https://images.unsplash.com/photo-1529528744093-6f8abeee511d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80"
 read_time: true
