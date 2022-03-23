@@ -1,0 +1,8 @@
+I""<p>In <a href="https://thatvirtualboy.com/migrating-paid-app-to-subscription-freemium-1/">Part 1</a> of this 2-part series, I discussed the differences between the different pricing strategies developers are faced with in today’s app market.</p>
+
+<p>In this post, I’ll share some technical details on how I converted my paid app to subscription/freemium.</p>
+
+<h3 id="revenuecat">RevenueCat</h3>
+<p><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffiles.readme.io%2F5c97626-OG_image.png&amp;f=1&amp;nofb=1" alt="" />
+By far the easiest path to implementing subscriptions is to use <a href="https://www.revenuecat.com">RevenueCat</a>. At first I didn’t like the idea of relying on a 3rd party for such a crucial function in my app, but the more you look into RC and their</p>
+:ET
