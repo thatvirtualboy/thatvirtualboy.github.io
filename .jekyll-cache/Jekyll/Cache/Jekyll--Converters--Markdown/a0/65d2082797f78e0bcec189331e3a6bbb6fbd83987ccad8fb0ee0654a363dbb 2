@@ -1,4 +1,4 @@
-I"�<p>If I’ve learned anything from developing apps, it’s that there’s always something to fix. Something to change. Something to improve. The work is never finished, and therein lies the demon with any hobby. “I can stop whenever I want” we say…</p>
+I"�<p>If I’ve learned anything from developing apps, it’s that there’s always something to fix. Something to change. Something to improve. The work is never finished, and therein lies the demon with any hobby. “I can stop whenever I want” we say…</p>
 
 <p>One such change I had been wanting to make was to rethink my app’s payment strategy. My app was a pay-up-front design which not only set it apart from its competition, but also deterred a lot of potential users. A low cost to entry, but a gamble to pay up front.</p>
 
@@ -37,7 +37,7 @@
 <p>How would I implement these new payment models?<br />
 How should I handle users who previously bought the app?</p>
 
-<p>I’ll cover the technical details and implementation of RevenueCat in Part 2 (coming soon)</p>
+<p>I’ll cover the technical details and implementation of RevenueCat in <a href="https://thatvirtualboy.com/migrating-paid-app-to-subscription-freemium-2/">Part 2</a></p>
 
 <p>Thanks for reading!</p>
 :ET

@@ -1,4 +1,4 @@
-I"�<p>In <a href="https://thatvirtualboy.com/migrating-paid-app-to-subscription-freemium-1/">Part 1</a> of this 2-part series, I discussed the differences between the different pricing strategies developers are faced with in today’s app market.</p>
+I"<p>In <a href="https://thatvirtualboy.com/migrating-paid-app-to-subscription-freemium-1/">Part 1</a> of this 2-part series, I discussed the differences between the different pricing strategies developers are faced with in today’s app market.</p>
 
 <p>In this post, I’ll share some technical details on how I converted my paid app to subscription/freemium. This post covers a SwiftUI app using Xcode 13.</p>
 
@@ -20,10 +20,10 @@ By far the easiest path to implementing subscriptions is to use <a href="https:/
 
 <p>Once you have RevenueCat up and running in your app, you can begin handling your grandfathered users.</p>
 
-<h3 id="validate-existing-users-in-swiftui">Validate existing users in SwiftUI</h3>
+<h3 id="handling-existing-vs-new-users">Handling existing vs new users</h3>
 <p>My app is a SwiftUI app with the SwiftUI App Lifecycle.</p>
 
-<p>In my <strong>App.swift</strong> file, I built a check that validates the app’s build number in the user’s receipt from when they originally downloaded the app. This checks the value of <code class="highlighter-rouge">originalApplicationVersion</code> from the receipt.</p>
+<p>In my <strong>App.swift</strong> file, I built a check that validates the app’s <em>build number</em> in the user’s receipt from when they originally downloaded the app. This checks the value of <code class="highlighter-rouge">originalApplicationVersion</code> from the receipt.</p>
 
 <script src="https://gist.github.com/thatvirtualboy/dce533c039c0b0d7f42f74e07e689cd1.js"></script>
 
@@ -41,13 +41,18 @@ By far the easiest path to implementing subscriptions is to use <a href="https:/
 
 <p>Great! We can now know if the user should be a Pro user or not. However this code alone will not work right off the bat for your existing paid users.</p>
 
-<p>The issue here is that user receipts aren’t synced to RevenueCat until <em>after</em> a user either makes a purchase, or calls <code class="highlighter-rouge">restoreTransations</code> (usually handled with a <strong>Restore Purchases</strong> button). So upon initial upgrade, the above code will print out <code class="highlighter-rouge">*** NO RECEIPT FOUND ***</code> for all users.</p>
+<p>The issue here is that user receipts aren’t synced to RevenueCat until <em>after</em> a user either makes a purchase, or calls <code class="highlighter-rouge">restoreTransations</code> (usually handled with a <strong>Restore Purchases</strong> button). So upon initial upgrade, the above code will print out <code class="highlighter-rouge">*** NO RECEIPT FOUND ***</code> for all users since this is the first build RevenueCat has been implemented in.</p>
 
 <p>This unfortunately means that every paid user who upgrades the app to the new Subscription model version will initially start out as a Free user.</p>
 
-<p>We need a way to make it easy for our users to pull that receipt data. I would imagine there are lots of ways to accomplish this. I would have thought to just code the restore operation, however RevenueCat’s documentation <a href="https://docs.revenuecat.com/docs/restoring-purchases">states that we shouldn’t do that programatically</a>.</p>
+<h3 id="taking-care-of-existing-paid-users">Taking care of existing paid users</h3>
+<p>We need a way to make it easy for our users to pull that receipt data. I would imagine there are lots of ways to accomplish this. I would have thought to just code the restore operation, however RevenueCat’s documentation <a href="https://docs.revenuecat.com/docs/restoring-purchases">states that we shouldn’t do that programmatically</a>.</p>
 
-<p>In my case, I ended up adding a note in my <strong>What’s New</strong> popup for users to <em>Finish their upgrade</em> by tapping a button. That button would then call the <code class="highlighter-rouge">restorePurchases</code> method, then display an Alert. The alert explains that the user should now restart the app to reflect the changes. Now the receipt should be properly pulled and synced with RevenueCat, and the checks can validate the proper <code class="highlighter-rouge">grandfatheredPro</code> value. If you choose to go a manual route like this, it’s important to encourage the user to perform the restore/restart operations early on so that they aren’t presented any paywalls while navigating the app.</p>
+<p>In my case, I ended up adding a note in my <strong>What’s New</strong> popup for users to <em>Finish their upgrade</em> by tapping a button. That button would then call the <code class="highlighter-rouge">restorePurchases</code> method, then display an Alert based on a <code class="highlighter-rouge">@State</code> variable.</p>
+
+<script src="https://gist.github.com/thatvirtualboy/61a41eae6d1d5e6baad3375f1fcccc24.js"></script>
+
+<p>The alert explains that the user should now restart the app to reflect the changes. Now the receipt should be properly pulled and synced with RevenueCat, and the checks can validate the proper <code class="highlighter-rouge">grandfatheredPro</code> value. If you choose to go a manual route like this, it’s important to encourage the user to perform the restore/restart operations early on so that they aren’t presented any paywalls while navigating the app.</p>
 <p float="left">
 <img src="/assets/images/artbox27new2.PNG" width="300" />
 <img src="/assets/images/artbox27new1.PNG" width="300" />
