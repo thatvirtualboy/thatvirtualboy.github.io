@@ -45,6 +45,6 @@ Now that I had my target payment strategy out of the way, I needed to figure out
 How would I implement these new payment models?  
 How should I handle users who previously bought the app?
 
-I’ll cover the technical details and implementation of RevenueCat in Part 2 (coming soon)
+I’ll cover the technical details and implementation of RevenueCat in [Part 2](https://thatvirtualboy.com/migrating-paid-app-to-subscription-freemium-2/)
 
 Thanks for reading!
