@@ -1,0 +1,2217 @@
+I"S�<p>&lt;object data=”” width=”1000” height=”1000” type=’application/pdf’&lt;/object&gt;</p>
+<table>
+  
+    
+    <tr>
+      
+        <th>Product Release</th>
+      
+        <th>Support Status</th>
+      
+        <th>General Availability</th>
+      
+        <th>End of General Support</th>
+      
+        <th>End of Technical Guidance</th>
+      
+        <th>End of Availability</th>
+      
+        <th>Lifecycle Policy</th>
+      
+        <th>Notes</th>
+      
+    </tr>
+    
+    <tr class="row1">
+<td class="col1">
+    App Volumes 2.18 (ESB)
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2019-09-16
+    </td><td class="col4">
+    2022-09-16
+    </td><td class="col5">
+    2023-09-16
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Desktop and Mobility Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    App Volumes 4
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-01-14
+    </td><td class="col4">
+    2022-01-14
+    </td><td class="col5">
+    2023-01-14
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Desktop and Mobility Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    App Volumes 4 2006
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-07-09
+    </td><td class="col4">
+    2022-07-09
+    </td><td class="col5">
+    2023-07-09
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Desktop and Mobility Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    App Volumes 4 2009
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-10-15
+    </td><td class="col4">
+    2022-10-15
+    </td><td class="col5">
+    2023-10-15
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Desktop and Mobility Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Bitfusion 2.0
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-07-09
+    </td><td class="col4">
+    2022-07-09
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Bitfusion 2.5
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-11-05
+    </td><td class="col4">
+    2022-11-05
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Cloud Director App Launchpad 1.0
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-04-09
+    </td><td class="col4">
+    2022-04-09
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Cloud Director App Launchpad 2.0
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-10-15
+    </td><td class="col4">
+    2022-10-15
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Cloud Director Object Storage Extension 1.5
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-04-16
+    </td><td class="col4">
+    2022-04-16
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Cloud Director Object Storage Extension 2.0
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-10-15
+    </td><td class="col4">
+    2022-10-15
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Dynamic Environment Manager 10 2006
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-08-11
+    </td><td class="col4">
+    2022-08-11
+    </td><td class="col5">
+    2023-08-11
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Desktop and Mobility Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Dynamic Environment Manager 10 2009
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-10-15
+    </td><td class="col4">
+    2022-10-15
+    </td><td class="col5">
+    2023-10-15
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Desktop and Mobility Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Dynamic Environment Manager 9.11
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-03-17
+    </td><td class="col4">
+    2022-03-17
+    </td><td class="col5">
+    2023-03-17
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Desktop and Mobility Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Dynamic Environment Manager 9.9
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2019-09-17
+    </td><td class="col4">
+    2022-03-17
+    </td><td class="col5">
+    2022-09-17
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Desktop and Mobility Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    ESXi 6.5
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2016-11-15
+    </td><td class="col4">
+    2022-10-15
+    </td><td class="col5">
+    2023-11-15
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Infrastructure Policy
+    </td><td class="col8">
+    00: VMware is offering 2 year extended support for VMware ESXi 6.5.  • • 
+
+You can purchase extended support for VMware ESXi 6.5.  • • 
+
+The Extended Support SKUs will be available for booking from the first week of April 2022.  • • 
+
+With 2 year extended support you can claim support till 2024-10-15.  • • 
+
+You must purchase Extended Support before the end of General Support to get continuous support from VMware.  • • 
+
+Customers are advised to use the vCenter Server 6.7 to manage ESXi 6.5 host due the flash EOL issue. Reference :- https://blogs.vmware.com/vsphere/2020/04/vsphere-web-client-support-beyond-adobe-flash-eol.html  • • 
+
+During this extended support, 3rd party Software packages will not be updated. There will not be Architectural ,  performance improvements , feature addition to 6.7 during extended support.
+Security patches are limited to one roll-up per year. 
+ Refer to https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/products/support/vmware-extended-datasheet.pdf  for Extended Support Terms and Condition.
+01: VMware is offering 1 year of technical guidance from the end of General Support or the end of extended Support, whichever comes later. • • 
+
+2023-11-15 (applicable If you do not purchase the extended support before the end of General Support. • • 
+
+2025-10-15 (VMware is offering 2 year extended support.  If you have purchased extended support before the end of General Support. You can claim +1 year of Technical Guidance from end of extended Support.) • • 
+
+Minimum of 1 year Extended Support purchase is must to claim the extended technical guidance of 1 year. e.g. if you purchase 1 year extended Support , your effective End of Technical Guidance date will be +1 Year from the end of Extended Support. 
+If you purchase 2 year extended support starting 2022-10-15, the EOTG date applicable will be 2025-10-15.
+If you want to claim the Extended Technical Guidance or Extended Support, you must purchase  the Extended Support before the expiry of General Support. Otherwise you can not claim the new extended technical guidance dates or extended support. If you do not purchase extended support before end of General Support then the original Dates for end of technical guidance are applicable. i.e. 2023-11-15
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    ESXi 6.7
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2018-04-17
+    </td><td class="col4">
+    2022-10-15
+    </td><td class="col5">
+    2023-11-15
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Infrastructure Policy
+    </td><td class="col8">
+    04: VMware is offering 2 year extended support for VMware ESXi 6.7;• 
+You can purchase extended support for VMware ESXi  6.7 upto 2 years .
+• 
+The Extended Support SKUs will be available for purchase from the first week of April 2022.
+• 
+With 2 year extended support you can claim support till 2024-10-15.
+• 
+You must purchase Extended Support before the end of General Support to get continuous support from VMware.• 
+
+During this extended support, 3rd party Software packages will not be updated. There will not be Architectural ,  performance improvements , feature addition to 6.7 during extended support.
+• 
+Security patches are limited to one roll-up per year. 
+Refer to https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/products/support/vmware-extended-datasheet.pdf for Extended Support Terms and Condition.
+05: VMware is offering 1 year of technical guidance from the end of General Support or the end of extended Support, whichever comes later.  •
+
+2023-11-15 (applicable If you do not purchase the extended support before the end of General Support.)
+ •
+2025-10-15 (VMware is offering 2 year extended support.  If you have purchased extended support before the end of General Support. You can claim +1 year of Technical Guidance from end of extended Support.)
+ •
+Minimum of 1 year Extended Support purchase is must to claim the extended technical guidance of 1 year. e.g. if you purchase 1 year extended Support , your effective End of Technical Guidance date will be +1 Year from the end of Extended Support.
+If you purchase 2 year extended support starting 2022-10-15, the EOTG date applicable will be 2025-10-15.
+If you want to claim the Extended Technical Guidance or Extended Support, you must purchase  the Extended Support before the expiry of General Support. Otherwise you can not claim the new extended technical guidance dates or extended support. If you do not purchase extended support before end of General Support then the original Dates for end of technical guidance are applicable. i.e. 2023-11-15
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Fusion 12
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-09-14
+    </td><td class="col4">
+    2022-12-22
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Personal Desktop Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    HCX 4.1.0
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-06-15
+    </td><td class="col4">
+    2022-06-15
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    N-2 Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    HCX 4.2.0
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-08-05
+    </td><td class="col4">
+    2022-08-05
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    N-2 Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    HCX 4.3.0
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-12-15
+    </td><td class="col4">
+    2022-12-15
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    N-2 Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Horizon 7.10 ESB
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2019-09-17
+    </td><td class="col4">
+    2022-03-17
+    </td><td class="col5">
+    2023-03-22
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Desktop and Mobility Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Horizon 7.13
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-10-15
+    </td><td class="col4">
+    2022-10-15
+    </td><td class="col5">
+    2023-03-23
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Desktop and Mobility Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Horizon DaaS On Prem Platform 9.0
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-05-07
+    </td><td class="col4">
+    2022-05-07
+    </td><td class="col5">
+    2023-05-07
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Desktop and Mobility Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Identity Manager 3.3.3
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-11-12
+    </td><td class="col4">
+    2022-05-11
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Desktop and Mobility Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Identity Manager 3.3.4
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-02-04
+    </td><td class="col4">
+    2022-08-04
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Desktop and Mobility Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Identity Manager 3.3.5
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-05-20
+    </td><td class="col4">
+    2022-11-20
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Desktop and Mobility Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Identity Manager Connector 19.03
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2019-04-16
+    </td><td class="col4">
+    2022-08-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Desktop and Mobility Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Integrated OpenStack 7.0
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-06-04
+    </td><td class="col4">
+    2022-06-04
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Integrated OpenStack 7.1
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-05-13
+    </td><td class="col4">
+    2022-06-04
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    NSX Data Center for vSphere 6.4
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2018-01-16
+    </td><td class="col4">
+    2022-01-16
+    </td><td class="col5">
+    2023-01-16
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Application Platform Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Telco Cloud Automation 1.x
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-10-13
+    </td><td class="col4">
+    2022-10-13
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    VMware Cloud Director 10.1
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-04-09
+    </td><td class="col4">
+    2022-04-09
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    VMware Cloud Director 10.2
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-10-15
+    </td><td class="col4">
+    2022-10-15
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    VMware Cloud Director Availability 4.0
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-06-02
+    </td><td class="col4">
+    2022-06-02
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    VMware Cloud Director Availability 4.1
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-11-26
+    </td><td class="col4">
+    2022-06-02
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    VMware Cloud Foundation 3.10
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-05-26
+    </td><td class="col4">
+    2022-04-30
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    N-2 Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    VMware Cloud Foundation 3.11
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2022-02-14
+    </td><td class="col4">
+    2022-09-01
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    N-2 Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    VMware SD-WAN 3.4 Edge
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-02-25
+    </td><td class="col4">
+    2022-12-31
+    </td><td class="col5">
+    2023-03-31
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    VMware SD-WAN 3.4 Orchestrator, Controller and Gateway
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-02-25
+    </td><td class="col4">
+    2022-03-30
+    </td><td class="col5">
+    2022-06-30
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    VMware SD-WAN 4.0
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-09-30
+    </td><td class="col4">
+    2022-09-30
+    </td><td class="col5">
+    2022-12-30
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    VMware SD-WAN 4.2
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-12-22
+    </td><td class="col4">
+    2022-12-31
+    </td><td class="col5">
+    2023-03-30
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    VMware Tanzu Kubernetes Grid 1.3
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-03-25
+    </td><td class="col4">
+    2022-03-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    N-2 Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    VMware Tanzu Kubernetes Grid 1.4
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-09-09
+    </td><td class="col4">
+    2022-09-30
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    N-2 Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    VMware Tanzu Kubernetes Grid Integrated Edition 1.11.0
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-05-27
+    </td><td class="col4">
+    2022-05-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    N-2 Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    VMware Tanzu Kubernetes Grid Integrated Edition 1.12.0
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-09-09
+    </td><td class="col4">
+    2022-09-30
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    N-2 Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    VMware Tanzu Kubernetes Grid Integrated Edition 1.13.0
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-11-30
+    </td><td class="col4">
+    2022-11-30
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    N-2 Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    VMware Tanzu Toolkit for Kubernetes 1.2.0
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-04-06
+    </td><td class="col4">
+    2022-04-30
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    N-2 Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    VMware Tanzu Toolkit for Kubernetes 1.3.0
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-11-25
+    </td><td class="col4">
+    2022-11-30
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    N-2 Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    VMware Tools 10.2.x
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2017-12-14
+    </td><td class="col4">
+    2022-12-14
+    </td><td class="col5">
+    2024-12-14
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Infrastructure Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Workspace ONE Access 20.10
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-11-03
+    </td><td class="col4">
+    2022-05-02
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Desktop and Mobility Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Workspace ONE UEM Console 2010 (SaaS Only)
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-10-14
+    </td><td class="col4">
+    2022-04-14
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Desktop and Mobility Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Workspace ONE UEM Console 2011
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-01-15
+    </td><td class="col4">
+    2022-07-15
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Desktop and Mobility Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Workspace ONE UEM Console 2101 (SaaS Only)
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-01-22
+    </td><td class="col4">
+    2022-07-22
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Desktop and Mobility Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Workspace ONE UEM Console 2102
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-04-14
+    </td><td class="col4">
+    2022-10-14
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Desktop and Mobility Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Workstation 16 Pro and Workstation 16 Player
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-09-14
+    </td><td class="col4">
+    2022-12-22
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Personal Desktop Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vCenter Server 6.5
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2016-11-15
+    </td><td class="col4">
+    2022-10-15
+    </td><td class="col5">
+    2023-11-15
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Infrastructure Policy
+    </td><td class="col8">
+    02: VMware is offering 2 year extended support for VMware vCenter Server 6.5.  • • 
+
+You can purchase extended support for VMware vCenter Server 6.5.  • • 
+
+The Extended Support SKUs will be available for purchase from the first week of April 2022. • • 
+
+With 2 year extended support you can claim support till 2024-10-15.  • • 
+
+You must purchase Extended Support before the end of General Support to get continuous support from VMware.  • • 
+
+
+
+During this extended support, 3rd party Software packages will not be updated. There will not be Architectural ,  performance improvements , feature addition to 6.7 during extended support.
+Security patches are limited to one roll-up per year. 
+No updates to vCenter appliance photon OS. Refer to https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/products/support/vmware-extended-datasheet.pdf  for Extended Support Terms and Condition.  • • 
+Customers are advised to use the vCenter Server 6.7 to manage ESXi 6.5 host due the flash EOL issue. Reference :- https://blogs.vmware.com/vsphere/2020/04/vsphere-web-client-support-beyond-adobe-flash-eol.html
+03: VMware is offering 1 year of technical guidance from the end of General Support or the end of extended Support, whichever comes later.  • 
+
+2023-11-15 (applicable If you do not purchase the extended support before the end of General Support.)  • 
+
+2025-10-15 (VMware is offering 2 year extended support.  If you have purchased extended support before the end of General Support. You can claim +1 year of Technical Guidance from end of extended Support.)  • 
+
+Minimum of 1 year Extended Support purchase is must to claim the extended technical guidance of 1 year. e.g. if you purchase 1 year extended Support , your effective End of Technical Guidance date will be +1 Year from the end of Extended Support.
+If you purchase 2 year extended support starting 2022-10-15, the EOTG date applicable will be 2025-10-15.
+If you want to claim the Extended Technical Guidance or Extended Support, you must purchase  the Extended Support before the expiry of General Support. Otherwise you can not claim the new extended technical guidance dates or extended support. If you do not purchase extended support before end of General Support then the original Dates for end of technical guidance are applicable. i.e. 2023-11-15
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vCenter Server 6.7
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2018-04-17
+    </td><td class="col4">
+    2022-10-15
+    </td><td class="col5">
+    2023-11-15
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Infrastructure Policy
+    </td><td class="col8">
+    A: For this product version, an exception to the End of General Support has been applied.
+B: For this product version, an exception to the End of Technical Guidance has been applied.
+F: For version 6.7, the EoGS extension from 2021/11/15 to 2022/10/15 excludes fixes requiring architectural changes as well as significant upgrades to 3rd Party or Open Source software.
+06: VMware is offering 2 year extended support for for VMware vCenter Server 6.7.  •
+
+You can purchase extended support for VMware vCenter Server 6.7 upto 2 years .  •
+
+The Extended Support SKUs will be available for purchase from the first week of April 2022.  •
+
+With 2 year extended support you can claim support till 2024-10-15.  •
+
+You must purchase Extended Support before the end of General Support to get continuous support from VMware.
+ •
+During this extended support, 3rd party Software packages will not be updated.There will not be Architectural ,  performance improvements , feature addition to 6.7 during extended support.
+Security patches are limited to one roll-up per year. 
+No updates to vCenter appliance photon OS. Refer to https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/products/support/vmware-extended-datasheet.pdf  for Extended Support Terms and Condition.
+07: VMware is offering 1 year of technical guidance from the end of General Support or the end of extended Support, whichever comes later.  •
+
+2023-11-15 (applicable If you do not purchase the extended support before the end of General Support.)  •
+
+2025-10-15 (VMware is offering 2 year extended support.  If you have purchased extended support before the end of General Support. You can claim +1 year of Technical Guidance from end of extended Support.)  •
+
+Minimum of 1 year Extended Support purchase is must to claim the extended technical guidance of 1 year. e.g. if you purchase 1 year extended Support , your effective End of Technical Guidance date will be +1 Year from the end of Extended Support.
+If you purchase 2 year extended support starting 2022-10-15, the EOTG date applicable will be 2025-10-15.
+If you want to claim the Extended Technical Guidance or Extended Support, you must purchase  the Extended Support before the expiry of General Support. Otherwise you can not claim the new extended technical guidance dates or extended support. If you do not purchase extended support before end of General Support then the original Dates for end of technical guidance are applicable. i.e. 2023-11-15
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vCloud Usage Meter 4.4
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-05-04
+    </td><td class="col4">
+    2022-05-04
+    </td><td class="col5">
+    2023-05-04
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vCloud Usage Meter 4.5
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-12-16
+    </td><td class="col4">
+    2022-12-16
+    </td><td class="col5">
+    2023-12-16
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Automation 7.6
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2019-04-11
+    </td><td class="col4">
+    2022-09-01
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Automation 8.2
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-10-06
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Automation 8.3
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-02-04
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Automation 8.4
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-04-15
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Automation 8.5
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-08-19
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Automation 8.6
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-10-12
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Automation 8.6.1
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-11-19
+    </td><td class="col4">
+    2022-11-19
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Business for Cloud 7.6
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2019-04-11
+    </td><td class="col4">
+    2022-04-11
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Log Insight 8.2
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-10-06
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Log Insight 8.3
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-02-04
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Log Insight 8.4
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-04-15
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Log Insight 8.6
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-10-12
+    </td><td class="col4">
+    2023-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Network Insight 5.3
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-07-14
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Network Insight 6.0.0
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-10-13
+    </td><td class="col4">
+    2022-10-13
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Network Insight 6.1.0
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-01-14
+    </td><td class="col4">
+    2022-10-13
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Operations 8.2
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-10-06
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Operations 8.3
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-02-04
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Operations 8.5
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-07-13
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Operations Management Pack for MEDITECH 3.0
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-10-06
+    </td><td class="col4">
+    2022-10-06
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Operations Manager 8.1.1
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-07-09
+    </td><td class="col4">
+    2022-07-09
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Operations for Horizon 6.7
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2019-10-17
+    </td><td class="col4">
+    2022-10-15
+    </td><td class="col5">
+    2023-03-23
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Desktop and Mobility Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Orchestrator 7.6
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2019-04-11
+    </td><td class="col4">
+    2022-09-01
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Orchestrator 8.2
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-10-06
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Orchestrator 8.3
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-02-04
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Orchestrator 8.4
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-04-15
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Orchestrator 8.5
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-08-19
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Orchestrator 8.6
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-10-12
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Suite Lifecycle Manager 8.2
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2020-10-06
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Suite Lifecycle Manager 8.3
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-02-04
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Suite Lifecycle Manager 8.4
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-04-15
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Suite Lifecycle Manager 8.4.1
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-05-27
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Suite Lifecycle Manager 8.6
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-10-12
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vRealize Suite Lifecycle Manager 8.6.1
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2021-12-07
+    </td><td class="col4">
+    2022-10-31
+    </td><td class="col5">
+    N/A
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Application Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vSAN 6.5, 6.6
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2016-11-15
+    </td><td class="col4">
+    2022-10-15
+    </td><td class="col5">
+    2023-11-15
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Infrastructure Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    vSAN 6.7
+    </td><td class="col2">
+    Supported
+    </td><td class="col3">
+    2018-04-17
+    </td><td class="col4">
+    2022-10-15
+    </td><td class="col5">
+    2023-11-15
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    Enterprise Infrastructure Policy
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    
+    </td><td class="col2">
+    
+    </td><td class="col3">
+    
+    </td><td class="col4">
+    
+    </td><td class="col5">
+    
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    NOTES:
+    </td><td class="col2">
+    
+    </td><td class="col3">
+    
+    </td><td class="col4">
+    
+    </td><td class="col5">
+    
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    Access VMware lifecycle policy information at https://www.vmware.com/support/lifecycle-policies.html.
+    </td><td class="col2">
+    
+    </td><td class="col3">
+    
+    </td><td class="col4">
+    
+    </td><td class="col5">
+    
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    You can find the most up-to-date product lifecycle information on the VMware website at https://lifecycle.vmware.com.
+    </td><td class="col2">
+    
+    </td><td class="col3">
+    
+    </td><td class="col4">
+    
+    </td><td class="col5">
+    
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    All dates presented in this document are in the ISO developed international format. This format uses a numerical date system as follows: YYYY-MM-DD where YYYY is the year, MM the month and DD the day. The information contained herein is believed to be accurate as of the date of publication, but updates and revisions may be posted periodically and without notice. VMWARE DOES NOT PROVIDE ANY WARRANTIES COVERING THIS INFORMATION AND SPECIFICALLY DISCLAIMS ANY LIABILITY FOR DAMAGES, INCLUDING, WITHOUT LIMITATION, DIRECT, INDIRECT, CONSEQUENTIAL, INCIDENTAL, AND SPECIAL DAMAGES, IN CONNECTION WITH THE INFORMATION PRESENTED HERE.
+    </td><td class="col2">
+    
+    </td><td class="col3">
+    
+    </td><td class="col4">
+    
+    </td><td class="col5">
+    
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+    
+    <tr class="row1">
+<td class="col1">
+    VMware, Inc. 3401 Hillview Ave. Palo Alto, CA 94304 www.vmware.com Copyright 2022 VMware, Inc. All rights reserved. Copyright and trademark information(https://docs.vmware.com/copyright-trademark.html).
+    </td><td class="col2">
+    
+    </td><td class="col3">
+    
+    </td><td class="col4">
+    
+    </td><td class="col5">
+    
+    </td><td class="col6">
+    
+    </td><td class="col7">
+    
+    </td><td class="col8">
+    
+    </td></tr>
+
+  
+</table>
+:ET
