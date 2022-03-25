@@ -17,4 +17,5 @@ If you're interested in what product versions are approaching end of general sup
 
 Enjoy!
 
+NOTE: This is a multi-page PDF best viewed on a desktop
 <object data="/assets/pdf/vmwareproducts2022.pdf" width="1000" height="1320" type='application/pdf'></object>
