@@ -1,4 +1,4 @@
-I"'<p>They say all good things must come to an end. But in the world of software, it’s usually because there’s something newer and better to replace it!</p>
+I"f<p>They say all good things must come to an end. But in the world of software, it’s usually because there’s something newer and better to replace it!</p>
 
 <p>A part of any IT Administrator’s job is to track the lifecycle of the products deployed in their infrastructure. This can be a daunting task for any sizable environment. Luckily VMware makes it easy to keep tabs on such important dates with the <a href="https://lifecycle.vmware.com/#/">Product Lifecycle Matrix</a></p>
 
@@ -8,5 +8,6 @@
 
 <p>Enjoy!</p>
 
-<object data="/assets/pdf/vmwareproducts2022.pdf" width="1000" height="1400" type="application/pdf"></object>
+<p>NOTE: This is a multi-page PDF best viewed on a desktop</p>
+<object data="/assets/pdf/vmwareproducts2022.pdf" width="1000" height="1320" type="application/pdf"></object>
 :ET
