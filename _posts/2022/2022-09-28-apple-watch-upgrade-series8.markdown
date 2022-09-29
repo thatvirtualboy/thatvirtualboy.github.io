@@ -12,6 +12,8 @@ I recently upgraded my ** Watch Series 3 42mm Cellular** to the **Series 8 45
 
 However if I were to use more words, I would mention these 3 things as the biggest improvements I immediately noticed after strapping on the new 45mm time keeper.
 
+NOTE: I shared this post on Reddit. [Join in on the discussion.](https://www.reddit.com/r/apple/comments/xqj8n1/upgrade_apple_watch_series_8_from_series_3/)
+
 ## The Screen
 ![](/assets/images/Series8/sidebyside2.jpeg)
 Holy smokes the screen. Coming from the 42mm S3, the size of the new edge to edge display in this 45mm S8 makes more difference in regular usage than I anticipated. It feels so much roomier and less prone to accidental taps on the wrong thing.
@@ -47,11 +49,11 @@ A few other things I've found myself enjoying about the new Series 8 Apple Watch
 
 **Waaay more watch faces.** I knew that my Series 3 didn't have as many watch faces as newer models, but I didn't really care as the faces it did have met my needs. Or so I thought.  
 
-I was pleasently surprised to find that the Series 8 had sooo many more watch faces in the gallery. Like... a lot more. And not only more, but each face is much more customizable and configurable due to the increased real estate. Series 8 includes not only the new faces that debuted with each generates between it and the Series 3, but also all of the Nike faces previously reserved for the Nike Edition.
+I was pleasently surprised to find that the Series 8 had sooo many more watch faces in the gallery. Like... a lot more. And not only more, but each face is much more customizable and configurable due to the increased real estate. Series 8 includes not only the new faces that debuted with each generation between it and the Series 3, but also all of the Nike faces previously reserved for the Nike Edition.
 
 <img src="/assets/images/Series8/faces.PNG" width="300" />
 
 ## Conclusion
-If you happen to have a Series 3 (or heaven forbid, something older!) and are wondering if now is the time to consider an upgrade, I can say without hesitation that you will enjoy your Apple Watch Series 8  *significantly* more than your Series.
+If you happen to have a Series 3 (or heaven forbid, something older!) and are wondering if now is the time to consider an upgrade, I can say without hesitation that you will enjoy your Apple Watch Series 8 *significantly* more than your Series 3.
 
 Thanks for reading!
