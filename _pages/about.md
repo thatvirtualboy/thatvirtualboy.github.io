@@ -8,7 +8,7 @@ comments: false
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>My name is Ryan and I work at VMware. I started this blog in 2014 as a place to share about the things I was learning in virtualization and end-user computing. It has evolved into a general landing spot for all things tech and has a little something for everybody. Lately I've been learning SwiftUI and enjoy writing about those experiences.
+<p>My name is Ryan and I work at VMware. I started this blog in 2014 as a place to share about the things I was learning in virtualization and end-user computing. It has evolved into a general landing spot for all things tech and has a little something for everybody. Lately I've been learning SwiftUI for iOS development and sharing those experiences here.
 <br><br>
 All content + opinions belong to me and do not represent my employer. Enjoy!</p>
 
