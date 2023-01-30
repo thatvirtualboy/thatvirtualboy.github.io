@@ -24,7 +24,7 @@ This tool was originally published as a [VMware Fling](https://flings.vmware.com
 ---
 
 <br>
-### Hello There (iOS 16+)
+#### Hello There (iOS 16+)
 ![logo](/assets/apps/hellothere/icon.png){:height="100px" width="100px"  .align-left}  
 An app used to catalog personalized greeting cards received from friends and family.    
 
@@ -34,17 +34,7 @@ An app used to catalog personalized greeting cards received from friends and fam
 ---
 
 <br>
-### Virtual Backgrounds (iOS, iPadOS, macOS)
-![logo](/assets/apps/VirtualBackgrounds/icon-round.png){:height="100px" width="100px"  .align-left}  
-An app featuring hand-picked virtual backgrounds to be used with your video conferencing tool (e.g., Zoom).   
-
-<a href="https://apps.apple.com/us/app/virtual-backgrounds/id1506825381?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1586476800&h=523bfb029b0b9b44037aa61782d02b45" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"></a>
-<br>
-
----
-
-<br>
-### Artbox (iOS, iPadOS)
+#### Artbox (iOS, iPadOS)
 ![logo](/assets/apps/artbox/artbox2.png){:height="100px" width="100px" .align-left}  
 A convenient and modern way to secure arts & crafts.   
 
@@ -53,13 +43,14 @@ A convenient and modern way to secure arts & crafts.
 ---
 
 <br>
-### Stickers About Nothing (iOS, iPadOS)
+#### Stickers About Nothing (iOS, iPadOS)
 ![logo](/assets/apps/stickers/stickers-about-nothing.png){:height="100px" width="100px" .align-left} A fun iMessage sticker pack for Seinfeld fans.   
 
 <a href="https://apps.apple.com/us/app/stickers-about-nothing/id1548219622?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1610409600&h=5fd8e9f596a55a3214d74e6bc62c2f80" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"></a>
 
 <br>
-### Sonas Journal (iOS)
+### Legacy Apps
+#### Sonas Journal (iOS)
 ![logo](/assets/apps/SonasJournal/sonasIcon.png){:height="100px" width="100px" .align-left}  
 A private journal built to capture life's best moments.    
 
@@ -68,7 +59,7 @@ A private journal built to capture life's best moments.
 ---
 
 <br>
-### Sonas Workout Journal (iOS)
+#### Sonas Workout Journal (iOS)
 ![logo](/assets/apps/SonasWorkout/sonasworkout-icon.png){:height="100px" width="100px" .align-left}  
 A private journal built specifically for tracking the things you do to move your body.    
 
@@ -77,10 +68,15 @@ A private journal built specifically for tracking the things you do to move your
 ---
 
 <br>
-### Sonas Chef Journal (iOS)
+#### Sonas Chef Journal (iOS)
 ![logo](/assets/apps/chef/icon.png){:height="100px" width="100px" .align-left}  
 The best way to track your culinary creations.   
 
 <a href="https://apps.apple.com/us/app/sonas-chef-journal/id1536951278?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1603584000&h=2ccce1f79d253cd203fe42a4dbd440d8" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"></a>
 
 ---
+
+<br>
+#### Virtual Backgrounds (iOS, iPadOS, macOS - Discontinued)
+![logo](/assets/apps/VirtualBackgrounds/icon-round.png){:height="100px" width="100px"  .align-left}  
+An app featuring hand-picked virtual backgrounds to be used with your video conferencing tool (e.g., Zoom).   
