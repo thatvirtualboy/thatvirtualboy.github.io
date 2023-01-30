@@ -1,4 +1,4 @@
-I"V<p>In building Premium features into my SwiftUI app available with a subscription, one use case that I considered is, “What if someone cancels their subscription, or their subscription lapses?”</p>
+I"�<p>In building Premium features into my SwiftUI app available with a subscription, one use case that I considered is, “What if someone cancels their subscription, or their subscription lapses?”</p>
 
 <p>Sure they wouldn’t be able to take advantage of using a premium feature from that point on (assuming you’ve already built paywalls into your app), but what about customization settings that the user already applied? Things like custom theming options? In this scenario, I’d prefer for <em>some</em> premium content to become unavailable. It would be a poor design to not check for the <em>Pro</em> status and then handle premium content accordingly. I say “some” premium content because you really must consider the end-user’s experience here. Perhaps not every feature should be locked back up. Here’s an example:</p>
 
@@ -11,17 +11,17 @@
 <p><strong>Multiple Photos</strong> - This feature similarly will be reverted, however projects that were created during the active subscription that contain multiple photos will still present multiple photos - I don’t believe that removing access to those photos is the best user experience. What the user can expect after lapsing a subscription is that new projects will simply be limited to 1 photo. Then when then reactive their subscription, they can later go add additional photos to the project if needed.</p>
 
 <h3 id="a-simple-check">A Simple Check</h3>
-<p>One way to achieve this is by using an <code class="highlighter-rouge">.onAppear</code> modifier to a view and perform an action based on the pro flag:</p>
+<p>One way to achieve this is by using an <code class="language-plaintext highlighter-rouge">.onAppear</code> modifier to a view and perform an action based on the pro flag:</p>
 
 <script src="https://gist.github.com/thatvirtualboy/24bfd63fcbdfac756a06e54ccbaf9171.js"></script>
 
-<p>What’s happening here is that on appearance of the setting where a user might change their icon, we check for my global <code class="highlighter-rouge">isPro</code> flag and if false, it will set the current icon to the Default option. I have some other values I set here that are used for other views and telemetry data, but as you can see it’s very simple to perform the check.</p>
+<p>What’s happening here is that on appearance of the setting where a user might change their icon, we check for my global <code class="language-plaintext highlighter-rouge">isPro</code> flag and if false, it will set the current icon to the Default option. I have some other values I set here that are used for other views and telemetry data, but as you can see it’s very simple to perform the check.</p>
 
 <p>Here’s another example of checking if the profile gradient is one of the free options, or a premium option:</p>
 
 <script src="https://gist.github.com/thatvirtualboy/cd713a7f9e5848329cd9de76446f40db.js"></script>
 
-<p>In my app, the profile color gradients are represented by an <code class="highlighter-rouge">Int</code> where 1 through 6 are included in the free download. Whereas gradients 7 though 15 are premium. Here we do a check and say that if <code class="highlighter-rouge">isPro</code> is false AND the profile is using one of the premium gradients (as represented by the stored <code class="highlighter-rouge">Int</code> value between 7 and 15) then set that value to the default free gradient by applying the <code class="highlighter-rouge">Int</code> value of 1.</p>
+<p>In my app, the profile color gradients are represented by an <code class="language-plaintext highlighter-rouge">Int</code> where 1 through 6 are included in the free download. Whereas gradients 7 though 15 are premium. Here we do a check and say that if <code class="language-plaintext highlighter-rouge">isPro</code> is false AND the profile is using one of the premium gradients (as represented by the stored <code class="language-plaintext highlighter-rouge">Int</code> value between 7 and 15) then set that value to the default free gradient by applying the <code class="language-plaintext highlighter-rouge">Int</code> value of 1.</p>
 
 <h3 id="in-summary">In Summary</h3>
 <p>There are many ways you could achieve similar results of having your SwiftUI app adjust its experience based on a user’s subscription status. I hope that this helped you understand one of those options. Good luck and happy coding!</p>

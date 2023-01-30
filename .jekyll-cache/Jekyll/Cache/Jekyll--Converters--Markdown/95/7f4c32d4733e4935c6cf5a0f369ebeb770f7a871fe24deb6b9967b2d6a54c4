@@ -1,4 +1,4 @@
-I"<p>VMware has just released Horizon 7.12 which is kind of a big deal! Packed with new features and fixes, this release is timely amid a massive increase in the <strong>Work From Home</strong> movement in attempt to <em>flatten the curve</em> of the COVID-19 spread. This release comes alongside publication of additional methods to securely connecting to your office’s physical workstations from your home. Let’s take a closer look.</p>
+I"6<p>VMware has just released Horizon 7.12 which is kind of a big deal! Packed with new features and fixes, this release is timely amid a massive increase in the <strong>Work From Home</strong> movement in attempt to <em>flatten the curve</em> of the COVID-19 spread. This release comes alongside publication of additional methods to securely connecting to your office’s physical workstations from your home. Let’s take a closer look.</p>
 
 <h2 id="supporting-the-work-from-home-movement">Supporting the Work From Home Movement</h2>
 <p>First and foremost, if you’re still evaluating how to support your remote workers in this WFM movement, be sure to check out the VMware Webinar from today, March 17th, entitled <strong>Pandemic Preparedness and Response: How to Quickly Set Up a Remote Workforce for Success</strong>. <a href="https://www.vmware.com/learn/458214_REG.html?src=AMEROrganicSocial_SocialAdvocacy&amp;src=so_5a314d05e49f5&amp;cid=70134000001SkJn">You can register here to view the session</a>.</p>
@@ -10,7 +10,7 @@
 <h2 id="horizon-712-whats-new-">Horizon 7.12 What’s New 🚀</h2>
 <p><strong>ViewAPI now supports pulling Agent Logs</strong>
 Horizon 7.10 had introduced the ability to pull Connection Server logs via this method primarily for use with VMware Skyline, but it can be used independently which will be useful for scripting log pulls to attach to open support requests, or otherwise independent troubleshooting. Horizon 7.12 has expanded this ability to the Agent Logs as well.
-NOTE: that both options require the <code class="highlighter-rouge">Collection Operation Logs</code> privilege to be assigned to the service account being used in the API call.</p>
+NOTE: that both options require the <code class="language-plaintext highlighter-rouge">Collection Operation Logs</code> privilege to be assigned to the service account being used in the API call.</p>
 
 <p><strong>RESTful APIs for Configuration are here</strong>
 New with this release are REST APIs related to <em>monitoring and configuration</em> of a Horizon environment. This will allow you to build scalable automation frameworks and integrate 3rd party products seamlessly across Horizon View Clusters and Pods. Check out https://code.vmware.com/apis/919 for more details.</p>
@@ -22,7 +22,7 @@ Acting as a sort of alternative to a Floating Pool, users can now allow <strong>
 Enabling this feature will show the hostname of the assigned VM instead of the Pool’s display name in the Horizon Client. If you’re connecting to a floating pool without assignment, then it will show “display-name (No machine assigned).”</p>
 
 <p><strong>Persistent MAC address for RDS and Instant Clones on Refresh and Resync</strong>
-Certain applications rely on persistent mac addresses (though this is less of an issue than in times past). New with 7.12 is the ability to enable persistent MAC address which will carry the MAC from the older VM to the new one when following the <code class="highlighter-rouge">resync</code> workflow.</p>
+Certain applications rely on persistent mac addresses (though this is less of an issue than in times past). New with 7.12 is the ability to enable persistent MAC address which will carry the MAC from the older VM to the new one when following the <code class="language-plaintext highlighter-rouge">resync</code> workflow.</p>
 
 <h3 id="horizon-712-also-comes-with-a-number-of-console-enhancements">Horizon 7.12 also comes with a number of Console enhancements</h3>
 <ul>

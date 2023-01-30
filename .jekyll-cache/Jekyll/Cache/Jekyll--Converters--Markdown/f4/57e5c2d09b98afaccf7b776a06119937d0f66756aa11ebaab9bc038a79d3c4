@@ -1,4 +1,4 @@
-I"><p>One year ago I published an app called <em>Virtual Backgrounds</em> to the App Store with the idea of providing custom, hand-picked backgrounds to be used with virtual meetings. It wasn’t just another endless repository of random wallpapers, but rather a finite selection specifically chosen and/or created to be used as a virtual backdrop.</p>
+I"w<p>One year ago I published an app called <em>Virtual Backgrounds</em> to the App Store with the idea of providing custom, hand-picked backgrounds to be used with virtual meetings. It wasn’t just another endless repository of random wallpapers, but rather a finite selection specifically chosen and/or created to be used as a virtual backdrop.</p>
 
 <p>I originally wrote the app using a 3rd party IDE which I’ve written about before, but the current iteration of the app was written in native SwiftUI which opens the doors for a lot of opportunities. One of which, is a Mac Catalyst app.</p>
 
@@ -14,7 +14,7 @@
 
 <p>There are a few other things happening with this save operation, but the important bit is the <strong>UIImageWriteToSavedPhotosAlbum</strong> bit:</p>
 
-<p><code class="highlighter-rouge">UIImageWriteToSavedPhotosAlbum(UIImage(named: item.name)!, nil, nil, nil)</code></p>
+<p><code class="language-plaintext highlighter-rouge">UIImageWriteToSavedPhotosAlbum(UIImage(named: item.name)!, nil, nil, nil)</code></p>
 
 <p>You can read more about this function on <a href="https://developer.apple.com/documentation/uikit/1619125-uiimagewritetosavedphotosalbum">Apple’s Doc Site</a>.</p>
 
@@ -23,7 +23,7 @@
 <h2 id="adding-macos-compatibility">Adding macOS compatibility</h2>
 <p>Apple makes it pretty easy to add code in your iOS app for adding Mac Catalyst support using the <em>if targetEnvironment</em> statement</p>
 
-<p><code class="highlighter-rouge">#if targetEnvironment(macCatalyst)</code></p>
+<p><code class="language-plaintext highlighter-rouge">#if targetEnvironment(macCatalyst)</code></p>
 
 <p>Here’s an example:</p>
 
@@ -41,7 +41,7 @@
 
 <p><strong>fileURL</strong> — this is used to to store the path where the image will be saved on the Mac. Notice I have a variable pathURL which is defined earlier in my code which states I want the images saved to the user’s desktop:</p>
 
-<p><code class="highlighter-rouge">@State private var pathURL = NSHomeDirectory().appending(“/Desktop”)</code></p>
+<p><code class="language-plaintext highlighter-rouge">@State private var pathURL = NSHomeDirectory().appending(“/Desktop”)</code></p>
 
 <p><strong>nameImage</strong> — this is used to define what the saved image’s filename will be<br />
 <strong>fileUrlWithName</strong> — this combines the target path with the target filename<br />

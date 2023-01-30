@@ -1,4 +1,4 @@
-I"<p>In <a href="https://thatvirtualboy.com/migrating-paid-app-to-subscription-freemium-1/">Part 1</a> of this 2-part series, I discussed the differences between the different pricing strategies developers are faced with in today’s app market.</p>
+I"A <p>In <a href="https://thatvirtualboy.com/migrating-paid-app-to-subscription-freemium-1/">Part 1</a> of this 2-part series, I discussed the differences between the different pricing strategies developers are faced with in today’s app market.</p>
 
 <p>In this post, I’ll share some technical details on how I converted my paid app to subscription/freemium. This post covers a SwiftUI app using Xcode 13.</p>
 
@@ -23,36 +23,36 @@ By far the easiest path to implementing subscriptions is to use <a href="https:/
 <h3 id="handling-existing-vs-new-users">Handling existing vs new users</h3>
 <p>My app is a SwiftUI app with the SwiftUI App Lifecycle.</p>
 
-<p>In my <strong>App.swift</strong> file, I built a check that validates the app’s <em>build number</em> in the user’s receipt from when they originally downloaded the app. This checks the value of <code class="highlighter-rouge">originalApplicationVersion</code> from the receipt.</p>
+<p>In my <strong>App.swift</strong> file, I built a check that validates the app’s <em>build number</em> in the user’s receipt from when they originally downloaded the app. This checks the value of <code class="language-plaintext highlighter-rouge">originalApplicationVersion</code> from the receipt.</p>
 
 <script src="https://gist.github.com/thatvirtualboy/dce533c039c0b0d7f42f74e07e689cd1.js"></script>
 
-<p>In the above sample, I’m using a <code class="highlighter-rouge">compare</code> operation on the Swift Numeric to validate if the Receipt <strong>build number</strong> is less than, greater than, or equal to the build number that reflects the new pricing model. Be sure to use the actual <strong>build</strong> number and not the app’s <strong>version</strong> number. You can read more about numerics and compare on <a href="https://sarunw.com/posts/how-to-compare-two-app-version-strings-in-swift/">Sarun’s site here</a>.</p>
+<p>In the above sample, I’m using a <code class="language-plaintext highlighter-rouge">compare</code> operation on the Swift Numeric to validate if the Receipt <strong>build number</strong> is less than, greater than, or equal to the build number that reflects the new pricing model. Be sure to use the actual <strong>build</strong> number and not the app’s <strong>version</strong> number. You can read more about numerics and compare on <a href="https://sarunw.com/posts/how-to-compare-two-app-version-strings-in-swift/">Sarun’s site here</a>.</p>
 
-<p>Then based on whether or not the user is calculated as <em>grandfathered</em>, I save that as a <strong>boolean</strong> value in the <code class="highlighter-rouge">UserDefault</code> value <code class="highlighter-rouge">grandfatheredPro</code></p>
+<p>Then based on whether or not the user is calculated as <em>grandfathered</em>, I save that as a <strong>boolean</strong> value in the <code class="language-plaintext highlighter-rouge">UserDefault</code> value <code class="language-plaintext highlighter-rouge">grandfatheredPro</code></p>
 
 <blockquote>
-  <p>NOTE: I initialize <code class="highlighter-rouge">freemiumBuild</code> as <code class="highlighter-rouge">1.0</code> because your app will always reflect a build number of <code class="highlighter-rouge">1.0</code> while in development. You will want to change this value to your actual <strong>build</strong> number when pushing to production.</p>
+  <p>NOTE: I initialize <code class="language-plaintext highlighter-rouge">freemiumBuild</code> as <code class="language-plaintext highlighter-rouge">1.0</code> because your app will always reflect a build number of <code class="language-plaintext highlighter-rouge">1.0</code> while in development. You will want to change this value to your actual <strong>build</strong> number when pushing to production.</p>
 </blockquote>
 
-<p>Now, at app launch we want to validate if the user is a <strong>Pro</strong> user or not, then handle the paywalls within the app accordingly. In my app, I use the <code class="highlighter-rouge">UserDefault</code> flag <code class="highlighter-rouge">isPro</code> for this. In our case, we want the flag <code class="highlighter-rouge">isPro</code> to equal true if they have an active entitlement, <strong>or</strong> if they are a grandfathered user:</p>
+<p>Now, at app launch we want to validate if the user is a <strong>Pro</strong> user or not, then handle the paywalls within the app accordingly. In my app, I use the <code class="language-plaintext highlighter-rouge">UserDefault</code> flag <code class="language-plaintext highlighter-rouge">isPro</code> for this. In our case, we want the flag <code class="language-plaintext highlighter-rouge">isPro</code> to equal true if they have an active entitlement, <strong>or</strong> if they are a grandfathered user:</p>
 
 <script src="https://gist.github.com/thatvirtualboy/1eac178d6c4a28cf4d8baf4224932983.js"></script>
 
 <p>Great! We can now know if the user should be a Pro user or not. However this code alone will not work right off the bat for your existing paid users.</p>
 
-<p>The issue here is that user receipts aren’t synced to RevenueCat until <em>after</em> a user either makes a purchase, or calls <code class="highlighter-rouge">restoreTransations</code> (usually handled with a <strong>Restore Purchases</strong> button). So upon initial upgrade, the above code will print out <code class="highlighter-rouge">*** NO RECEIPT FOUND ***</code> for all users since this is the first build RevenueCat has been implemented in.</p>
+<p>The issue here is that user receipts aren’t synced to RevenueCat until <em>after</em> a user either makes a purchase, or calls <code class="language-plaintext highlighter-rouge">restoreTransations</code> (usually handled with a <strong>Restore Purchases</strong> button). So upon initial upgrade, the above code will print out <code class="language-plaintext highlighter-rouge">*** NO RECEIPT FOUND ***</code> for all users since this is the first build RevenueCat has been implemented in.</p>
 
 <p>This unfortunately means that every paid user who upgrades the app to the new Subscription model version will initially start out as a Free user.</p>
 
 <h3 id="taking-care-of-existing-paid-users">Taking care of existing paid users</h3>
 <p>We need a way to make it easy for our users to pull that receipt data. I would imagine there are lots of ways to accomplish this. I would have thought to just code the restore operation, however RevenueCat’s documentation <a href="https://docs.revenuecat.com/docs/restoring-purchases">states that we shouldn’t do that programmatically</a>.</p>
 
-<p>In my case, I ended up adding a note in my <strong>What’s New</strong> popup for users to <em>Finish their upgrade</em> by tapping a button. That button would then call the <code class="highlighter-rouge">restorePurchases</code> method, then display an Alert based on a <code class="highlighter-rouge">@State</code> variable.</p>
+<p>In my case, I ended up adding a note in my <strong>What’s New</strong> popup for users to <em>Finish their upgrade</em> by tapping a button. That button would then call the <code class="language-plaintext highlighter-rouge">restorePurchases</code> method, then display an Alert based on a <code class="language-plaintext highlighter-rouge">@State</code> variable.</p>
 
 <script src="https://gist.github.com/thatvirtualboy/61a41eae6d1d5e6baad3375f1fcccc24.js"></script>
 
-<p>The alert explains that the user should now restart the app to reflect the changes. Now the receipt should be properly pulled and synced with RevenueCat, and the checks can validate the proper <code class="highlighter-rouge">grandfatheredPro</code> value. If you choose to go a manual route like this, it’s important to encourage the user to perform the restore/restart operations early on so that they aren’t presented any paywalls while navigating the app.</p>
+<p>The alert explains that the user should now restart the app to reflect the changes. Now the receipt should be properly pulled and synced with RevenueCat, and the checks can validate the proper <code class="language-plaintext highlighter-rouge">grandfatheredPro</code> value. If you choose to go a manual route like this, it’s important to encourage the user to perform the restore/restart operations early on so that they aren’t presented any paywalls while navigating the app.</p>
 <p float="left">
 <img src="/assets/images/artbox27new2.PNG" width="300" />
 <img src="/assets/images/artbox27new1.PNG" width="300" />
@@ -61,5 +61,5 @@ By far the easiest path to implementing subscriptions is to use <a href="https:/
 <p>It’s not a perfect system. I wish it could have been done all behind the scenes without any user interaction, but this method seemed to work, and users were happy to continue their Lifetime license.</p>
 
 <h3 id="summary">Summary</h3>
-<p>Thanks for reading! I hope you found something helpful in this post. We learned that RevenueCat is extremely developer-friendly in-app purchase solution, especially for indie devs, and that it really doesn’t take much code to validate receipts. We also learned one method of encouraging our paid users to complete their upgrade by forcing a <code class="highlighter-rouge">restoreTransactions</code> operation so they don’t get too far into the app without having the fully unlocked experience.</p>
+<p>Thanks for reading! I hope you found something helpful in this post. We learned that RevenueCat is extremely developer-friendly in-app purchase solution, especially for indie devs, and that it really doesn’t take much code to validate receipts. We also learned one method of encouraging our paid users to complete their upgrade by forcing a <code class="language-plaintext highlighter-rouge">restoreTransactions</code> operation so they don’t get too far into the app without having the fully unlocked experience.</p>
 :ET

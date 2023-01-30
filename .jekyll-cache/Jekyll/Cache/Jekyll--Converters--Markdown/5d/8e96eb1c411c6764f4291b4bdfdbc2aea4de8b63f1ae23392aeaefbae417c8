@@ -1,4 +1,4 @@
-I"/<p>In developing <em>Artbox 2</em>, one thing I set out to accomplish was making the user experience more immersive and personable. One of the ways to achieve this is to add <em>haptic feedback</em>. Haptics are the vibration responses to the user interacting with the application. When you’re buying something with Apple Pay, scrolling through a picker, or receiving confirmations and alerts - haptics are widely used in mobile apps and can greatly enhance the user experience.</p>
+I"&<p>In developing <em>Artbox 2</em>, one thing I set out to accomplish was making the user experience more immersive and personable. One of the ways to achieve this is to add <em>haptic feedback</em>. Haptics are the vibration responses to the user interacting with the application. When you’re buying something with Apple Pay, scrolling through a picker, or receiving confirmations and alerts - haptics are widely used in mobile apps and can greatly enhance the user experience.</p>
 
 <p>You can read more about haptics at <a href="https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/haptics/"> Docs</a>.</p>
 
@@ -9,17 +9,17 @@
 <h3 id="adding-haptics-to-your-app">Adding Haptics to your app</h3>
 <p>Adding haptics into your SwiftUI app is a simple task that gives your users that premium experience.</p>
 
-<p>By simply declaring the <code class="highlighter-rouge">UINotificationFeedbackGenerator</code> in your Views, you can call multiple types of haptic alerts.</p>
+<p>By simply declaring the <code class="language-plaintext highlighter-rouge">UINotificationFeedbackGenerator</code> in your Views, you can call multiple types of haptic alerts.</p>
 
-<p><code class="highlighter-rouge">let haptic = UINotificationFeedbackGenerator()</code></p>
+<p><code class="language-plaintext highlighter-rouge">let haptic = UINotificationFeedbackGenerator()</code></p>
 
 <p>Now let’s say you want to have a custom, subtle vibration occur when an error is triggered in your app. Simply add the below line to your action:</p>
 
-<p><code class="highlighter-rouge">self.haptic.notificationOccurred(.error)</code></p>
+<p><code class="language-plaintext highlighter-rouge">self.haptic.notificationOccurred(.error)</code></p>
 
 <p>Here’s an example:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -29,21 +29,21 @@
     self.haptic.notificationOccurred(.error)
 </pre></td></tr></tbody></table></code></pre></div></div>
 
-<p>The <code class="highlighter-rouge">.error</code> is built into the <code class="highlighter-rouge">UINotificationFeedbackGenerator</code> class so it does not need to be defined manually.</p>
+<p>The <code class="language-plaintext highlighter-rouge">.error</code> is built into the <code class="language-plaintext highlighter-rouge">UINotificationFeedbackGenerator</code> class so it does not need to be defined manually.</p>
 
-<p>There are more options in addition to <code class="highlighter-rouge">.error</code> such as<br />
-<code class="highlighter-rouge">.warning</code><br />
-<code class="highlighter-rouge">.success</code><br />
-<code class="highlighter-rouge">.light</code><br />
-<code class="highlighter-rouge">.medium</code><br />
-<code class="highlighter-rouge">.heavy</code></p>
+<p>There are more options in addition to <code class="language-plaintext highlighter-rouge">.error</code> such as<br />
+<code class="language-plaintext highlighter-rouge">.warning</code><br />
+<code class="language-plaintext highlighter-rouge">.success</code><br />
+<code class="language-plaintext highlighter-rouge">.light</code><br />
+<code class="language-plaintext highlighter-rouge">.medium</code><br />
+<code class="language-plaintext highlighter-rouge">.heavy</code></p>
 
 <p>Go ahead and play around with these to get a feeling for where they might be applicable to your app. Obviously you’ll need a physical device to test as haptics can’t be tested in the Xcode Simulator.</p>
 
 <p>Apple’s Documentation warns against over-doing haptics, so you’ll want to use them sparingly. Take time to explore your app’s interface and apply haptics where it makes the most sense.</p>
 
 <h3 id="summary">Summary</h3>
-<p>In this post you learned about <code class="highlighter-rouge">UINotificationFeedbackGenerator</code> and how adding different styled haptic feedback operations can greatly improve your SwiftUI app.</p>
+<p>In this post you learned about <code class="language-plaintext highlighter-rouge">UINotificationFeedbackGenerator</code> and how adding different styled haptic feedback operations can greatly improve your SwiftUI app.</p>
 
 <p>I hope you found this post useful. Thanks for stopping by!</p>
 :ET

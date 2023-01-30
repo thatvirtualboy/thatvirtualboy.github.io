@@ -1,4 +1,4 @@
-I"S<p>I am so excited to finally be writing this post highlighting the new Ubuntu OVA Fling. After <a href="https://thatvirtualboy.com/2020/03/02/the-new-horizon-ubuntu-ova.html">announcing</a> version 1.2 earlier this month, I could barely wait to get the bits and documentation available to the community. I’m happy to announce version 1.2 is now publicly available!</p>
+I"f<p>I am so excited to finally be writing this post highlighting the new Ubuntu OVA Fling. After <a href="https://thatvirtualboy.com/2020/03/02/the-new-horizon-ubuntu-ova.html">announcing</a> version 1.2 earlier this month, I could barely wait to get the bits and documentation available to the community. I’m happy to announce version 1.2 is now publicly available!</p>
 
 <p>One of my personal goals for the year 2020 was to revisit the Ubuntu OVA Fling and make it relevant again. The last release was from 3 years ago! Those 3 years have led us to this point in IT where <a href="https://www.vmware.com/products/vsphere.html">Kubernetes is king</a> in the app modernization playing field. Windows is <a href="https://vmware.github.io/photon/">losing ground</a> in the datacenter. Open source <a href="https://blogs.vmware.com/opensource/2019/12/18/2020-open-source-predictions/">is proliferating</a>. With each new year comes even more change in the datacenter landscape. And with that, we’ve also seen an increase of interest in <a href="https://www.vmware.com/products/horizon/horizon-linux.html">VMware Horizon for Linux</a>.</p>
 
@@ -46,7 +46,7 @@
   <li>Octant</li>
   <li>zsh + ohmyzsh
     <ul>
-      <li>NOTE: users will need to be added to <code class="highlighter-rouge">/etc/passwd</code> in order to set zsh as default shell</li>
+      <li>NOTE: users will need to be added to <code class="language-plaintext highlighter-rouge">/etc/passwd</code> in order to set zsh as default shell</li>
     </ul>
   </li>
 </ul>
