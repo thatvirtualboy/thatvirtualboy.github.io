@@ -28,7 +28,7 @@ This tool was originally published as a [VMware Fling](https://flings.vmware.com
 ![logo](/assets/apps/hellothere/icon.png){:height="100px" width="100px"  .align-left}  
 An app used to catalog personalized greeting cards received from friends and family.    
 
-<a href="https://apps.apple.com/us/app/hello-there-greeting-cards/id1632485298?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1586476800&h=523bfb029b0b9b44037aa61782d02b45" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"></a>
+<a href="https://apps.apple.com/us/app/hello-there-greeting-cards/id1632485298?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1586476800&h=523bfb029b0b9b44037aa61782d02b45" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
 <br>
 
 ---
@@ -38,7 +38,7 @@ An app used to catalog personalized greeting cards received from friends and fam
 ![logo](/assets/apps/artbox/artbox2.png){:height="100px" width="100px" .align-left}  
 A convenient and modern way to secure arts & crafts.   
 
-<a href="https://apps.apple.com/us/app/artbox-2/id1557964462?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1619568000&h=592ca0fbd3178d7c7384a6379fe65c1b" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"></a>
+<a href="https://apps.apple.com/us/app/artbox-2/id1557964462?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1619568000&h=592ca0fbd3178d7c7384a6379fe65c1b" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
 
 ---
 
@@ -46,7 +46,7 @@ A convenient and modern way to secure arts & crafts.
 #### Stickers About Nothing (iOS, iPadOS)
 ![logo](/assets/apps/stickers/stickers-about-nothing.png){:height="100px" width="100px" .align-left} A fun iMessage sticker pack for Seinfeld fans.   
 
-<a href="https://apps.apple.com/us/app/stickers-about-nothing/id1548219622?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1610409600&h=5fd8e9f596a55a3214d74e6bc62c2f80" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"></a>
+<a href="https://apps.apple.com/us/app/stickers-about-nothing/id1548219622?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1610409600&h=5fd8e9f596a55a3214d74e6bc62c2f80" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
 
 <br>
 ### Legacy Apps
@@ -54,7 +54,7 @@ A convenient and modern way to secure arts & crafts.
 ![logo](/assets/apps/SonasJournal/sonasIcon.png){:height="100px" width="100px" .align-left}  
 A private journal built to capture life's best moments.    
 
-<a href="https://apps.apple.com/us/app/sonas-journal/id1506245083?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1588896000&h=da6bb459e14a8c55159ee856052eea14" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"></a>
+<a href="https://apps.apple.com/us/app/sonas-journal/id1506245083?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1588896000&h=da6bb459e14a8c55159ee856052eea14" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
 
 ---
 
@@ -63,7 +63,7 @@ A private journal built to capture life's best moments.
 ![logo](/assets/apps/SonasWorkout/sonasworkout-icon.png){:height="100px" width="100px" .align-left}  
 A private journal built specifically for tracking the things you do to move your body.    
 
-<a href="https://apps.apple.com/us/app/sonas-workout-journal/id1513653298?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1589587200&h=bcdc4befe57071dbc9d755cf9d5e9237" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"></a>
+<a href="https://apps.apple.com/us/app/sonas-workout-journal/id1513653298?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1589587200&h=bcdc4befe57071dbc9d755cf9d5e9237" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
 
 ---
 
@@ -72,7 +72,7 @@ A private journal built specifically for tracking the things you do to move your
 ![logo](/assets/apps/chef/icon.png){:height="100px" width="100px" .align-left}  
 The best way to track your culinary creations.   
 
-<a href="https://apps.apple.com/us/app/sonas-chef-journal/id1536951278?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1603584000&h=2ccce1f79d253cd203fe42a4dbd440d8" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"></a>
+<a href="https://apps.apple.com/us/app/sonas-chef-journal/id1536951278?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1603584000&h=2ccce1f79d253cd203fe42a4dbd440d8" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
 
 ---
 
