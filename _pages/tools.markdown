@@ -41,6 +41,14 @@ A convenient and modern way to secure arts & crafts.
 <a href="https://apps.apple.com/us/app/artbox-2/id1557964462?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1619568000&h=592ca0fbd3178d7c7384a6379fe65c1b" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
 
 ---
+<br>
+#### Yaktraks (iOS, iPadOS)
+![logo](/assets/apps/yaktraks/icon.png){:height="100px" width="100px" .align-left}  
+A fun app inspired by voice changer toys from the 90s.   
+
+<a href="https://apps.apple.com/us/app/yaktraks-90s-nostalgia/id1583086555?itsct=apps_box_link&itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1619568000&h=592ca0fbd3178d7c7384a6379fe65c1b" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
+
+---
 
 <br>
 #### Stickers About Nothing (iOS, iPadOS)
@@ -49,7 +57,7 @@ A convenient and modern way to secure arts & crafts.
 <a href="https://apps.apple.com/us/app/stickers-about-nothing/id1548219622?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1610409600&h=5fd8e9f596a55a3214d74e6bc62c2f80" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
 
 <br>
-### Legacy Apps
+### == Legacy Apps ==
 #### Sonas Journal (iOS)
 ![logo](/assets/apps/SonasJournal/sonasIcon.png){:height="100px" width="100px" .align-left}  
 A private journal built to capture life's best moments.    
