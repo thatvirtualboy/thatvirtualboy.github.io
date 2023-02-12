@@ -48,7 +48,7 @@ The final touch to match our design to the source is to add the little `ellipsis
 {:style="text-align:center;"}
 ![](/assets/apps/hellothere/codealong1/image4.png){:height="300px"}
 
-Not too shabby! Notice I chose not to change the font -- I stuck with the default options. Go ahead and play around with your final product and see how you can tweak it to your liking.
+Not too shabby! Notice I chose not to change the font to match the source -- I stuck with the default font. Go ahead and play around with your final product and see how you can tweak it to your liking.
 
 A similar design inspired by Apple's demo app is debuting in Hello There version 1.3 launching in February 2023, I think it looks pretty good!
 
