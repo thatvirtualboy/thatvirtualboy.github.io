@@ -8,13 +8,13 @@ comments: false
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>My name is Ryan and I work at VMware. I started this blog in 2014 as a place to share about the things I was learning in virtualization and end-user computing. It has evolved into a general landing spot for all things tech and has a little something for everybody. Lately I've been learning SwiftUI for iOS development and sharing those experiences here.
+<p>My name is Ryan and I work at VMware. I started this blog in 2014 as a place to share about the things I was learning in virtualization and end-user computing. It has evolved into a general landing spot for all things tech and has a little something for everybody. Lately I've been learning SwiftUI for iOS development.
 <br><br>
 All content + opinions belong to me and do not represent my employer. Enjoy!</p>
 
 <p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/profile.jpeg" alt="profile" /></p>
 
-<p>Ryan has been customer-focused since joining VMware in 2011 working in a variety of roles. He is currently a Senior Technical Account Manager and has worked with all types of customers in public and private sectors. He holds several certifications and is a 7-time recognized vExpert.</p>
+<p>Ryan has been customer-focused since joining VMware in 2011 working in a variety of roles. He is currently a Senior Technical Account Manager and has worked with all types of customers in public and private sectors. He holds several certifications and is a recognized #vExpert since 2016.</p>
 
 <h4>Credly</h4>
 
@@ -29,7 +29,7 @@ All content + opinions belong to me and do not represent my employer. Enjoy!</p>
 <div class="sticky-top sticky-top-80">
 <h5>Buy me a coffee</h5>
 
-<p>Thank you for your support! Your donation helps me to maintain and improve thatvirtualboy.com.</p>
+<p>Thank you for your support! Your donation helps me maintain and improve thatvirtualboy.com.</p>
 
 <a target="_blank" href="https://www.buymeacoffee.com/thatvirtualboy" class="btn btn-success">Buy me a coffee</a> <a target="_blank" href="https://twitter.com/thatvirtualboy" class="btn btn-primary">Follow on Twitter</a>
 
