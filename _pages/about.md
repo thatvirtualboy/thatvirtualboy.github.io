@@ -8,11 +8,9 @@ comments: false
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>My name is Ryan and I work at VMware. I started this blog in 2014 as a place to share about the things I was learning in virtualization and end-user computing. It has evolved into a general landing spot for all things tech and has a little something for everybody. Lately I've been learning SwiftUI for iOS development.
+<p>With humble beginnings focused on Enterprise virtualizaton and end-user computing, That Virtual Boy is an evolving space where I document and share my passion for technology. 
 <br><br>
 All content + opinions belong to me and do not represent my employer. Enjoy!</p>
-
-<p>Ryan has been customer-focused since joining VMware in 2011 working in a variety of roles. He is currently a Senior Technical Account Manager and has worked with all types of customers in public and private sectors. He holds several certifications and is a recognized #vExpert since 2016.</p>
 
 <h4>Credly</h4>
 
