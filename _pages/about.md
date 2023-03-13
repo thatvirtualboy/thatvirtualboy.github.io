@@ -12,8 +12,6 @@ comments: false
 <br><br>
 All content + opinions belong to me and do not represent my employer. Enjoy!</p>
 
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/profile.jpeg" alt="profile" /></p>
-
 <p>Ryan has been customer-focused since joining VMware in 2011 working in a variety of roles. He is currently a Senior Technical Account Manager and has worked with all types of customers in public and private sectors. He holds several certifications and is a recognized #vExpert since 2016.</p>
 
 <h4>Credly</h4>
