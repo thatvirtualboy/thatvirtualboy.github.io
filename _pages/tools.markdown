@@ -62,8 +62,6 @@ A fun app inspired by voice changer toys from the 90s.
 ![logo](/assets/apps/SonasJournal/sonasIcon.png){:height="100px" width="100px" .align-left}  
 A private journal built to capture life's best moments.    
 
-<a href="https://apps.apple.com/us/app/sonas-journal/id1506245083?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1588896000&h=da6bb459e14a8c55159ee856052eea14" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
-
 ---
 
 <br>
@@ -71,16 +69,12 @@ A private journal built to capture life's best moments.
 ![logo](/assets/apps/SonasWorkout/sonasworkout-icon.png){:height="100px" width="100px" .align-left}  
 A private journal built specifically for tracking the things you do to move your body.    
 
-<a href="https://apps.apple.com/us/app/sonas-workout-journal/id1513653298?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1589587200&h=bcdc4befe57071dbc9d755cf9d5e9237" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
-
 ---
 
 <br>
 #### Sonas Chef Journal (iOS)
 ![logo](/assets/apps/chef/icon.png){:height="100px" width="100px" .align-left}  
 The best way to track your culinary creations.   
-
-<a href="https://apps.apple.com/us/app/sonas-chef-journal/id1536951278?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1603584000&h=2ccce1f79d253cd203fe42a4dbd440d8" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
 
 ---
 
