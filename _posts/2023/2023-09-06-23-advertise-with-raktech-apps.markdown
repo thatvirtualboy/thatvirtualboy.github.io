@@ -23,9 +23,12 @@ Today, `SKOverlay` is implemented in two rakTech apps: **[Hello There](https://a
 • You would pay a one-time $3 fee per app that you'd like to advertise with  
 
 Here's how it looks when **Artbox** is advertised in **Hello There**:
+
 ![](/assets/images/skoverlay1.PNG){:height="600px"}
 
 Your app would go here! Along with other indies who have signed up. Again, displaying these ads is configurable for *Plus* users in Settings. They have the option to completely turn off these ad overlays. Free users do not.
+
+![](/assets/images/indieappsoption.png){:height="180px"}
 
 ### Impact
 From September 1, 2022 to September 1, 2023, Hello There and Artbox have had a combined **2.5 million** App Store Impressions. Both apps have been featured by Apple in various collections and promoted In-App Events. 
