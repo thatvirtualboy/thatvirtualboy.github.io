@@ -20,7 +20,7 @@ Today, `SKOverlay` is implemented in two rakTech apps: **[Hello There](https://a
 • These popups are enabled by default for every user  
 • Users on the Free tier cannot disable the pop ups  
 • Users subscribed to the either *Hello There+* or *Artbox+* have the ability to turn these off  
-• You would pay a one-time $2.99 fee per app that you'd like to advertise with  
+• You would pay a one-time $3 fee per app that you'd like to advertise with  
 
 Here's how it looks when **Artbox** is advertised in **Hello There**:
 ![](/assets/images/skoverlay1.PNG){:height="600px"}
