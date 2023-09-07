@@ -31,6 +31,8 @@ Your app would go here! Along with other indies who have signed up. Again, displ
 From September 1, 2022 to September 1, 2023, Hello There and Artbox have had a combined **2.5 million** App Store Impressions. Both apps have been featured by Apple in various collections and promoted In-App Events. 
 
 ### Sign up
-If you're interested in advertising your apps with rakTech apps, please fill out the submision form below! (It's a free TypeForm account, so if it happens to be unavailable, it should clear up at the first of the month!)
+If you're interested in advertising your apps with rakTech apps, please fill out the submision form below!  
+
+(It's a free TypeForm account, so if it happens to be unavailable, it should clear up at the first of the month! Alternatively, feel free to get in touch via email or Mastodon, etc!)
 
 <div data-tf-widget="wLi48OAt" data-tf-opacity="100" data-tf-iframe-props="title=Advertise with rakTech" data-tf-transitive-search-params data-tf-medium="snippet" style="width:100%;height:500px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
