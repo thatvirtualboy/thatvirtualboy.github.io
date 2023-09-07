@@ -41,13 +41,15 @@ If you're interested in advertising your apps with rakTech apps, please fill out
 (It's a free TypeForm account, so if it happens to be unavailable, it should clear up at the first of the month! Alternatively, feel free to get in touch via email or Mastodon, etc!)
 
 #### Update Sept 7
-Wow the response from the indie dev community has been amazing! We've blown through the free TypeForm plan so the submission form is locked up until Oct 6th 😅 While I look for a better alternative, if you're interested in participating, please copy and paste the below template into an email and hit up [support@raktech.app](mailto:support@raktech.app)
+Wow the response from the indie dev community has been amazing! In less than 24 hours, we've blown through the free TypeForm plan 😅 While I look for a better alternative, if you're interested in participating, please copy and paste the below template into an email and hit up [support@raktech.app](mailto:support@raktech.app)
 
-**Your Name:**  
-**Your Email:**  
-**App Name:**  
-**App Store ID:**  
-**Which apps do you want to advertise with?** (Hello There and/or Artbox)  
-**Are you ok with having your app name and/or icon included on thatvirtualboy.com / social media as a participant?** Yes/No  
+```
+Your Name:  
+Your Email:  
+App Name:  
+App Store ID:  
+Which apps do you want to advertise with? (Hello There and/or Artbox)  
+Are you ok with having your app name and/or icon included on thatvirtualboy.com / social media as a participant? Yes/No  
+```
 
 <div data-tf-widget="wLi48OAt" data-tf-opacity="100" data-tf-iframe-props="title=Advertise with rakTech" data-tf-transitive-search-params data-tf-medium="snippet" style="width:100%;height:500px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
