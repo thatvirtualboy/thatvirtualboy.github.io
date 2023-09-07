@@ -33,6 +33,8 @@ Your app would go here! Along with other indies who have signed up. Again, displ
 ### Impact
 From September 1, 2022 to September 1, 2023, Hello There and Artbox have had a combined **2.5 million** App Store Impressions. Both apps have been featured by Apple in various collections and promoted In-App Events. 
 
+![](/assets/images/indielist.png)
+
 ### Sign up
 If you're interested in advertising your apps with rakTech apps, please fill out the submission form below!  
 
