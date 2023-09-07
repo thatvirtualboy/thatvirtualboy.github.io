@@ -16,7 +16,7 @@ One way I thought I could help the community as a fellow indie dev is to include
 
 ### How app advertisements work in rakTech LLC apps
 Today, `SKOverlay` is implemented in two rakTech apps: **[Hello There](https://apple.co/3TWTeey)** and **[Artbox](https://apple.co/3e4W69c)**.  
-• In these two apps, pop up ads for other rakTech LLC apps are displayed every 12 launches   
+• In these two apps, pop up ads for indie apps are displayed every ~~12~~ 8 launches     
 • These popups are enabled by default for every user  
 • Users on the Free tier cannot disable the pop ups  
 • Users subscribed to the either *Hello There+* or *Artbox+* have the ability to turn these off  
