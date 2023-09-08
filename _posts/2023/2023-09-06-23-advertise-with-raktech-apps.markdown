@@ -4,6 +4,7 @@ title: "Advertise with rakTech Apps"
 categories: [Apple, SwiftUI]
 image: "https://www.apple.com/v/app-store/a/images/meta/og__c59t0pflacq6.png?202011131236"
 read_time: true
+featured: true
 date: 2023-09-06
 author: Ryan Klumph
 ---

@@ -5,7 +5,7 @@ date:   2020-08-18
 categories: [vmware, vcp, certification]
 read_time: true
 author: Ryan Klumph
-featured: true
+featured: false
 image: assets/images/vcp-home/blog_vcp_home.png
 ---
 VMware now allows for remote testing of their Certified Professional exam. I just took the test from my home and here's what it was like 👨‍💻
