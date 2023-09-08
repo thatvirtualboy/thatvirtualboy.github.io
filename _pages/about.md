@@ -8,7 +8,7 @@ comments: false
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>With humble beginnings focused on Enterprise virtualizaton and end-user computing, That Virtual Boy is an evolving space where I document and share my passion for technology. 
+<p>With humble beginnings focused on enterprise virtualizaton and end-user computing, That Virtual Boy is an evolving space where I document and share my passion for technology. Most recently, I've been learning and posting about developing iOS apps in SwiftUI.
 <br><br>
 All content + opinions belong to me and do not represent my employer. Enjoy!</p>
 
