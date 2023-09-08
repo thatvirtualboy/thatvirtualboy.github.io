@@ -12,10 +12,10 @@ Getting the word out about your apps is one of the biggest challenges indie deve
 
 Aside from dreaming for that coveted App Store feature or tech blog write-up, we often look for free or really cheap alternatives to help spread the word. 
 
-One way I thought I could help the community as a fellow indie dev is to include other developer's apps in my app's `SKOverlay`. Here's how it would work:
+One way I thought I could help the community as a fellow indie dev is to advertise other developer's apps in my own apps. Here's how it would work:
 
 ### How app advertisements work in rakTech LLC apps
-Today, `SKOverlay` is implemented in two rakTech apps: **[Hello There](https://apple.co/3TWTeey)** and **[Artbox](https://apple.co/3e4W69c)**.  
+Today, `SKOverlay` serves up app ads in two rakTech apps: **[Hello There](https://apple.co/3TWTeey)** and **[Artbox](https://apple.co/3e4W69c)**.  
 • In these two apps, pop up ads for indie apps are displayed every ~~12~~ 8 launches     
 • These popups are enabled by default for every user  
 • Users on the Free tier cannot disable the pop ups  
