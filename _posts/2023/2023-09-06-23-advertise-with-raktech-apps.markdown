@@ -17,7 +17,7 @@ One way I thought I could help the community as a fellow indie dev is to adverti
 
 ### How app advertisements work in rakTech LLC apps
 Today, `SKOverlay` serves up app ads in two rakTech apps: **[Hello There](https://apple.co/3TWTeey)** and **[Artbox](https://apple.co/3e4W69c)**.  
-• In these two apps, pop up ads for indie apps are displayed every ~~12~~ 8 launches     
+• In these two apps, pop up ads for indie apps are displayed every ~~12~~ 4 launches and/or views of the home page    
 • These popups are enabled by default for every user  
 • Users on the Free tier cannot disable the pop ups  
 • Users subscribed to the either *Hello There+* or *Artbox+* have the ability to turn these off  
@@ -30,6 +30,8 @@ Here's how it looks when **Artbox** is advertised in **Hello There**:
 Your app would go here! Along with other indies who have signed up. Again, displaying these ads is configurable for *Plus* users in Settings. They have the option to completely turn off these ad overlays. Free users do not.
 
 ![](/assets/images/indieappsoption.png){:height="180px"}
+
+As of Sept 10, 2023 there are over 20 participating indie apps!
 
 ### Impact
 From September 1, 2022 to September 1, 2023, Hello There and Artbox have had a combined **2.5 million** App Store Impressions. Both apps have been featured by Apple in various collections and promoted In-App Events. 
