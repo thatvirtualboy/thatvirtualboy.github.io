@@ -34,3 +34,8 @@ I set out to create something that I could use, and resuse, to highlight the fea
 ![](/assets/images/bento.png "Hello There Bento made in SwiftUI")
 
 [Check it out on Github](https://github.com/thatvirtualboy/SwiftUI-Bento-Box) and give it a star if you like it! Even more, if you happen to publish any material using this project, let me know! I'd love to see it!
+
+### Update
+Steve Troughton-Smith shared on Mastodon that this behavior actually extends beyond just Mac Catalyst/SwiftUI and that developers should use caution when adding any platform in App Store Connect
+
+<iframe src="https://mastodon.social/@stroughtonsmith/111070551111971656/embed" width="400" allowfullscreen="allowfullscreen" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms"></iframe>

@@ -28,11 +28,16 @@ The second issue that comes from this is that once you've published a Catalyst a
 
 > When your macOS version is approved, your iOS app will no longer be available to Mac users.
 
-![](/assets/images/mac-avail.png "Apple Email Thread")
+![](/assets/images/mac-avail.png "Catalyst Gotcha")
 
-Attempting to check this box that would publish the iPad version fails to save and forces us to leave the Catalyst version available for download.
+Attempting to check this box (which would allow publishing the iPad version to macOS) fails to save and forces us to leave the Catalyst version available for download.
 
-Obviously this creates a poor user experience as the only option developers in this situation are left with is adding a note in the app's **Promotional Text** box that Catalyst isn't supported anymore, and by the way, you can't use the current supported iPad version on  your Mac either.
+Obviously this creates a poor user experience as the only option developers in this situation are left with is adding a note in the app's **Promotional Text** box that Catalyst isn't supported anymore, and by the way, you can't use the current supported iPad version on your Mac either.
 
 ### Call to action
 If you've been impacted by this, or are otherwise a concerned developer, please file a Feedback about this so we can get these issues addressed for the community. Please feel free to reference my feedback **FB13174526**
+
+### Update
+Steve Troughton-Smith shared on Mastodon that this behavior actually extends beyond just Mac Catalyst/SwiftUI and that developers should use caution when adding any platform in App Store Connect
+
+<iframe src="https://mastodon.social/@stroughtonsmith/111070551111971656/embed" width="400" height= "900" allowfullscreen="allowfullscreen" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms"></iframe>
