@@ -11,7 +11,7 @@ author: Ryan Klumph
 
 I've discovered a technical hurdle that has become quite a headache as a SwiftUI developer, and it has to do with availability of an app's Mac Catalyst availability. So let me begin with a warning to the reader: **If you're considering publishing a Catalyst version of your app, proceed with caution and please consider the below scenario.**
 
-When I discovered [Mac Catalyst](https://developer.apple.com/documentation/uikit/mac_catalyst) as a way to bring SwiftUI apps to macOS, I was initially really excited. At the time, I envisioned my app [Artbox](https://apple.co/3e4W69c) having a more native experience for Mac that seamlessly remained in sync with the iOS and iPadOS countetparts.
+When I discovered [Mac Catalyst](https://developer.apple.com/documentation/uikit/mac_catalyst) as a way to bring SwiftUI apps to macOS, I was initially really excited. At the time, I envisioned my app [Artbox](https://apple.co/3e4W69c) having a more native experience for Mac that seamlessly remained in sync with the iOS and iPadOS counterparts.
 
 While developing the Catalyst version, I kept stumbling across parts of the app that needed exceptions, or needed to be completely re-written due to nuances in certain APIs for Mac. On top of that, several graphical pieces needed further attention which in the end, made my code full of `#if targetEnvironment(macCatalyst)` exceptions. Over time, managing and supporting these special scenarios of macOS became tiring and ultimately... not very fun.
 
