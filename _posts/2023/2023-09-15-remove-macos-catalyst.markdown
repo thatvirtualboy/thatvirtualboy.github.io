@@ -9,7 +9,7 @@ date: 2023-09-15
 author: Ryan Klumph
 ---
 
-I've discovered a technical hurdle that has become quite a headache as a SwiftUI developer, and it has to do with availability of an app's Mac Catalyst availability. So let me begin with a warning to the reader: **If you're considering publishing a Catalyst version of your app, proceed with caution and please consider the below scenario.**
+I've discovered a technical hurdle that has become quite a headache as a SwiftUI developer, and it has to do with availability of an app's Mac Catalyst App Store Build. So let me begin with a warning to the reader: **If you're considering publishing a Catalyst version of your app, proceed with caution and please consider the below scenario.**
 
 When I discovered [Mac Catalyst](https://developer.apple.com/documentation/uikit/mac_catalyst) as a way to bring SwiftUI apps to macOS, I was initially really excited. At the time, I envisioned my app [Artbox](https://apple.co/3e4W69c) having a more native experience for Mac that seamlessly remained in sync with the iOS and iPadOS counterparts.
 
