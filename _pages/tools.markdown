@@ -24,8 +24,9 @@ This tool was originally published as a [VMware Fling](https://flings.vmware.com
 ---
 
 <br>
-#### Hello There (iOS 16+)
+#### Hello There (iOS, iPadOS)
 ![logo](/assets/apps/hellothere/icon.png){:height="100px" width="100px"  .align-left}  
+
 A beautiful greeting card organizer for iPhone and iPad.    
 
 <a href="https://apps.apple.com/us/app/hello-there-greeting-cards/id1632485298?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1586476800&h=523bfb029b0b9b44037aa61782d02b45" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
@@ -52,9 +53,19 @@ A fun app inspired by voice changer toys from the 90s.
 
 <br>
 #### Stickers About Nothing (iOS, iPadOS)
-![logo](/assets/apps/stickers/stickers-about-nothing.png){:height="100px" width="100px" .align-left} A fun iMessage sticker pack for Seinfeld fans.   
+![logo](/assets/apps/stickers/stickers-about-nothing.png){:height="100px" width="100px" .align-left}  
+A fun iMessage sticker pack for Seinfeld fans.  
 
 <a href="https://apps.apple.com/us/app/stickers-about-nothing/id1548219622?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1610409600&h=5fd8e9f596a55a3214d74e6bc62c2f80" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
+
+---
+
+#### Arlene's Beans (iOS)
+![logo](/assets/images/arlenes-beans.png){:height="100px" width="100px" .align-left}  
+An award-winning Mexican restaurant in Southern Colorado.  
+
+<a href="https://apps.apple.com/us/app/arlenes-beans/id6450972383?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1691366400" alt="Download on the App Store" style="border-radius: 13px; width: 150px; height: 83px;"></a>
+
 
 <br>
 ### == Legacy Apps ==
