@@ -24,6 +24,16 @@ data-app-id="F40EF852-5F86-4BFC-A5AE-91FF4F8CD5B2"
 
 {% include analytics.html %}
 
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/images/favicon/site.webmanifest">
+<link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
+<!-- end custom head snippets -->
+
 </head>
 
 {% if jekyll.environment == 'production' %}
@@ -87,10 +97,6 @@ ga('send', 'pageview');
 
                 <li class="nav-item">
                 <a target="_blank" class="nav-link" href="https://github.com/thatvirtualboy"><i class="fab fa-github"></i> Github</a>
-                </li>
-
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://twitter.com/thatvirtualboy"><i class="fab fa-twitter"></i> Twitter</a>
                 </li>
 
                 <li class="nav-item">
