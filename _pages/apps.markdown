@@ -7,7 +7,7 @@ image: /assets/tools.jpg
 
 
 
-#### ![logo](/assets/apps/hellothere/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Hello There (iOS, iPadOS)
+#### ![logo](/assets/apps/hellothere/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Hello There
 > A beautiful greeting card organizer for iPhone and iPad  
 
 ![logo](/assets/images/hellothere-preview.png)  
@@ -17,7 +17,7 @@ image: /assets/tools.jpg
 
 ---
 
-#### ![logo](/assets/apps/artbox/artbox2.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Artbox (iOS, iPadOS) 
+#### ![logo](/assets/apps/artbox/artbox2.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Artbox
 > A convenient way to digitally catalog and share arts & crafts   
 
 ![logo](/assets/images/artbox-promo.png)   
@@ -26,7 +26,7 @@ image: /assets/tools.jpg
 
 ---
 
-#### ![logo](/assets/apps/yaktraks/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Yaktraks (iOS, iPadOS)
+#### ![logo](/assets/apps/yaktraks/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Yaktraks
 > A kids app inspired by voice changer toys from the 90s  
 
 ![logo](/assets/images/yaktraks-promo.png)  
@@ -35,7 +35,7 @@ image: /assets/tools.jpg
 
 ---
 
-#### Stickers About Nothing (iOS, iPadOS)
+#### Stickers About Nothing
 ![logo](/assets/apps/stickers/stickers-about-nothing.png){:height="80px" width="80px" .align-left}  
 A fun iMessage sticker pack for Seinfeld fans.  
 
@@ -43,7 +43,7 @@ A fun iMessage sticker pack for Seinfeld fans.
 
 ---
 
-#### Arlene's Beans (iOS)
+#### Arlene's Beans
 ![logo](/assets/images/arlenes-beans.png){:height="80px" width="80px" .align-left}  
 An award-winning Mexican restaurant in Southern Colorado.  
 
