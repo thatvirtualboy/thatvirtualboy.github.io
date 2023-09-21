@@ -15,7 +15,7 @@ All content + opinions belong to me and do not represent my employer. Enjoy!</p>
 <hr class="solid">
 
 <p>Want to keep up with thatvirtualboy.com? From an iPhone, tap the `Share` button and choose Add to Home Screen.</p>
-<img src="/assets/images/blog-on-phone.png">
+<img src="/assets/images/blog-on-phone.png" style="width:60%">
 <br><br>
 
 <h4>Around the web</h4>
