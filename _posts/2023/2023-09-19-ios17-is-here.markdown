@@ -15,7 +15,7 @@ But for today, I'm thrilled to highlight the iOS 17 updates to **Artbox** and **
 
 ### Artbox - Crafting Memories
 ![](/assets/images/artbox-bento.png "Artbox Bento")
-Artbox, the best iOS app for crafting memories, gets several improvements and updates. Although its updates isn't fully utilizing the newest iOS 17 APIs, I'm really excited about this being the best Artbox release yet. iPhone users get a really nice looking Bento Box style view in their Artist profile view, which is configurable in case you prefer the classic look. iPad users also get some pretty sizeable optimizaitons that make Artbox look better than ever on the larger screens. And for both iPhone and iPad users, **drag & drop** is now available for adding images to new projects. Here's everything that's new:
+Artbox, the best iOS app for crafting memories, gets several improvements and updates. Although this update isn't fully utilizing the newest iOS 17 APIs, I'm really excited about this being the best Artbox release yet. iPhone users get a really nice looking Bento Box style view in their Artist profile view, which is configurable in case you prefer the classic look. iPad users also get some pretty sizeable optimizations that make Artbox look better than ever on the larger screens. And for both iPhone and iPad users, **drag & drop** is now available for adding images to new projects. Here's everything that's new:
 
 == NEW ==  
 • An all-new Bento-style View showcasing Artist's most recent projects (iPhone)  
@@ -46,7 +46,7 @@ Artbox, the best iOS app for crafting memories, gets several improvements and up
 ### Hello There - Greeting Cards
 ![](/assets/images/hellothere-ios17.png "Hello There iOS 17")
 
-Hello There got more iOS 17 API attention like TipKit, StandBy support, Pie Charts, and a few others. By far the biggest noticeable difference with this release is the ability to send ecards. Hello There is primarily an app for storing cards received, however it just made sense to add a simple and modest way to send a quick *Thank You* here and there.
+Hello There got more iOS 17 API attention like TipKit, StandBy support, Pie Charts, and a few others. By far the biggest noticeable difference with this release is the ability to send ecards. Hello There is primarily an app for storing cards received, however it just made sense to add a simple and modest way to send a quick *Thank You* here and there. And based on anonymous telemetry data, users already *love* sending digital thank-you cards!
 
 == NEW ==  
 • Introducing E-Post - lightweight & delightful ecards that can be shared anywhere  
@@ -86,5 +86,5 @@ Hello There got more iOS 17 API attention like TipKit, StandBy support, Pie Char
 [Download Hello There for free on the App Store](https://apple.co/3TWTeey)
 
 ### Merch
-For the superfans, I'm happy to share you can now get some really cool shirts sporting the app logos and a couple other designs. [Check out the shop here.](https://cottonbureau.com/people/raktech)
+For the superfans, I'm happy to share you can now get some really cool shirts sporting the app logos and a couple other designs. [Check out the shop here.](https://cottonbureau.com/people/raktech)  
 ![](/assets/images/rakTech-shirts.png "rakTech Shirts")
