@@ -1,8 +1,55 @@
 ---
 layout: page
-title: Tools + Apps
-permalink: /tools/
+title: Apps
+permalink: /apps/
 image: /assets/tools.jpg
+---
+
+
+
+#### ![logo](/assets/apps/hellothere/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Hello There (iOS, iPadOS)
+> A beautiful greeting card organizer for iPhone and iPad  
+
+![logo](/assets/images/hellothere-preview.png)  
+
+<a href="https://apps.apple.com/us/app/hello-there-greeting-cards/id1632485298?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1586476800&h=523bfb029b0b9b44037aa61782d02b45" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
+<br>
+
+---
+
+#### ![logo](/assets/apps/artbox/artbox2.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Artbox (iOS, iPadOS) 
+> A convenient way to digitally catalog and share arts & crafts   
+
+![logo](/assets/images/artbox-promo.png)   
+
+<a href="https://apps.apple.com/us/app/artbox-2/id1557964462?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1619568000&h=592ca0fbd3178d7c7384a6379fe65c1b" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
+
+---
+
+#### ![logo](/assets/apps/yaktraks/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Yaktraks (iOS, iPadOS)
+> A kids app inspired by voice changer toys from the 90s  
+
+![logo](/assets/images/yaktraks-promo.png)  
+
+<a href="https://apps.apple.com/us/app/yaktraks-90s-nostalgia/id1583086555?itsct=apps_box_link&itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1619568000&h=592ca0fbd3178d7c7384a6379fe65c1b" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
+
+---
+
+#### Stickers About Nothing (iOS, iPadOS)
+![logo](/assets/apps/stickers/stickers-about-nothing.png){:height="80px" width="80px" .align-left}  
+A fun iMessage sticker pack for Seinfeld fans.  
+
+<a href="https://apps.apple.com/us/app/stickers-about-nothing/id1548219622?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1610409600&h=5fd8e9f596a55a3214d74e6bc62c2f80" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
+
+---
+
+#### Arlene's Beans (iOS)
+![logo](/assets/images/arlenes-beans.png){:height="80px" width="80px" .align-left}  
+An award-winning Mexican restaurant in Southern Colorado.  
+
+<a href="https://apps.apple.com/us/app/arlenes-beans/id6450972383?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1691366400" alt="Download on the App Store" style="border-radius: 13px; width: 150px; height: 83px;"></a>
+<br>
+
 ---
 
 ### VMware Horizon Linux OVA Template
@@ -12,7 +59,6 @@ A pre-packaged OVA built on Ubuntu 18.04 LTS that automates the initial image co
 
 ---  
 
-<br>
 ### VMware Horizon Collector for macOS
 ![logo](/assets/hc_icon.png){:height="100px" width="100px"  .align-left}  
 A shell script to automate the process of collecting Horizon View Client logs for macOS, including USB and ThinPrint logs.
@@ -23,52 +69,9 @@ This tool was originally published as a [VMware Fling](https://flings.vmware.com
 
 ---
 
-<br>
-#### Hello There (iOS, iPadOS)
-![logo](/assets/apps/hellothere/icon.png){:height="100px" width="100px"  .align-left}  
-
-A beautiful greeting card organizer for iPhone and iPad.    
-
-<a href="https://apps.apple.com/us/app/hello-there-greeting-cards/id1632485298?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1586476800&h=523bfb029b0b9b44037aa61782d02b45" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
-<br>
-
----
 
 <br>
-#### Artbox (iOS, iPadOS)
-![logo](/assets/apps/artbox/artbox2.png){:height="100px" width="100px" .align-left}  
-A convenient and modern way to secure arts & crafts.   
-
-<a href="https://apps.apple.com/us/app/artbox-2/id1557964462?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1619568000&h=592ca0fbd3178d7c7384a6379fe65c1b" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
-
----
-<br>
-#### Yaktraks (iOS, iPadOS)
-![logo](/assets/apps/yaktraks/icon.png){:height="100px" width="100px" .align-left}  
-A fun app inspired by voice changer toys from the 90s.   
-
-<a href="https://apps.apple.com/us/app/yaktraks-90s-nostalgia/id1583086555?itsct=apps_box_link&itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1619568000&h=592ca0fbd3178d7c7384a6379fe65c1b" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
-
----
-
-<br>
-#### Stickers About Nothing (iOS, iPadOS)
-![logo](/assets/apps/stickers/stickers-about-nothing.png){:height="100px" width="100px" .align-left}  
-A fun iMessage sticker pack for Seinfeld fans.  
-
-<a href="https://apps.apple.com/us/app/stickers-about-nothing/id1548219622?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1610409600&h=5fd8e9f596a55a3214d74e6bc62c2f80" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
-
----
-
-#### Arlene's Beans (iOS)
-![logo](/assets/images/arlenes-beans.png){:height="100px" width="100px" .align-left}  
-An award-winning Mexican restaurant in Southern Colorado.  
-
-<a href="https://apps.apple.com/us/app/arlenes-beans/id6450972383?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1691366400" alt="Download on the App Store" style="border-radius: 13px; width: 150px; height: 83px;"></a>
-
-
-<br>
-### == Legacy Apps ==
+## == Legacy Apps ==
 #### Sonas Journal
 ![logo](/assets/apps/SonasJournal/sonasIcon.png){:height="100px" width="100px" .align-left}  
 A private journal built to capture life's best moments.    
