@@ -12,6 +12,12 @@ comments: false
 <br><br>
 All content + opinions belong to me and do not represent my employer. Enjoy!</p>
 
+<hr class="solid">
+
+<p>Want to keep up with thatvirtualboy.com? From an iPhone, tap the `Share` button and choose Add to Home Screen.</p>
+<img src="/assets/images/blog-on-phone.png">
+<br><br>
+
 <h4>Around the web</h4>
 <p>Interviewed by <a href="https://indiedevmonday.com/issue-41">Indie Dev Monday</a>.</p>
 <p>Interviewed by <a href="https://octo.vmware.com/ryan-klumph/">VMware Office of the CTO</a>.</p>
