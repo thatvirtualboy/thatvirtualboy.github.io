@@ -14,7 +14,7 @@ All content + opinions belong to me and do not represent my employer. Enjoy!</p>
 
 <hr class="solid">
 
-<p>Want to keep up with thatvirtualboy.com? From an iPhone, tap the `Share` button and choose Add to Home Screen.</p>
+<p>Want to keep up with thatvirtualboy.com? Add <mark>https://thatvirtualboy.com/feed</mark> to your favorite RSS reader. Alternatively, from an iPhone, tap the `Share` button and choose Add to Home Screen.</p>
 <img src="/assets/images/blog-on-phone.png" style="width:60%">
 <br><br>
 
@@ -34,7 +34,7 @@ All content + opinions belong to me and do not represent my employer. Enjoy!</p>
 <p>Artbox featured on <a href="https://www.apartmenttherapy.com/artbox-app-review-kids-art-36870551">Apartment Therapy</a>.</p>
 <p>Yaktraks featured on <a href="https://www.techradar.com/news/apps-that-have-updated-to-ios-15-and-your-new-iphone-13">Tech Radar</a>.</p>
 <p>Website featured on <a href="https://telemetrydeck.com/blog/web-sdk-shoutout/">Telemetry Deck</a>.</p>
-<p>Drummed on Katrina Stone's album <a href="https://music.apple.com/us/album/spellbound/1147778586">Spellbound</a>.</p>
+<p>Recorded drums on Katrina Stone's album <a href="https://music.apple.com/us/album/spellbound/1147778586">Spellbound</a>.</p>
 
 
 <h4>Credly</h4>
