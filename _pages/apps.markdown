@@ -10,7 +10,7 @@ image: /assets/tools.jpg
 #### ![logo](/assets/apps/hellothere/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Hello There
 > A beautiful greeting card organizer for iPhone and iPad  
 
-![logo](/assets/images/hellothere-preview.png)  
+![logo](/assets/images/hellothere-preview.png){:width="60%"}
 
 <a href="https://apps.apple.com/us/app/hello-there-greeting-cards/id1632485298?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1586476800&h=523bfb029b0b9b44037aa61782d02b45" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
 <br>
@@ -20,7 +20,7 @@ image: /assets/tools.jpg
 #### ![logo](/assets/apps/artbox/artbox2.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Artbox
 > A convenient way to digitally catalog and share arts & crafts   
 
-![logo](/assets/images/artbox-promo.png)   
+![logo](/assets/images/artbox-promo.png){:width="60%"} 
 
 <a href="https://apps.apple.com/us/app/artbox-2/id1557964462?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1619568000&h=592ca0fbd3178d7c7384a6379fe65c1b" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
 
@@ -29,7 +29,7 @@ image: /assets/tools.jpg
 #### ![logo](/assets/apps/yaktraks/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Yaktraks
 > A kids app inspired by voice changer toys from the 90s  
 
-![logo](/assets/images/yaktraks-promo.png)  
+![logo](/assets/images/yaktraks-promo.png){:width="60%"}  
 
 <a href="https://apps.apple.com/us/app/yaktraks-90s-nostalgia/id1583086555?itsct=apps_box_link&itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1619568000&h=592ca0fbd3178d7c7384a6379fe65c1b" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
 
