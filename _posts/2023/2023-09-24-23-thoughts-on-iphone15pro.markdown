@@ -11,7 +11,7 @@ author: Ryan Klumph
 
 The iPhone 15 Pro Natural Titanium isn't nearly as *tan* or *golden* as I thought it appeared to be in Apple's original announcement and marketing material. It was by far the most interesting color as it appeared to give off different hues in different light. I couldn't quite make out if it was tan, brown with golden accents, grey, or silver. 
 
-For this reason I first had the iPhone 15 Pro White Titanium on pre-order saved. But the mystery of the new Natural Titanium kept beckoning. Apple has had white iPhones for years in many iterations. Never before, however, has Apple had a "Natural" option based on the metal it was forged in. I decided to change my saved pre-order to Natural Titanium and see what happened. I'm so glad I did.
+Thinking that it leaned more toward a gold color, I first had the iPhone 15 Pro White Titanium on pre-order saved. But the mystery of the new Natural Titanium kept beckoning. Apple has had white iPhones for years in many iterations. Never before, however, has Apple had a "Natural" option based on the metal it was forged in. I decided to change my saved pre-order to Natural Titanium and see what happened. I'm so glad I did.
 
 #### Apple's Natural Titanium Marketing Images
 Here you can see Apple's own images for marketing the new Natural Titanium. Perhaps I'm color-stupid, but I just couldn't put my finger on how this would look irl and it almost looked like it had more golden accents to it. Sometimes it looked grey. Sometimes it looked off-white. 
