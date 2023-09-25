@@ -59,8 +59,29 @@ All content + opinions belong to me and do not represent my employer. Enjoy!</p>
 <div class="row">
  <div class="col-md-4">
    <div class="thumbnail">
+     <a href="{{site.baseurl}}/assets/certs/vcp23.png">
+       <img src="{{site.baseurl}}/assets/certs/vcp23.png">
+     </a>
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="{{site.baseurl}}/assets/certs/vcp22.png">
+       <img src="{{site.baseurl}}/assets/certs/vcp22.png">
+     </a>
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="{{site.baseurl}}/assets/certs/vcp21.png">
+       <img src="{{site.baseurl}}/assets/certs/vcp21.png">
+     </a>
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="thumbnail">
      <a href="{{site.baseurl}}/assets/certs/stars.png">
-       <img src="{{site.baseurl}}/assets/certs/stars.png" alt="Lights" style="width:100%">
+       <img src="{{site.baseurl}}/assets/certs/stars.png" style="width:100%">
      </a>
    </div>
  </div>
