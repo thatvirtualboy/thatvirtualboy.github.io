@@ -21,6 +21,10 @@ Perfect for app developers and service providers, Bento|Craft easily shows off y
 
 Why settle for bland when you can Bento? Download Bento|Craft for free and make every mockup a masterpiece.  
 <br>
+#### Pricing & Indie Dev Support
+Bento|Craft will be completely free to use. At launch, indie devs who are already participating in advertising with rakTech apps will be grandfathered into the integrated indie app ads.
+
+<br>
 #### Screenshots
 ![logo](/assets/images/bento/bento1.png){:width="30%"} 
 ![logo](/assets/images/bento/bento2.png){:width="30%"} 
