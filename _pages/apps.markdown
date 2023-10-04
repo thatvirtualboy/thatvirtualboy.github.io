@@ -5,6 +5,13 @@ permalink: /apps/
 image: /assets/tools.jpg
 ---
 
+#### ![logo](/assets/images/bento-icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Bento|Craft - Coming soon
+> Build beautiful bento box images for your app or service  
+
+![logo](/assets/images/bento/bento1.png){:width="60%"}  
+<br>
+
+---
 
 
 #### ![logo](/assets/apps/hellothere/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Hello There
