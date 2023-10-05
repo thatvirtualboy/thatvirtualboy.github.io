@@ -38,4 +38,11 @@ Bento|Craft will be completely free to use. At launch, indie devs who are alread
 
 <br>
 #### Privacy Policy
-No personally identifiable information is collected. Ever. General anonymous stats are collected to help improve the app. This information is aggregated using the privacy-focused analytics solution [Telemetry Deck](https://telemetrydeck.com).
+No personally identifiable information is collected. Ever. General anonymous stats are collected to help improve the app. This information is aggregated using the privacy-focused analytics solution [Telemetry Deck](https://telemetrydeck.com).  
+<br>
+
+#### App Store Details
+**Apple App ID:** 6468541457  
+**Category:** Graphics & Design  
+**Developer:** rakTech LLC  
+**Contact:** support@raktech.app  
