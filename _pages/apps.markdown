@@ -9,6 +9,8 @@ image: /assets/tools.jpg
 > Build beautiful bento box images for your app or service  
 
 ![logo](/assets/images/bento/bento1.png){:width="60%"}  
+
+[![learn more](/assets/images/learn-more.png){:width="8%"}](https://thatvirtualboy.com/bentocraft)
 <br>
 
 ---
