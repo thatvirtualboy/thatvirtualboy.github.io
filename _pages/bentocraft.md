@@ -11,15 +11,25 @@ Create beautiful bento-box style images with Bento|Craft. Designed exclusively f
 
 <br>
 #### App Store Description
-Crafting a brilliant marketing design should feel delightful, not dreadful. With Bento|Craft, we've boxed up the complex and served up simplicity. Like arranging delicacies in a bento, organize your mockup elements with ease and style.  
+Build and share a bento box where your app's features are the main course.  
 
-• Intuitive Bento Design - Think outside the box by designing inside ours!  
+Crafting a brilliant marketing design should feel delightful, not dreadful. With Bento Craft, we've boxed up the complex and served up simplicity. Like arranging delicacies in a bento, organize your mockup elements with ease and style.  
+
+• Pre-made Bento Design - Think outside the box by designing inside ours!  
 • Mini, Mega, and Max - Mockup making that's as easy as picking sushi rolls.  
 • Share in a Snap - Show off your delicious designs to the world.  
 
-Perfect for app developers and service providers, Bento Craft easily shows off your newest features and best updates.  
+Perfect for app developers and other creators, Bento|Craft is designed to be lightweight and effortless.  
+<br>
+== Features ==  
+• Completely free to use  
+• 3 Bento styles: Mini, Mega, and Max  
+• Auto-add device frames to screenshots  
+• Configurable text, images, and symbols  
+• Easy export that can be shared anywhere  
+• Supports participating Indie Devs through non-intrusive App Store ads (configurable)  
 
-Why settle for bland when you can Bento? Download Bento Craft for free and make every mockup a masterpiece.  
+Why settle for bland when you can Bento? Download Bento|Craft for free and make every mockup a masterpiece.   
 <br>
 #### Pricing & Indie Dev Support
 Bento|Craft will be completely free to use. At launch, indie devs who are already participating in advertising with rakTech apps will be grandfathered into the integrated indie app ads.
