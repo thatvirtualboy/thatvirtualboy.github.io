@@ -1,0 +1,72 @@
+# Site
+name: "thatvirtualboy"
+title: "thatvirtualboy"
+description: "Sometimes I do things and write about it"
+logo: 'assets/favicon.png'
+favicon: 'assets/favicon.png'
+baseurl: ""
+google_analytics: 'UA-104130481-1'
+disqus: 'thatvirtualboy'
+#mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  Ryan Klumph:
+    name: Ryan Klumph
+    display_name: Ryan
+    avatar: 'assets/images/thatvirtualboy-pixel-rounded.png'
+    gravatar: b89e73248ca25117c3c4382cc1da65ab
+    email: thatvirtualboy@icloud.com
+    web: https://www.thatvirtualboy.com
+    twitter: https://techhub.social/@thatvirtualboy
+    description: "Author and sole creator of That Virtual Boy and its content, including articles, tools, and apps."
+  Jeremy McCoy:
+    name: Jeremy McCoy
+    display_name: Jeremy McCoy
+    web: https://github.com/MrDrMcCoy
+    twitter: https://twitter.com/nakedhitman
+    description: "Guest writer on thatvirtualboy.com."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+
+# Archives
+jekyll-archives:
+  enabled:
+    - category
+    - tags
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+
+# Pagination
+paginate: 12
+paginate_path: /page:num/
+
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "enabled"
+adsense-data-ad-client: "ca-pub-1603206662881080"
+adsense-data-ad-slot: "7898588163"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "enabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]

@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Hello There update 1.2 - send cards in the mail"
+categories: [Apple, bacon, SwiftUI]
+image: assets/apps/hellothere/hellothere-promo4.png
+read_time: true
+date: 2023-01-30
+author: Ryan Klumph
+---
+My greeting card organizer app for iOS, **Hello There**, has been updated to version 1.2. This new version introduces the ability to purchase a hand-written letter and have it mailed on your behalf to anywhere in the world. I'm calling this new service **Hello There Post.**
+
+This new features is made possible by using Apple Pay and Stripe to process payments for physical goods. 
+
+There are a small handful of apps that allow you to purchase cards and have them sent in the mail, but none (that I've found so far) offer for the letter to be hand-written for that extra personal touch.
+
+With version 1.2, there are 2 types of cards that can be purchased:
+1. Thank you card
+2. Blank any-occasion card (Black or White variant available)
+
+All cards are high quality paper and are shipped within 3 business days of purchase. I think this puts the app in a unique space as a major greeting card handler for both saving and sending. I can't wait for you to give it a spin!
+
+Check it out on the [App Store](https://apps.apple.com/us/app/hello-there-greeting-cards/id1632485298)
