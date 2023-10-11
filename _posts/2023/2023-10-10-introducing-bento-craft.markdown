@@ -28,7 +28,7 @@ The app will be forced to a *landscape* orientation for the best experience. Thi
 
 The entire idea here is for devs and creators to bring existing assets to Bento Craft. Adding images to Bento Craft couldn't be easier with the ability to add from your Photos Library, or you can drag and drop images from anywhere right into the app. Bento Craft will even add device frames to your screenshots for you!
 
-Bento Craft also includes an `SFSymbol` library with configurable colors and gradients to show off your app's latest capabilities and features. When your creation is complete, you simple tap **Share** and you can send your final image anywhere.
+Bento Craft also includes an `SFSymbol` library with configurable colors and gradients to show off your app's latest capabilities and features. When your creation is complete, you simply tap **Share** and you can send your final image anywhere.
 
 >Best of all, Bento Craft will be completely free. 
 
