@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "M3 Macs and the Scary Windows Virtualization Predicament"
-categories: [Apple, iPad, SwiftUI]
+categories: [Apple, Mac, Fusion]
 image: assets/images/m3.PNG
 read_time: true
 featured: false
