@@ -1,0 +1,45 @@
+I"�<p>What makes SwiftUI so fun is how easy it is to whip together designs that are modern and refreshing. SwiftUI’s declarative nature invites developers and designers alike to tweak, adjust, and fine-tune designs with minimal effort.</p>
+
+<p>Recently I came across a neat design in a mock app Apple <a href="https://developer.apple.com/videos/play/wwdc2022/10001/">demoed during a WWDC22 session</a> and decided to adapt it to my iOS 16 app, <a href="https://apps.apple.com/us/app/hello-there-greeting-cards/id1632485298">Hello There</a>.</p>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Testing some designs inspired by WWDC videos 👀<a href="https://twitter.com/hashtag/SwiftUI?src=hash&amp;ref_src=twsrc%5Etfw">#SwiftUI</a> <a href="https://t.co/kpuh8ZUYUy">pic.twitter.com/kpuh8ZUYUy</a></p>&mdash; Ryan (@thatvirtualboy) <a href="https://twitter.com/thatvirtualboy/status/1618711445025484800?ref_src=twsrc%5Etfw">January 26, 2023</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>The Apple design (pictured right in the tweet above) takes a single photo and creates two layers:</p>
+<ol>
+  <li>The background layer is highly blurred and slightly magnified</li>
+  <li>The foreground layer is cropped and filled to the wide rectangle frame</li>
+</ol>
+
+<p>Let’s take a look at how to accomplish this. Let’s start by picking an image, adding it to our project’s <strong>Assets.xcassets</strong> folder, then creating the background layer. In this example, I’m using an image named <em>“us”</em>.</p>
+
+<p><img src="/assets/apps/hellothere/codealong1/code1.png" alt="" /></p>
+
+<p>This should result in a heaviy blurred instance of your image:</p>
+
+<p style="text-align:center;"><img src="/assets/apps/hellothere/codealong1/image1.png" alt="" height="600px" /></p>
+
+<p>Next, let’s work on adding the forground image. Because this image will be presented in front of the background image, we’ll want to put both Views in a <code class="language-plaintext highlighter-rouge">ZStack</code>. Then, we’ll use a combination of <code class="language-plaintext highlighter-rouge">VStack</code>, <code class="language-plaintext highlighter-rouge">HStack</code> and <code class="language-plaintext highlighter-rouge">Spacer()</code> to center the image horizontally, and position it to the bottom.</p>
+
+<p><img src="/assets/apps/hellothere/codealong1/code2.png" alt="" /></p>
+
+<p style="text-align:center;"><img src="/assets/apps/hellothere/codealong1/image2.png" alt="" height="600px" /></p>
+
+<p>Already this is coming together! Now we’re looking at adding some <code class="language-plaintext highlighter-rouge">Text</code> and a <code class="language-plaintext highlighter-rouge">Label</code>. Toss these into some more <code class="language-plaintext highlighter-rouge">VStack</code> and <code class="language-plaintext highlighter-rouge">HStack</code> views along with <code class="language-plaintext highlighter-rouge">Spacer()</code> to position appropriately. You’ll want to add this code within your <code class="language-plaintext highlighter-rouge">ZStack</code> in between the two image Views:</p>
+
+<p><img src="/assets/apps/hellothere/codealong1/code3.png" alt="" /></p>
+
+<p style="text-align:center;"><img src="/assets/apps/hellothere/codealong1/image3.png" alt="" height="600px" /></p>
+
+<p>The final touch to match our design to the source is to add the little <code class="language-plaintext highlighter-rouge">ellipsis.circle</code> <strong>SF Symbol</strong> to the top right corner. I love using SF Symbols wherever possible - they’re easy to integrate, and super flexible to make work in any kind of design. Let’s add this little icon to our View by putting the below code inside our <code class="language-plaintext highlighter-rouge">ZStack</code> at the very bottom:</p>
+
+<p><img src="/assets/apps/hellothere/codealong1/code4.png" alt="" /></p>
+
+<p style="text-align:center;"><img src="/assets/apps/hellothere/codealong1/image4.png" alt="" height="300px" /></p>
+
+<p>Not too shabby! Notice I chose not to change the font to match the source – I stuck with the default font. Go ahead and play around with your final product and see how you can tweak it to your liking.</p>
+
+<p>A similar design inspired by Apple’s demo app is debuting in Hello There version 1.3 launching in February 2023, I think it looks pretty good!</p>
+
+<p>I hope you enjoyed coding along. Thanks for reading!</p>
+:ET
