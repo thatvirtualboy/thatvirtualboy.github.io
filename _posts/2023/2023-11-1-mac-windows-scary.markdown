@@ -43,6 +43,6 @@ If you think you could potentially be at risk, it's easy to test on an M-series 
 
 ### The takeaway
 
-If you're an Intel-based Mac user today that relies on Windows virtualization for your productivity, be cautions swapping out your current setup for a new M3 before fully testing your Windows-based apps on Windows 11 Arm. You may very well find yourself having to return that hot new Mac. And that would be pretty scary.
+If you're an Intel-based Mac user today that relies on Windows virtualization for your productivity, be cautions swapping out your current setup for an M-series Mac before fully testing your Windows-based apps on Windows 11 Arm. You may very well find yourself having to return that hot new Mac. And that would be pretty scary.
 
 ![Scary Mac](/assets/images/scary.jpeg)  
