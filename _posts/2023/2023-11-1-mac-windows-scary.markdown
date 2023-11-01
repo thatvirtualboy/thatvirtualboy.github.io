@@ -41,8 +41,7 @@ Because X86 apps [run under emulation](https://learn.microsoft.com/en-us/windows
 
 If you think you could potentially be at risk, it's easy to test on an M-series system. Fusion 13.5 can be downloaded as a free trial, and then you can download and install Windows 11 Arm to a fresh VM right from the GUI, giving you ample time to test your proof of concept. 
 
-### PSA
-The reason I chose to write this article is essentially to serve as a simple public service announcement: 
+### The takeaway
 
 If you're an Intel-based Mac user today that relies on Windows virtualization for your productivity, be cautions swapping out your current setup for a new M3 before fully testing your Windows-based apps on Windows 11 Arm. You may very well find yourself having to return that hot new Mac. And that would be pretty scary.
 
