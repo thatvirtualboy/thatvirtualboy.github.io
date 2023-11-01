@@ -9,11 +9,11 @@ date: 2023-11-1
 author: Ryan Klumph
 ---
 
-This week Apple announced the M3 series of chips at their Scary Fast event. Like many others, I was amazed when Apple flexed at the end with the statement "This event was shot on iPhone, and edited on Mac". Check out the [*Behind the scenes*](https://www.apple.com/newsroom/2023/10/behind-the-scenes-at-scary-fast-apples-keynote-event-shot-on-iphone/) on filming the event  - it's really impressive! 
+This week Apple announced the M3 series of chips at their [Scary Fast event.](https://www.apple.com/apple-events/) Like many others, I was amazed when Apple flexed at the end with the statement "This event was shot on iPhone, and edited on Mac". Check out the [*Behind the scenes*](https://www.apple.com/newsroom/2023/10/behind-the-scenes-at-scary-fast-apples-keynote-event-shot-on-iphone/) on filming the event  - it's really impressive! 
 
 ![Shot on iPhone](/assets/images/shotoniphone.png)  
 
-During the event, Apple repeatedly contrasted Apple Silicon with Intel-based Macs and was quite insistent on persuading users who were delaying the transition to M-series to upgrade their Intel-based hardware.
+During the event, Apple heavily contrasted Apple Silicon with Intel-based Macs (no surprise), repeatedly addressing *"those who have not yet upgraded from Intel..."*
 
 The event was riddled with statements like
 
