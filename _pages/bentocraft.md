@@ -6,8 +6,8 @@ comments: false
 ---
 
 [![logo](/assets/images/bento/bentocraft-promo1.png)](https://apps.apple.com/us/app/bento-craft/id6468541457)
-[**Download for free**](https://apple.co/45Brl06)
-Build beautiful bento style images with Bento|Craft. Designed exclusively for iPad.  
+[**Download for free**](https://apple.co/45Brl06)  
+Build beautiful bento style images with Bento Craft. Designed exclusively for iPad.  
 Go in depth and [read the announcement here](https://thatvirtualboy.com/introducing-bento-craft/)
 
 <br>
@@ -15,7 +15,7 @@ Go in depth and [read the announcement here](https://thatvirtualboy.com/introduc
 Build and share a bento box where your app's features are the main course.  
 
 Crafting a brilliant marketing design should evoke delight, not dread. With Bento|Craft, the complex has been boxed up into simplicity. Like arranging delicacies in a bento, organize your mockup elements with ease and style.    
-
+<br>
 == Highlights ==
 
 • Pre-made layouts - Think outside the box by creating inside Bento|Craft!  
