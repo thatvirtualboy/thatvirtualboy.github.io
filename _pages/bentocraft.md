@@ -6,7 +6,7 @@ comments: false
 ---
 
 [![logo](/assets/images/bento/bentocraft-promo1.png)](https://apps.apple.com/us/app/bento-craft/id6468541457)
-**Available Fall 2023**  
+[**Download for free**](https://apple.co/45Brl06)
 Build beautiful bento style images with Bento|Craft. Designed exclusively for iPad.  
 Go in depth and [read the announcement here](https://thatvirtualboy.com/introducing-bento-craft/)
 
@@ -14,21 +14,24 @@ Go in depth and [read the announcement here](https://thatvirtualboy.com/introduc
 #### About
 Build and share a bento box where your app's features are the main course.  
 
-Crafting a brilliant marketing design should feel delightful, not dreadful. With Bento Craft, we've boxed up the complex and served up simplicity. Like arranging delicacies in a bento, organize your mockup elements with ease and style.  
+Crafting a brilliant marketing design should evoke delight, not dread. With Bento|Craft, the complex has been boxed up into simplicity. Like arranging delicacies in a bento, organize your mockup elements with ease and style.    
 
-• Pre-made Bento Design - Think outside the box by designing inside ours!  
-• Mini, Mega, and Max - Mockup making that's as easy as picking sushi rolls.  
-• Share in a Snap - Show off your delicious designs to the world.  
+== Highlights ==
 
-Perfect for app developers and other creators, Bento|Craft is designed to be lightweight and effortless.  
+• Pre-made layouts - Think outside the box by creating inside Bento|Craft!  
+• Multiple mockups - Design making that's as easy as picking sushi rolls.  
+• Share in a snap - Show off your delicious designs to the world.   
+
+Perfect for app developers and other creators, Bento|Craft is designed to be lightweight and delightful. With nearly endless design possibilities, your mockups will command attention.  
 <br>
 == Features ==  
 • Completely free to use  
-• 3 Bento styles: Mini, Mega, and Max  
+• 4 attention-grabbing layouts: Mini, Mega, Mighty, and Max  
 • Auto-add device frames to screenshots  
-• Configurable text, images, and symbols  
+• Configurable text, images, background and symbols  
 • Easy export that can be shared anywhere  
 • Supports participating Indie Devs through non-intrusive App Store ads (configurable)  
+• Drag & Drop images from anywhere onto your bento  
 • And more  
 
 <br>
