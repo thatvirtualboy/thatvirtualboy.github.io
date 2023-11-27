@@ -5,7 +5,7 @@ permalink: /hellothere
 comments: false
 ---
 
-[![logo](/assets/images/hellothere/hellothere-promo1.png)](https://apple.co/3TWTeey)
+[![logo](/assets/images/hellothere/hellothere-promo1.png){:width="80%"}](https://apple.co/3TWTeey)  
 [**Download for free**](https://apple.co/3TWTeey)  
 
 <br>
@@ -20,9 +20,8 @@ Never feel bad for tossing out another greeting card. Catalog, organize, and enj
 • iCloud - sync your data with other devices and backup to Apple's secure cloud   
 
 Whether you want to sort your cards from birthdays, holidays, or other special ocassions, there's no better app to help you stay organized.  
-<br>
 
-![](assets/hellothere-promo5.png)<br><br>
+![](assets/images/hellothere/hellothere-promo5.png){:width="80%"}<br><br>
 
 ##### Features
 • iCloud sync for backup and sync with other devices  
@@ -44,9 +43,11 @@ Whether you want to sort your cards from birthdays, holidays, or other special o
 
 <br>
 #### In the media
-> "A neat solution to saving special greeting cards without keeping the physical clutter." - Michael Potuck // [9to5Mac](https://9to5mac.com/2023/03/27/hello-there-ios-greeting-card-organizer-update/)  
-> "Hello There is well thought out and easy to use." - Brent Dirks // [App Advice](https://appadvice.com/post/preserve-your-personalized-greeting-card-memories-with-hello-there/775005)  
-> "An awesome way to be reminded of cards you've forgotten about." - Andrew O'Hara // [Fueled}(https://fueled.com/blog/hello-there-helps-keep-cards-without-clutter/)  
+> "A neat solution to saving special greeting cards without keeping the physical clutter." - **Michael Potuck** // [9to5Mac](https://9to5mac.com/2023/03/27/hello-there-ios-greeting-card-organizer-update/)  
+
+> "Hello There is well thought out and easy to use." - **Brent Dirks** // [App Advice](https://appadvice.com/post/preserve-your-personalized-greeting-card-memories-with-hello-there/775005)  
+
+> "An awesome way to be reminded of cards you've forgotten about." - **Andrew O'Hara** // [Fueled](https://fueled.com/blog/hello-there-helps-keep-cards-without-clutter/)  
 
 #### Plan Breakdown
 
@@ -87,16 +88,16 @@ Whether you want to sort your cards from birthdays, holidays, or other special o
 </p>
 <p float="left">
 <img src="assets/images/hellothere/stats.png" width="300" />
-<img src="assets/basicicons.png" width="300" />
+<img src="assets/images/hellothere/basicicons.png" width="300" />
 </p>
 <p float="left">
 <img src="assets/images/hellothere/hello5.png" width="300" />
 <img src="assets/images/hellothere/hello6.png" width="300" />
 </p>
 
-![](assets/images/hellothere/hellothere-promo2.png)<br><br>
-![](assets/images/hellothere/hellothere-promo3.png)<br><br>
-![](assets/images/hellothere/hellothere-ios17.png)<br><br>
+![](assets/images/hellothere/hellothere-promo2.png){:width="80%"}<br><br>
+![](assets/images/hellothere/hellothere-promo3.png){:width="80%"}<br><br>
+![](assets/images/hellothere/hellothere-ios17.png){:width="80%"}<br><br>
 
 <br>
 #### Privacy Policy
