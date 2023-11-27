@@ -5,7 +5,7 @@ permalink: /hellothere
 comments: false
 ---
 
-[![logo](/assets/images/hellothere-preview.png)](https://apple.co/3TWTeey)
+[![logo](/assets/images/hellothere/hellothere-promo1.png)](https://apple.co/3TWTeey)
 [**Download for free**](https://apple.co/3TWTeey)  
 
 <br>
@@ -21,6 +21,9 @@ Never feel bad for tossing out another greeting card. Catalog, organize, and enj
 
 Whether you want to sort your cards from birthdays, holidays, or other special ocassions, there's no better app to help you stay organized.  
 <br>
+
+![](assets/hellothere-promo5.png)<br><br>
+
 ##### Features
 • iCloud sync for backup and sync with other devices  
 • Native charts to display stats  
@@ -41,26 +44,59 @@ Whether you want to sort your cards from birthdays, holidays, or other special o
 
 <br>
 #### In the media
-> "A neat solution to saving special greeting cards without keeping the physical clutter." - Michael Potuck // [9to5Mac](https://9to5mac.com/2023/03/27/hello-there-ios-greeting-card-organizer-update/)
-> "Hello There is well thought out and easy to use." - Brent Dirks // [App Advice](https://appadvice.com/post/preserve-your-personalized-greeting-card-memories-with-hello-there/775005)
-> "An awesome way to be reminded of cards you've forgotten about." - Andrew O'Hara // [Fueled}(https://fueled.com/blog/hello-there-helps-keep-cards-without-clutter/)
+> "A neat solution to saving special greeting cards without keeping the physical clutter." - Michael Potuck // [9to5Mac](https://9to5mac.com/2023/03/27/hello-there-ios-greeting-card-organizer-update/)  
+> "Hello There is well thought out and easy to use." - Brent Dirks // [App Advice](https://appadvice.com/post/preserve-your-personalized-greeting-card-memories-with-hello-there/775005)  
+> "An awesome way to be reminded of cards you've forgotten about." - Andrew O'Hara // [Fueled}(https://fueled.com/blog/hello-there-helps-keep-cards-without-clutter/)  
 
+#### Plan Breakdown
+
+| Feature | Free | Hello There+ |
+| --- | --- | --- |
+| Unlimited cards | * | * |
+| Hello There Post | * | * |
+| Swift Charts | * | * |
+| Live Text | * | * | 
+| Share individual projects | * | * |
+| Multiple photos per card | * (up to 2) | * (up to 10) |
+| Widgets | * | * | 
+| Card Stacks | * | * | 
+| Configurable Home View | * | * | 
+| Data Export | * | * | 
+| Stickers | * | * | 
+| Nudges | * (up to 3) | * | 
+| E-Post | * (limited selection) | * |
+| Unlimited collections |  | * | 
+| Unlimited senders |  | * |
+| Hashtags |  | * |
+| Sound Clips |  | * |
+| Color-matched widgets |  | * |
+| Configurable Wallpaper |  | * |
+| iCloud sync & backup |  | * |
+| Custom icons |  | * |
+| Touch ID / Face ID |  | * |  
 
 <br>
 #### Screenshots
-![logo](/assets/images/bento/bento1.png){:width="45%"} 
-![logo](/assets/images/bento/bento2.png){:width="45%"} 
-![logo](/assets/images/bento/bento3.png){:width="45%"} 
-![logo](/assets/images/bento/bento4.png){:width="45%"} 
-![logo](/assets/images/bento/bento5.png){:width="45%"} 
-![logo](/assets/images/bento/bento-font.png){:width="45%"}  
-![logo](/assets/images/bento/bentocraft-appstore-1.png){:width="45%"} 
-![logo](/assets/images/bento/bentocraft-appstore-2.png){:width="45%"} 
-![logo](/assets/images/bento/bentocraft-appstore-3.png){:width="45%"} 
-![logo](/assets/images/bento/bentocraft-appstore-4.png){:width="45%"} 
-![logo](/assets/images/bento/bento-frames.png){:width="45%"}
-![logo](/assets/images/bento-icon.png){:width="30%"} 
-![logo](/assets/images/bento/bento-portrait.png){:width="45%"}
+<p float="left">
+<img src="assets/images/hellothere/hello3.png" width="300" />
+<img src="assets/images/hellothere/hello1.png" width="300" />
+</p>
+<p float="left">
+<img src="assets/images/hellothere/hello2.png" width="300" />
+<img src="assets/images/hellothere/hello4.png" width="300" />
+</p>
+<p float="left">
+<img src="assets/images/hellothere/stats.png" width="300" />
+<img src="assets/basicicons.png" width="300" />
+</p>
+<p float="left">
+<img src="assets/images/hellothere/hello5.png" width="300" />
+<img src="assets/images/hellothere/hello6.png" width="300" />
+</p>
+
+![](assets/images/hellothere/hellothere-promo2.png)<br><br>
+![](assets/images/hellothere/hellothere-promo3.png)<br><br>
+![](assets/images/hellothere/hellothere-ios17.png)<br><br>
 
 <br>
 #### Privacy Policy
