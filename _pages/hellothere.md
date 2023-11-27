@@ -7,24 +7,21 @@ comments: false
 
 [![logo](/assets/images/hellothere-preview.png)](https://apple.co/3TWTeey)
 [**Download for free**](https://apple.co/3TWTeey)  
-Build beautiful bento style images with Bento Craft. Designed exclusively for iPad.  
-Go in depth and [read the announcement here](https://thatvirtualboy.com/introducing-bento-craft/)
 
 <br>
 #### About
-A beautiful greeting card organizer for iPhone and iPad
+**A beautiful greeting card organizer for iPhone and iPad**
 
-Never feel bad for tossing out another greeting card. Catalog, organize, and enjoy your cards from anywhere.
+Never feel bad for tossing out another greeting card. Catalog, organize, and enjoy your cards from anywhere.  
 <br>
-== Highlights ==
-
+##### Highlights
 • Support for the latest iOS SDKs like Charts, Live Text, Shortcuts, Widgets (Home Screen, Lock Screen, and StandBy), and more  
 • Hello There Post - send physical or digital cards to friends and family    
 • iCloud - sync your data with other devices and backup to Apple's secure cloud   
 
 Whether you want to sort your cards from birthdays, holidays, or other special ocassions, there's no better app to help you stay organized.  
 <br>
-== Features ==  
+##### Features
 • iCloud sync for backup and sync with other devices  
 • Native charts to display stats  
 • Widgets for your home screen, lock screen, or StandBy screen  
@@ -41,6 +38,13 @@ Whether you want to sort your cards from birthdays, holidays, or other special o
 • Custom theme options  
 • Native SwiftUI-built app for best-in-class experience and performance  
 • And more  
+
+<br>
+#### In the media
+> "A neat solution to saving special greeting cards without keeping the physical clutter." - Michael Potuck // [9to5Mac](https://9to5mac.com/2023/03/27/hello-there-ios-greeting-card-organizer-update/)
+> "Hello There is well thought out and easy to use." - Brent Dirks // [App Advice](https://appadvice.com/post/preserve-your-personalized-greeting-card-memories-with-hello-there/775005)
+> "An awesome way to be reminded of cards you've forgotten about." - Andrew O'Hara // [Fueled}(https://fueled.com/blog/hello-there-helps-keep-cards-without-clutter/)
+
 
 <br>
 #### Screenshots
