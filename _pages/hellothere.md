@@ -41,13 +41,14 @@ Whether you want to sort your cards from birthdays, holidays, or other special o
 • Native SwiftUI-built app for best-in-class experience and performance  
 • And more  
 
-<br>
 #### In the media
 > "A neat solution to saving special greeting cards without keeping the physical clutter." - **Michael Potuck** // [9to5Mac](https://9to5mac.com/2023/03/27/hello-there-ios-greeting-card-organizer-update/)  
 
 > "Hello There is well thought out and easy to use." - **Brent Dirks** // [App Advice](https://appadvice.com/post/preserve-your-personalized-greeting-card-memories-with-hello-there/775005)  
 
 > "An awesome way to be reminded of cards you've forgotten about." - **Andrew O'Hara** // [Fueled](https://fueled.com/blog/hello-there-helps-keep-cards-without-clutter/)  
+
+![](assets/images/hellothere/hellothere-23-bento.png){:width="80%"}  
 
 #### Plan Breakdown
 
