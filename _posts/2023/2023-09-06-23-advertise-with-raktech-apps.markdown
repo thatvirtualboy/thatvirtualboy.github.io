@@ -32,7 +32,7 @@ Today, `SKOverlay` serves up app ads in three rakTech apps: **[Hello There](http
 • Bento|Craft users also may disable app ads  
 • You would pay a one-time $3 fee per app per target that you'd like to advertise with  
 
-Here's how it looks when **Artbox** is advertised in **Hello There**:
+Here's an example of an app ad in **Hello There**:
 
 ![](/assets/images/skoverlay1.PNG){:height="600px"}
 
