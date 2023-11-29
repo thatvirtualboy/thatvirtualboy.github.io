@@ -29,14 +29,14 @@ Today, `SKOverlay` serves up app ads in three rakTech apps: **[Hello There](http
 • These popups are enabled by default for every user  
 • Users on the Free tier (Artbox/Hello There) cannot disable the pop ups  
 • Users subscribed to either *Hello There+* or *Artbox+* have the ability to turn these off  
-• Bento|Craft users also may disable app ads  
+• Bento Craft users also may disable app ads  
 • You would pay a one-time $3 fee per app per target that you'd like to advertise with  
 
 Here's an example of an app ad in **Hello There**:
 
 ![](/assets/images/skoverlay1.PNG){:height="600px"}
 
-Your app ad would go here! Along with other indies who have signed up. The app shown at any given moment is random by using SwiftUI's `randomElement()` function. Again, displaying these ads is configurable for *Plus* users in Settings. They have the option to completely turn off these ad overlays. Free users do not (Bento|Craft being the exception).
+Your app ad would go here! Along with other indies who have signed up. The app shown at any given moment is random by using SwiftUI's `randomElement()` function. Again, displaying these ads is configurable for *Plus* users in Settings. They have the option to completely turn off these ad overlays. Free users do not (Bento Craft being the exception).
 
 ![](/assets/images/indieappsoption.png)
 
