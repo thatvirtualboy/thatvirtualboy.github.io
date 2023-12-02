@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hello There's Winter Update"
-categories: [Apple, Mac, AI]
+categories: [Hello There, Apps, Holiday]
 image: assets/images/hellothere/holiday-wonder-collection.png
 read_time: true
 featured: false
