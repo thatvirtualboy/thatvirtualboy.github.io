@@ -81,6 +81,7 @@ As of Nov 29, 2023 there are over 30 participating indie apps!
 | AI Actions for Shortcuts | Sindre Sorhus |
 | One Task | Sindre Sorhus |
 | iStory | Timelabs Ltd |
+| Daily Planner Diary | Aaron F Stephenson |
 
 <br>
 
