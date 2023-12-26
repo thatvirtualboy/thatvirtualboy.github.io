@@ -60,19 +60,19 @@ Two months later, I decided to include alt icons for *Bento*. I've heard many gr
 
 To create the alt icons in Midjourney, I wanted designs that were somewhat familiar, as if they were inspired by the same original icon. Dare I say, a fleet of icons similar to the fantastic alt icons Apollo once had. Luckily, Midjourney makes it quite simple to upload a source image and then prompt it for images inspired by the source. You can specify how close to the original it should be, or if it should have more liberties with its design.  
 
-I probably worked over 100 prompts in finalizing the 4 icons I included in `Bento|Craft's` **Variant One Icon Pack**. Once I found a vein of prompts I like the direction of, I would continue testing variations and slight prompt tweaks. Here's one prompt that I started with, while providing the source Bento Craft icon as a reference:  
+I probably worked over 100 prompts in finalizing the 4 icons I included in `Bento|Craft's` **Variant One Icon Pack**. Once I found a vein of prompts I liked the direction of, I would continue testing variations and slight prompt tweaks. Here's one prompt that I started with, while providing the source Bento Craft icon as a reference:  
 
 ![Bento Craft Icon variants made in Midjourney](/assets/images/bento-variants-first.png){:width="80%"} 
 
 `A Tron style icon in the theme of a cute personified bento box with multiple empty compartments, mostly square shaped, has only one face --no food`  
 
-The direction was good, but none of the options were quite right. About 15 variations and prompt tweaks later, I landed on this:  
+The direction was good, but none of the options were quite right. The smaller details would get lost in the actual icon, and the faces needed to 'front and center.' About 15 variations and prompt tweaks later, I landed on this:  
 
 ![Bento Craft Icon variants made in Midjourney](/assets/images/bento-variants.png){:width="80%"} 
 
 `A Tron style icon in the theme of a cute personified bento box --no food`  
 
-Notice that yet again, less specifics and more flexibility allowed for a better result. You can find all 4 of the final **Variant One** icons in the latest version of `Bento|Craft` availalable now on the App Store  
+Notice that yet again, less specifics and more flexibility allowed for a better result. Perhaps one of the best things about using Midjourney for app icons is how *icon-ready* the results can be. All of the above examples can be thrown into Jordi's [Bakery](https://apps.apple.com/us/app/bakery-simple-icon-creator/id1575220747?mt=12) app with little to no processing or editing needed. You can find all 4 of the final **Variant One** icons in the latest version of `Bento|Craft` availalable now on the App Store  
 
 ![Bento Craft Alt Icons](/assets/images/bento/alt2.png)  
 <br>
