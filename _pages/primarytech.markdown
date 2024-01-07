@@ -6,13 +6,38 @@ comments: false
 ---
 
 ## Special Offer from rakTech
-I'm thrilled to be partnering with Primary Technology to bring you this special offer! Whether you're just discovering **Hello There**, or you've been a user of the *free* tier, you're going to love this promotion! 
+I'm thrilled to be partnering with Primary Technology to bring you this special offer! Whether you're just discovering **Hello There**, or you've been a user of the *free* tier, you're going to love this promotion! [Click here](https://thatvirtualboy.com/hellothere) to learn moare about Hello There.
 
 **Promo Code:** HELLOPRIMARYTECH
 
 ### What you get
 • **Discount:** 12 months FREE of Hello There+ (normally $9.99)
 • **Limited Time:** This offer is valid until July 1, 2024, so don't miss out!
+
+| Feature | Free | Hello There+ |
+| --- | --- | --- |
+| Unlimited cards | * | * |
+| Hello There Post | * | * |
+| Swift Charts | * | * |
+| Live Text | * | * | 
+| Share individual projects | * | * |
+| Multiple photos per card | * (up to 2) | * (up to 10) |
+| Widgets | * | * | 
+| Card Stacks | * | * | 
+| Configurable Home View | * | * | 
+| Data Export | * | * | 
+| Stickers | * | * | 
+| Nudges | * (up to 3) | * | 
+| E-Post | * (limited selection) | * |
+| Unlimited collections |  | * | 
+| Unlimited senders |  | * |
+| Hashtags |  | * |
+| Sound Clips |  | * |
+| Color-matched widgets |  | * |
+| Configurable Wallpaper |  | * |
+| iCloud sync & backup |  | * |
+| Custom icons |  | * |
+| Touch ID / Face ID |  | * |  
 
 ### How to redeem
 1. Download Hello There from the App Store
