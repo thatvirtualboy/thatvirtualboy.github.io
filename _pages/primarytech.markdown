@@ -11,7 +11,7 @@ I'm thrilled to be partnering with Primary Technology to bring you this special 
 **Promo Code:** HELLOPRIMARYTECH
 
 ### What you get
-• **Discount:** 12 months FREE of Hello There+ (normally $9.99)
+• **Discount:** 12 months FREE of Hello There+ (normally $9.99). 
 • **Limited Time:** This offer is valid until July 1, 2024, so don't miss out!
 
 | Feature | Free | Hello There+ |
