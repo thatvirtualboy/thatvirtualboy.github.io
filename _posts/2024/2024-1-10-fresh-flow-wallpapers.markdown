@@ -27,7 +27,7 @@ Some of my favorites graphic designs depict multiple colors melding together in 
 
 #### Fresh Flow - Gold
 ![Fresh Flow Gold Wallpaper Family](/assets/images/FreshFlow/gold-family.png)  
-[Mac](/assets/images/FreshFlow/gold-mac.png) | [iPad](/assets/images/FreshFlow/gold-ipad.png) | [iPhone](/assets/images/TheGrid/FreshFlow/gold-iphone.png)  
+[Mac](/assets/images/FreshFlow/gold-mac.png) | [iPad](/assets/images/FreshFlow/gold-ipad.png) | [iPhone](/assets/images/FreshFlow/gold-iphone.png)  
 
 <br>
 ##### Support
