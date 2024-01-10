@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fresh Flow Wallpapers"
-categories: [Apple, Mac, AI]
+categories: [Apple, Mac, Wallpaper]
 image: assets/images/FreshFlow/original-family.png
 read_time: true
 featured: false
