@@ -82,6 +82,12 @@ Of course I can’t go to a coffee shop without representing! Often times cafes 
 
 ![In my bag](/assets/images/whatsinmybag/bag2.jpeg)  
 
+**Honorable mentions**  
+A few items worth calling out that didn't get pictured:  
+* myCharge MagSafe iPhone Charger - never leave home without some extra juice!
+* Offline Playlists - you never know how good your connection is going to be so if you need those dope LoFi Study Beats, be sure to make available offline
+* Tic Tacs - no one ever gets ahead with bad breath
+
 <br>
 **Support**  
 I'm one guy creating the content for this site, including graphics, articles, and apps. If you enjoy my work, you can show support in many ways. Whether it's sharing my content with a friend, subscribing to my apps, or leaving a tip through [Buy Me a Coffee](https://www.buymeacoffee.com/thatvirtualboy). Thanks so much!
