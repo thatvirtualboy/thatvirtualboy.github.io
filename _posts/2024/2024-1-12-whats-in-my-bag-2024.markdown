@@ -22,7 +22,7 @@ I usually like to travel light, taking with me only what I plan to actually be u
     * Includes a removable protective insert for laptop and table
 * UGREEN Elastic Organizer Board
     * Various cables and adapters
-* Ray-Ban  Aviator Total Black Sunglasses
+* Ray-Ban Aviator Total Black Sunglasses
 * Savi Notes Felt Notepad
 * 2021 MacBook Pro 14” M1 Pro
 * iPad Pro 11” 4th Generation
