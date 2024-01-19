@@ -12,17 +12,18 @@ Go in depth and [read the announcement here](https://thatvirtualboy.com/introduc
 
 <br>
 ##### About
-Build and share a bento box where your app's features are the main course.  
+>**Build and share a bento box where your app's features are the main course.**  
+>Perfect for app developers and other creators, Bento|Craft is designed to be lightweight and delightful, producing beautiful marketing images to be used on social media, websites, press kits, and more. With nearly endless design possibilities, your mockups will command attention.   
 
-Perfect for app developers and other creators, Bento|Craft is designed to be lightweight and delightful, producing beautiful marketing images to be used on social media, websites, press kits, and more. With nearly endless design possibilities, your mockups will command attention.   
-<br>
+##### Stand out on social
+Cultivate a dedicated audience by creating posts as unique as your app. Bento|Craft simplifies the process of crafting unique designs, enabling effortless sharing across various social media platforms.
+
 ##### Highlights
 
 • Pre-made layouts - Think outside the box by creating inside Bento|Craft!  
 • Multiple mockups - Design making that's as easy as picking sushi rolls.  
 • Share in a snap - Show off your delicious designs to the world.   
  
-<br>
 ##### Features   
 • Completely free to use  
 • 4 attention-grabbing layouts: Mini, Mega, Mighty, and Max  
@@ -38,6 +39,10 @@ Perfect for app developers and other creators, Bento|Craft is designed to be lig
 
 <br>
 #### Screenshots
+![logo](/assets/images/bentovision/bentovision1.png){:width="45%"} 
+![logo](/assets/images/bentovision/bentovision2.png){:width="45%"} 
+![logo](/assets/images/bentovision/bentovision3.png){:width="45%"} 
+![logo](/assets/images/bentovision/bentovision4.png){:width="45%"} 
 ![logo](/assets/images/bento/bento1.png){:width="45%"} 
 ![logo](/assets/images/bento/bento2.png){:width="45%"} 
 ![logo](/assets/images/bento/bento3.png){:width="45%"} 
@@ -49,7 +54,8 @@ Perfect for app developers and other creators, Bento|Craft is designed to be lig
 ![logo](/assets/images/bento/bentocraft-appstore-3.png){:width="45%"} 
 ![logo](/assets/images/bento/bentocraft-appstore-4.png){:width="45%"} 
 ![logo](/assets/images/bento/bento-frames.png){:width="45%"}
-![logo](/assets/images/bento-icon.png){:width="30%"} 
+![iOS logo](/assets/images/bento-icon.png){:width="40%"} 
+![visionOS logo](/assets/images/bentovision/bento-icon-vision.png){:width="50%"} 
 ![logo](/assets/images/bento/bento-portrait.png){:width="45%"}
 
 <br>
