@@ -26,6 +26,7 @@ I usually like to travel light, taking with me only what I plan to actually be u
 * Savi Notes Felt Notepad
 * 2021 MacBook Pro 14” M1 Pro
 * iPad Pro 11” 4th Generation
+* Apple Smart Keyboard Folio
 * Apple Pencil 2nd Generation
 * iPhone 15 Pro
 * Apple Leather MagSafe wallet 
