@@ -13,7 +13,7 @@ Go in depth and [read the announcement here](https://thatvirtualboy.com/introduc
 <br>
 ##### About
 >**Build and share a bento box where your app's features are the main course.**  
->Perfect for app developers and other creators, Bento|Craft is designed to be lightweight and delightful, producing beautiful marketing images to be used on social media, websites, press kits, and more. With nearly endless design possibilities, your mockups will command attention.   
+>Made for app developers and creators, Bento|Craft is a lightweight and delightful marketing asset designer. Effortlessly produce beautiful marketing images to be used on social media, websites, press kits, and more. Whether you're launching a new app, pushing an update, or sharing your service with the world, your mockups will command attention.   
 
 ##### Stand out on social
 Cultivate a dedicated audience by creating posts as unique as your app. Bento|Craft simplifies the process of crafting unique designs, enabling effortless sharing across various social media platforms.
@@ -26,13 +26,13 @@ Cultivate a dedicated audience by creating posts as unique as your app. Bento|Cr
  
 ##### Features   
 • Completely free to use  
-• 4 attention-grabbing layouts: Mini, Mega, Mighty, and Max  
+• 6 attention-grabbing layouts: Micro, Mini, Mega, Mighty, Monster and Max  
 • Auto-add device frames to screenshots  
 • Configurable text, images, background and symbols  
 • Easy export that can be shared anywhere  
 • Supports participating Indie Devs through non-intrusive App Store ads (configurable)  
 • Drag & Drop images from anywhere onto your bento  
-• Alternate Icons  
+• Alternate Icons  (iPad only)
 • And more  
 
 [![logo](/assets/images/bento/bentocraft-promo1.png)](https://apps.apple.com/us/app/bento-craft/id6468541457)
