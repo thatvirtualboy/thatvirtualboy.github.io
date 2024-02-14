@@ -24,7 +24,7 @@ Coming soon to the App Store!
 
 **Casual play**: Pick up and put down Echodots without worry of losing your progress for the day. Submitted guesses are saved and the path to victory is ready when you are.
 
-**Ascend the Rankings**: Claim your spot at the top by achieving the highest maximum win streak.
+**Ascend the Rankings**: Claim your spot at the top by achieving the highest maximum win streak. See how you rank with friends and players around the world.
 
 **Share with friends**: Dominate the sequence on your first try? Sneak by on your final guess? Share your gameplay summary with friends and family without revealing the answer.
 
@@ -35,7 +35,7 @@ Coming soon to the App Store!
 ---
 <h4 id="echodots+">Echodots+</h4>
 
-**Unlock the Echo Chamber**: Go from the standard 3 echos to a whopping 7 free Echos every week. Whether you're just starting out or you're a seasoned player, these additional Echos promise more gameplay, more strategies, and more victories. Newcomers will revel in an immediate boost to 7 Echos for immediate value.  
+**Unlock the Echo Chamber**: Go from the standard 3 Echos to a whopping 7 free Echos every week. Whether you're just starting out or you're a seasoned player, these additional Echos promise more gameplay, more strategies, and more victories. Newcomers will revel in an immediate boost to 7 Echos for immediate value.  
 
 **Master Your Momentum**: Gameplay too sluggish or too speedy? With the ability to tweak the sequence play speed from a deliberate 0.2x to a blistering 3x, you control the rhythm of your game. This means every session is tailored to your preference, making your victories always within reach.   
 
@@ -59,7 +59,7 @@ Echodots is completely free to play, however additional gameplay perks and custo
 - Access premium alternate app icons
 
 ###### When do Echos get refilled?
-Echos refill every Sunday. Players can expect 3 echos added to their current balance; *Echodots+* players get 7. Gameplay during the week is required to be eligable (i.e., players gotta play!) Additional Echos can be purchased any time.  
+Echos refill every Sunday. Players can expect 3 Echos added to their current balance; *Echodots+* players get 7. Gameplay during the week is required to be eligable (i.e., players gotta play!) Additional Echos can be purchased any time.  
 
 ###### Do Echos stack?
 Yes. Echos can be accumulated through In-App Purchases and weekly refills.  
@@ -88,7 +88,7 @@ Echodots does not collect any personally identifiable information. Certain gamep
 
 ---
 <h4 id="support">Support</h4>
-**Apple App ID**: 6468541457  
+**Apple App ID**: 6476985985  
 **Category**: Games - Puzzle Games  
 **Developer**: rakTech LLC  
 **Contact**: support@raktech.app  
