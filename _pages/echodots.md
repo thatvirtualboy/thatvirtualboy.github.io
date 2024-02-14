@@ -4,19 +4,14 @@ title: Echodots
 permalink: /echodots
 comments: false
 ---
-
-#### A daily pattern game for iOS
-![Gameplay Images](assets/images/Echodots/gameplay.png){:width="80%"}  
+![Echodots Family](assets/images/Echodots/echodots-promo-family.png)
 <br>
 Echodots is a daily pattern game where your memory is put to the test. Each day, a new 5-digit global sequence is displayed on the game board and you have 5 chances to repeat it back in the correct order. Track your streaks, share with friends, and go for the win! 
 
-Coming soon to the App Store!
+Designed exclusively for iOS, Echodots is launching soon on the App Store!
 
 {% comment %}
 {% endcomment %}
-![Gameplay Images](assets/images/Echodots/gameplay-dark.png){:width="80%"}  
-<br>
-
 
 ---
 <h4 id="gameplay">Gameplay</h4>
@@ -29,8 +24,6 @@ Coming soon to the App Store!
 **Share with friends**: Dominate the sequence on your first try? Sneak by on your final guess? Share your gameplay summary with friends and family without revealing the answer.
 
 **Personalize your gameplay**: *Echodots+* players can customize gameplay to their liking. From switching color palettes, to adjusting sequence play speed, to numbering your game board, you are in control of your experience!
-
-![Gameplay Images](assets/images/Echodots/game-palettes.png){:width="80%"}  
 
 ---
 <h4 id="echodots+">Echodots+</h4>
@@ -45,7 +38,10 @@ Coming soon to the App Store!
 
 **Personalize Your Home Screen**: Your game, your icon. With premium alternate app icons, choose from distinctive designs to reflect your style right on your home screen. Whether you're drawn to the sleekness of Dark, the unassuming Grays, or the inclusivity of Miniature, your app icon can be as personal as your gameplay.  
 
+![Gameplay Images](assets/images/Echodots/gameplay.png){:width="80%"}  
+![Gameplay Images](assets/images/Echodots/game-palettes.png){:width="80%"}  
 ![Gameplay Images](assets/images/Echodots/settings-widgets.png){:width="80%"}  
+![Gameplay Images](assets/images/Echodots/gameplay-dark.png){:width="80%"}  
 
 ---
 <h4 id="faq">FAQ</h4>
@@ -88,6 +84,7 @@ Echodots does not collect any personally identifiable information. Certain gamep
 
 ---
 <h4 id="support">Support</h4>
+**Supported Devices**: iPhone, iPad, Mac (Designed for iPad), Apple Vision Pro (Designed for iPad)  
 **Apple App ID**: 6476985985  
 **Category**: Games - Puzzle Games  
 **Developer**: rakTech LLC  
