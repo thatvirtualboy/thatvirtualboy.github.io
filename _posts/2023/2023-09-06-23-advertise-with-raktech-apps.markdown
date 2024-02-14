@@ -68,6 +68,10 @@ As of Nov 29, 2023 there are over 30 participating indie apps!
 | Any Text Widgets | Sindre Sorhus |
 | Favorites Widget | Sindre Sorhus |
 | Quick Launch | Sindre Sorhus |
+| AI Actions for Shortcuts | Sindre Sorhus |
+| One Task | Sindre Sorhus |
+| Memo Widgets | Sindre Sorhus |
+| Doodle Draw | Sindre Sorhus |
 | Mastowatch | Justin Ferrell |
 | Aiko | Sindre Sorhus |
 | Fast Barcode Maker Scanner | Aaron F Stephenson |
@@ -78,8 +82,6 @@ As of Nov 29, 2023 there are over 30 participating indie apps!
 | NumberTabs | RadiumDynamics |
 | FitWoody | Cori Health & Care S.L.U. |
 | Less is More: Daily Word Game | Mechanical Animals |
-| AI Actions for Shortcuts | Sindre Sorhus |
-| One Task | Sindre Sorhus |
 | iStory | Timelabs Ltd |
 | Daily Planner Diary | Aaron F Stephenson |
 

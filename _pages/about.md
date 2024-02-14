@@ -18,8 +18,8 @@ All content + opinions belong to me and do not represent my employer. Enjoy!</p>
 <img src="/assets/images/blog-on-phone.png" style="width:60%">
 <br><br>
 
-<h4>Around the web</h4>https://www.macrumors.com/guide/vision-pro-app-list/
-<p>Bento|Craft included on <a href="https://telemetrydeck.com/blog/photo-video-apps/">MacRumors Apple Vision Pro Apps</a>.</p>
+<h4>Around the web</h4>
+<p>Bento|Craft included on <a href="https://www.macrumors.com/guide/vision-pro-app-list/">MacRumors Apple Vision Pro Apps</a>.</p>
 <p>Interviewed by <a href="https://indiedevmonday.com/issue-41">Indie Dev Monday</a>.</p>
 <p>Interviewed by <a href="https://octo.vmware.com/ryan-klumph/">VMware Office of the CTO</a>.</p>
 <p>Hello There featured on <a href="https://9to5mac.com/2023/03/27/hello-there-ios-greeting-card-organizer-update/">9to5Mac</a>.</p>
