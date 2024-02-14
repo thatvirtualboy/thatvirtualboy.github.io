@@ -22,7 +22,7 @@ Coming soon to the App Store!
 
 ---
 <h4 id="gameplay">Gameplay</h4>
-**Free to play**: Echodots is free to play with no ads and no subscriptions. For additional perks and gameplay customization, Echodots+ is available for a one-time purchase.
+**Free to play**: Echodots is free to play with no ads and no subscriptions. For additional perks and gameplay customization, *Echodots+* is available for a one-time purchase.
 
 **Casual play**: Pick up and put down Echodots without worry of losing your progress for the day. Submitted guesses are saved and the path to victory is ready when you are.
 
@@ -30,7 +30,7 @@ Coming soon to the App Store!
 
 **Share with friends**: Dominate the sequence on your first try? Sneak by on your final guess? Share your gameplay summary with friends and family without revealing the answer.
 
-**Personalize your gameplay**: Echodots+ players can customize gameplay to their liking. From switching color palettes, to adjusting sequence play speed, to numbering your game board, you are in control of your experience!
+**Personalize your gameplay**: *Echodots+* players can customize gameplay to their liking. From switching color palettes, to adjusting sequence play speed, to numbering your game board, you are in control of your experience!
 
 ![Gameplay Images](assets/images/Echodots/game-palettes.png){:width="80%"}  
 
@@ -61,7 +61,7 @@ Echodots is completely free to play, however additional gameplay perks and custo
 - Access premium alternate app icons
 
 ###### When do Echos get refilled?
-Echos refill every Sunday. Players can expect 3 echos added to their current balance; *Echodots+* players get 7. Gameplay during the week is required to be eligable (i.e., players gotta play!)  
+Echos refill every Sunday. Players can expect 3 echos added to their current balance; *Echodots+* players get 7. Gameplay during the week is required to be eligable (i.e., players gotta play!) Additional Echos can be purchased any time.  
 
 ###### Do Echos stack?
 Yes. Echos can be accumulated through In-App Purchases and weekly refills.  
@@ -79,7 +79,7 @@ This is an iOS issue usually resolved by rebooting your device.
 The option to adjust sequence playback speed is available with *Echodots+*.
 
 ###### Do purchases sync across devices?
-Yes. Echodots+ memberships, including status and perks, can be restored on multiple devices signed into the same iCloud account. Echo balances are also synchronized across devices.
+Yes. *Echodots+* memberships, including status and perks, can be restored on multiple devices signed into the same iCloud account. Echo balances are also synchronized across devices.
 
 ###### Does gameplay sync across devices?
 Yes. Gameplay is synced using iCloud so you can start playing the day's sequence on one device, and pick up where you left off on another. You may need to stop the app and relaunch to pull the latest gameplay.
