@@ -8,9 +8,7 @@ comments: false
 #### A daily pattern game for iOS
 ![Gameplay Images](assets/images/Echodots/gameplay.png){:width="80%"}  
 <br>
-Introducing the latest app from rakTech LLC, Echodots! Echodots is a daily pattern game where your memory is put to the test. Each day, a new 5-digit global sequence is displayed on the game board and you have 5 chances to repeat it back in the correct order. Track your streaks, share with friends, and go for the win! 
-
-✅ Delightful ✅ Daily ✅ Play
+Echodots is a daily pattern game where your memory is put to the test. Each day, a new 5-digit global sequence is displayed on the game board and you have 5 chances to repeat it back in the correct order. Track your streaks, share with friends, and go for the win! 
 
 Coming soon to the App Store!
 
@@ -37,7 +35,7 @@ Coming soon to the App Store!
 ---
 <h4 id="echodots+">Echodots+</h4>
 
-**Unlock the Echo Chamber**: Go from the standard 3 echos to a whopping 7 free echos every week. Whether you're just starting out or you're a seasoned player, these additional echos promise more gameplay, more strategies, and more victories. Newcomers will revel in an immediate boost to 7 echos for immediate value.  
+**Unlock the Echo Chamber**: Go from the standard 3 echos to a whopping 7 free Echos every week. Whether you're just starting out or you're a seasoned player, these additional Echos promise more gameplay, more strategies, and more victories. Newcomers will revel in an immediate boost to 7 Echos for immediate value.  
 
 **Master Your Momentum**: Gameplay too sluggish or too speedy? With the ability to tweak the sequence play speed from a deliberate 0.2x to a blistering 3x, you control the rhythm of your game. This means every session is tailored to your preference, making your victories always within reach.   
 
