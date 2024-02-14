@@ -1,0 +1,15 @@
+---
+layout: post
+title: Authentication Chaining in vIDM 2.4.1
+date: '2015-11-17T03:02:00.000-08:00'
+author: thatvirtualboy
+excerpt: "VMware Identity Manager 2.4.1 was dropped today with a single publicly documented new feature: Authentication Chaining. But what is it?"
+tags:
+- vIDM
+modified_time: '2017-08-03T10:15:23.100-07:00'
+blogger_id: tag:blogger.com,1999:blog-733606464149134140.post-1259134356835069463
+blogger_orig_url: https://www.thatvirtualboy.com/2015/11/authentication-chaining-in-vidm-241.html
+redirect_from: /2015/11/authentication-chaining-in-vidm-241.html
+---
+
+<img class=" size-thumbnail wp-image-757 alignleft" src="https://thatvirtualboy.files.wordpress.com/2015/11/keys.png?w=150" alt="keys" width="150" height="150" />VMware Identity Manager 2.4.1 was dropped today with a <a href="https://pubs.vmware.com/Release_Notes/en/vidm_onPremise/24/vidm_release_notes_241.html" target="_blank">single publicly documented new feature</a>: Authentication Chaining.<br/><br/>For most, this feature alone probably isn't reason enough to upgrade from 2.4.0, but it does offer some pretty granular control over user authentication.<br/><br/>&nbsp;<br/><blockquote>So what is Authentication Chaining?</blockquote><br/>Authentication Chaining allows you to enable 2-factor authentication from within Identity Manager, or with another Identity Provider (IdP). For example, you could have joe-user first authenticate with an RSA token, and then require joe-user to enter his password after providing the RSA token. If successful, joe-user has double-verfied his identity and can now access Identity Manager, or his entitled application.<br/><br/>The cool thing is you can still have authentication fallback configured so that if joe-user fails to authenticate with the configured authentication chain, there can be a fallback authentication method (let's say RADIUS) to give poor joe-user one last chance.<br/><blockquote>Where is this configured?</blockquote><br/>As you might have guessed, this is configured in the <strong>Access Policies</strong> section of the <strong>Identity &amp; Access Management</strong> tab in the Admin Portal. You can simply Edit the <span style="color:#800000;">default_access_policy_set</span> to include the auth chain, or configure a new policy altogether.<br/><br/>For more info on Identity Manager 2.4.1, check out the <a href="https://pubs.vmware.com/Release_Notes/en/vidm_onPremise/24/vidm_release_notes_241.html" target="_blank">Release Notes here</a>. Furthermore, there is additional information regarding Authentication Chaining in the <a href="http://pubs.vmware.com/vidm-24/topic/com.vmware.wsp-administrator_24/GUID-C2B03912-C7D8-4524-AE6E-8E8B901B9FD6.html" target="_blank">Administration Guide</a> and on <a href="https://blogs.vmware.com/euc/2015/11/identity-manager-cloud-whats-new-october-2015.html" target="_blank">this blog post</a>.
