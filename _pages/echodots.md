@@ -6,6 +6,9 @@ comments: false
 ---
 ![Echodots Family](assets/images/Echodots/echodots-promo-family.png)
 <br>
+⭐️⭐️⭐️⭐️⭐️ "It's really fun! Like Wordle meets Simon Says!"  
+⭐️⭐️⭐️⭐️⭐️ "It's fun! Brain-games like these are great!"  
+
 Echodots is a daily pattern game where your memory is put to the test. Each day, a new 5-digit global sequence is displayed on the game board and you have 5 chances to repeat it back in the correct order. Track your streaks, share with friends, and go for the win! 
 
 Designed exclusively for iOS, Echodots is launching soon on the App Store!
