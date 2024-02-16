@@ -53,7 +53,7 @@ Designed exclusively for iOS, Echodots is launching soon on the App Store!
 <h4 id="faq">FAQ</h4>
 
 ###### What is Echodots+
-Echodots is completely free to play, however additional gameplay perks and customizations are available through a one-time purchase
+Echodots is free to play, however additional gameplay perks and customizations are available through a small one-time purchase
 - Receive 7 Echos each week instead of 3
 - Adjust sequence play speed
 - Add numbers to your game board
@@ -86,6 +86,12 @@ Yes. Gameplay is synced using iCloud so you can start playing the day's sequence
 
 ###### What triggers a *Resume Game* status?
 As soon as the daily sequence is viewed, the game is considered *in play* and the sequence cannot be viewed again without using an Echo. Once the daily game has been completed with a win or a loss, the status is considered completed until the game resets the next day. Additionally, if a game is started and unfinished before the next sequence is available, that game session is rendered incomplete and your current streak is reset.
+
+###### Can I reset my game?
+Yes. In the app, go to Settings > Support > Delete App Data. This will delete all gameplay history including streaks and Echos.
+
+###### Does Echodots support Family Sharing?
+Family Sharing is not supported at this time.
 
 ---
 <h4 id="privacy">Privacy</h4>
