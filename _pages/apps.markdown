@@ -5,6 +5,16 @@ permalink: /apps/
 image: /assets/tools.jpg
 ---
 
+#### ![logo](/assets/images/Echodots/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Echodots
+> A daily pattern game for iOS  
+> [Learn more](https://thatvirtualboy.com/echodots)  
+
+<img src="/assets/images/Echodots/app-store-coming-soon.png" style="width:12%">
+<br>
+<br>
+
+---
+
 #### ![logo](/assets/images/bento-icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Bento|Craft
 > Build beautiful bento box images for your app or service  
 > [Learn more](https://thatvirtualboy.com/bentocraft)  
