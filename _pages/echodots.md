@@ -15,6 +15,12 @@ Designed exclusively for iOS, Echodots is launching soon on the App Store!
 
 ---
 <h4 id="gameplay">Gameplay</h4>
+• Test your memory and pattern recognition by watching the daily sequence playout on the color game board  
+• Repeat the pattern and double-tap your last entry to submit the row  
+• Use the feedback provided to determine if your guesses were in the right spot, the wrong spot, or not in the sequence at all  
+• Tap a wrong color? Tap the *Undo* button before submitting a row  
+• Need to see the sequence again? Tap the *Echo* button to rewatch the sequence. But be careful! Echos are a precious resource in Echodots!  
+
 **Free to play**: Echodots is free to play with no ads and no subscriptions. For additional perks and gameplay customization, *Echodots+* is available for a one-time purchase.
 
 **Casual play**: Pick up and put down Echodots without worry of losing your progress for the day. Submitted guesses are saved and the path to victory is ready when you are.
@@ -77,6 +83,9 @@ Yes. *Echodots+* memberships, including status and perks, can be restored on mul
 
 ###### Does gameplay sync across devices?
 Yes. Gameplay is synced using iCloud so you can start playing the day's sequence on one device, and pick up where you left off on another. You may need to stop the app and relaunch to pull the latest gameplay.
+
+###### What triggers a *Resume Game* status?
+As soon as the daily sequence is viewed, the game is considered *in play* and the sequence cannot be viewed again without using an Echo. Once the daily game has been completed with a win or a loss, the status is considered completed until the game resets the next day. Additionally, if a game is started and unfinished before the next sequence is available, that game session is rendered incomplete and your current streak is reset.
 
 ---
 <h4 id="privacy">Privacy</h4>
