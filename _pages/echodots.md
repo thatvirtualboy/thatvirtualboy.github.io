@@ -42,6 +42,8 @@ Designed exclusively for iOS, Echodots is launching soon on the App Store!
 
 **Strategize with Numbers**: Enhance your gameplay with a number overlay, allowing you to visualize colors with numbers for a different strategy approach. This feature is perfect for players who find numbers more intuitive, adding an extra layer of strategy.  
 
+**Visualize with Sybmols**: Elevate your experience with a symbol overlay, enabling you to visualize colors through SF Symbols for a visual strategic approach. This feature is ideal for players who find symbols more intuitive, adding an additional dimension of strategy. Symbols randomize upon toggling.
+
 **Personalize Your Home Screen**: Your game, your icon. With premium alternate app icons, choose from distinctive designs to reflect your style right on your home screen. Whether you're drawn to the sleekness of Dark, the unassuming Grays, or the inclusivity of Miniature, your app icon can be as personal as your gameplay.  
 
 ![Gameplay Images](assets/images/Echodots/gameplay.png){:width="80%"}  
@@ -57,6 +59,7 @@ Echodots is free to play, however additional gameplay perks and customizations a
 - Receive 7 Echos each week instead of 3
 - Adjust sequence play speed
 - Add numbers to your game board
+- Add symbols to your game board
 - Choose from 9 exclusive game board color palettes
 - Access premium alternate app icons
 
