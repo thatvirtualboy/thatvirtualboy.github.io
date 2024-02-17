@@ -10,6 +10,8 @@ Echodots is a daily pattern game where your memory is put to the test. Each day,
 
 Designed exclusively for iOS, Echodots is launching soon on the App Store!
 
+<img src="/assets/images/Echodots/app-store-coming-soon.png" style="width:12%">
+
 {% comment %}
 {% endcomment %}
 
@@ -51,54 +53,156 @@ Designed exclusively for iOS, Echodots is launching soon on the App Store!
 ![Gameplay Images](assets/images/Echodots/settings-widgets.png){:width="80%"}  
 ![Gameplay Images](assets/images/Echodots/gameplay-dark.png){:width="80%"}  
 <br>
-<h4 id="testimonials">Real User Feedback</h4>
+<br>
+<h4 id="testimonials">What Players Are Saying</h4>
 ⭐️⭐️⭐️⭐️⭐️ "It's really fun! Like Wordle meets Simon Says!"  
 ⭐️⭐️⭐️⭐️⭐️ "It's fun! Brain-games like these are great!"  
+<br>
 
 ---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FAQ - Echodots</title>
+    <style>
+        .faq-question {
+            cursor: pointer;
+            color: #1b9963; /* Adjust the color to fit your design */
+            margin-bottom: 5px;
+        }
+
+        .faq-question:hover {
+            text-decoration: underline;
+        }
+
+        .faq-answer {
+            display: none;
+            margin-top: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
 <h4 id="faq">FAQ</h4>
 
-###### What is Echodots+
-Echodots is free to play, however additional gameplay perks and customizations are available through a small one-time purchase
-- Receive 7 Echos each week instead of 3
-- Adjust sequence play speed
-- Add numbers to your game board
-- Add symbols to your game board
-- Choose from 9 exclusive game board color palettes
-- Access premium alternate app icons
+<div class="faq-item">
+    <h6 class="faq-question">What is Echodots+</h6>
+    <div class="faq-answer hidden">
+        <p>Echodots is free to play, however, additional gameplay perks and customizations are available through a small one-time purchase:</p>
+        <ul>
+            <li>Receive 7 Echos each week instead of 3.</li>
+            <li>Adjust sequence play speed.</li>
+            <li>Add numbers to your game board.</li>
+            <li>Add symbols to your game board.</li>
+            <li>Choose from 9 exclusive game board color palettes.</li>
+            <li>Access premium alternate app icons.</li>
+        </ul>
+    </div>
+</div>
 
-###### When do Echos get refilled?
-Echos refill every Sunday. Players can expect 3 Echos added to their current balance; *Echodots+* players get 7. Gameplay during the week is required to be eligable (i.e., players gotta play!) Additional Echos can be purchased any time.  
 
-###### Do Echos stack?
-Yes. Echos can be accumulated through In-App Purchases and weekly refills.  
+<div class="faq-item">
+    <h6 class="faq-question">When do Echos get refilled?</h6>
+    <p class="faq-answer">
+        Echos refill every Sunday. Players can expect 3 Echos added to their current balance; <em>Echodots+</em> players get 7. Gameplay during the week is required to be eligible (i.e., players gotta play!) Additional Echos can be purchased any time.
+    </p>
+</div>
 
-###### I'm not getting alerts when a new sequence is available
-Alerts are triggered at midnight UTC. If you're not seeing alerts when a new daily sequence is available, you may need to enable the **Daily Alert** in app settings. If this is already enabled, try toggling it off and back on again to reset the notification config.
+<div class="faq-item">
+    <h6 class="faq-question">Do Echos stack?</h6>
+    <p class="faq-answer">
+        Yes. Echos can be accumulated through In-App Purchases and weekly refills.
+    </p>
+</div>
 
-###### Does Echodots require internet access?
-Yes. Daily sequences are generated, compared, and validated to the Echodots servers which requires an internet connection.
+<div class="faq-item">
+    <h6 class="faq-question">I'm not getting alerts when a new sequence is available</h6>
+    <p class="faq-answer">
+        Alerts are triggered at midnight UTC. If you're not seeing alerts when a new daily sequence is available, you may need to enable the <strong>Daily Alert</strong> in app settings. If this is already enabled, try toggling it off and back on again to reset the notification config.
+    </p>
+</div>
 
-###### I added a home screen widget but it's blank
-This is an iOS issue usually resolved by rebooting your device.
+<div class="faq-item">
+    <h6 class="faq-question">Does Echodots require internet access?</h6>
+    <p class="faq-answer">
+        Yes. Daily sequences are generated, compared, and validated to the Echodots servers which requires an internet connection.
+    </p>
+</div>
 
-###### I like the game, but the sequence moves to fast for me
-The option to adjust sequence playback speed is available with *Echodots+*.
+<div class="faq-item">
+    <h6 class="faq-question">I added a home screen widget but it's blank</h6>
+    <p class="faq-answer">
+        This is an iOS issue usually resolved by rebooting your device.
+    </p>
+</div>
 
-###### Do purchases sync across devices?
-Yes. *Echodots+* memberships, including status and perks, can be restored on multiple devices signed into the same iCloud account. Echo balances are also synchronized across devices.
+<div class="faq-item">
+    <h6 class="faq-question">I like the game, but the sequence moves too fast for me</h6>
+    <p class="faq-answer">
+        The option to adjust sequence playback speed is available with <em>Echodots+</em>.
+    </p>
+</div>
 
-###### Does gameplay sync across devices?
-Yes. Gameplay is synced using iCloud so you can start playing the day's sequence on one device, and pick up where you left off on another. You may need to stop the app and relaunch to pull the latest gameplay.
+<div class="faq-item">
+    <h6 class="faq-question">Do purchases sync across devices?</h6>
+    <p class="faq-answer">
+        Yes. <em>Echodots+</em> memberships, including status and perks, can be restored on multiple devices signed into the same iCloud account. Echo balances are also synchronized across devices.
+    </p>
+</div>
 
-###### What triggers a *Resume Game* status?
-As soon as the daily sequence is viewed, the game is considered *in play* and the sequence cannot be viewed again without using an Echo. Once the daily game has been completed with a win or a loss, the status is considered completed until the game resets the next day. Additionally, if a game is started and unfinished before the next sequence is available, that game session is rendered incomplete and your current streak is reset.
+<div class="faq-item">
+    <h6 class="faq-question">Does gameplay sync across devices?</h6>
+    <p class="faq-answer">
+        Yes. Gameplay is synced using iCloud so you can start playing the day's sequence on one device, and pick up where you left off on another. You may need to stop the app and relaunch to pull the latest gameplay.
+    </p>
+</div>
 
-###### Can I reset my game?
-Yes. In the app, go to Settings > Support > Delete App Data. This will delete all gameplay history including streaks and Echos.
+<div class="faq-item">
+    <h6 class="faq-question">What triggers a <em>Resume Game</em> status?</h6>
+    <p class="faq-answer">
+        As soon as the daily sequence is viewed, the game is considered <em>in play</em> and the sequence cannot be viewed again without using an Echo. Once the daily game has been completed with a win or a loss, the status is considered completed until the game resets the next day. Additionally, if a game is started and unfinished before the next sequence is available, that game session is rendered incomplete and your current streak is reset.
+    </p>
+</div>
 
-###### Does Echodots support Family Sharing?
-Family Sharing is not supported at this time.
+<div class="faq-item">
+    <h6 class="faq-question">Can I reset my game?</h6>
+    <p class="faq-answer">
+        Yes. In the app, go to Settings > Support > Delete App Data. This will delete all gameplay history including streaks and Echos.
+    </p>
+</div>
+
+<div class="faq-item">
+    <h6 class="faq-question">Does Echodots support Family Sharing?</h6>
+    <p class="faq-answer">
+        Family Sharing is not supported at this time.
+    </p>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Initially hide all answers
+    var faqAnswers = document.querySelectorAll(".faq-answer");
+    faqAnswers.forEach(function(answer) {
+        answer.style.display = "none";
+    });
+
+    // Add click event listeners to questions
+    var faqQuestions = document.querySelectorAll(".faq-question");
+    faqQuestions.forEach(function(question) {
+        question.addEventListener("click", function() {
+            var answer = this.nextElementSibling;
+            answer.style.display = answer.style.display === "none" ? "block" : "none";
+        });
+    });
+});
+
+</script>
+
+</body>
+</html>
+
 
 ---
 <h4 id="privacy">Privacy</h4>
