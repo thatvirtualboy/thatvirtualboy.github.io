@@ -18,7 +18,7 @@ I usually like to travel light, taking with me only what I plan to actually be u
 ![In my bag](/assets/images/whatsinmybag/bag-stuff.jpg)  
 
 **Items**
-* Timbuk2 Dashboard Messenger Bag (Mediu, Twill Carbon/Black)
+* Timbuk2 Dashboard Messenger Bag (Medium, Twill Carbon/Black)
     * Includes a removable protective insert for laptop and table
 * UGREEN Elastic Organizer Board
     * Various cables and adapters
