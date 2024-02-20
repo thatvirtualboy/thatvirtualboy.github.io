@@ -34,7 +34,7 @@ Designed exclusively for iOS, Echodots is launching soon on the App Store!
 **Personalize your gameplay**: *Echodots+* players can customize gameplay to their liking. From switching color palettes, to adjusting sequence play speed, to numbering your game board, you are in control of your experience!
 
 ---
-<h4 id="echodots+">Echodots+</h4>
+<h4 id="echodotsplus">Echodots+</h4>
 
 **Unlock the Echo Chamber**: Go from the standard 3 Echos to a whopping 7 free Echos every week. Whether you're just starting out or you're a seasoned player, these additional Echos promise more gameplay, more strategies, and more victories. Newcomers will revel in an immediate boost to 7 Echos for immediate value.  
 
