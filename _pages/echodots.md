@@ -23,7 +23,7 @@ Designed exclusively for iOS, Echodots is launching soon on the App Store!
 • Tap a wrong color? Tap the *Undo* button before submitting a row  
 • Need to see the sequence again? Tap the *Echo* button to rewatch the sequence. But be careful! Echos are a precious resource in Echodots!  
 
-**Free to play**: Echodots is free to play with no ads and no subscriptions. For additional perks and gameplay customization, *Echodots+* is available for a one-time purchase.
+**Free to play**: Echodots is committed to delivering a delightful, uninterrupted experience, free of ads and subscriptions. For players seeking that extra edge, *Echodots+* is available as a one-time purchase, offering immediate and lasting value.
 
 **Casual play**: Pick up and put down Echodots without worry of losing your progress for the day. Submitted guesses are saved and the path to victory is ready when you are.
 
@@ -111,9 +111,9 @@ Designed exclusively for iOS, Echodots is launching soon on the App Store!
 </div>
 
 <div class="faq-item">
-    <h6 class="faq-question">Do Echos stack?</h6>
+    <h6 class="faq-question">Can Echos be stacked?</h6>
     <p class="faq-answer">
-        Yes. Echos can be accumulated through In-App Purchases and weekly refills.
+       Yes, with conditions! Weekly Echo refills do not accumulate, but any additional Echos purchased through IAPs will add to your existing balance.
     </p>
 </div>
 
