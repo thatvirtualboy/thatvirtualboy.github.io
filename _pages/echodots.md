@@ -31,7 +31,13 @@ Designed exclusively for iOS, Echodots is launching soon on the App Store!
 
 **Share with friends**: Dominate the sequence on your first try? Sneak by on your final guess? Share your gameplay summary with friends and family without revealing the answer.
 
-**Personalize your gameplay**: *Echodots+* players can customize gameplay to their liking. From switching color palettes, to adjusting sequence play speed, to numbering your game board, you are in control of your experience!
+**Personalize your gameplay**: Fancy some audio cues? Prefer a high contrast game board? Adjust your gameplay as you see fit. *Echodots+* players can customize gameplay even further. From switching color palettes, to adjusting sequence play speed, to numbering your game board, you are in control of your experience!
+
+---
+<h4 id="accessibility">Accessibility</h4>
+Echodots strives to be accessible to all players of all abilities. Features like sound effects, visual overlays, and custom sequence speeds means everyone can join in the fun.
+
+NOTE: Some features may require an in-app purchase.
 
 ---
 <h4 id="echodotsplus">Echodots+</h4>
@@ -57,6 +63,7 @@ Designed exclusively for iOS, Echodots is launching soon on the App Store!
 <h4 id="testimonials">What Players Are Saying</h4>
 ⭐️⭐️⭐️⭐️⭐️ "It's really fun! Like Wordle meets Simon Says!"  
 ⭐️⭐️⭐️⭐️⭐️ "It's fun! Brain-games like these are great!"  
+⭐️⭐️⭐️⭐️⭐️ "Echodots is addicting, I wish I could play more!"  
 <br>
 
 ---
