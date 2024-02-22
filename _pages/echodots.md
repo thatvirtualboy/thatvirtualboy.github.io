@@ -102,6 +102,13 @@ Designed exclusively for iOS, Echodots is launching soon on the App Store!
     </div>
 </div>
 
+<div class="faq-item">
+    <h6 class="faq-question">What's the deail with Streaks?</h6>
+    <p class="faq-answer">
+        Your *Streak* is how many daily games in a row you've won. If you lose a game, or miss a day of playing, your current Streak gets reset. As your Streak grows, you'll see your Max Streak grow with it. The Max Streak is what's publishd to Game Center Leaderboards so you can compete with friends, or with global users.
+    </p>
+</div>
+
 
 <div class="faq-item">
     <h6 class="faq-question">When do Echos get refilled?</h6>
