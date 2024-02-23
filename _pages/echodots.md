@@ -4,7 +4,7 @@ title: Echodots
 permalink: /echodots
 comments: false
 ---
-![Echodots Family](assets/images/Echodots/echodots-promo-family.png)
+![Echodots Family](assets/images/Echodots/echodots-promo-iphone.png)
 <br>
 Echodots is a daily pattern game where your memory is put to the test. Each day, a new 5-digit global sequence is displayed on the game board and you have 5 chances to repeat it back in the correct order. Track your streaks, share with friends, and go for the win! 
 
