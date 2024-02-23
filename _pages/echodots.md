@@ -17,6 +17,8 @@ Designed exclusively for iOS, Echodots is launching soon on the App Store!
 
 ---
 <h4 id="gameplay">Gameplay</h4>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UskNofm8q-s?si=wUZLLGVmqX_QIoEn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+
 • Test your memory and pattern recognition by watching the daily sequence playout on the color game board  
 • Repeat the pattern and double-tap your last entry to submit the row  
 • Use the feedback provided to determine if your guesses were in the right spot, the wrong spot, or not in the sequence at all  
