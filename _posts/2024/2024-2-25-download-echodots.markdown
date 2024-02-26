@@ -33,7 +33,7 @@ Wrong! Echodots is free to download and *Echodots+* is available as a small one-
 
 > Where can I get it?
 
-Echodots is available exclusively on the App Store. The best experience is on iPhone, although it’s also available for iPad, Mac (designed for iPad), and Apple Vision Pro (designed for iPad).
+Echodots is available exclusively on the App Store. The best experience is on iPhone, and it’s available for iPad, Mac (designed for iPad), and Apple Vision Pro (designed for iPad).
 
 [Learn more about Echodots and read the FAQ here.](https://thatvirtualboy.com/echodots)
 
