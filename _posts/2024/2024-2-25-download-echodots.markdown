@@ -38,7 +38,7 @@ Echodots is available exclusively on the App Store. The best experience is on iP
 [Learn more about Echodots and read the FAQ here.](https://thatvirtualboy.com/echodots)
 
 <a href="https://apps.apple.com/us/app/echodots-daily-pattern-game/id6476985985">
-    <img src="/assets/images/pre-order.png" style="width: 50%;">
+    <img src="/assets/images/pre-order.png" style="width: 20%;">
 </a>
 
 *Some options may require an in-app purchase
