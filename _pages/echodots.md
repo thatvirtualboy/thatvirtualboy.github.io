@@ -29,7 +29,7 @@ Designed exclusively for iOS, Echodots is launching soon on the App Store!
 
 **Casual play**: Pick up and put down Echodots without worry of losing your progress for the day. Submitted guesses are saved and the path to victory is ready when you are.
 
-**Ascend the Rankings**: Claim your spot at the top by achieving the highest maximum win streak. See how you rank with friends and players around the world.
+**Climb the ranks**: Claim your spot at the top by achieving the highest maximum win streak. See how you rank with friends and players around the world.
 
 **Share with friends**: Dominate the sequence on your first try? Sneak by on your final guess? Share your gameplay summary with friends and family without revealing the answer.
 
