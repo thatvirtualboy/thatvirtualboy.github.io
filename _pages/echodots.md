@@ -17,8 +17,6 @@ Designed exclusively for iOS, Echodots is launching soon on the App Store!
 
 ---
 <h4 id="gameplay">Gameplay</h4>
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UskNofm8q-s?si=wUZLLGVmqX_QIoEn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
-
 • Test your memory and pattern recognition by watching the daily sequence playout on the color game board  
 • Repeat the pattern and double-tap your last entry to submit the row  
 • Use the feedback provided to determine if your guesses were in the right spot, the wrong spot, or not in the sequence at all  
@@ -33,7 +31,11 @@ Designed exclusively for iOS, Echodots is launching soon on the App Store!
 
 **Share with friends**: Dominate the sequence on your first try? Sneak by on your final guess? Share your gameplay summary with friends and family without revealing the answer.
 
-**Personalize your gameplay**: Fancy some audio cues? Prefer a high contrast game board? Adjust your gameplay as you see fit. *Echodots+* players can customize gameplay even further. From switching color palettes, to adjusting sequence play speed, to numbering your game board, you are in control of your experience!
+**Personalize your gameplay**: Fancy some audio cues? Prefer a high contrast game board? Adjust your gameplay as you see fit. *Echodots+* players can customize gameplay even further. From switching color palettes, to adjusting sequence play speed, to numbering your game board, you are in control of your experience!  
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UskNofm8q-s?si=wUZLLGVmqX_QIoEn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8y088FjSsds?si=bEB1NvEQZ7lQAz-a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 <h4 id="accessibility">Accessibility</h4>
