@@ -8,9 +8,12 @@ comments: false
 <br>
 Echodots is a daily pattern game where your memory is put to the test. Each day, a new 5-digit global sequence is displayed on the game board and you have 5 chances to repeat it back in the correct order. Track your streaks, share with friends, and go for the win! 
 
-Designed exclusively for iOS, Echodots is launching soon on the App Store!
+Designed exclusively for iOS, Echodots is free on the App Store!
 
-<img src="/assets/images/Echodots/app-store-coming-soon.png" style="width:12%">
+<a href="https://apps.apple.com/us/app/echodots-daily-pattern-game/id6476985985">
+    <img src="/assets/images/Echodots/appstore.png" style="width:20%">
+</a>
+
 
 {% comment %}
 {% endcomment %}
