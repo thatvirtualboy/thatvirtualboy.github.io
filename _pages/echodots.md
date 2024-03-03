@@ -241,9 +241,9 @@ Echodots does not collect any personally identifiable information. Certain gamep
 <h4 id="Extras">Extras</h4>
 
 ![Echodots Launch](assets/images/Echodots/echodots-launch.png){:width="80%"}  
-![Echodots Icon](assets/images/Echodots/icon.png){:width="80%"}  
+![Echodots Icon](assets/images/Echodots/icon.png){:width="30%"}  
 ![Echodots Family](assets/images/Echodots/echodots-promo-family.png){:width="80%"}  
-![Echodots Premium Icons](assets/images/Echodots/echo-icons.png){:width="80%"}  
+![Echodots Premium Icons](assets/images/Echodots/echo-icons.png){:width="50%"}  
 
 {% comment %}
 <script type="text/javascript" src="https://form.jotform.com/jsform/240354838930157"></script>
