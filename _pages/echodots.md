@@ -11,7 +11,7 @@ Echodots is a daily pattern game where your memory is put to the test. Each day,
 Designed exclusively for iOS, Echodots is free on the App Store!
 
 <a href="https://apps.apple.com/us/app/echodots-daily-pattern-game/id6476985985">
-    <img src="/assets/images/Echodots/appstore.png" style="width:50%">
+    <img src="/assets/images/Echodots/appstore.png" style="width:30%">
 </a>
 
 
