@@ -242,7 +242,6 @@ Echodots does not collect any personally identifiable information. Certain gamep
 ![Echodots Icon](assets/images/Echodots/icon.png){:width="12%"}  
 ![Echodots Launch](assets/images/Echodots/echodots-launch.png){:width="80%"}  
 ![Echodots Family](assets/images/Echodots/echodots-promo-family.png){:width="80%"}  
-![Echodots Premium Icons](assets/images/Echodots/echo-icons.png){:width="30%"}  
 
 {% comment %}
 <script type="text/javascript" src="https://form.jotform.com/jsform/240354838930157"></script>
