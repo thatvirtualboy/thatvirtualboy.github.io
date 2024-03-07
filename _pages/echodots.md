@@ -48,8 +48,6 @@ Echodots strives to be accessible to all players of all abilities. Features like
 
 **Personalize Your Home Screen**: Your game, your icon. With premium alternate app icons, choose from distinctive designs to reflect your style right on your home screen. Whether you're drawn to the sleekness of Dark, the unassuming Grays, or the inclusivity of Miniature, your app icon can be as personal as your gameplay.  
 
-**Future Benefits**: Gain new Plus features and perks with future app updates
-
 ---
 <h4 id="echodotsplus">Echodots+</h4>
 
@@ -60,6 +58,8 @@ Echodots strives to be accessible to all players of all abilities. Features like
 **Color Your Challenges**: Elevate your experience with exclusive game palettes, offering a fresh lens to tackle each sequence. Choose from a selection that includes calming Earth tones, the soothing Blues, the warm Reds, or the glowing Neon among others. Each palette not only changes the game's appearance but also brings a new mood and strategy to your play.  
 
 **Strategize with Numbers**: Enhance your gameplay with a number overlay, allowing you to visualize colors with numbers for a different strategy approach. This feature is perfect for players who find numbers more intuitive, adding an extra layer of strategy.  
+
+**Future Benefits**: Gain new Plus features and perks with future app updates  
 
 ![Gameplay Images](assets/images/Echodots/gameplay.png){:width="80%"}  
 ![Gameplay Images](assets/images/Echodots/game-palettes.png){:width="80%"}  
