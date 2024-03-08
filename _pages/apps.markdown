@@ -9,7 +9,7 @@ image: /assets/tools.jpg
 > A daily pattern game for iOS  
 > [Learn more](https://thatvirtualboy.com/echodots)  
 
-<img src="/assets/images/Echodots/app-store-coming-soon.png" style="width:12%">
+<a href="https://apps.apple.com/us/app/echodots-daily-pattern-game/id6476985985?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1709510400" alt="Download on the App Store" style="border-radius: 13px; width: 150px; height: 50px;"></a>
 <br>
 <br>
 
