@@ -19,6 +19,8 @@ All content + opinions belong to me and do not represent my employer. Enjoy!</p>
 <br><br>
 
 <h4>Around the web</h4>
+<p>Echodots featured on <a href="https://www.imore.com/apps/if-youre-looking-for-a-simple-and-addictive-new-daily-puzzle-game-this-iphone-app-is-for-you">iMore</a>.</p>
+<p>Echodots featured on <a href="https://appadvice.com/post/put-your-memory-to-the-test-each-day-with-echodots/779411">AppAdvice</a>.</p>
 <p>Bento|Craft included on <a href="https://www.macrumors.com/guide/vision-pro-app-list/">MacRumors Apple Vision Pro Apps</a>.</p>
 <p>Interviewed by <a href="https://indiedevmonday.com/issue-41">Indie Dev Monday</a>.</p>
 <p>Interviewed by <a href="https://octo.vmware.com/ryan-klumph/">VMware Office of the CTO</a>.</p>
