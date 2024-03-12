@@ -9,7 +9,7 @@ date: 2024-3-12
 author: Ryan Klumph
 ---
 
-Spring is right around the corner. With Apple [introducing a fresh Spring collection](https://9to5mac.com/2024/03/04/here-are-the-new-iphone-case-and-apple-watch-band-colors-for-spring/) of iPhone Cases and Apple Watch bands, it's the perfect time to also freshen up our wallpapers!
+Spring is right around the corner. With Apple [introducing a fresh Spring collection](https://9to5mac.com/2024/03/04/here-are-the-new-iphone-case-and-apple-watch-band-colors-for-spring/) of iPhone Cases and Apple Watch bands, it's the perfect time to also freshen up our iPhone and iPad wallpapers!
 
 Inspired by the vibrant and festive color palette of Big Sur, **Spring Dream** adds a massive dose of brightness and joy to your homescreen. Testing the waters with this one on social media proved it was well liked, so I'm happy to share it with you today. It's also a fun one to manipulate as it looks great flipped in every direction. 
 
@@ -18,7 +18,9 @@ Notice the difference in application between this simulated frame, and a real de
 
 ![Simulator](/assets/images/SpringDream/Spring_Dream_iPhones.png)
 
-The real device applied a beautiful *blur* to the top, and you can do this too with a quick trick: When applying the wallpaper, simply pinch the image a bit before saving, and you'll notice iOS magically renders a blur effect to the top of the image. I've highlighted this behavior in this video:
+The real device applied a beautiful *blur* to the top portion of the wallpaper. I love how the clock's numbers really pick up the blues and purples, creating a gorgeous blend of color. 
+
+You can do this too with a quick trick: When applying the wallpaper, simply pinch the image a bit before saving, and you'll notice iOS magically renders a blur effect to the top of the image. I've highlighted this behavior in this video:
 
 <video width="840" height="473" controls>
   <source src="/assets/images/SpringDream/spring_wallpaper.mp4" type="video/mp4">
@@ -29,7 +31,7 @@ And of course, we have to blur the wallpaper for the homescreen 😊
 
 Please enjoy *Spring Dream*, and have a wonderful Spring!
 
-#### Spring Dream
+#### Download Spring Dream
 ![Spring Dream](/assets/images/SpringDream/Spring_Dream_Fam.png)  
 [iPad / iPhone](/assets/images/SpringDream/Spring_Dream.png)
 
