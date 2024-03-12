@@ -1,0 +1,90 @@
+---
+layout: post
+title: "Artbox and Hello There iOS 17 Updates"
+categories: [Apple, SwiftUI]
+image: assets/images/hello-artbox-ios17.png
+read_time: true
+featured: false
+date: 2023-09-19
+author: Ryan Klumph
+---
+
+iOS 17 is officially here and the excitement around this release has been real. The highly anticipated iPhone 15 ships this Friday with iOS 17 pre-installed and will soon be yesterday's news.
+
+But for today, I'm thrilled to highlight the iOS 17 updates to **Artbox** and **Hello There**.
+
+### Artbox - Crafting Memories
+![](/assets/images/artbox-bento.png "Artbox Bento")
+Artbox, the best iOS app for crafting memories, gets several improvements and updates. Although this update isn't fully utilizing the newest iOS 17 APIs, I'm really excited about this being the best Artbox release yet. iPhone users get a really nice looking Bento Box style view in their Artist profile view, which is configurable in case you prefer the classic look. iPad users also get some pretty sizeable optimizations that make Artbox look better than ever on the larger screens. And for both iPhone and iPad users, **drag & drop** is now available for adding images to new projects. Here's everything that's new:
+
+== NEW ==  
+• An all-new Bento-style View showcasing Artist's most recent projects (iPhone)  
+• Drag and Drop images from other apps when adding a new project  
+• 3 all-new custom icons: Brick, Trooper, and Coast  
+• Artbox Pro is now Artbox+ -- existing Pro users are automatically converted to Artbox+  
+• New Artbox t-shirt available via the Merch link in Settings  
+
+== IMPROVED ==  
+• Improved iCloud Sharing experience and reliability  
+• Redesigned artist profile header on iPad  
+• Better grid layout on iPad  
+• Full Screen project view on iPad  
+• Improved onboarding experience  
+• Improved Timeline stats UI  
+• Improved iCloud Status Indicator  
+• Improved Help section  
+• Updated FAQ section  
+• Accessibility improvements  
+
+== FIXED ==  
+• Fixed potential crashes when viewing bad data  
+• Blank or ghosted data entries can now be successfully removed  
+• Note: This release deprecates the Mac Catalyst version of Artbox. [Learn more here](https://artbox.app/catalyst_sunset/)
+
+[Download Artbox for free on the App Store](https://apple.co/3e4W69c)
+
+### Hello There - Greeting Cards
+![](/assets/images/hellothere-ios17.png "Hello There iOS 17")
+
+Hello There got more iOS 17 API attention like TipKit, StandBy support, Pie Charts, and a few others. By far the biggest noticeable difference with this release is the ability to send ecards. Hello There is primarily an app for storing cards received, however it just made sense to add a simple and modest way to send a quick *Thank You* here and there. And based on anonymous telemetry data, users already *love* sending digital thank-you cards!
+
+== NEW ==  
+• Introducing E-Post - lightweight & delightful ecards that can be shared anywhere  
+• Introducing Nudges - simple and effective notifications designed to help you never miss an important event  
+• Stickers - share your favorite pixel friend from the E-Post Pixel Collection as stickers in Messages  
+• All-new Nudge Home Screen Widgets  
+• New Pie Chart options when viewing card stats (iOS 17)  
+• New Shortcuts that can be used in the Shortcuts app and with Siri  
+• 4 new premium icons: Reef, Forest, Waves, and Leather  
+• 5 new premium wallpapers  
+• New launch animation (configurable)  
+• New iCloud Status page in Settings > Help  
+• Support for IAP offers  
+• Minimum supported iOS version: 16.4  
+
+== IMPROVED ==  
+• Brand new symbol animations scattered throughout the app for a more fun and engaging experience (iOS 17)  
+• Visual improvements to Charts  
+• Visual improvements to Widgets (iOS 17)  
+• Collections configured with a color theme instead of a cover photo get the blurred header treatment when   viewing the collection  
+• Improved Paper Post checkout flow  
+• Expanded haptics for a richer experience  
+• Accessibility improvements  
+• Onboarding has been re-written to be interactive and focus on the newest features (available in Settings > About > Revisit Onboarding)  
+• Improved iCloud status handling  
+• Tips for new users (iPhone)  
+
+== FIXED ==  
+• Fixed incorrect Privacy and Terms hyperlinks in Settings  
+• Card Details now immediately reflect edits upon saving changes  
+• Fixed spacing issues in the Paper Post screen's header  
+• Fixed graphical obstruction when customizing Paper Post details  
+• Fixed a display issue with cards created with Hello There 1.x  
+• Fixed an issue where duplicate sender names could appear in some cases  
+• Various quality of life improvements  
+
+[Download Hello There for free on the App Store](https://apple.co/3TWTeey)
+
+### Merch
+For the superfans, I'm happy to share you can now get some really cool shirts sporting the app logos and a couple other designs. [Check out the shop here.](https://cottonbureau.com/people/raktech)  
+![](/assets/images/rakTech-shirts.png "rakTech Shirts")
