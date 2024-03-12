@@ -16,12 +16,11 @@ Inspired by the vibrant and festive color palette of Big Sur, **Spring Dream** a
 #### Pro tip: blurring the top
 Notice the difference in application between this simulated frame, and a real device:
 
-![Simulator](/assets/images/SpringDream/sim.png) 
-![Real Device](/assets/images/SpringDream/real.png){:width="50%"}  
+![Simulator](/assets/images/SpringDream/Spring_Dream_iPhones.png)
 
 The real device applied a beautiful *blur* to the top, and you can do this too with a quick trick: When applying the wallpaper, simply pinch the image a bit before saving, and you'll notice iOS magically renders a blur effect to the top of the image. I've highlighted this behavior in this video:
 
-<video width="560" height="315" controls>
+<video width="840" height="473" controls>
   <source src="/assets/images/SpringDream/spring_wallpaper.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
