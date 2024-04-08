@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Grid - Here's to the New Year"
-categories: [Apple, Mac, AI]
+categories: [Apple, Mac, AI, Wallpaper]
 image: assets/images/TheGrid/TheGrid_Var1_Family.png
 read_time: true
 featured: false
