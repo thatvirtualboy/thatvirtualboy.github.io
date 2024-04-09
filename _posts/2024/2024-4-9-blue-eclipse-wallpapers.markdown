@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blue Eclipse Wallpapers"
+title: "Blue Eclipse Wallpaper Pack"
 categories: [Apple, Mac, Wallpaper]
 image: assets/images/Blue_Eclipse/Blue_Eclipse_II_Mac.png
 read_time: false
