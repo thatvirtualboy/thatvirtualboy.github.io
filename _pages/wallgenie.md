@@ -11,5 +11,5 @@ The easiest way to create unique, one-of-a-kind abstract wallpapers using the po
 It works like magic ✨
 
 **Coming Soon to the App Store!**
-![WallGenie Samples](assets/images/WallGenie/promo2.png)
+![WallGenie Samples](assets/images/WallGenie/promo2.png)  
 **Images are real examples of wallpapers created using Wall•Genie*
