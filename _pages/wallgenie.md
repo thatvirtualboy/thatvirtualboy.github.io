@@ -12,6 +12,7 @@ It works like magic ✨
 
 **Coming Soon to the App Store!**
 ![WallGenie Samples](assets/images/WallGenie/promo2.png)  
+![WallGenie Samples](assets/images/WallGenie/promo4.png)  
 **Images are real examples of wallpapers created using Wall•Genie*
 
 ---
