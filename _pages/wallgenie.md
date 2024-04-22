@@ -108,6 +108,19 @@ document.addEventListener("DOMContentLoaded", function() {
 </html>
 
 ---
+<h4 id="terms">Terms</h4>
+By using Wall•Genie, you agree to the following terms, in addition to the [Apple Standard EULA](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/):
+- Images are created using Generative AI, and therefore results may vary.
+- Wall•Genie and OpenAI (per their licensing guidelines) do not claim ownership of the images created.
+- Images generated using Wall•Genie, by any user, can be used for both personal and commercial use without permission.
+- Wall•Genie and its services are provided "as-is" and reserves the right to update, enhance, or change the service at anay time.
+- Abuse of Wall•Genie and its services, including API integrations, in-app screenshots, or other actions outside if the app's intended use are strictly prohibited and may result in a permanent ban.
+
+---
+<h4 id="privacy">Privacy</h4>
+Privacy is a first-class citizen in Wall•Genie. Unlike other wallpaper apps, your usage is not tracked or tied to your identity, nor is a sign-in process required in order to use the app, keeping your identity completely anonymous. Certain statistics are collected anonymously in order to help improve the app; things like iPhone model, iOS version, wallpaper upvote count, wallpaper generation count, and wallpaper upload count. All of these stats are aggregated using the privacy-focused solution [TelemetryDeck](https://telemetrydeck.com).
+
+---
 <h4 id="support">Support</h4>
 **Supported Devices**: iPhone  
 **Apple App ID**: 6496679681  
