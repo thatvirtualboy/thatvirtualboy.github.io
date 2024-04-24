@@ -6,7 +6,7 @@ comments: false
 ---
 
 ### Announcing Wall•Genie! 
-The easiest way to create unique, one-of-a-kind abstract wallpapers using the power of Generative AI.  
+The easiest way to create beautiful wallpapers for your iPhone.  
 
 It works like magic ✨
 
@@ -68,6 +68,13 @@ It works like magic ✨
     <h6 class="faq-question">Does Wall•Genie allow for creating iPad and Desktop wallpapers?</h6>
     <p class="faq-answer">
        At this time, the app's primary focus is creating wallpapers for mobile.
+    </p>
+</div>
+
+<div class="faq-item">
+    <h6 class="faq-question">Can you explain the pricing?</h6>
+    <p class="faq-answer">
+        Wall•Genie aims to provide extremely competetive pricing compared to other wallpaper apps, while also covering API costs, server costs, development and maintenance costs, and support. For users who might go in short bursts of creativity, the *Starter* subscription (billed weekly) may be more in line with creating and participating in the community. For users who are always on the hunt for the freshest wallpapers and interested in growing their collection, the *Pro* subscription (billed monthly) is a great option.
     </p>
 </div>
 
