@@ -10,10 +10,13 @@ comments: false
 
 A magical wallpaper generator ✨
 
-**Coming soon exclusively to the App Store**
+**[Available exclusively on the App Store](https://apps.apple.com/us/app/wall-genie-ai-wallpaper/id6496679681)**  
+
 ![WallGenie Samples](assets/images/WallGenie/promo2.png)  
 ![WallGenie Samples](assets/images/WallGenie/promo4.png)  
-**Images are real examples of wallpapers created using Wall•Genie*
+**Images are real examples of wallpapers created using Wall•Genie*  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G8NIk2D4PKw?si=ZX7C5M92GbXRud-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
