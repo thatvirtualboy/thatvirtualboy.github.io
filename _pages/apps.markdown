@@ -5,6 +5,14 @@ permalink: /apps/
 image: /assets/tools.jpg
 ---
 
+#### ![logo](/assets/images/WallGenie/icon-new.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Wall•Genie
+> A magical wallpaper generator  
+> [Learn more](https://thatvirtualboy.com/wallgenie)  
+
+Coming soon.
+
+---
+
 #### ![logo](/assets/images/Echodots/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Echodots
 > A daily pattern game for iOS  
 > [Learn more](https://thatvirtualboy.com/echodots)  

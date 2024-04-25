@@ -5,12 +5,12 @@ permalink: /wallgenie
 comments: false
 ---
 
-### Announcing Wall•Genie! 
-The easiest way to create beautiful wallpapers for your iPhone.  
+### Wall•Genie
+![WallGenie Samples](assets/images/WallGenie/icon-new.png){:width="10%"}   
 
-It works like magic ✨
+A magical wallpaper generator ✨
 
-**Coming Soon to the App Store!**
+**Coming soon exclusively to the App Store**
 ![WallGenie Samples](assets/images/WallGenie/promo2.png)  
 ![WallGenie Samples](assets/images/WallGenie/promo4.png)  
 **Images are real examples of wallpapers created using Wall•Genie*
@@ -44,23 +44,30 @@ It works like magic ✨
 <h4 id="faq">FAQ</h4>
 
 <div class="faq-item">
+    <h6 class="faq-question">Is a subscription required?</h6>
+    <p class="faq-answer">
+        Yes. To put it simply, every image generated with Wall•Genie costs money, so an active subscription is required to create wallpapers. Subscribers also gain the added perk of downloading community-posted wallpapers.
+    </p>
+</div>
+
+<div class="faq-item">
     <h6 class="faq-question">What engine is being used for image generation?</h6>
     <p class="faq-answer">
-        Wall•Genie is using the ChatGPT API to generate images using the latest DALL•E 3 engine.
+        Wall•Genie is using the ChatGPT API to generate images using the latest DALL•E 3 engine. If rate limits are reached with image generations, Wall•Genie may fallback to DALL•E 2 and return a 1024x1024 image.
     </p>
 </div>
 
 <div class="faq-item">
     <h6 class="faq-question">What prompt is Wall•Genie using, and can it be customized?</h6>
     <p class="faq-answer">
-        Wall•Genie's prompt has been rigorously tested and refined to provide the best results using the variables you select during image generation.  This prompt is not publically available or editable. 
+        Wall•Genie's prompt has been rigorously tested and refined to provide the best results using the variables you select during image generation. Due to the nature of Generative AI, results will not always result in the expected. For the safety of Wall•Genie users, this prompt is not publically available or editable. 
     </p>
 </div>
 
 <div class="faq-item">
     <h6 class="faq-question">What is the generated image resolution?</h6>
     <p class="faq-answer">
-       Wall•Genie is generating images at the highest resolution that DALL•E allows for portait images which is 1024x1792.
+       Wall•Genie is generating images at the highest resolution that DALL•E allows for portait images which is 1024x1792. If rate limits are reached and the model has to fallback to DALL•2, the resolution will be 1024x1024.
     </p>
 </div>
 
@@ -68,6 +75,13 @@ It works like magic ✨
     <h6 class="faq-question">Does Wall•Genie allow for creating iPad and Desktop wallpapers?</h6>
     <p class="faq-answer">
        At this time, the app's primary focus is creating wallpapers for mobile.
+    </p>
+</div>
+
+<div class="faq-item">
+    <h6 class="faq-question">Why can't I take screenshots?</h6>
+    <p class="faq-answer">
+        We prioritize safeguarding our community's creative work. As part of this commitment, screenshot functionality is an exclusive feature available to our subscribed members, ensuring their creations remain unique and protected.
     </p>
 </div>
 
