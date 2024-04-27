@@ -5,7 +5,7 @@ categories: [Apple, iPhone, App]
 image: assets/images/WallGenie/wallgenie_bento.jpeg
 read_time: false
 featured: false
-date: 2024-4-9
+date: 2024-4-26
 author: Ryan Klumph
 ---
 
