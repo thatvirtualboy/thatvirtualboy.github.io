@@ -24,7 +24,7 @@ Introducing Wall•Genie! A magical wallpaper generator for iPhone ✨
 #### Features
 • Generate custom high res, portrait wallpapers*  
 • Save and share your creations with the Wall•Genie community*  
-• Unlimited downloads of community wallpapers*  (every 7th wallpaper for free users)
+• Unlimited downloads of community wallpapers*  (every 7th wallpaper for free users)  
 • Upvote your favorite submissions  
 • Built natively, exclusively for iPhone  
 • Uses the latest DALL•E 3 modeling for the best image quality and comprehensive stylistic understanding**  
