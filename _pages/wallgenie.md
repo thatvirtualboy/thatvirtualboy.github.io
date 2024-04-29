@@ -49,7 +49,7 @@ A magical wallpaper generator ✨
 <div class="faq-item">
     <h6 class="faq-question">Is a subscription required?</h6>
     <p class="faq-answer">
-        Yes. To put it simply, every image generated with Wall•Genie costs money, so an active subscription is required to create wallpapers. Subscribers also gain the added perk of downloading community-posted wallpapers.
+        Yes. To put it simply, every image generated with Wall•Genie costs money, so an active subscription is required to create wallpapers. Subscribers also gain the added perk of downloading community-posted wallpapers, although free users can download every 7th community-uploaded wallpaper for free.
     </p>
 </div>
 
@@ -91,7 +91,7 @@ A magical wallpaper generator ✨
 <div class="faq-item">
     <h6 class="faq-question">Can you explain the pricing?</h6>
     <p class="faq-answer">
-        Wall•Genie aims to provide extremely competetive pricing compared to other wallpaper apps, while also covering API costs, server costs, development and maintenance costs, and support. For users who might go in short bursts of creativity, the *Starter* subscription (billed weekly) may be more in line with creating and participating in the community. For users who are always on the hunt for the freshest wallpapers and interested in growing their collection, the *Pro* subscription (billed monthly) is a great option.
+        Wall•Genie aims to provide extremely competetive pricing compared to other wallpaper apps, while also covering API costs, server & storage costs, development and maintenance costs, and support. For users who might go in short bursts of creativity, the *Starter* subscription (billed weekly) may be more in line with creating and participating in the community. For users who are always on the hunt for the freshest wallpapers and interested in growing their collection, the *Pro* subscription (billed monthly) is a great option.
     </p>
 </div>
 
@@ -138,7 +138,7 @@ By using Wall•Genie, you agree to the following terms, in addition to the [App
 - Images are created using Generative AI, and therefore results may vary.
 - Wall•Genie and OpenAI (per their licensing guidelines) do not claim ownership of the images created.
 - Images generated using Wall•Genie, by any user, can be used for both personal and commercial use without permission.
-- Wall•Genie and its services are provided "as-is" and reserves the right to update, enhance, or change the service at anay time.
+- Wall•Genie and its services are provided "as-is" and reserves the right to update, enhance, or change the service at any time.
 - Abuse of Wall•Genie and its services, including API integrations, in-app screenshots, or other actions outside if the app's intended use are strictly prohibited and may result in a permanent ban.
 
 ---
