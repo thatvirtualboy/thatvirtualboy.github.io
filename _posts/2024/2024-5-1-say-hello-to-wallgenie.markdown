@@ -14,7 +14,7 @@ Introducing Wall•Genie! A magical wallpaper generator for iPhone ✨
 I thought it would be fun to combine a post that covers not only the features of Wall•Genie, but also some of the development process, infrastructure, and thought behind the app.
 
 #### TL;DR
-- Create gorgeous wallpapers for your mobile devices in seconds with the power of AI.  
+- Create stunning wallpapers for your mobile devices in seconds with the power of AI.  
 - Browse community-made wallpapers and download your favorites.  
 - With a focus on simplicity, safety, and a delightful experience Wall•Genie is the easiest way to create and share one-of-a-kind wallpapers.  
 - Unlike other wallpaper apps, Wall•Genie incorporates privacy as a first-class citizen.  
