@@ -17,7 +17,7 @@ As you know, *every 7th community wallpaper* in Wall Genie is **free to download
 ![Shortcut](/assets/images/WallGenie/shortcut.jpeg){:width="50%"}  
 As of Wall Genie 1.4, a new Shortcut action is available allowing all users to quickly save the most recent free image to their Photo Library. This shortcut is integrated with Siri, so you you can simply ask to save the most recent free wallpaper, and voila. 
 
-You can also customize the action in Shortcuts to use a different phrase, or configure it to fit into your own workflows. Perhaps you have an automation that runs every Sunday evening, and you could include this shortcut to download a fresh wallpaper right to your Photos. It's up to you!
+You can also customize the action in Shortcuts to use a different phrase, or configure it to fit into your own workflows. Perhaps you have an automation that runs every Sunday evening, and you could include this shortcut to download a fresh wallpaper right to your Photos. It's up to you! Just make sure you add the action using Apple's Shortcuts app.
 
 Here's a video showing the new shortcut in action:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hdBPqxad5Yk?si=GsgaH4v-obBybi_N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
