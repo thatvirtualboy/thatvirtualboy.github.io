@@ -30,6 +30,7 @@ I thought it would be fun to combine a post that covers not only the features of
 • Upvote your favorite submissions  
 • Built natively, exclusively for iPhone  
 • Uses the latest DALL•E 3 modeling for the best image quality and comprehensive stylistic understanding**  
+• NEW: Siri Shortcuts support (v1.4+)
 
 *Requires an active subscription
 
