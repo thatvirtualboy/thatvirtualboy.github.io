@@ -26,3 +26,9 @@ Here's a video showing the new shortcut in action:
 So what do you think? Let me know how you're using this shortcut and I'd love to share it across the socials. 
 
 What other shortcuts would you like to see in Wall Genie? Let me know in the comments or hit me up on social. Thanks and enjoy the update!
+
+📲 [Download Wall•Genie](https://apps.apple.com/us/app/wall-genie-ai-wallpaper/id6496679681) on the App Store
+
+
+##### Related
+➡️ [Say hello to Wall•Genie](https://thatvirtualboy.com/say-hello-to-wallgenie/)
