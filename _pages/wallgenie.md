@@ -143,7 +143,7 @@ By using Wall•Genie, you agree to the following terms, in addition to the [App
 
 ---
 <h4 id="privacy">Privacy</h4>
-Privacy is a first-class citizen in Wall•Genie. Unlike other wallpaper apps, your usage is not tracked or tied to your identity, nor is a sign-in process required in order to use the app, keeping your identity completely anonymous. Certain statistics are collected anonymously in order to help improve the app; things like iPhone model, iOS version, wallpaper upvote count, wallpaper generation count, and wallpaper upload count. All of these stats are aggregated using the privacy-focused solution [TelemetryDeck](https://telemetrydeck.com).
+Privacy is a first-class citizen in Wall•Genie. Unlike other wallpaper apps, your usage is not tracked or tied to your identity, nor is a sign-in process required in order to use the app, keeping your identity completely anonymous. Certain statistics are collected anonymously in order to help improve the app; things like iPhone model, iOS version, wallpaper upvote count, wallpaper generation count, and wallpaper upload count. These stats are aggregated using the privacy-focused solution [TelemetryDeck](https://telemetrydeck.com).
 
 ---
 <h4 id="support">Support</h4>
