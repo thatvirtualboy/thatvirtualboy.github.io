@@ -14,11 +14,11 @@ Whether you’re tracking tasks related to a work project, indie development, cu
 
 Key Features:
 
-	•	Unobtrusive and Lightning Quick: Done lives in your menu bar, providing immediate access to log tasks with a single click.
-	•	Automatic Time Logging: The time of entry is recorded automatically, with optional time spent tracking.
-	•	Tagging System: Assign tasks to specific projects or categories using customizable tags.
-	•	Visual Insights: SwiftUI Charts provide visual representations of your task activity, showcasing distribution, time spent, and tag types over the last 7 days.
-	•	Data Export: Export your logged tasks as CSV, JSON, or Text files to share with your team or report to your manager.
+•	**Unobtrusive and Lightning Quick**: Done lives in your menu bar, providing immediate access to log tasks with a single click.  
+•	**Automatic Time Logging**: The time of entry is recorded automatically, with optional time spent tracking.  
+•	**Tagging System**: Assign tasks to specific projects or categories using customizable tags.  
+•	**Visual Insights**: SwiftUI Charts provide visual representations of your task activity, showcasing distribution, time spent, and tag types over the last 7 days.  
+•	**Data Export**: Export your logged tasks as CSV, JSON, or Text files to share with your team or report to your manager.  
 
 #### Screenshots
 <p float="left">
