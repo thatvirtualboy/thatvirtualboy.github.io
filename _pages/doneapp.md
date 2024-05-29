@@ -35,6 +35,7 @@ Key Features:
 By using **Done**, you agree to the following terms, in addition to the [Apple Standard EULA](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/):
 - The app is provided 'as is'
 - The developer reserves the right to add or remove features or capabilities at any time
+- Although not a common occurence, data loss is always a real possibility. The developer takes no responsibility in lost data. Please backup critical informatiion regularly. 
 
 ---
 <h4 id="privacy">Privacy</h4>
