@@ -12,6 +12,8 @@ Done is a minimal menu bar app dedicated to tracking your completed tasks. Unlik
 
 Whether you’re tracking tasks related to a work project, indie development, customer initiatives, or personal achievements, Done makes it simple to log your completed work efficiently.
 
+> Traditional to-do apps are all about things you still need to do, and once you do them, the task disappears and is gone from your records. **Done** allows you to log your completed tasks as you go so you can log your data and visualize your accomplishments. 
+
 Key Features:
 
 •	**Unobtrusive and Lightning Quick**: Done lives in your menu bar, providing immediate access to log tasks with a single click.  
