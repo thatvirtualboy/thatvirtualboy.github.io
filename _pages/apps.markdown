@@ -5,6 +5,14 @@ permalink: /apps/
 image: /assets/tools.jpg
 ---
 
+#### ![logo](/assets/images/DoneApp/appicon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Done: Not a to-do app
+> Track the tasks you've done  
+> [Learn more](https://thatvirtualboy.com/doneapp/)  
+
+Coming Soon
+
+---
+
 #### ![logo](/assets/images/WallGenie/icon-new.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Wall•Genie
 > A magical wallpaper generator  
 > [Learn more](https://thatvirtualboy.com/say-hello-to-wallgenie/)  
