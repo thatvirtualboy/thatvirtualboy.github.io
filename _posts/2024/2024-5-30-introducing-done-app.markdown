@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introducing Done"
+title: "Introducing Done #NotATodoApp"
 categories: [Apple, macOS, App]
 image: assets/images/DoneApp/meet.png
 read_time: false
