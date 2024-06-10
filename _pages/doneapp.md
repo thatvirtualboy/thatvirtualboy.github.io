@@ -22,7 +22,7 @@ Key Features:
 •	**Visual Insights**: SwiftUI Charts provide visual representations of your task activity, showcasing distribution, time spent, and tag types over the last 7 days.  
 •	**Data Export**: Export your logged tasks as CSV, JSON, or Text files to share with your team or report to your manager.  
 • **Shortcuts Support**: Integrate task logging into your workflows with the built-in Siri Shortcuts support.   
-• **Coming Soon**: Sync your completed Apple Reminders tasks  
+• **Apple Reminders Integration**: Sync your completed Apple Reminders tasks  
 
 #### Screenshots
 <p float="left">
