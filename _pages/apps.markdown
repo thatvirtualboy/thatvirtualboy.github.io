@@ -7,7 +7,7 @@ image: /assets/tools.jpg
 
 #### ![logo](/assets/images/DoneApp/appicon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Done: Not a to-do app
 > Track the tasks you've done  
-> [Learn more](https://thatvirtualboy.com/doneapp/)  
+> [Learn more](https://thatvirtualboy.com/doneapp)  
 
 <a href="https://apps.apple.com/us/app/done-not-a-to-do-app/id6503087781?mt=12&amp;itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/en-us?size=250x83&amp;releaseDate=1717027200" alt="Download on the Mac App Store" style="border-radius: 13px; width: 150px; height: 83px;"></a>
 
