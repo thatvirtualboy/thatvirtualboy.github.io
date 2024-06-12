@@ -14,7 +14,7 @@ Apple debuted [iPhone Mirroring](https://www.apple.com/newsroom/2024/06/macos-se
 Craig Federighi noted several use cases for how this could be a useful feature, including using a coffee app to place your coffee order, using Duolingo, or dragging files from the Mac directly inside an iPhone app. He even showed how iPhone notifications can be displayed alongside macOS notifications (further muddying lines of context, but I digress...) and when clicked on, it launches the virtual interface of your iPhone. Pretty neat!
 
 ![iPhone Mirroring](/assets/images/WWDC/WWDC24/iphone-mirror-drag.jpg)  
-'Source: Apple'
+`Source: Apple`
 
 There's one feature I'm personally excited to use iPhone Mirroring for, and it's something that really shouldn't have required a full virtual iPhone interface to achieve, but here we are.
 
