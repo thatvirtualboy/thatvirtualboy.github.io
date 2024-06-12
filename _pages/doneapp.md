@@ -35,6 +35,10 @@ Key Features:
 <img src="assets/images/DoneApp/Reminders.png" width="600" />
 <img src="assets/images/DoneApp/Dark Mode.png" width="600" />
 </p>
+<p float="left">
+<img src="assets/images/DoneApp/history.png" width="600" />
+<img src="assets/images/DoneApp/main.png" width="500" />
+</p>
 
 ---
 <h4 id="terms">Terms</h4>
