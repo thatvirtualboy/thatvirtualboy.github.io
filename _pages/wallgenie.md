@@ -63,7 +63,7 @@ A magical wallpaper generator ✨
 <div class="faq-item">
     <h6 class="faq-question">What prompt is Wall•Genie using, and can it be customized?</h6>
     <p class="faq-answer">
-        Wall•Genie's prompt has been rigorously tested and refined to provide the best results using the variables you select during image generation. Due to the nature of Generative AI, results will not always result in the expected. For the safety of Wall•Genie users, this prompt is not publically available or editable. 
+        Wall•Genie's prompt has been rigorously tested and refined to provide the best results using the variables you select during image generation. Due to the nature of Generative AI, results will not always result in the expected. For the safety of Wall•Genie users, this prompt is not publicly available or editable. 
     </p>
 </div>
 
