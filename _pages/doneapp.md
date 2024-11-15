@@ -5,7 +5,7 @@ permalink: /doneapp
 comments: false
 ---
 ### Done: Not a todo app
-![Meet Done](assets/images/DoneApp/Done_Bento.jpeg){:width="80%"}
+![Meet Done](assets/images/DoneApp/bento.JPG){:width="80%"}
 <br>
 <br>
 Done is a minimal menu bar app dedicated to tracking your completed tasks. Unlike traditional to-do apps, Done focuses on what you’ve already achieved, helping you keep a clear record of your accomplishments.
