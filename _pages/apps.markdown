@@ -5,7 +5,7 @@ permalink: /apps/
 image: /assets/tools.jpg
 ---
 
-#### ![logo](/assets/images/DoneApp/appicon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Done: Not a to-do app
+#### ![logo](/assets/images/DoneApp/appicon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Did•It: The 'not a to-do app'
 > Track the tasks you've done  
 > [Learn more](https://thatvirtualboy.com/doneapp)  
 
