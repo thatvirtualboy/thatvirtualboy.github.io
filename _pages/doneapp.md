@@ -4,7 +4,7 @@ title: Done App
 permalink: /doneapp
 comments: false
 ---
-### Done: Not a todo app
+### Did•It: The 'not a todo app'
 ![Meet Done](assets/images/DoneApp/bento.JPG){:width="80%"}
 <br>
 <br>
