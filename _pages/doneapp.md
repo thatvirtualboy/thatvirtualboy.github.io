@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Done App
+title: Did•It
 permalink: /doneapp
 comments: false
 ---
