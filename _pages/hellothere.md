@@ -5,7 +5,7 @@ permalink: /hellothere
 comments: false
 ---
 
-[![logo](/assets/images/hellothere/hellothere-promo1.png){:width="80%"}](https://apple.co/3TWTeey)  
+[![logo](/assets/images/hellothere/hello-promo1.jpeg){:width="80%"}](https://apple.co/3TWTeey)  
 [**Download for free**](https://apple.co/3TWTeey)  
 
 <br>
@@ -15,31 +15,45 @@ comments: false
 Never feel bad for tossing out another greeting card. Catalog, organize, and enjoy your cards from anywhere.  
 <br>
 ##### Highlights
-• Support for the latest iOS SDKs like Charts, Live Text, Shortcuts, Widgets (Home Screen, Lock Screen, and StandBy), and more  
+• Capture your physical cards in a snap and don't look back (with auto scan and auto crop)  
 • Hello There Post - send physical or digital cards to friends and family    
 • iCloud - sync your data with other devices and backup to Apple's secure cloud   
 
-Whether you want to sort your cards from birthdays, holidays, or other special ocassions, there's no better app to help you stay organized.  
+Hello There is the #1 app to track your cards from birthdays, holidays, or other special occasions.  
 
-![](assets/images/hellothere/hellothere-promo5.png){:width="80%"}<br><br>
+![](assets/images/hellothere/hello-promo2.png){:width="80%"}<br><br>
 
 ##### Features
-• iCloud sync for backup and sync with other devices  
-• Native charts to display stats  
-• Widgets for your home screen, lock screen, or StandBy screen  
-• Live Text to interact with text on your cards  
-• Audio Card support with Sound Clips  
-• E-Post for lightweight and delightful ecards  
-• Stickers for iMessage  
-• Nudges for simple and effective event reminders that would benefit from a card or ecard  
-• Flexible viewing preferences  
-• Easy sorting by sender, keyword, or hashtag  
-• Shortcuts integration  
-• Face ID / Touch ID support  
-• Custom app icons  
-• Custom theme options  
-• Native SwiftUI-built app for best-in-class experience and performance  
-• And more  
+VIRTUALIZE YOUR CARDS  
+• Easily add cards with your camera using auto capture and auto crop  
+• Captures can be manually cropped to ensure the perfect fit  
+• Never stress tossing a greeting card again  
+
+POWERFUL ORGANIZATION   
+• Use stacks to classify cards by occasion  
+• Mark your favorites for quick access  
+• Assign hashtags to categorize by theme or topic  
+• Filter by year  
+
+CAPTURE EVERYTHING  
+• Record cards with music or sounds and have it playback when you open the card  
+• Assign senders to enable more powerful search and populate card stats  
+• Add additional notes or thoughts to your cards  
+
+HELLO THERE POST  
+• Share lightweight and delightful ecards in a flash  
+• Multiple holidays and occasions available  
+• Paper Post is a white-glove service offering hand-written letters on premium cards  
+
+E-POST STUDIO  
+• Quickly design and share ecards, or have Hello Intelligence do it for you  
+• 50+ card backgrounds to choose from  
+• Generate images or text when you need a little AI assistance  
+
+STATS  
+• Track your card stats with powerful insights  
+• View your all-time stats for cards received, ecards sent, and more*  
+• View card types received by year  
 
 #### In the media
 > "A neat solution to saving special greeting cards without keeping the physical clutter." - **Michael Potuck** // [9to5Mac](https://9to5mac.com/2023/03/27/hello-there-ios-greeting-card-organizer-update/)  
@@ -48,30 +62,26 @@ Whether you want to sort your cards from birthdays, holidays, or other special o
 
 > "An awesome way to be reminded of cards you've forgotten about." - **Andrew O'Hara** // [Fueled](https://fueled.com/blog/hello-there-helps-keep-cards-without-clutter/)  
 
-![](assets/images/hellothere/hellothere-23-bento.png){:width="80%"}  
+![](assets/images/hellothere/hello-bento-new.JPG){:width="80%"}  
 
 #### Plan Breakdown
 
 | Feature | Free | Hello There+ |
 | --- | --- | --- |
-| Unlimited cards | * | * |
 | Hello There Post | * | * |
-| Swift Charts | * | * |
-| Live Text | * | * | 
 | Share individual projects | * | * |
 | Multiple photos per card | * (up to 2) | * (up to 10) |
 | Widgets | * | * | 
-| Card Stacks | * | * | 
-| Configurable Home View | * | * | 
+| Unlimited Stacks | * | * | 
+| E-Post | * (limited selection) | * |
 | Data Export | * | * | 
 | Stickers | * | * | 
-| Nudges | * (up to 3) | * | 
 | E-Post | * (limited selection) | * |
-| Unlimited collections |  | * | 
+| E-Post Studio |  | * |
 | Unlimited senders |  | * |
 | Hashtags |  | * |
 | Sound Clips |  | * |
-| Color-matched widgets |  | * |
+| Stats |  | * |
 | Configurable Wallpaper |  | * |
 | iCloud sync & backup |  | * |
 | Custom icons |  | * |
@@ -80,25 +90,22 @@ Whether you want to sort your cards from birthdays, holidays, or other special o
 <br>
 #### Screenshots
 <p float="left">
-<img src="assets/images/hellothere/hello3.png" width="300" />
-<img src="assets/images/hellothere/hello1.png" width="300" />
+<img src="assets/images/hellothere/appstore-screen1.png" width="300" />
+<img src="assets/images/hellothere/appstore-screen2.png" width="300" />
+<img src="assets/images/hellothere/appstore-screen3.png" width="300" />
 </p>
 <p float="left">
-<img src="assets/images/hellothere/hello2.png" width="300" />
-<img src="assets/images/hellothere/hello4.png" width="300" />
+<img src="assets/images/hellothere/appstore-screen4.png" width="300" />
+<img src="assets/images/hellothere/appstore-screen5.png" width="300" />
+<img src="assets/images/hellothere/appstore-screen6.png" width="300" />
 </p>
 <p float="left">
-<img src="assets/images/hellothere/stats.png" width="300" />
-<img src="assets/images/hellothere/basicicons.png" width="300" />
+<img src="assets/images/hellothere/appstore-screen7.png" width="300" />
+<img src="assets/images/hellothere/appstore-screen8.png" width="300" />
+<img src="assets/images/hellothere/appstore-screen9.png" width="300" />
 </p>
-<p float="left">
-<img src="assets/images/hellothere/hello5.png" width="300" />
-<img src="assets/images/hellothere/hello6.png" width="300" />
-</p>
+<img src="assets/images/hellothere/appstore-screen10.png" width="300" />
 
-![](assets/images/hellothere/hellothere-promo2.png){:width="80%"}<br><br>
-![](assets/images/hellothere/hellothere-promo3.png){:width="80%"}<br><br>
-![](assets/images/hellothere/hellothere-ios17.png){:width="80%"}<br><br>
 
 <br>
 #### Privacy Policy
