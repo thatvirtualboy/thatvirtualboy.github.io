@@ -15,9 +15,10 @@ comments: false
 Never feel bad for tossing out another greeting card. Catalog, organize, and enjoy your cards from anywhere.  
 <br>
 ##### Highlights
-• Capture your physical cards in a snap and don't look back (with auto scan and auto crop)  
+• Scan your physical cards in a snap and don't look back (with auto capture and auto crop)  
 • Hello There Post - send physical or digital cards to friends and family    
 • iCloud - sync your data with other devices and backup to Apple's secure cloud   
+• Built with your privacy in mind  
 
 Hello There is the #1 app to track your cards from birthdays, holidays, or other special occasions.  
 
@@ -109,7 +110,7 @@ STATS
 
 <br>
 #### Privacy Policy
-No personally identifiable information is collected. Ever. General anonymous stats are collected to help improve the app. This information is aggregated using the privacy-focused analytics solution [Telemetry Deck](https://telemetrydeck.com).  
+No personally identifiable information is collected. Ever. Generic anonymous stats are collected to help improve the app. This information is aggregated using the privacy-focused analytics solution [Telemetry Deck](https://telemetrydeck.com).  
 <br>
 
 #### App Store Details
