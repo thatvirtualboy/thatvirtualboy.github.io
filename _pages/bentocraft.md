@@ -6,9 +6,8 @@ comments: false
 ---
 
 ![Bento Trifecta](/assets/images/bento-trifecta.png)  
-[**Download for free**](https://apple.co/45Brl06)  
+[**Download**](https://apple.co/45Brl06)  
 Build beautiful bento style images with Bento Craft. Designed exclusively for iPad and Apple Vision Pro, and compatible with Apple Silicon Macs.  
-Go in depth and [read the announcement here](https://thatvirtualboy.com/introducing-bento-craft/)
 
 <br>
 ##### About
@@ -25,12 +24,10 @@ Cultivate a dedicated audience by creating posts as unique as your app. Bento|Cr
 • Share in a snap - Show off your delicious designs to the world.   
  
 ##### Features   
-• Completely free to use  
-• 6 attention-grabbing layouts: Micro, Mini, Mega, Mighty, Monster and Max  
+• Attention-grabbing layouts: Micro, Mini, Mega, Mighty, Monster and Max  
 • Auto-add device frames to screenshots  
 • Configurable text, images, background and symbols  
 • Easy export that can be shared anywhere  
-• Supports participating Indie Devs through non-intrusive App Store ads (configurable)  
 • Drag & Drop images from anywhere onto your bento  
 • Alternate Icons  (iPad only)
 • And more  
