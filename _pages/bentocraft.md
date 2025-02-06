@@ -7,30 +7,30 @@ comments: false
 
 ![Bento Trifecta](/assets/images/bento-trifecta.png)  
 [**Download**](https://apple.co/45Brl06)  
-Build beautiful bento style images with Bento Craft. Designed exclusively for iPad and Apple Vision Pro, and compatible with Apple Silicon Macs.  
+Build beautiful Apple style bento summaries with Bento Craft. Designed exclusively for iPad and Apple Vision Pro, and compatible with Apple Silicon Macs.  
 
 <br>
 ##### About
->**Build and share a bento box where your app's features are the main course.**  
->Made for app developers and creators, Bento|Craft is a lightweight and delightful marketing asset designer. Effortlessly produce beautiful marketing images to be used on social media, websites, press kits, and more. Whether you're launching a new app, pushing an update, or sharing your service with the world, your mockups will command attention.   
+>**Create • Share • Impress • Repeat**  
+>Create beautiful marketing graphics in seconds! Bento|Craft is a delightful marketing design tool that produces high-quality graphics to be used on blogs, social media, websites, press kits, and more. Whether you're launching an app, promoting a service, or delivering an event summary, Bento|Craft delivers professional-quality designs that capture attention and make an impact.     
 
 ##### Stand out on social
-Cultivate a dedicated audience by creating posts as unique as your app. Bento|Craft simplifies the process of crafting unique designs, enabling effortless sharing across various social media platforms.
+Bento graphics are a proven method to draw attention and efficiently share key information. With Bento|Craft, it's easy to create eye-catching designs that resonate with your audience and drive results. Share directly to your favorite platforms and watch your marketing efforts shine.  
 
 ##### Highlights
 
-• Pre-made layouts - Think outside the box by creating inside Bento|Craft!  
-• Multiple mockups - Design making that's as easy as picking sushi rolls.  
-• Share in a snap - Show off your delicious designs to the world.   
+• Intuitive Templates – No design skills? No problem. Choose from a range of pre-made layouts for a polished, professional look.  
+• Easy-to-Use Mockups – Elevate your designs with multiple device mockups that bring your content to life.  
+• Instant Sharing – Export your designs effortlessly to share on Instagram, Bluesky, Facebook, blogs, or anywhere else.   
  
-##### Features   
-• Attention-grabbing layouts: Micro, Mini, Mega, Mighty, Monster and Max  
-• Auto-add device frames to screenshots  
-• Configurable text, images, background and symbols  
-• Easy export that can be shared anywhere  
-• Drag & Drop images from anywhere onto your bento  
-• Alternate Icons  (iPad only)
-• And more  
+##### What's included   
+• Dynamic Layouts: Pick from Micro, Mini, Mega, Mighty, Monster, or Max layouts that best fit your copy.  
+• Customizable Options: Configure custom text, images, backgrounds, and symbols to reflect your brand or story.  
+• Device Frames: Add authentic device frames to your app screenshots with a single tap.  
+• Drag & Drop Simplicity: Quickly integrate your images into bento frames for seamless design.  
+• Alternate App Icons: Customize your app’s look with unique home screen icons.  
+• Lightning-Fast Exporting: Share your work across platforms in seconds.  
+• And more   
 
 [![logo](/assets/images/bento/bentocraft-promo1.png)](https://apps.apple.com/us/app/bento-craft/id6468541457)
 
