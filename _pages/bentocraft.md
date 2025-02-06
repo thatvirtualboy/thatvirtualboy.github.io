@@ -5,7 +5,7 @@ permalink: /bentocraft
 comments: false
 ---
 
-![Bento Trifecta](/assets/images/bento/bentocraft-promo1.png)  
+![Bento Craft](/assets/images/bento/bentocraft-promo2.JPG)  
 [**Download**](https://apple.co/45Brl06)  
 Build beautiful Apple style bento summaries with Bento Craft. Designed exclusively for iPad and Apple Vision Pro.
 
@@ -35,6 +35,8 @@ Bento graphics are a proven method to draw attention and efficiently share key i
 • Alternate App Icons: Customize your app’s look with unique home screen icons.  
 • Lightning-Fast Exporting: Share your work across platforms in seconds.  
 • And more   
+
+![Bento Craft](/assets/images/bento/bentocraft-promo1.png)  
 
 <br>
 #### Screenshots
