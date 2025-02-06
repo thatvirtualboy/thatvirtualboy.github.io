@@ -12,7 +12,7 @@ Build beautiful Apple style bento summaries with Bento Craft. Designed exclusive
 <br>
 ##### About
 >**Create • Share • Impress • Repeat**  
->Create beautiful marketing graphics in seconds! Bento|Craft is a delightful marketing design tool that produces high-quality graphics to be used on blogs, social media, websites, press kits, and more. Whether you're launching an app, promoting a service, or delivering an event summary, Bento|Craft delivers professional-quality designs that capture attention and make an impact.     
+>Create beautiful marketing graphics in seconds! Bento|Craft is a delightful marketing design tool that produces high-quality graphics to be used on blogs, social media, websites, press kits, and more. Whether you're launching an app, promoting a service, or delivering an event summary, Bento|Craft offers professional-quality designs that capture attention and make an impact.     
 
 ##### Stand out on social
 Bento graphics are a proven method to draw attention and efficiently share key information. With Bento|Craft, it's easy to create eye-catching designs that resonate with your audience and drive results. Share directly to your favorite platforms and watch your marketing efforts shine.  
