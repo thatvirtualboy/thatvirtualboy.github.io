@@ -56,7 +56,9 @@ All content + opinions belong to me and do not represent my employer. Enjoy!</p>
 
 <p>Thank you for your support! Your donation helps me maintain and improve thatvirtualboy.com.</p>
 
-<a target="_blank" href="https://www.buymeacoffee.com/thatvirtualboy" class="btn btn-success">Buy me a coffee</a> <a target="_blank" href="https://techhub.social/@thatvirtualboy" class="btn btn-primary">Follow on Mastodon</a>
+<a target="_blank" href="https://www.buymeacoffee.com/thatvirtualboy" class="btn btn-success">Buy me a coffee</a> 
+<a target="_blank" href="https://techhub.social/@thatvirtualboy" class="btn btn-primary">Follow on Mastodon</a> 
+<a target="_blank" href="https://x.com/thatvirtualboy" class="btn" style="background-color: black; color: white;">Follow on X</a>
 
 <br><br><br>
 
