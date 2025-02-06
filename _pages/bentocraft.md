@@ -7,12 +7,16 @@ comments: false
 
 ![Bento Trifecta](/assets/images/bento/bentocraft-promo1.png)  
 [**Download**](https://apple.co/45Brl06)  
-Build beautiful Apple style bento summaries with Bento Craft. Designed exclusively for iPad and Apple Vision Pro.  
+Build beautiful Apple style bento summaries with Bento Craft. Designed exclusively for iPad and Apple Vision Pro.
 
 <br>
 ##### About
 >**Create • Share • Impress • Repeat**  
->Create beautiful marketing graphics in seconds! Bento|Craft is a delightful marketing design tool that produces high-quality graphics to be used on blogs, social media, websites, press kits, and more. Whether you're launching an app, promoting a service, or delivering an event summary, Bento|Craft offers professional-quality designs that capture attention and make an impact.     
+>Create beautiful marketing graphics in seconds! Bento|Craft is a delightful marketing design tool that produces high-quality graphics to be used on blogs, social media, websites, press kits, and more. Whether you're launching an app, promoting a service, or delivering an event summary, Bento|Craft offers professional-quality designs that capture attention and make an impact.
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4fYw1EQii9I" frameborder="0" allowfullscreen></iframe>
+<br>
 
 ##### Stand out on social
 Bento graphics are a proven method to draw attention and efficiently share key information. With Bento|Craft, it's easy to create eye-catching designs that resonate with your audience and drive results. Share directly to your favorite platforms and watch your marketing efforts shine.  
