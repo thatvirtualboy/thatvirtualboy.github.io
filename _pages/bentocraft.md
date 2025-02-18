@@ -10,7 +10,7 @@ comments: false
 
 <br>
 ##### About
-Build beautiful Apple style bento graphics with Bento|Craft. Made exclusively for iPad and Apple Vision Pro.  
+Make Apple style bento graphics with Bento|Craft, exclusively for iPad and Apple Vision Pro.  
 >**Create • Share • Impress • Repeat**  
 >Create beautiful promotional graphics in seconds! Bento|Craft is a delightful marketing design tool that produces high-quality graphics to be used on blogs, social media, websites, press kits, and more. Whether you're launching an app, promoting a service, or delivering an event summary, Bento|Craft offers professional-quality designs that capture attention and make an impact.
 
@@ -36,6 +36,7 @@ Bento graphics are a proven method to draw attention and efficiently share key i
  
 ##### What's included   
 • Static Layouts: Pick from Micro, Mini, Mega, Mighty, Monster, or Max layouts that best fit your copy.  
+• Canvas Creative Workspace: Break free from the templates and imagine your own layout with fully customizable box designs.  
 • Customizable Options: Configure custom text, images, backgrounds, and symbols to reflect your brand or story.  
 • Device Frames: Add authentic device frames to your app screenshots with a single tap.  
 • Drag & Drop Simplicity: Quickly integrate your images into bento frames for seamless design.  
