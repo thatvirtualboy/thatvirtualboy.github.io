@@ -27,7 +27,7 @@ Bento graphics are a proven method to draw attention and efficiently share key i
 
 ##### Highlights
 
-• Intuitive Templates – No design skills? No problem. Choose from a range of pre-made layouts for a polished, professional look. 
+• Intuitive Templates – No design skills? No problem. Choose from a range of pre-made layouts for a polished, professional look.  
 • Canvas Creative Workspace - if you imagine it, you can build it in the Canvas creative workspace.   
 • Easy-to-Use Mockups – Elevate your designs with multiple device mockups that bring your content to life.  
 • Instant Sharing – Export your designs effortlessly to share on Instagram, Bluesky, Facebook, blogs, or anywhere else.   
