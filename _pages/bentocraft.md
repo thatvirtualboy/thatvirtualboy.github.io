@@ -7,34 +7,35 @@ comments: false
 
 ![Bento Craft](/assets/images/bento/bentocraft-promo2.JPG)  
 [**Download**](https://apple.co/45Brl06)  
-Build beautiful Apple style bento graphics with Bento|Craft. Made exclusively for iPad and Apple Vision Pro.
 
 <br>
 ##### About
+Build beautiful Apple style bento graphics with Bento|Craft. Made exclusively for iPad and Apple Vision Pro.  
 >**Create • Share • Impress • Repeat**  
->Create beautiful marketing graphics in seconds! Bento|Craft is a delightful marketing design tool that produces high-quality graphics to be used on blogs, social media, websites, press kits, and more. Whether you're launching an app, promoting a service, or delivering an event summary, Bento|Craft offers professional-quality designs that capture attention and make an impact.
+>Create beautiful promotional graphics in seconds! Bento|Craft is a delightful marketing design tool that produces high-quality graphics to be used on blogs, social media, websites, press kits, and more. Whether you're launching an app, promoting a service, or delivering an event summary, Bento|Craft offers professional-quality designs that capture attention and make an impact.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4fYw1EQii9I" frameborder="0" allowfullscreen></iframe>
 <br>
 
-##### Start with a template, or start from scratch
-Use the built-in templates for quick turnaround, or use the Canvas creative workspace to build your own from scratch.
+##### Start with a template, or build from scratch
+Love those WWDC summary graphics? We do too! With Bento|Craft, it's easy to create your own -- no graphic design degree required. Use the built-in templates for quick turnaround, or use the Canvas creative workspace to build your own from scratch.  
+<br>
 ![Bento Craft](/assets/images/bento/bento-promo-mon.png)  
 
 ##### Stand out on social
-Bento graphics are a proven method to draw attention and efficiently share key information. With Bento|Craft, it's easy to create eye-catching designs that resonate with your audience and drive results. Share directly to your favorite platforms and watch your marketing efforts shine.  
+Bento graphics are a proven method to draw attention and efficiently share key information. With Bento|Craft, it's easy to create eye-catching designs that resonate with your audience.  
 
 ##### Highlights
 
 • Intuitive Templates – No design skills? No problem. Choose from a range of pre-made layouts for a polished, professional look.  
-• Canvas Creative Workspace - if you imagine it, you can build it in the Canvas creative workspace.   
-• Easy-to-Use Mockups – Elevate your designs with multiple device mockups that bring your content to life.  
-• Instant Sharing – Export your designs effortlessly to share on Instagram, Bluesky, Facebook, blogs, or anywhere else.   
-• Export / Import - Working on multiple designs? Save your Canvas templates and import them back into Bento|Craft  
+• Design Your Own - Break free with the all-new Canvas creative workspace to build and design your own bentos.  
+• Import Your Templates - Use the built in JSON export/import to load and save your custom Canvas designs.  
+• Easy-to-Use Mockups – Bring your screenshots to life with automatic device mockups.  
+• Instant Sharing – Export your designs to instantly share on Instagram, Bluesky, Facebook, or anywhere else.  
  
 ##### What's included   
-• Dynamic Layouts: Pick from Micro, Mini, Mega, Mighty, Monster, or Max layouts that best fit your copy.  
+• Static Layouts: Pick from Micro, Mini, Mega, Mighty, Monster, or Max layouts that best fit your copy.  
 • Customizable Options: Configure custom text, images, backgrounds, and symbols to reflect your brand or story.  
 • Device Frames: Add authentic device frames to your app screenshots with a single tap.  
 • Drag & Drop Simplicity: Quickly integrate your images into bento frames for seamless design.  
