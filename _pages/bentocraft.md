@@ -33,6 +33,14 @@ Bento graphics are a proven method to draw attention and efficiently share key i
 • Import Your Templates - Use the built in JSON export/import to load and save your custom Canvas designs.  
 • Easy-to-Use Mockups – Bring your screenshots to life with automatic device mockups.  
 • Instant Sharing – Export your designs to instantly share on Instagram, Bluesky, Facebook, or anywhere else.  
+
+
+##### Precise Canvas Grid Alignment
+<video width="60%" controls>
+    <source src="/assets/images/bento/bentogrid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<br>
  
 ##### What's included   
 • Static Layouts: Pick from Micro, Mini, Mega, Mighty, Monster, or Max layouts that best fit your copy.  
