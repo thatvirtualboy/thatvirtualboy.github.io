@@ -42,11 +42,6 @@ All content + opinions belong to me and do not represent my employer. Enjoy!</p>
 <p>Recorded drums on Katrina Stone's album <a href="https://music.apple.com/us/album/spellbound/1147778586">Spellbound</a>.</p>
 
 
-<h4>Credly</h4>
-<p>View my recent certifications on <a href="https://www.credly.com/users/ryan-klumph/badges">Credly</a>.</p>
-
-
-
 </div>
 
 <div class="col-md-4">
