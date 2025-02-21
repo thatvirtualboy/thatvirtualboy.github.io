@@ -5,7 +5,7 @@ permalink: /bentocraft
 comments: false
 ---
 
-![Bento Craft](/assets/images/bento/bentocraft-promo2.JPG)  
+![Bento Craft](/assets/images/bento/bentocraft-promo2.png)  
 [**Download**](https://apple.co/45Brl06)  
 
 <br>
@@ -71,8 +71,8 @@ Bento graphics are a proven method to draw attention and efficiently share key i
 ![logo](/assets/images/bento/bentocraft-appstore-3.png){:width="45%"} 
 ![logo](/assets/images/bento/bentocraft-appstore-4.png){:width="45%"} 
 ![logo](/assets/images/bento/bento-frames.png){:width="45%"}
-![iOS logo](/assets/images/bento-icon.png){:width="40%"} 
-![visionOS logo](/assets/images/bentovision/bento-icon-vision.png){:width="50%"} 
+![iOS logo](/assets/images/bento/appicon.png){:width="40%"} 
+![visionOS logo](/assets/images/bento/bento-vision-icon.png){:width="50%"} 
 ![logo](/assets/images/bento/bento-portrait.png){:width="45%"}
 
 <br>
