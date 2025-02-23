@@ -36,10 +36,7 @@ Bento graphics are a proven method to draw attention and efficiently share key i
 
 
 ##### Precise Canvas Grid Alignment
-<video width="60%" controls>
-    <source src="/assets/images/bento/bentogrid.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+![Bento Craft](/assets/images/bento/bento-grid.PNG)  
 <br>
  
 ##### What's included   
