@@ -5,6 +5,12 @@ permalink: /apps/
 image: /assets/tools.jpg
 ---
 
+#### ![logo](/assets/images/pixelpaws/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Pixel Paws
+> A pixel pet game designed for Apple Watch, made for kids  
+> [Learn more](https://thatvirtualboy.com/pixelpaws)  
+
+---
+
 #### ![logo](/assets/images/DoneApp/appicon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Did•It: The 'not a to-do app'
 > Track the tasks you've done  
 > [Learn more](https://thatvirtualboy.com/doneapp)  
@@ -31,7 +37,7 @@ image: /assets/tools.jpg
 ---
 
 #### ![logo](/assets/images/bento/appicon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Bento|Craft
-> Build beautiful bento graphics in seconds 
+> Build beautiful bento graphics in seconds  
 > [Learn more](https://thatvirtualboy.com/bentocraft)  
 
 <a href="https://apps.apple.com/us/app/bento-craft/id6468541457?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1697414400" alt="Download on the App Store" style="border-radius: 13px; width: 150px; height: 50px;"></a>
