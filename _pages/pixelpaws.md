@@ -86,6 +86,9 @@ You earn coins by playing the game, caring for your pets, and interacting daily.
 **Can I reset my game progress?**  
 Yes, you can reset your game progress anytime from the Settings menu. Be careful—this can't be undone!
 
+**Minimum watchOS version?**  
+Pixel Paws requires watchOS 11.2 or later
+
 **Feedback or support?**  
 We'd love to hear from you! Reach us anytime at support@raktech.app.
 
