@@ -12,7 +12,7 @@ comments: false
 
 ---
 
-Introducing the cutest new app for your Apple Watch -- **Pixel Paws** brings back the joy of classic digital pets, now made for your wrist.
+Introducing the cutest new app for your Apple Watch -- **Pixel Paws** brings back the joy of classic digital pets, now on your wrist.
 
 **Made for kids, trusted by parents**  
 No ads. No tracking. No in-app purchases or subscriptions. Just meaningful moments of fun.
@@ -20,12 +20,12 @@ No ads. No tracking. No in-app purchases or subscriptions. Just meaningful momen
 **Care, Play, Earn**  
 From breakfast to bedtime, your little pixel friend depends on you. Play with them, walk them, and repeat. Each action works on a **cooldown timer** throughout the day.  
 
-When the timer completes, they're ready for attention again. It’s the perfect balance of fun and freedom, with gentle reminders to check in, care, and connect.
+When the timer completes, they're ready for attention again. It’s the perfect balance of fun and freedom, with gentle reminders to check in (configurable).
 
 **Play More, Earn More**  
-Every time you care for your Pixel Paw friend — whether it’s feeding, walking, or playtime — you earn coins. These coins unlock new **pets**, playful **backgrounds**, and fun **weather scenes**.
+Every time you care for your Pixel Paw friend — whether it’s feeding, walking, or playtime — you earn coins. These coins are used to unlock new **pets**, playful **backgrounds**, and fun **weather scenes**.
 
-It’s all part of the experience — **no ads**, **no in-app purchases**, and **no real money**. Just meaningful play that rewards consistency, care, and creativity.
+It’s all part of the experience — **no ads** and **no in-app purchases**. Just meaningful play that rewards consistency, care, and creativity.
 
 #### Users love Pixel Paws
 
@@ -80,6 +80,9 @@ No! Pixel Paws has zero in-app purchases. All in-game currency is earned by play
 **Is any personal data collected?**  
 No personal data is collected or stored. The game has no servers and doesn't connect to the internet at all.
 
+**Will my kids receive notifications all the time?**  
+Reminders to play with your pet are disabled by default, but can be enabled in the app's settings. These reminders align with the cooldown timers.
+
 **How do I earn coins?**  
 You earn coins by playing the game, caring for your pets, and interacting daily. There's even a daily reward!
 
@@ -100,10 +103,10 @@ No tracking. No ads. No surprises. Just a delightful pixel companion who's happy
 ---
 
 #### About the developer
-Hi I'm Ryan 👋 I made Pixel Paws for a real simple reason: I bought my kids Apple Watches and they thought it would be fun to have a Tamagotchi-type app. After browsing the App Store it became clear there was nothing that met both my kids' criteria, and mine as a parent. 
+Hi I'm Ryan 👋 I made Pixel Paws for a real simple reason: I bought my kids Apple Watches and they really wanted an app to care for a pet on their wrist -- Tamagotchi-style. After browsing the App Store it became clear there was nothing that met *both* my kids' criteria, and mine as a parent. 
 
 They wanted a simple game where they could play with pets and unlock new ones. I wanted something private, safe, and low-cost -- with no ads, tracking, or pressure.
 
-So I built Pixel Paws — a tiny game with a big heart. It's made for kids, and kids at heart, who just want something sweet, safe, and a little bit silly on their wrist.
+So I built Pixel Paws — a tiny game with a big heart. It's made with kids in mind, but great for anyone who loves Gigapet-style games. If you're looking for something sweet, safe, and a little bit silly, you may just love Pixel Paws!
 
 Thanks for checking it out ❤️
