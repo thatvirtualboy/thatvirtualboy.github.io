@@ -12,10 +12,13 @@ comments: false
 
 ---
 
-Introducing the cutest new app for your Apple Watch -- **Pixel Paws** brings back the joy of classic digital pets, now on your wrist*.
+Introducing the cutest new app for your Apple Watch -- **Pixel Paws** brings back the joy of classic digital pets, now on your wrist. *
 
-**Made for kids, trusted by parents**  
-No ads. No tracking. No in-app purchases or subscriptions. Just safe and meaningful moments of fun.
+**Kid-Friendly Gameplay**  
+Anyone can enjoy Pixel Paws, but certain safeguards and design elements were implemented with kids in mind. The game features simple controls, friendly graphics, and no ads or tracking.
+
+**Trusted By Parents**  
+No hidden in-app purchases or subscriptions. And with no tracking or ads, parents and players can enjoy Pixel Paws with confidence.
 
 **Care, Play, Earn**  
 From breakfast to bedtime, your little pixel friend depends on you. Play with them, walk them, and repeat. Each action works on a **cooldown timer** throughout the day.  
@@ -123,3 +126,15 @@ No tracking. No ads. No surprises. Just a delightful pixel companion who's happy
 
 #### About the developer
 Hi, I’m Ryan! 👋 I made Pixel Paws because my kids wanted a fun pet game on their Apple Watches – kind of like a modern Tamagotchi. They just wanted to play with pets and unlock new ones, while I needed something safe, private, and no hidden in-app purchases. So, I built Pixel Paws – a simple game with a big heart, perfect for kids and anyone who loves a little retro pet fun. Thanks for checking it out! ❤️
+
+---
+
+#### Screenshots
+![logo](/assets/images/pixelpaws/pixelpaws-promo1.png){:width="35%"} 
+![logo](/assets/images/pixelpaws/icon.png){:width="35%"} 
+![logo](/assets/images/pixelpaws/appscreen0.png){:width="35%"} 
+![logo](/assets/images/pixelpaws/appscreen1.jpeg){:width="35%"} 
+![logo](/assets/images/pixelpaws/appscreen2.jpeg){:width="35%"} 
+![logo](/assets/images/pixelpaws/appscreen3.jpeg){:width="35%"} 
+![logo](/assets/images/pixelpaws/appscreen4.jpeg){:width="35%"} 
+![logo](/assets/images/pixelpaws/appscreen5.jpeg){:width="35%"} 
