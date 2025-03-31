@@ -7,7 +7,7 @@ comments: false
 
 ![Pixel Paws](/assets/images/pixelpaws/pixelpaws-promo2.png){:width="80%"}
 
-#### A pixel pet app for kids (and kids at heart)
+#### A delightful pixel pet app for Apple Watch
 **Pre Orders Coming Soon**  
 
 ---
@@ -25,7 +25,7 @@ When the timer completes, they're ready for attention again. It’s the perfect 
 **Play More, Earn More**  
 Every time you care for your Pixel Paw friend — whether it’s feeding, walking, or playtime — you earn coins. These coins are used to unlock new **pets**, playful **backgrounds**, and fun **weather scenes**.
 
-It’s all part of the experience — **no ads** and **no in-app purchases**. Just delightful play that rewards consistency, care, and creativity.
+It’s all part of the experience — **no ads** and **no in-app purchases** for a delightful and fun gameplay.  
 
 **Coin Boost**  
 Earn double the coins for a limited time when you unlock new pets or scenes, letting you refill your coin bank even faster. Plus, your boost durations stack when you unlock multiple items!
@@ -102,7 +102,7 @@ Reminders to play with your pet are disabled by default, but can be enabled in t
 **How do I earn coins?**  
 You earn coins by playing the game, caring for your pets, and interacting daily. There's even a daily reward!
 
-**What's this about a coin boost?**
+**What's this about a coin boost?**  
 Following the purchase of a pet, you will receive a 100% boost in coin earnings for the next 24 hours. Buying anything from the Extras menu will boost earnings for 12 hours. Plus, boost times stack!
 
 **Can I start the game over?**  
@@ -122,4 +122,4 @@ No tracking. No ads. No surprises. Just a delightful pixel companion who's happy
 ---
 
 #### About the developer
-Hi, I’m Ryan! I made Pixel Paws because my kids wanted a fun pet game on their Apple Watches – kind of like a modern Tamagotchi. They just wanted to play with pets and unlock new ones, while I needed something safe, private, and no hidden in-app purchases. So, I built Pixel Paws – a simple game with a big heart, perfect for kids and anyone who loves a little retro pet fun. Thanks for checking it out! ❤️
+Hi, I’m Ryan! 👋 I made Pixel Paws because my kids wanted a fun pet game on their Apple Watches – kind of like a modern Tamagotchi. They just wanted to play with pets and unlock new ones, while I needed something safe, private, and no hidden in-app purchases. So, I built Pixel Paws – a simple game with a big heart, perfect for kids and anyone who loves a little retro pet fun. Thanks for checking it out! ❤️
