@@ -12,7 +12,7 @@ comments: false
 
 ---
 
-Introducing the cutest new app for your Apple Watch -- **Pixel Paws** brings back the joy of classic digital pets, now on your wrist. *
+Introducing the cutest new app for Apple Watch -- **Pixel Paws** brings back the joy of classic digital pets, now on your wrist. *
 
 **Kid-Friendly Gameplay**  
 Anyone can enjoy Pixel Paws, but certain safeguards and design elements were implemented with kids in mind. The game features simple controls, friendly graphics, and no ads or tracking.
