@@ -27,7 +27,7 @@ Every time you care for your Pixel Paw friend — whether it’s feeding, walkin
 
 It’s all part of the experience — **no ads** and **no in-app purchases**. Just delightful play that rewards consistency, care, and creativity.
 
-**Coin Boost**
+**Coin Boost**  
 Earn double the coins for a limited time when you unlock new pets or scenes, letting you refill your coin bank even faster. Plus, your boost durations stack when you unlock multiple items!
 
 #### Users love Pixel Paws
@@ -122,10 +122,4 @@ No tracking. No ads. No surprises. Just a delightful pixel companion who's happy
 ---
 
 #### About the developer
-Hi I'm Ryan 👋 I made Pixel Paws for a real simple reason: I bought my kids Apple Watches and they really wanted an app to care for a pet on their wrist -- Tamagotchi-style. After browsing the App Store it became clear there was nothing that met *both* my kids' criteria, and mine as a parent. 
-
-They wanted a simple game where they could play with pets and unlock new ones. I wanted something private, safe, and low-cost -- with no ads, tracking, or pressure.
-
-So I built Pixel Paws — a tiny game with a big heart. It's made with kids in mind, but great for anyone who loves Gigapet-style games. If you're looking for something sweet, safe, and a little bit silly, you may just love Pixel Paws!
-
-Thanks for checking it out ❤️
+Hi, I’m Ryan! I made Pixel Paws because my kids wanted a fun pet game on their Apple Watches – kind of like a modern Tamagotchi. They just wanted to play with pets and unlock new ones, while I needed something safe, private, and no hidden in-app purchases. So, I built Pixel Paws – a simple game with a big heart, perfect for kids and anyone who loves a little retro pet fun. Thanks for checking it out! ❤️
