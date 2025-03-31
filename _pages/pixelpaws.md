@@ -12,10 +12,10 @@ comments: false
 
 ---
 
-Introducing the cutest new app for your Apple Watch -- **Pixel Paws** brings back the joy of classic digital pets, now on your wrist.
+Introducing the cutest new app for your Apple Watch -- **Pixel Paws** brings back the joy of classic digital pets, now on your wrist*.
 
 **Made for kids, trusted by parents**  
-No ads. No tracking. No in-app purchases or subscriptions. Just meaningful moments of fun.
+No ads. No tracking. No in-app purchases or subscriptions. Just safe and meaningful moments of fun.
 
 **Care, Play, Earn**  
 From breakfast to bedtime, your little pixel friend depends on you. Play with them, walk them, and repeat. Each action works on a **cooldown timer** throughout the day.  
@@ -25,17 +25,20 @@ When the timer completes, they're ready for attention again. It’s the perfect 
 **Play More, Earn More**  
 Every time you care for your Pixel Paw friend — whether it’s feeding, walking, or playtime — you earn coins. These coins are used to unlock new **pets**, playful **backgrounds**, and fun **weather scenes**.
 
-It’s all part of the experience — **no ads** and **no in-app purchases**. Just meaningful play that rewards consistency, care, and creativity.
+It’s all part of the experience — **no ads** and **no in-app purchases**. Just delightful play that rewards consistency, care, and creativity.
+
+**Coin Boost**
+Earn double the coins for a limited time when you unlock new pets or scenes, letting you refill your coin bank even faster. Plus, your boost durations stack when you unlock multiple items!
 
 #### Users love Pixel Paws
 
-> “I love that the app doesn’t collect any data or even connect to the internet. It feels truly safe.”  
+> “I love that the app doesn’t collect any data or even connect to the internet.”  
 > *– Beta tester*
 
 > “It’s so cute — my daughter absolutely loves it!”  
 > *– Beta tester*
 
-> “The way you earn coins just by playing has actually helped my kid start to understand saving. Total bonus.”  
+> “The way you earn coins just by playing has actually helped my kid start to understand saving. Total bonus!”  
 > *– Beta tester*
 
 ---
@@ -67,9 +70,22 @@ It’s all part of the experience — **no ads** and **no in-app purchases**. Ju
 
 ---
 
+#### Features
+• Adorable pixelated cuteness  
+• Retro 8-bit graphics  
+• Offline play (no internet required)  
+• Earn coins by playing (no in-app purchases)  
+• Unlock additional pets (12 pets to choose from)  
+• Customize the pet's environment (scenes, backgrounds, and weather)  
+• Privacy comes first (no tracking / no ads)  
+• No penalties (pets never die or faint)  
+• Configurable haptics  
+• Configurable reminders (cooldown timer alerts)  
+• *Requires watchOS 11.2 or later
+
 #### FAQ
-**Is Pixel Paws kid-friendly?**  
-Absolutely! Pixel Paws is designed specifically for kids, with simple controls, friendly graphics, and safe gameplay.
+**What makes Pixel Paws kid-friendly?**  
+Anyone can enjoy Pixel Paws, but certain safeguards and design elements were implemented with kids in mind. The game features simple controls, friendly graphics, and no ads or tracking.
 
 **Can pets die or faint?**  
 No way! Pixel Paws is all about fun and care — and they're always happy to see you.
@@ -80,13 +96,16 @@ No! Pixel Paws has zero in-app purchases. All in-game currency is earned by play
 **Is any personal data collected?**  
 No personal data is collected or stored. The game has no servers and doesn't connect to the internet at all.
 
-**Will my kids receive notifications all the time?**  
+**Will players receive notifications all the time?**  
 Reminders to play with your pet are disabled by default, but can be enabled in the app's settings. These reminders align with the cooldown timers.
 
 **How do I earn coins?**  
 You earn coins by playing the game, caring for your pets, and interacting daily. There's even a daily reward!
 
-**Can I reset my game progress?**  
+**What's this about a coin boost?**
+Following the purchase of a pet, you will receive a 100% boost in coin earnings for the next 24 hours. Buying anything from the Extras menu will boost earnings for 12 hours. Plus, boost times stack!
+
+**Can I start the game over?**  
 Yes, you can reset your game progress anytime from the Settings menu. Be careful—this can't be undone!
 
 **Minimum watchOS version?**  
