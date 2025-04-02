@@ -10,6 +10,9 @@ comments: false
 #### A delightful pixel pet app for Apple Watch
 **Pre Orders Coming Soon**  
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/brlhUBjvBNQ" frameborder="0" allowfullscreen></iframe>
+<br>
+
 ---
 
 Introducing the cutest new app for Apple Watch -- **Pixel Paws** brings back the joy of classic digital pets, now on your wrist. *
@@ -74,6 +77,7 @@ Earn double the coins for a limited time when you unlock new pets or scenes, let
 ---
 
 #### Features
+![logo](/assets/images/pixelpaws/pixelpaw-bento1.jpg){:width="85%"}  
 • Adorable pixelated cuteness  
 • Retro 8-bit graphics  
 • Offline play (no internet required)  
@@ -85,6 +89,11 @@ Earn double the coins for a limited time when you unlock new pets or scenes, let
 • Configurable haptics  
 • Configurable reminders (cooldown timer alerts)  
 • *Requires watchOS 11.2 or later
+
+---
+
+<iframe width="560" height="315" src="https://youtube.com/embed/HqoaR9eOpxQ" frameborder="0" allowfullscreen></iframe>
+<br>
 
 #### FAQ
 **What makes Pixel Paws kid-friendly?**  
