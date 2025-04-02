@@ -11,6 +11,7 @@ comments: false
 [**Pre-order Today**](https://apps.apple.com/us/app/pixel-paws-digital-pet-toy/id6743422824)  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/brlhUBjvBNQ" frameborder="0" allowfullscreen></iframe>
+`Pre-release gameplay -- footage not final`
 <br>
 
 ---
@@ -93,6 +94,7 @@ Earn double the coins for a limited time when you unlock new pets or scenes, let
 ---
 
 <iframe width="560" height="315" src="https://youtube.com/embed/HqoaR9eOpxQ" frameborder="0" allowfullscreen></iframe>
+`Pre-release gameplay -- footage not final`
 <br>
 
 #### FAQ
