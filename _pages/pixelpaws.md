@@ -8,7 +8,7 @@ comments: false
 ![Pixel Paws](/assets/images/pixelpaws/pixelpaws-promo2.png){:width="80%"}
 
 #### A delightful pixel pet app for Apple Watch
-**Pre Orders Coming Soon**  
+[**Pre-order Today**](https://apps.apple.com/us/app/pixel-paws-digital-pet-toy/id6743422824)  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/brlhUBjvBNQ" frameborder="0" allowfullscreen></iframe>
 <br>
