@@ -11,7 +11,7 @@ comments: false
 [**Pre-order Today**](https://apps.apple.com/us/app/pixel-paws-digital-pet-toy/id6743422824)  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/brlhUBjvBNQ" frameborder="0" allowfullscreen></iframe>
-`Pre-release gameplay -- footage not final`
+`Pre-release footage -- gameplay not final`
 <br>
 
 ---
@@ -94,7 +94,7 @@ Earn double the coins for a limited time when you unlock new pets or scenes, let
 ---
 
 <iframe width="560" height="315" src="https://youtube.com/embed/HqoaR9eOpxQ" frameborder="0" allowfullscreen></iframe>
-`Pre-release gameplay -- footage not final`
+`Pre-release footage -- gameplay not final`
 <br>
 
 #### FAQ
@@ -135,7 +135,7 @@ No tracking. No ads. No surprises. Just a delightful pixel companion who's happy
 
 ---
 
-#### About the developer
+#### Meet the developer
 Hi, I’m Ryan! 👋 I made Pixel Paws because my kids wanted a fun pet game on their Apple Watches – kind of like a modern Tamagotchi. They just wanted to play with pets and unlock new ones, while I needed something safe, private, and no hidden in-app purchases. So, I built Pixel Paws – a simple game with a big heart, perfect for kids and anyone who loves a little retro pet fun. Thanks for checking it out! ❤️
 
 ---
