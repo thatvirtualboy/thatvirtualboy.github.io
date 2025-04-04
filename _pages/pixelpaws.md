@@ -7,16 +7,16 @@ comments: false
 
 ![Pixel Paws](/assets/images/pixelpaws/pixelpaws-promo2.png){:width="80%"}
 
-#### A delightful pixel pet app for Apple Watch
+#### A delightful virtual pet app for Apple Watch
 [**Pre-order Today**](https://apps.apple.com/us/app/pixel-paws-digital-pet-toy/id6743422824)  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/brlhUBjvBNQ" frameborder="0" allowfullscreen></iframe>
-`Pre-release footage -- gameplay not final`
+`Pre-release preview -- gameplay not final`
 <br>
 
 ---
 
-Introducing the cutest new app for Apple Watch -- **Pixel Paws** brings back the joy of classic digital pets, now on your wrist. *
+Introducing the cutest new app for Apple Watch -- **Pixel Paws** brings back the joy of classic virtual pets, now on your wrist. *
 
 **Kid-Friendly Gameplay**  
 Anyone can enjoy Pixel Paws, but certain safeguards and design elements were implemented with kids in mind. The game features simple controls, friendly graphics, and no ads or tracking.
@@ -32,7 +32,7 @@ When the timer completes, they're ready for attention again. It’s the perfect 
 **Play More, Earn More**  
 Every time you care for your Pixel Paw friend — whether it’s feeding, walking, or playtime — you earn coins. These coins are used to unlock new **pets**, playful **backgrounds**, and fun **weather scenes**.
 
-It’s all part of the experience — **no ads** and **no in-app purchases** for a delightful and fun gameplay.  
+It’s all part of the experience — **no ads** and **no in-app purchases** for a delightful and fun experience.  
 
 **Coin Boost**  
 Earn double the coins for a limited time when you unlock new pets or scenes, letting you refill your coin bank even faster. Plus, your boost durations stack when you unlock multiple items!
@@ -94,7 +94,7 @@ Earn double the coins for a limited time when you unlock new pets or scenes, let
 ---
 
 <iframe width="560" height="315" src="https://youtube.com/embed/HqoaR9eOpxQ" frameborder="0" allowfullscreen></iframe>
-`Pre-release footage -- gameplay not final`
+`Pre-release preview -- gameplay not final`
 <br>
 
 #### FAQ
