@@ -93,10 +93,6 @@ Earn double the coins for a limited time when you unlock new pets or scenes, let
 
 ---
 
-<iframe width="560" height="315" src="https://youtube.com/embed/HqoaR9eOpxQ" frameborder="0" allowfullscreen></iframe>
-`Pre-release preview -- gameplay not final`
-<br>
-
 #### FAQ
 **What makes Pixel Paws kid-friendly?**  
 Anyone can enjoy Pixel Paws, but certain safeguards and design elements were implemented with kids in mind. The game features simple controls, friendly graphics, and no ads or tracking.
