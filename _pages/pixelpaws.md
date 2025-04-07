@@ -10,10 +10,6 @@ comments: false
 #### A delightful virtual pet app for Apple Watch
 [**Pre-order Today**](https://apps.apple.com/us/app/pixel-paws-digital-pet-toy/id6743422824)  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/brlhUBjvBNQ" frameborder="0" allowfullscreen></iframe>
-`Pre-release preview -- gameplay not final`
-<br>
-
 ---
 
 Introducing the cutest new app for Apple Watch -- **Pixel Paws** brings back the joy of classic virtual pets, now on your wrist. *
