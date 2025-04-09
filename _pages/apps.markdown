@@ -6,7 +6,7 @@ image: /assets/tools.jpg
 ---
 
 #### ![logo](/assets/images/pixelpaws/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Pixel Paws
-> A kid-friendly pixel pet game designed for Apple Watch  
+> A kid-friendly virtual pet made for Apple Watch  
 > [Learn more](https://thatvirtualboy.com/pixelpaws)  
 
 ---
