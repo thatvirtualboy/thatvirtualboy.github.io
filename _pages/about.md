@@ -59,97 +59,111 @@ All content + opinions belong to me and do not represent my employer. Enjoy!</p>
 
 <h5>Certifications</h5>
 <div class="row">
- <div class="col-md-4">
-   <div class="thumbnail">
-     <a href="{{site.baseurl}}/assets/certs/vcp23.png">
-       <img src="{{site.baseurl}}/assets/certs/vcp23.png">
-     </a>
-   </div>
- </div>
- <div class="col-md-4">
-   <div class="thumbnail">
-     <a href="{{site.baseurl}}/assets/certs/vcp22.png">
-       <img src="{{site.baseurl}}/assets/certs/vcp22.png">
-     </a>
-   </div>
- </div>
- <div class="col-md-4">
-   <div class="thumbnail">
-     <a href="{{site.baseurl}}/assets/certs/vcp21.png">
-       <img src="{{site.baseurl}}/assets/certs/vcp21.png">
-     </a>
-   </div>
- </div>
- <div class="col-md-4">
-   <div class="thumbnail">
-     <a href="{{site.baseurl}}/assets/certs/stars.png">
-       <img src="{{site.baseurl}}/assets/certs/stars.png" style="width:100%">
-     </a>
-   </div>
- </div>
- <div class="col-md-4">
-   <div class="thumbnail">
-     <a href="{{site.baseurl}}/assets/certs/vcp2020.png">
-       <img src="{{site.baseurl}}/assets/certs/vcp2020.png">
-     </a>
-   </div>
- </div>
- <div class="col-md-4">
-   <div class="thumbnail">
-     <a href="{{site.baseurl}}/assets/certs/foundations.png">
-       <img src="{{site.baseurl}}/assets/certs/foundations.png">
-     </a>
-   </div>
- </div>
- <div class="col-md-4">
-   <div class="thumbnail">
-     <a href="{{site.baseurl}}/assets/certs/ofa.png">
-       <img src="{{site.baseurl}}/assets/certs/ofa.png">
-     </a>
-   </div>
- </div>
- <div class="col-md-4">
-   <div class="thumbnail">
-     <a href="{{site.baseurl}}/assets/certs/fling.png">
-       <img src="{{site.baseurl}}/assets/certs/fling.png">
-     </a>
-   </div>
- </div>
- <div class="col-md-4">
-   <div class="thumbnail">
-     <a href="{{site.baseurl}}/assets/certs/VCA-Cloud.png">
-       <img src="{{site.baseurl}}/assets/certs/VCA-Cloud.png">
-     </a>
-   </div>
- </div>
- <div class="col-md-4">
-   <div class="thumbnail">
-     <a href="{{site.baseurl}}/assets/certs/VCA-WM.png">
-       <img src="{{site.baseurl}}/assets/certs/VCA-WM.png">
-     </a>
-   </div>
- </div>
- <div class="col-md-4">
-   <div class="thumbnail">
-     <a href="{{site.baseurl}}/assets/certs/VCP-DCV.png">
-       <img src="{{site.baseurl}}/assets/certs/VCP-DCV.png">
-     </a>
-   </div>
- </div>
- <div class="col-md-4">
-   <div class="thumbnail">
-     <a href="{{site.baseurl}}/assets/certs/VCP-DT.png">
-       <img src="{{site.baseurl}}/assets/certs/VCP-DT.png">
-     </a>
-   </div>
- </div>
- <div class="col-md-4">
-   <div class="thumbnail">
-     <a href="{{site.baseurl}}/assets/certs/cla.png">
-       <img src="{{site.baseurl}}/assets/certs/cla.png">
-     </a>
-   </div>
- </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="{{site.baseurl}}/assets/certs/vcp-vcf-2025.png">
+        <img src="{{site.baseurl}}/assets/certs/vcp-vcf-2025.png">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="{{site.baseurl}}/assets/certs/vcp-dcv-2024.png">
+        <img src="{{site.baseurl}}/assets/certs/vcp-dcv-2024.png">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="{{site.baseurl}}/assets/certs/vcp23.png">
+        <img src="{{site.baseurl}}/assets/certs/vcp23.png">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="{{site.baseurl}}/assets/certs/vcp22.png">
+        <img src="{{site.baseurl}}/assets/certs/vcp22.png">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="{{site.baseurl}}/assets/certs/vcp21.png">
+        <img src="{{site.baseurl}}/assets/certs/vcp21.png">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="{{site.baseurl}}/assets/certs/stars.png">
+        <img src="{{site.baseurl}}/assets/certs/stars.png" style="width:100%">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="{{site.baseurl}}/assets/certs/vcp2020.png">
+        <img src="{{site.baseurl}}/assets/certs/vcp2020.png">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="{{site.baseurl}}/assets/certs/foundations.png">
+        <img src="{{site.baseurl}}/assets/certs/foundations.png">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="{{site.baseurl}}/assets/certs/ofa.png">
+        <img src="{{site.baseurl}}/assets/certs/ofa.png">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="{{site.baseurl}}/assets/certs/fling.png">
+        <img src="{{site.baseurl}}/assets/certs/fling.png">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="{{site.baseurl}}/assets/certs/VCA-Cloud.png">
+        <img src="{{site.baseurl}}/assets/certs/VCA-Cloud.png">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="{{site.baseurl}}/assets/certs/VCA-WM.png">
+        <img src="{{site.baseurl}}/assets/certs/VCA-WM.png">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="{{site.baseurl}}/assets/certs/VCP-DCV.png">
+        <img src="{{site.baseurl}}/assets/certs/VCP-DCV.png">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="{{site.baseurl}}/assets/certs/VCP-DT.png">
+        <img src="{{site.baseurl}}/assets/certs/VCP-DT.png">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="{{site.baseurl}}/assets/certs/cla.png">
+        <img src="{{site.baseurl}}/assets/certs/cla.png">
+      </a>
+    </div>
+  </div>
 </div>
 
 </div>
