@@ -12,7 +12,7 @@ comments: false
 
 ---
 
-Introducing the cutest new app for Apple Watch -- **Pixel Paws** brings back the joy of classic virtual pets, now on your wrist. *
+Introducing the cutest new app for Apple Watch -- **Pixel Paws** brings back the charm of classic virtual pets, now on your wrist. *
 
 **Kid-Friendly Gameplay**  
 Anyone can enjoy Pixel Paws, but certain safeguards and design elements were implemented with kids in mind. The game features simple controls, friendly graphics, and no ads or tracking.
@@ -47,7 +47,7 @@ Earn double the coins for a limited time when you unlock new pets or scenes, let
 ---
 
 #### Meet Some Of The Pals
-*Choose from 12 adorable companions – your adventure always begins with Mocha!*
+*Choose from a growing list of adorable companions – your adventure always begins with Mocha!*
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-evenly; align-items: stretch; text-align: center; margin-top: 2rem; width: 100%;">
 
@@ -79,7 +79,7 @@ Earn double the coins for a limited time when you unlock new pets or scenes, let
 • Retro 8-bit graphics  
 • Offline play (no internet required)  
 • Earn coins by playing (no in-app purchases)  
-• Unlock additional pets (12 pets to choose from)  
+• Unlock additional pets from a growing selection
 • Customize the pet's environment (scenes, backgrounds, and weather)  
 • Privacy comes first (no tracking / no ads)  
 • No penalties (pets never die or faint)  
