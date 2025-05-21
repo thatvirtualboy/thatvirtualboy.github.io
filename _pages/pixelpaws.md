@@ -79,7 +79,7 @@ Earn double the coins for a limited time when you unlock new pets or scenes, let
 • Retro 8-bit graphics  
 • Offline play (no internet required)  
 • Earn coins by playing (no in-app purchases)  
-• Unlock additional pets from a growing selection
+• Unlock additional pets from a growing selection  
 • Customize the pet's environment (scenes, backgrounds, and weather)  
 • Privacy comes first (no tracking / no ads)  
 • No penalties (pets never die or faint)  
