@@ -31,7 +31,7 @@ At the shop we confirmed the options and tinting. We landed on **20%** tint for 
 I didn't get any other windows darkened or UV film applied, just a simple matching of the front to everything else. 
 
 #### PPF
-This shop told me that the Rivian PPF can be applied 1 of 2 ways: using Rivian's pre-configured sheets which tend to cover the body panels *up to* the edges, or using their method of larger full sheets that get fully wrapped around each edge for maximum protection. 
+This shop told me that the Rivian PPF can be applied 1 of 2 ways: using Rivian's pre-cut sheets which tend to cover the body panels *up to* the edges, or using their method of larger full sheets that get fully wrapped around each edge for maximum protection. 
 
 The Rivian sheets were cheaper since it's ultimately less material, and less laborious to apply and that's what I ended up going with. 
 
