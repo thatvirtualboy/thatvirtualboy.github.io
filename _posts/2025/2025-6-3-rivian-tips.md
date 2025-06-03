@@ -8,9 +8,9 @@ featured: false
 date: 2025-6-3
 author: Ryan Klumph
 ---
-> Get $500 of Rivian credit! Use code **RYAN4190772** when [ordering your new Rivian](https://rivian.com/configurations/list?reprCode=RYAN4190772).  
+So, you’ve just taken delivery of your new Rivian and are trying to remember all the Infotainment settings and options you covered with your Rivian Guide. There's a lot to dig into! I’ve compiled five essential tips to help you get the most out of your new ride. Whether it's an R1T, R1S, or even an upcoming R2! Here we go!  
 
-So, you’ve just taken delivery of your new Rivian and are trying to remember all the Infotainment settings and options you covered with your Rivian Guide. There's a lot to dig into! I’ve compiled five essential tips to help you get the most out of your new ride. Whether it's an R1T, R1S, or even an upcoming R2! Here we go!
+> Get $500 of Rivian credit! Use code **RYAN4190772** when [ordering your new Rivian](https://rivian.com/configurations/list?reprCode=RYAN4190772).  
 
 #### 1. Adaptive High Beam Assist
 Starting off with a bang, this is definitely one of my favorite features of the R1 Gen 2 vehicles. Also known as Adaptive Drive Beam (ADB), this tech enhances nighttime driving by dynamically adjusting the headlight beams to maximize road illumination while avoiding blinding glare for oncoming drivers. It really is so cool to see in action!
