@@ -47,10 +47,10 @@ After playing with a lot of the settings, here is what I ended up doing to make 
 
 1. Disable Spacial Audio
 2. Configure EQ to Rock
-3. Disable 3D Surround Sound
+3. 3D Surround Sound On (makes use of the overhead tweeters)
 4. Set Dynamic Sound Adjustment to Low 
 
-![music](/assets/images/R1T/tips/music3.jpeg){:width="80%"} 
+![music](/assets/images/R1T/tips/music3_1.jpeg){:width="80%"} 
 
 To disable Spacial Audio, tap on your user profile button on the top right:
 ![music](/assets/images/R1T/tips/music.jpeg){:width="80%"} 
