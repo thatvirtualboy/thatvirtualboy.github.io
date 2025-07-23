@@ -24,7 +24,7 @@ image: /assets/tools.jpg
 
 ---
 
-#### ![logo](/assets/images/WallGenie/icon-new.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Wall•Genie
+#### ![logo](/assets/images/WallGenie/icon-new.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Wall•Genie // Temporarily Removed From App Store
 > A magical wallpaper generator  
 > [Learn more](https://thatvirtualboy.com/say-hello-to-wallgenie/)  
 
@@ -32,7 +32,7 @@ image: /assets/tools.jpg
 
 ---
 
-#### ![logo](/assets/images/Echodots/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Echodots
+#### ![logo](/assets/images/Echodots/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Echodots // Temporarily Removed From App Store
 > A daily pattern game for iOS  
 > [Learn more](https://thatvirtualboy.com/echodots)  
 
