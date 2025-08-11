@@ -98,6 +98,13 @@ comments: false
   </blockquote>
 </section>
 
+<section>
+  <h2>Privacy First. Always.</h2>
+  <p>
+   No ads. No logins. No surprises. Personal data is stored on your device and synced to your iCloud account. No personal information is sent to the developer or 3rd party servers. Didly may collect anonymized general data (like iOS or macOS versions) in order to help improve the app. See for yourself - Didly uses the privacy focused metrics solution <a href="https://telemetrydeck.com">TelemetryDeck</a>.
+  </p>
+</section>
+
 <hr/>
 
 <section>
