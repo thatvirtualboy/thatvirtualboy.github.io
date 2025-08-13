@@ -10,17 +10,19 @@ comments: false
   <img src="/assets/apps/didly/promo-trans.png" alt="Didly App Icon" style="max-width: 50%; height: auto; margin: 0 5px;" />
 </a>
 </p>
+<p align="center">
+  <a href="/assets/apps/didly/PressKit.zip" download rel="noopener" style="display:inline-block; padding: 6px 12px; text-decoration: none; background: #f5f5f5; color: #007aff; border-radius: 6px; font-size: 0.9em; border: 1px solid #ddd;">
+    Press Kit (.zip)
+  </a>
+</p>
+<small style="display: block; text-align: center; margin-top: 4px; color: #666;">Screenshots, icons, logos, and brand material</small>
 <p align="center"><em>Coming soon to Mac, iPad, and iPhone</em></p>
 
 <hr/>
 
 <section>
-  <h2>Recognize your efforts</h2>
-  <p>Flip the script on your to-do lists by focusing on what you’ve already accomplished. Discovering your wins (big or small) triggers a sense of progress, lifts your mood, and builds momentum for what's next.</p>
-</section>
-
-<section>
   <h2>Why Didly?</h2>
+    <p>Flip the script on your to-do lists by focusing on what you’ve already accomplished. Owning your wins (big or small) triggers a sense of progress, lifts your mood, and builds momentum for what's next.</p>
   <ul>
     <li><strong>✅ Track what you've done:</strong> Big or small, focus on what you got done today.</li>
     <li><strong>🎉 Feel good, not guilty:</strong> You’re not falling behind—Didly helps you see how far you’ve come.</li>
@@ -89,16 +91,6 @@ comments: false
 </section>
 
 <section>
-  <h2>What people are saying</h2>
-  <blockquote>
-    “I finally feel good about what I accomplish each day.” - Beta Tester
-  </blockquote>
-  <blockquote>
-    “Didly makes it easy for me to track my work.” - Beta Tester
-  </blockquote>
-</section>
-
-<section>
   <h2>Privacy First. Always.</h2>
   <p>
    No ads. No logins. No surprises. Personal data is stored on your device and synced to your iCloud account. No personal information is sent to the developer or 3rd party servers. Didly may collect anonymized general data (like iOS or macOS versions) in order to help improve the app. See for yourself - Didly uses the privacy focused metrics solution <a href="https://telemetrydeck.com">TelemetryDeck</a>.
@@ -107,13 +99,6 @@ comments: false
 
 <hr/>
 
-<section>
-  <h2>Own your wins. Every day.</h2>
-  <p>
-    <a href="https://apps.apple.com/us/app/didly-hack-your-productivity/id6503087781" class="cta-button">Didly is coming soon for iPhone, iPad, and Mac</a>
-  </p>
-</section>
-
 <p align="center" style="color: gray; font-size: 0.9em;">
-  Updated Aug 10, 2025
+  Updated Aug 12, 2025
 </p>
