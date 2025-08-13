@@ -7,7 +7,7 @@ comments: false
 
 <p align="center">
 <a href="https://apps.apple.com/us/app/didly-hack-your-productivity/id6503087781">
-  <img src="/assets/apps/didly/promo-trans.png" alt="Didly App Icon" style="max-width: 50%; height: auto; margin: 0 5px;" />
+  <img src="/assets/apps/didly/didly-hero-trans.png" alt="Didly App Icon" style="max-width: 50%; height: auto; margin: 0 5px;" />
 </a>
 </p>
 <p align="center">
