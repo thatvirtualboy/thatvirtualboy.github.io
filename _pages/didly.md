@@ -21,7 +21,7 @@ comments: false
 <hr/>
 
 <section>
-  <h2>Why Didly?</h2>
+  <h2>Not a to-do list</h2>
     <p>Flip the script on your to-do lists by focusing on what you’ve already accomplished. Owning your wins (big or small) triggers a sense of progress, lifts your mood, and builds momentum for what's next.</p>
   <ul>
     <li><strong>✅ Track what you've done:</strong> Big or small, focus on what you got done today.</li>
