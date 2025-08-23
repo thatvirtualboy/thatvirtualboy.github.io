@@ -16,7 +16,6 @@ comments: false
   </a>
 </p>
 <small style="display: block; text-align: center; margin-top: 4px; color: #666;">Screenshots, icons, logos, and brand material</small>
-<p align="center"><em>Coming soon to Mac, iPad, and iPhone</em></p>
 
 <hr/>
 
