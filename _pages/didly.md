@@ -5,99 +5,47 @@ permalink: /didly
 comments: false
 ---
 
-<p align="center">
-<a href="https://apps.apple.com/us/app/didly-hack-your-productivity/id6503087781">
-  <img src="/assets/apps/didly/Didly-Hero-trans.png" alt="Didly App Icon" style="max-width: 50%; height: auto; margin: 0 5px;" />
-</a>
-</p>
-<p align="center">
-  <a href="/assets/apps/didly/PressKit.zip" download rel="noopener" style="display:inline-block; padding: 6px 12px; text-decoration: none; background: #f5f5f5; color: #007aff; border-radius: 6px; font-size: 0.9em; border: 1px solid #ddd;">
-    Press Kit (.zip)
-  </a>
-</p>
-<small style="display: block; text-align: center; margin-top: 4px; color: #666;">Screenshots, icons, logos, and brand material</small>
+<style>
+  :root { --fg: #000; --bg: #fff; --muted: #666; }
+  body { background: var(--bg); }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 56px 20px 40px; color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  .hero { text-align: center; }
+  .hero h1 { margin: 0 0 16px; font-weight: 900; line-height: 0.95; letter-spacing: 0.02em; text-transform: uppercase; font-size: clamp(44px, 8vw, 96px); }
+  .hero p { font-size: clamp(18px, 2.8vw, 22px); margin: 16px auto 24px; max-width: 38ch; }
+  .hero .icon { width: 128px; height: auto; margin: 16px auto 8px; display: block; }
+  .cta { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin: 20px 0 8px; }
+  .btn { display: inline-block; padding: 14px 18px; border: 2px solid #000; border-radius: 10px; text-decoration: none; color: #000; font-weight: 700; }
+  .btn:hover { transform: translateY(-1px); }
+  .video { position: relative; padding-top: 56.25%; width: 100%; margin: 24px auto; border-radius: 12px; overflow: hidden; box-shadow: 0 8px 30px rgba(0,0,0,0.08); }
+  .video iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+  hr { border: 0; border-top: 1px solid #eee; margin: 40px 0; }
+  .small { color: var(--muted); text-align: center; font-size: 0.9em; }
+</style>
 
-<hr/>
+<div class="wrap">
+  <section class="hero" aria-labelledby="headline">
+    <h1 id="headline">YOU DIDN'T DO DIDLY</h1>
+    <p>You did more than you think. Use Didly to track your daily accomplishments and fuel your motivation.</p>
+    <p>Available for Mac and iPhone.</p>
+    <div class="cta">
+      <a class="btn" href="https://apps.apple.com/us/app/didly-hack-your-productivity/id6503087781">Download on the App Store</a>
+      <a class="btn" href="/assets/apps/didly/PressKit.zip" download rel="noopener">Press Kit</a>
+    </div>
+    <div class="video" aria-label="Intro to Didly video">
+      <iframe src="https://www.youtube.com/embed/rM3u5qAuv9s" title="Intro to Didly" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </section>
 
-<section>
-  <h2>Not a to-do list</h2>
-    <p>Flip the script on your to-do lists by focusing on what you’ve already accomplished. Owning your wins (big or small) triggers a sense of progress, lifts your mood, and builds momentum for what's next.</p>
-  <ul>
-    <li><strong>✅ Track what you've done:</strong> Big or small, focus on what you got done today.</li>
-    <li><strong>🎉 Feel good, not guilty:</strong> You’re not falling behind—Didly helps you see how far you’ve come.</li>
-    <li><strong>☁️ Sync across devices:</strong> Everything stays up-to-date thanks to native iCloud integration.</li>
-    <li><strong>🖥️ Designed for Apple:</strong> Didly is built in SwiftUI for a native and exclusive Apple experience.</li>
-  </ul>
-</section>
+  <hr/>
 
-<section>
-  <h2>Sync completed Reminders</h2>
-  <p>Already check things off in Apple Reminders? Didly can securely pull in your <em>completed</em> tasks to populate your day. Turn it on in settings and your wins flow right into Didly—no duplicate typing, no extra steps.</p>
-  <ul>
-    <li>👋 Optional and private — you stay in control.</li>
-    <li>🔄 Automatic background updates after you grant permission.</li>
-    <li>🧩 Works alongside your manual entries and tags.</li>
-  </ul>
-</section>
+  <section id="privacy" aria-labelledby="privacy-title">
+    <h2 id="privacy-title">Privacy First. Always.</h2>
+    <p>
+      No ads. No logins. No surprises. Personal data is stored on your device and synced to your iCloud account. No personal information is sent to the developer or third‑party servers. Didly may collect anonymized general data (like iOS or macOS versions) to help improve the app. See for yourself — Didly uses the privacy‑focused metrics solution <a href="https://telemetrydeck.com">TelemetryDeck</a>.
+    </p>
+  </section>
 
-<section>
-  <h2>Works on Mac and iPhone</h2>
-  <p>Didly is available for both macOS and iOS. On Mac, it lives quietly in your menu bar — always just a click away. On iPhone, it’s the perfect on-the-go companion. Your data syncs effortlessly and securely through iCloud — no accounts, no passwords, no hassle.</p>
-</section>
+  <hr/>
 
-<section>
-  <h2>Highlights at a glance</h2>
-  <p>Highlights helps you spot patterns in your work with quick, motivating stats.</p>
-  <ul>
-    <li><strong>Peak days:</strong> See which days you pack in the most — and least — activity.</li>
-    <li><strong>Top & low focus:</strong> Discover your most and least frequent tags or themes.</li>
-    <li><strong>Deep or light effort:</strong> Break down time spent in focused, heavy‑lift work vs. lighter, routine tasks.</li>
-    <li><strong>Ignore weekends:</strong> Optionally skip Saturdays and Sundays to keep the focus on your workweek.</li>
-  </ul>
-</section>
-
-<section>
-  <h2>Momentum & Focus</h2>
-  <p>Didly pairs <strong>Momentum</strong> and <strong>Focus</strong> to nudge healthier work rhythms.</p>
-  <ul>
-    <li><strong>Momentum</strong> reflects consistency over time — streaks, cadence, and days-with-activity. Even small wins count, because progress compounds.</li>
-    <li><strong>Focus</strong> captures the mix of effort — from deep, focused work to lighter, maintenance tasks. Both matter. Deep work moves the big rocks; light work keeps the wheels turning.</li>
-  </ul>
-  <p>Together, they help you hack productivity and fuel motivation without the guilt spiral.</p>
-</section>
-
-<section>
-  <h2>Works with Shortcuts</h2>
-  <p>Plug Didly into your automations with iOS Shortcuts. Log wins hands‑free with Siri, from widgets, or inside your custom workflows.</p>
-  <ul>
-    <li><strong>Log Task:</strong> Prompt for details and add a complete entry.</li>
-    <li><strong>Quick Log:</strong> Capture a fast win with a preset time.</li>
-    <li><strong>Log to Work / Log to Personal:</strong> Route tasks to your preferred context.</li>
-  </ul>
-  <p>Example: “Hey Siri, log a 5‑minute task,” or chain Didly actions after a Calendar event ends.</p>
-</section>
-
-<section>
-  <h2>A peek inside</h2>
-  <p>Didly’s interface is clean, calming, and crafted for clarity. Here’s what your day could look like:</p>
-<p align="center">
-  <div>
-    <img src="/assets/apps/didly/ios1.png" alt="Didly Today View Screenshot" style="max-width: 30%; height: auto; margin: 0 5px;" />
-    <img src="/assets/apps/didly/macos1.png" alt="Didly Mac View Screenshot 1" style="max-width: 30%; height: auto; margin: 0 5px;" />
-    <img src="/assets/apps/didly/macos2.png" alt="Didly Mac View Screenshot 2" style="max-width: 30%; height: auto; margin: 0 5px;" />
-  </div>
-</p>
-</section>
-
-<section>
-  <h2 id="privacy">Privacy First. Always.</h2>
-  <p>
-   No ads. No logins. No surprises. Personal data is stored on your device and synced to your iCloud account. No personal information is sent to the developer or 3rd party servers. Didly may collect anonymized general data (like iOS or macOS versions) in order to help improve the app. See for yourself - Didly uses the privacy focused metrics solution <a href="https://telemetrydeck.com">TelemetryDeck</a>.
-  </p>
-</section>
-
-<hr/>
-
-<p align="center" style="color: gray; font-size: 0.9em;">
-  Updated Aug 12, 2025
-</p>
+  <p class="small">Updated Aug 28, 2025</p>
+</div>
