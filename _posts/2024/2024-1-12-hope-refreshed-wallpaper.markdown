@@ -4,7 +4,7 @@ title: "Hope Refreshed"
 categories: [Apple, Mac, Wallpaper]
 image: assets/images/hope/hope-family.png
 read_time: true
-featured: false
+featured: true
 date: 2024-1-12
 author: Ryan Klumph
 ---

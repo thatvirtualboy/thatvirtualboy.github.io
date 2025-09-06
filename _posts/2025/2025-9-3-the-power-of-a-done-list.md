@@ -4,7 +4,7 @@ title: "Why a 'Done List' Might Be the Productivity Tool You're Missing"
 categories: [App, iOS, Mac, macOS, Productivity, Career]
 image: assets/apps/didly/didly-hero.png
 read_time: false
-featured: false
+featured: true
 date: 2025-9-3
 author: Ryan Klumph
 ---
