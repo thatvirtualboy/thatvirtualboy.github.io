@@ -9,9 +9,9 @@ date: 2023-09-06
 author: Ryan Klumph
 ---
 
-Getting the word out about your apps is one of the biggest challenges indie developers face. Competing against agencies with mega marketing budgets means our apps often get lost in the [1.8 million apps](https://www.apple.com/app-store/) available on the App Store.
+Getting the word out about your app is one of the biggest challenges you'll face as an indie developer. Competing against agencies with mega marketing budgets means our apps get lost in the [nearly 2 million apps](https://www.apple.com/app-store/) available on the App Store.
 
-Aside from dreaming for that coveted App Store feature or tech blog write-up, we often look for free or really cheap alternatives to help spread the word. 
+Aside from dreaming for that coveted App Store feature or tech blog write-up, we often look for free (or really cheap) alternatives to help spread the word. 
 
 One way I thought I could help the community as a fellow indie dev is to advertise other developer's apps in my own apps. The community seemed to be into the idea:
 
