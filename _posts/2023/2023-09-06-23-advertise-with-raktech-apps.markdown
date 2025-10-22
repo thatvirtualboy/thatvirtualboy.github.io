@@ -4,7 +4,7 @@ title: "Advertise with rakTech Apps"
 categories: [Apple, SwiftUI]
 image: "https://www.apple.com/v/app-store/a/images/meta/og__c59t0pflacq6.png?202011131236"
 read_time: true
-featured: false
+featured: true
 date: 2023-09-06
 author: Ryan Klumph
 ---
@@ -41,12 +41,11 @@ Your app ad would go here! Along with other indies who have signed up. The app s
 ![](/assets/images/indieappsoption.png)
 
 ### Impact
-From September 1, 2022 to September 1, 2023, Hello There and Artbox have had a combined **2.5 million** App Store Impressions. Both apps have been featured by Apple in various collections and promoted In-App Events. 
+From September 1, 2022 to Oct 21, 2025, Hello There, Artbox, and Bento|Craft have had a combined **8.8 million** App Store Impressions. The apps have been featured by Apple in various collections and promoted In-App Events. 
 
 ![](/assets/images/indielist.png)  
 
-~~As of Sept 20, 2023 there are over 25 participating indie apps!~~  
-As of Nov 29, 2023 there are over 30 participating indie apps!
+As of Oct 22, 2025 there are over 30 participating indie apps!
 
 | App Name | Developer |
 | --- | ---: |
@@ -84,6 +83,7 @@ As of Nov 29, 2023 there are over 30 participating indie apps!
 | Less is More: Daily Word Game | Mechanical Animals |
 | iStory | Timelabs Ltd |
 | Daily Planner Diary | Aaron F Stephenson |
+| Pill Pal - Medication Reminder | Ariel Araya-Madrigal |
 
 <br>
 
