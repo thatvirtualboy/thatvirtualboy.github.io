@@ -61,6 +61,13 @@ A magical wallpaper generator ✨
 </div>
 
 <div class="faq-item">
+    <h6 class="faq-question">What is the Free Wallpaper Shortcut?</h6>
+    <p class="faq-answer">
+        This button within the app allows users to automatically download and apply the most recent free wallpaper from Wall Genie (using the power of Apple Shortcuts). After adding the shortcut, users can manually run the shortcut to get the latest wallpaper. If you'd like to take it one step further, you can automate this shortcut to run daily, weekly, or dependent on some other action by creating an automation within the Apple Shortcuts App.
+    </p>
+</div>
+
+<div class="faq-item">
     <h6 class="faq-question">What prompt is Wall•Genie using, and can it be customized?</h6>
     <p class="faq-answer">
         Wall•Genie's prompt has been rigorously tested and refined to provide the best results using the variables you select during image generation. Due to the nature of Generative AI, results will not always result in the expected. For the safety of Wall•Genie users, this prompt is not publicly available or editable. 
@@ -70,7 +77,7 @@ A magical wallpaper generator ✨
 <div class="faq-item">
     <h6 class="faq-question">What is the generated image resolution?</h6>
     <p class="faq-answer">
-       Wall•Genie is generating images at the highest resolution that DALL•E allows for portait images which is 1024x1792. If rate limits are reached and the model has to fallback to DALL•2, the resolution will be 1024x1024.
+       Wall•Genie is generating images at the highest resolution that DALL•E allows for portait images which is 1024x1792. If rate limits are reached and the model has to fallback to DALL•2, the resolution will be 1024x1536.
     </p>
 </div>
 
