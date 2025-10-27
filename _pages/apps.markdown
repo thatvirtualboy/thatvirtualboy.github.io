@@ -12,7 +12,7 @@ image: /assets/tools.jpg
 
  <a href="https://apps.apple.com/us/app/pixel-paws-virtual-pet-toy/id6743422824?itscg=30200&itsct=apps_box_badge&mttnsubad=6743422824" style="display: inline-block;">
     <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1745193600" alt="Download on the App Store" style="width: 150px; height: 83px; vertical-align: middle; object-fit: contain;" />
-    </a>
+    </a> 
 
 ---
 
