@@ -24,7 +24,7 @@ image: /assets/tools.jpg
 
 ---
 
-#### ![logo](/assets/images/WallGenie/icon-new.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Wall•Genie // Temporarily Removed From App Store
+#### ![logo](/assets/images/WallGenie/icon-new.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Wall•Genie
 > A magical wallpaper generator  
 > [Learn more](https://thatvirtualboy.com/say-hello-to-wallgenie/)  
 
