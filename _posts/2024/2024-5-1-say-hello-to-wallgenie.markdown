@@ -91,7 +91,7 @@ The Popular view was also intentionally designed to show just 9 wallpapers at a 
 Wall•Genie is a distributed app made possible by several providers and technologies. 
 
 ##### Server
-The server backend is Glitch.com which hosts all the URL calls like upvoting, calling images, processing uploads, etc. Glitch.com has been great to work with. Both **Echodots** and **Hello There** also use Glitch.com for certain tasks and it's a great lightweight option for indie devs like me.
+The server backend is ~Glitch.com~ Vercel.com which hosts all the URL calls like upvoting, calling images, processing uploads, etc. ~Glitch.com~ Vercel.com has been great to work with. Both **Echodots** and **Hello There** also use ~Glitch.com~ Vercel.com for certain tasks and it's a great lightweight option for indie devs like me.
 
 ##### Storage
 During development, I was hosting all uploaded wallpapers to my Glitch.com server which worked well in dev and for testing. But in production, there's no way I would be able to keep it configured like this. The `/public/app/` directory where the images were uploaded totalled at 400MB and was nearly half full due to 3rd party package installations. Combine that with the generated wallpapers averaging 5MB a pop, I was running out of space quick. During development, I wrote a function that would delete the 5 oldest wallpapers whenever the directory reached 95% utilization, but again, this would have just been a poor *real world* production experience.  
