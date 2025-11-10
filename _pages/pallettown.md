@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Palette Town
-permalink: /palettetownapp
+title: Pallet Town
+permalink: /pallettown
 comments: false
 ---
 
