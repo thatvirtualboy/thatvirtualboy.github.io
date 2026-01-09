@@ -19,3 +19,9 @@ group :jekyll_plugins do
     gem 'rouge'
     gem 'sass-embedded'
 end
+
+gem "csv", "~> 3.3"
+
+gem "base64", "~> 0.3.0"
+
+gem "bigdecimal", "~> 4.0"
