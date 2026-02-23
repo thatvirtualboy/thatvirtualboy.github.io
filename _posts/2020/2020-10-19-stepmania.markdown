@@ -5,7 +5,7 @@ date:   2020-10-19
 categories: [bacon, work from home, gaming]
 read_time: true
 image: assets/images/stepmania/ddr.jpeg
-featured: true
+featured: false
 author: Ryan Klumph
 ---
 Remember Arcades? They were these massive buildings filled with mystery and wonder where games, lights, and sounds would expand as far as the eye could see. Sadly, they're also nesting grounds for germs, grime, and bratty kids.

@@ -4,7 +4,7 @@ title: "Introducing Bento|Craft"
 categories: [Apple, iPad, SwiftUI]
 image: assets/images/bento/bentocraft-promo1.png
 read_time: true
-featured: true
+featured: false
 date: 2023-10-10
 author: Ryan Klumph
 ---
