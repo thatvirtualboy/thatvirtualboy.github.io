@@ -2,7 +2,7 @@
 layout: post
 title: "The Perfect Short USB-C Cable for Rivian Headrest Mounts"
 categories: [Rivian, R1T, Accessories, Gear]
-image: assets/images/riviancable1.jpeg
+image: assets/images/switch-mount.jpeg
 read_time: false
 featured: false
 date: 2026-1-9
@@ -45,7 +45,7 @@ This is one of the most solid-feeling USB-C cables I’ve ever used.
 
 That elbow design is especially clutch when devices are mounted on the headrest. No awkward bending, no torque on the device, and no fear of the connector getting bumped or snapped when kids climb in and out.
 
-![90 Degree Connector Close-Up](/assets/images/riviancable2.jpeg){:width="80%"}
+![90 Degree Connector Close-Up](/assets/images/riviancable1.jpeg){:width="80%"}
 
 ---
 
