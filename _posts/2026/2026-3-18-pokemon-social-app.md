@@ -30,7 +30,7 @@ Most social apps are general-purpose first, and collector-friendly second.
 
 I wanted the opposite.
 
-I wanted an app where the feed made sense for pulls, slabs, binder flexes, and daily collector conversation. I wanted a place where your profile wasn't just a username and avatar, but a reflection of what you actually collect. I wanted online trading to feel safer and more thoughtful. And I wanted collection tracking to be part of the social experience instead of living in some completely separate app.
+I wanted an app where the feed made sense for pulls, slabs, binder flexes, and daily activity. I wanted a place where your profile wasn't just a username and avatar, but a reflection of what you actually collect. I wanted online trading to feel safer and more thoughtful. And I wanted collection tracking to be part of the social experience instead of living in some completely separate app.
 
 That mindset shaped every part of Route 25.
 
