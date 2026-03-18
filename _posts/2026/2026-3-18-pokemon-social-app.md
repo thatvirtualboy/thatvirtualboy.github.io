@@ -5,7 +5,7 @@ categories: [Pokemon, Apple, iOS, Development]
 image: assets/images/route25/bills-wide.png
 read_time: false
 featured: false
-published: false
+published: true
 date: 2026-3-18
 author: Ryan Klumph
 ---
