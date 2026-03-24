@@ -56,7 +56,7 @@ A magical wallpaper generator ✨
 <div class="faq-item">
     <h6 class="faq-question">What engine is being used for image generation?</h6>
     <p class="faq-answer">
-        Wall•Genie is using the ChatGPT API to generate images using the latest DALL•E 3 engine. If rate limits are reached with image generations, Wall•Genie may fallback to DALL•E 2 and return a 1024x1024 image.
+        Wall•Genie is using the ChatGPT API to generate images using gpt-imate-1.5. If rate limits are reached with image generations, Wall•Genie may fallback to DALL•E 2 and return a 1024x1024 image.
     </p>
 </div>
 
@@ -77,7 +77,7 @@ A magical wallpaper generator ✨
 <div class="faq-item">
     <h6 class="faq-question">What is the generated image resolution?</h6>
     <p class="faq-answer">
-       Wall•Genie is generating images at the highest resolution that DALL•E allows for portait images which is 1024x1792. If rate limits are reached and the model has to fallback to DALL•2, the resolution will be 1024x1536.
+       Wall•Genie is generating images at the highest portrait resolution supported by gpt-imate-1.5, which is 1024x1792. If rate limits are reached and the model has to fallback to DALL•2, the resolution will be 1024x1536.
     </p>
 </div>
 
