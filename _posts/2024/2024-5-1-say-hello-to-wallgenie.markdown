@@ -29,15 +29,15 @@ I thought it would be fun to combine a post that covers not only the features of
 • Unlimited downloads of community wallpapers*  (every 7th wallpaper for free users)  
 • Upvote your favorite submissions  
 • Built natively, exclusively for iPhone  
-• Uses gpt-imate-1.5 for the best image quality and comprehensive stylistic understanding**  
+• Uses gpt-image-1.5 for the best image quality and comprehensive stylistic understanding**  
 • NEW: Siri Shortcuts support (v1.4+)
 
 *Requires an active subscription
 
 #### Technical Summary
-• Image Model: gpt-imate-1.5 by OpenAI   
+• Image Model: gpt-image-1.5 by OpenAI   
    **Wall•Genie may temporarily fallback to DALL•E 2 if rate limits are reached  
-• Wallpaper resolutions: 1024x1792 (maximum supported by gpt-imate-1.5)  
+• Wallpaper resolutions: 1024x1792 (maximum supported by gpt-image-1.5)  
 • Minimum iOS Version: 17.0  
 • Supported devices: iPhone  
 
@@ -99,7 +99,7 @@ During development, I was hosting all uploaded wallpapers to my Glitch.com serve
 To avoid these issues and utilize a production-ready solution, I configured a Google Cloud Bucket to host all of Wall•Genie's uploads, which was a relatively simple process. Google Cloud solved all the scaling issues from the embedded images on the server side so that load times of images is way better, and there is virtually unlimited storage space so uploaded wallpapers won't have to be deleted or disappear as usage picks up.
 
 ##### Imaging Model
-Lastly, OpenAI's gpt-imate-1.5 is at the core making Wall•Genie possible. Using the API, a pre-defined prompt that uses the selections users choose when defining their wallpaper is sent to OpenAI for prcocessing. The resulting image can be downloaded, uploaded, or dismissed, never to be seen again.
+Lastly, OpenAI's gpt-image-1.5 is at the core making Wall•Genie possible. Using the API, a pre-defined prompt that uses the selections users choose when defining their wallpaper is sent to OpenAI for prcocessing. The resulting image can be downloaded, uploaded, or dismissed, never to be seen again.
 
 #### It's over!
 So that's the story of my newest app. Thanks for taking the time to read about it. I think you'd be hard pressed not to find something you like in the content library, which is growing each day. If you happen to enjoy using the app, please take a moment to leave a review on the App Store. It really helps so much! ✌️
