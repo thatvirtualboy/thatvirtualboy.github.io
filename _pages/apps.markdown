@@ -5,6 +5,12 @@ permalink: /apps/
 image: /assets/tools.jpg
 ---
 
+#### ![logo](/assets/images/skydex/app-icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Skydex
+> A weather-powered Pokemon collecting adventure for iPhone and Apple Watch.  
+> [Learn more](https://thatvirtualboy.com/skydex)
+
+---
+
 #### ![logo](https://route25.app/assets/Icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Route 25
 > The Pokémon TCG social app for collectors.  
 > [Learn more](https://route25.app)
