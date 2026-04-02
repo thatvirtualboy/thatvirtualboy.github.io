@@ -556,7 +556,7 @@ comments: false
         </div>
         <p class="lead">Sunny with a chance of Pokémon.</p>
         <p class="body">
-          Skydex makes your daily forecast an adventure. Using highly accurate real-world weather data, Skydex lets users discover Pokémon based on the current conditions.
+          Skydex makes your daily forecast an adventure. Powered by real-world weather data, Skydex lets users discover Pokémon based on current conditions.
         </p>
 
         <div class="hero-actions">
@@ -591,7 +591,7 @@ comments: false
         <span class="label">Inside the app</span>
         <h2 id="gallery-title">Accurate weather. Fun discoveries.</h2>
         <p>
-          Discover the secrets of the Kanto's iconic wild Pokémon and track them in your very own dex. Who knows what mysitcal and rare Pokémon you might encounter!
+          Rediscover Kanto's iconic wild Pokémon and track them in your very own dex. Who knows what mysitcal and rare Pokémon you might encounter!
         </p>
       </div>
 
@@ -645,9 +645,9 @@ comments: false
             Skydex includes an Apple Watch app with shared data, so the current weather and active encounter stay close even when your phone is not in your hand.
           </p>
           <div class="mini-notes">
-            <span>Shared data</span>
+            <span>Syncs with iPhone</span>
             <span>Quick forecast checks</span>
-            <span>Weather on the wrist</span>
+            <span>Complications + Widgets</span>
           </div>
         </div>
       </div>
