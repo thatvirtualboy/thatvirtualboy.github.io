@@ -638,7 +638,7 @@ comments: false
 
       <div class="watch-grid">
         <div class="shot">
-          <img src="/assets/images/skydex/apple-watch.png" alt="Skydex on Apple Watch showing drizzle conditions and Magikarp encounter" />
+          <img src="/assets/images/skydex/apple-watch-section.png" alt="Skydex on Apple Watch showing watch face support with Rhyhorn weather details" />
         </div>
         <div class="watch-copy">
           <p>
