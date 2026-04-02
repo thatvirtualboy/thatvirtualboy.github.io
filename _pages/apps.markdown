@@ -5,7 +5,7 @@ permalink: /apps/
 image: /assets/tools.jpg
 ---
 
-#### ![logo](/assets/images/skydex/app-icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Skydex
+#### <img src="/assets/images/skydex/app-icon.png" alt="Skydex icon" width="80" height="80" class="align-left" style="border-radius: 18px;" />&nbsp;&nbsp;&nbsp;&nbsp;Skydex
 > A weather-powered Pokemon collecting adventure for iPhone and Apple Watch.  
 > [Learn more](https://thatvirtualboy.com/skydex)
 
