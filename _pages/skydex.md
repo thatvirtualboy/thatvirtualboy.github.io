@@ -600,7 +600,7 @@ comments: false
           <img src="/assets/images/skydex/lapras-framed.png" alt="Skydex blizzard weather encounter featuring Lapras" />
         </div>
         <div class="shot">
-          <img src="/assets/images/skydex/kanto-dex-framed.png" alt="Skydex Kanto Dex progress screen" />
+          <img src="/assets/images/skydex/kanto-dex-friends-framed.png" alt="Skydex Kanto Dex progress screen with seen Pokemon and completion tracking" />
         </div>
         <div class="shot">
           <img src="/assets/images/skydex/forecast-framed.png" alt="Skydex hourly forecast and weather conditions screen" />
@@ -608,24 +608,24 @@ comments: false
       </div>
     </section>
 
-    <section class="section-card" aria-labelledby="features-title">
+    <section class="section-card" aria-labelledby="friends-title">
       <div class="section-head">
-        <span class="label">Go Pro</span>
-        <h2 id="features-title">Skydex Pro.</h2>
+        <span class="label">Friends</span>
+        <h2 id="friends-title">Connect with friends.</h2>
+        <p>
+          Compare discoveries, track sightings around the map, and see what your friends are finding as the weather shifts.
+        </p>
       </div>
 
-      <div class="feature-row">
-        <div class="feature">
-          <strong>Remove ads</strong>
-          <p>Skydex is an ad-supported free download. But with a small purchase, you can say goodbye to ads forever.</p>
+      <div class="gallery">
+        <div class="shot">
+          <img src="/assets/images/skydex/sightings-globe-framed.png" alt="Skydex sightings globe showing mapped Pokemon discoveries across locations" />
         </div>
-        <div class="feature">
-          <strong>Alternate icons</strong>
-          <p>Skydex Pro unlocks beautiful alternate icons, allowing you to color match your home screen just the way you like.</p>
+        <div class="shot">
+          <img src="/assets/images/skydex/friends-framed.png" alt="Skydex friends list showing friend codes, discovered Pokemon, and sightings totals" />
         </div>
-        <div class="feature">
-          <strong>Unlimited locations</strong>
-          <p>Free users can save up to 6 locations for quick viewing. Skydex Pro unlocks unlimited locations.</p>
+        <div class="shot">
+          <img src="/assets/images/skydex/gastly-framed.png" alt="Skydex Gastly detail view showing discovery history and encounter conditions" />
         </div>
       </div>
     </section>
@@ -649,6 +649,28 @@ comments: false
             <span>Quick forecast checks</span>
             <span>Complications + Widgets</span>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-card" aria-labelledby="features-title">
+      <div class="section-head">
+        <span class="label">Go Pro</span>
+        <h2 id="features-title">Skydex Pro.</h2>
+      </div>
+
+      <div class="feature-row">
+        <div class="feature">
+          <strong>Remove ads</strong>
+          <p>Skydex is an ad-supported free download. But with a small purchase, you can say goodbye to ads forever.</p>
+        </div>
+        <div class="feature">
+          <strong>Alternate icons</strong>
+          <p>Skydex Pro unlocks beautiful alternate icons, allowing you to color match your home screen just the way you like.</p>
+        </div>
+        <div class="feature">
+          <strong>Unlimited locations</strong>
+          <p>Free users can save up to 6 locations for quick viewing. Skydex Pro unlocks unlimited locations.</p>
         </div>
       </div>
     </section>
