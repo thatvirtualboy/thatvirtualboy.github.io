@@ -46,7 +46,7 @@ image: /assets/tools.jpg
 
 ---
 
-#### ![logo](/assets/images/Echodots/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Echodots // Temporarily Removed From App Store
+#### ![logo](/assets/images/Echodots/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Echodots
 > A daily pattern game for iOS  
 > [Learn more](https://thatvirtualboy.com/echodots)  
 
