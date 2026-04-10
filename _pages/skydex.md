@@ -467,6 +467,23 @@ comments: false
     font-size: 0.92rem;
   }
 
+  .regulatory-copy {
+    margin-top: 18px;
+    padding-top: 18px;
+    border-top: 1px solid rgba(23, 50, 77, 0.08);
+    color: #6d879d;
+    font-size: 0.78rem;
+    line-height: 1.7;
+  }
+
+  .regulatory-copy p + p {
+    margin-top: 10px;
+  }
+
+  .regulatory-copy a {
+    color: #245f9d;
+  }
+
   @media (max-width: 1080px) {
     .hero,
     .feature-row,
@@ -713,6 +730,13 @@ comments: false
       </div>
 
       <p class="footer-note">Skydex turns your daily forecast into an adventure.</p>
+
+      <div class="regulatory-copy">
+        <p>Pokemon-related text, images, trademarks, logos, and other materials are the intellectual property of The Pokemon Company and its affiliates.</p>
+        <p>Skydex is an independent application and is not produced, endorsed, supported, or affiliated with The Pokemon Company International. Any references to Pokemon content are used for informational and reference purposes only.</p>
+        <p>Weather data source: Apple Weather. <a href="https://weatherkit.apple.com/legal-attribution.html">View legal attribution</a>.</p>
+        <p>If you are a rights holder and believe your rights are being infringed, please contact us at <a href="mailto:support@raktech.app">support@raktech.app</a>.</p>
+      </div>
     </section>
   </div>
 </div>
