@@ -9,6 +9,8 @@ image: /assets/tools.jpg
 > A weather-powered Pokemon collecting adventure for iPhone and Apple Watch.  
 > [Learn more](https://thatvirtualboy.com/skydex)
 
+[![Download on the App Store](https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83)](https://apps.apple.com/us/app/skydex-pixel-weather-dex/id6761288653?itsct=apps_box_badge&itscg=30200)
+
 ---
 
 #### ![logo](https://route25.app/assets/Icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Route 25

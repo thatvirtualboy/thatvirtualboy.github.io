@@ -449,6 +449,18 @@ comments: false
     text-decoration: none;
   }
 
+  .closing-cta {
+    margin-top: 22px;
+    padding-top: 22px;
+    border-top: 1px solid rgba(23, 50, 77, 0.08);
+  }
+
+  .closing-cta p {
+    margin: 0 0 14px;
+    color: var(--muted);
+    font-size: 0.98rem;
+  }
+
   .footer-note {
     margin-top: 18px;
     color: #6d879d;
@@ -560,7 +572,9 @@ comments: false
         </p>
 
         <div class="hero-actions">
-          <span class="btn-sky primary disabled" aria-disabled="true">App Store link coming soon</span>
+          <a href="https://apps.apple.com/us/app/skydex-pixel-weather-dex/id6761288653?itsct=apps_box_badge&amp;itscg=30200" aria-label="Download Skydex on the App Store" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;">
+            <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" style="border-radius: 13px; width: 150px; height: 83px;" />
+          </a>
         </div>
 
         <div class="hero-notes" aria-label="Skydex highlights">
@@ -687,6 +701,15 @@ comments: false
       <div class="legal">
         <a href="https://thatvirtualboy.com/privacy.html">Privacy Policy</a>
         <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple Standard EULA</a>
+      </div>
+
+      <div class="closing-cta">
+        <p>Ready to see what the weather spawns in your area?</p>
+        <div class="hero-actions">
+          <a href="https://apps.apple.com/us/app/skydex-pixel-weather-dex/id6761288653?itsct=apps_box_badge&amp;itscg=30200" aria-label="Download Skydex on the App Store" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;">
+            <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" style="border-radius: 13px; width: 150px; height: 83px;" />
+          </a>
+        </div>
       </div>
 
       <p class="footer-note">Skydex turns your daily forecast into an adventure.</p>
