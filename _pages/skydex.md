@@ -634,7 +634,7 @@ comments: false
           <img src="/assets/images/skydex/kanto-dex-friends-framed.png" alt="Skydex Kanto Dex progress screen with seen Pokemon and completion tracking" />
         </div>
         <div class="shot">
-          <img src="/assets/images/skydex/forecast-framed.png" alt="Skydex hourly forecast and weather conditions screen" />
+          <img src="/assets/images/skydex/hourly-forecast-boulder.png" alt="Skydex hourly forecast screen showing Boulder conditions and potential encounters" />
         </div>
       </div>
     </section>
