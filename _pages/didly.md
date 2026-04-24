@@ -535,9 +535,17 @@ comments: false
 
     .didly-float {
       position: static;
-      transform: none;
       max-width: none;
       margin-top: 14px;
+    }
+
+    .didly-float.top,
+    .didly-float.bottom {
+      top: auto;
+      right: auto;
+      bottom: auto;
+      left: auto;
+      transform: none;
     }
   }
 </style>
