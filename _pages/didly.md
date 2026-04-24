@@ -264,13 +264,13 @@ comments: false
   .didly-float.top {
     top: -14px;
     right: 22px;
-    transform: rotate(3deg);
+    transform: translateY(-95px) rotate(3deg);
   }
 
   .didly-float.bottom {
     left: -12px;
     bottom: 22px;
-    transform: rotate(-4deg);
+    transform: translateY(113px) rotate(-4deg);
   }
 
   .didly-panel {
