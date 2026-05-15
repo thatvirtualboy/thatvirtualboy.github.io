@@ -19,6 +19,7 @@ All content + opinions belong to me and do not represent my employer. Enjoy!</p>
 <br><br>
 
 <h4>Around the web</h4>
+<p>SkyDex featured on <a href="https://9to5mac.com/2026/04/11/hands-on-skydex-turns-your-daily-weather-check-into-a-pokemon-adventure/">9to5Mac</a>.</p>
 <p>Wall•Genie featured on <a href="https://9to5mac.com/2024/05/03/wall-genie-for-iphone-create-ai-wallpapers-app/">9To5Mac</a>.</p>
 <p>Wall•Genie featured on <a href="https://www.gearrice.com/update/how-to-create-your-own-iphone-wallpapers-with-ai/">Gearrice</a>.</p>
 <p>Echodots featured on <a href="https://www.imore.com/apps/if-youre-looking-for-a-simple-and-addictive-new-daily-puzzle-game-this-iphone-app-is-for-you">iMore</a>.</p>
