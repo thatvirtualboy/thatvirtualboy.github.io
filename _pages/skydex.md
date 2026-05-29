@@ -164,32 +164,32 @@ comments: false
     flex-wrap: wrap;
     gap: 14px;
     margin-top: 28px;
+    align-items: center;
   }
 
-  .btn-sky {
+  .store-badge {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
-    min-height: 54px;
-    padding: 14px 20px;
-    border-radius: 16px;
-    text-decoration: none;
-    font-weight: 800;
-    border: 1px solid var(--line);
-    background: rgba(255, 255, 255, 0.9);
-    color: var(--ink);
-    box-shadow: 0 12px 26px rgba(45, 117, 191, 0.08);
+    height: 50px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 180ms ease, filter 180ms ease;
   }
 
-  .btn-sky.primary {
-    background: linear-gradient(180deg, #2d75bf, #215b95);
-    color: #fff;
-    border-color: rgba(33, 91, 149, 0.88);
+  .store-badge:hover {
+    filter: brightness(1.06);
+    transform: translateY(-1px);
   }
 
-  .btn-sky.disabled {
-    opacity: 0.74;
-    cursor: default;
+  .store-badge img {
+    display: block;
+    width: auto;
+    height: 50px;
+  }
+
+  .store-badge.google-play img {
+    height: 74px;
+    margin: -12px -10px;
   }
 
   .hero-notes {
@@ -576,7 +576,7 @@ comments: false
   <div class="skydex-shell">
     <section class="hero" aria-labelledby="skydex-title">
       <div>
-        <div class="eyebrow">Apple Platform Exclusive</div>
+        <div class="eyebrow">Now on iOS and Android</div>
         <div class="hero-brand">
           <div class="app-icon" aria-hidden="true">
             <img src="/assets/images/skydex/app-icon.png" alt="Skydex app icon" />
@@ -589,15 +589,19 @@ comments: false
         </p>
 
         <div class="hero-actions">
-          <a href="https://apps.apple.com/us/app/skydex-pixel-weather-dex/id6761288653?itsct=apps_box_badge&amp;itscg=30200" aria-label="Download Skydex on the App Store" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;">
-            <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" style="border-radius: 13px; width: 150px; height: 83px;" />
+          <a class="store-badge" href="https://apps.apple.com/us/app/skydex-pixel-weather-dex/id6761288653?itsct=apps_box_badge&amp;itscg=30200" aria-label="Download Skydex on the App Store">
+            <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" />
+          </a>
+          <a class="store-badge google-play" href="https://play.google.com/store/apps/details?id=com.raktech.skydex" aria-label="Get Skydex on Google Play">
+            <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" />
           </a>
         </div>
 
         <div class="hero-notes" aria-label="Skydex highlights">
           <span>151 Gen 1 Pokemon</span>
           <span>Real weather encounters</span>
-          <span>Apple Watch support</span>
+          <span>iOS and Android</span>
+          <span>Apple Watch support on iPhone</span>
           <span>Full screen pixel animations</span>
         </div>
       </div>
@@ -613,7 +617,7 @@ comments: false
             <img src="/assets/images/skydex/apple-watch.png" alt="Skydex on Apple Watch showing drizzle conditions and Magikarp encounter" />
           </div>
         </div>
-        <div class="floating-card">Universal iOS App.</div>
+        <div class="floating-card">Complete your dex based on weather.</div>
       </div>
     </section>
 
@@ -673,7 +677,7 @@ comments: false
         </div>
         <div class="watch-copy">
           <p>
-            Skydex includes an Apple Watch app with shared data, so the current weather and active encounter stay close even when your phone is not in your hand.
+            Skydex includes an Apple Watch app for iPhone users with shared data, so the current weather and active encounter stay close even when your phone is not in your hand. Watch support is not available on Android.
           </p>
           <div class="mini-notes">
             <span>Syncs with iPhone</span>
@@ -711,7 +715,7 @@ comments: false
         <span class="label">Links</span>
         <h2 id="legal-title">Privacy and terms.</h2>
                 <p>
-          Skydex does not track you or your app usage. Data sync is backed by iCloud for maximum privacy and security. 
+          Skydex does not track you or your app usage. Data sync keeps your discoveries available across supported devices.
         </p>
       </div>
 
@@ -723,8 +727,11 @@ comments: false
       <div class="closing-cta">
         <p>Ready to see what the weather spawns in your area?</p>
         <div class="hero-actions">
-          <a href="https://apps.apple.com/us/app/skydex-pixel-weather-dex/id6761288653?itsct=apps_box_badge&amp;itscg=30200" aria-label="Download Skydex on the App Store" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;">
-            <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" style="border-radius: 13px; width: 150px; height: 83px;" />
+          <a class="store-badge" href="https://apps.apple.com/us/app/skydex-pixel-weather-dex/id6761288653?itsct=apps_box_badge&amp;itscg=30200" aria-label="Download Skydex on the App Store">
+            <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" />
+          </a>
+          <a class="store-badge google-play" href="https://play.google.com/store/apps/details?id=com.raktech.skydex" aria-label="Get Skydex on Google Play">
+            <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" />
           </a>
         </div>
       </div>
