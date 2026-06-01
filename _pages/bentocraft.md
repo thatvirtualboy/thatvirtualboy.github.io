@@ -509,7 +509,7 @@ comments: false
 
     <section class="bc-hero">
       <div>
-        <div class="bc-kicker"><span></span>iPad and Apple Vision Pro</div>
+        <div class="bc-kicker"><span></span>Designed for iPad</div>
         <h1>Bento <em>graphics</em></h1>
         <p class="bc-lede">Create polished Apple-style bento graphics for launches, recaps, press kits, social posts, and app updates with a focused workspace built for quick visual storytelling.</p>
         <div class="bc-actions">
