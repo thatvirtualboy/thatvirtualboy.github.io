@@ -6,10 +6,13 @@ image: /assets/tools.jpg
 ---
 
 #### <img src="/assets/images/skydex/app-icon.png" alt="Skydex icon" width="80" height="80" class="align-left" style="border-radius: 18px;" />&nbsp;&nbsp;&nbsp;&nbsp;Skydex
-> A weather-powered Pokemon collecting adventure for iPhone and Apple Watch.  
+> A weather-powered Pokémon collecting adventure.  
 > [Learn more](https://thatvirtualboy.com/skydex)
 
-[![Download on the App Store](https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83)](https://apps.apple.com/us/app/skydex-pixel-weather-dex/id6761288653?itsct=apps_box_badge&itscg=30200)
+<div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+  <a href="https://apps.apple.com/us/app/skydex-pixel-weather-dex/id6761288653?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" style="width: 150px; height: auto;"></a>
+  <a href="https://play.google.com/store/apps/details?id=com.raktech.skydex" style="display: inline-block;"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" style="width: 170px; height: auto;"></a>
+</div>
 
 ---
 
