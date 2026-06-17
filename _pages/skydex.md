@@ -598,7 +598,7 @@ comments: false
         </div>
 
         <div class="hero-notes" aria-label="Skydex highlights">
-          <span>151 Gen 1 Pokemon</span>
+          <span>251 Gen 1/2 Pokemon</span>
           <span>Real weather encounters</span>
           <span>iOS and Android</span>
           <span>Apple Watch support on iPhone</span>
@@ -626,7 +626,7 @@ comments: false
         <span class="label">Inside the app</span>
         <h2 id="gallery-title">Accurate weather. Fun discoveries.</h2>
         <p>
-          Rediscover Kanto's iconic wild Pokémon and track them in your very own dex. Who knows what mysitcal and rare Pokémon you might encounter!
+          Rediscover iconic wild Pokémon from Kanto and Johto, then track them in your very own dex. Who knows what mystical and rare Pokémon you might encounter!
         </p>
       </div>
 
@@ -635,7 +635,7 @@ comments: false
           <img src="/assets/images/skydex/lapras-framed.png" alt="Skydex blizzard weather encounter featuring Lapras" />
         </div>
         <div class="shot">
-          <img src="/assets/images/skydex/kanto-dex-friends-framed.png" alt="Skydex Kanto Dex progress screen with seen Pokemon and completion tracking" />
+          <img src="/assets/images/skydex/kanto-dex-friends-framed.png" alt="Skydex Dex progress screen with seen Pokemon and completion tracking" />
         </div>
         <div class="shot">
           <img src="/assets/images/skydex/hourly-forecast-boulder.png" alt="Skydex hourly forecast screen showing Boulder conditions and potential encounters" />
