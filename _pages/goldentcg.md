@@ -1,7 +1,7 @@
 ---
 layout: goldentcg
 title: Golden TCG
-description: A coming soon page for Golden TCG, a Kayou TCG collection app.
+description: A quiet place for cards that deserve to be found, kept, and remembered.
 permalink: /goldentcg
 ---
 
