@@ -141,7 +141,7 @@
 }
 
 .golden-actions a,
-.guestbook-button {
+.launch-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -153,7 +153,7 @@
 }
 
 .golden-actions a:first-child,
-.guestbook-button {
+.launch-button {
   border: 0;
   background: var(--gold);
   color: var(--ink);
@@ -271,7 +271,7 @@
   background: linear-gradient(150deg, #f8d363, #2d443e 48%, #15110c);
 }
 
-.guestbook {
+.launch-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -279,35 +279,18 @@
   margin-top: 2rem;
 }
 
-.guestbook-button {
+.launch-button {
   min-width: 8.5rem;
-  cursor: pointer;
   font: inherit;
+  text-decoration: none;
   transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
 }
 
-.guestbook-button:hover,
-.guestbook-button:focus-visible {
+.launch-button:hover,
+.launch-button:focus-visible {
   box-shadow: 0 0.85rem 2rem rgba(244, 196, 78, 0.22);
   filter: brightness(1.04);
   transform: translateY(-0.12rem);
-}
-
-.guestbook-button:disabled {
-  cursor: default;
-  filter: none;
-  opacity: 0.86;
-  transform: none;
-}
-
-.guestbook-count {
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  padding: 0.72rem 1rem;
-  background: rgba(255, 248, 223, 0.06);
-  color: rgba(255, 248, 223, 0.82);
-  font-size: 0.92rem;
-  font-weight: 700;
 }
 
 .note {
@@ -418,7 +401,7 @@
     font-size: clamp(3.4rem, 18vw, 5.4rem);
   }
 
-  .guestbook {
+  .launch-list {
     align-items: stretch;
     flex-direction: column;
   }
@@ -430,17 +413,10 @@
     <div>
       <p class="eyebrow">Something is forming</p>
       <h1 id="golden-title">Golden TCG</h1>
-      <p class="lede">A quiet place for cards that deserve to be found, kept, and remembered.</p>
-      <div class="status" aria-label="App status">
-        <span>The door is not open yet</span>
-        <span>The ledger is awake</span>
-        <span>Soon</span>
+      <div class="launch-list">
+        <a class="launch-button" href="mailto:thatvirtualboy@icloud.com?subject=Golden%20TCG%20launch%20updates&body=Please%20add%20me%20to%20Golden%20TCG%20launch%20updates.">Join launch list</a>
       </div>
-      <div class="guestbook" data-golden-guestbook>
-        <button class="guestbook-button" type="button" data-golden-interest-button>Mark the ledger</button>
-        <span class="guestbook-count" data-golden-interest-count>...</span>
-      </div>
-      <p class="note" data-golden-interest-note>Anonymous marks from those who found this place early.</p>
+      <p class="note">Opens your email so I can add you to launch updates.</p>
     </div>
 
     <div class="app-preview" aria-hidden="true">
@@ -474,7 +450,6 @@
   const route = shareRouteFromPath(path);
 
   if (!route) {
-    initInterestCounter();
     return;
   }
 
@@ -501,74 +476,6 @@
       type: match[1] === "collections" ? "collection" : "card",
       id
     };
-  }
-
-  async function initInterestCounter() {
-    const button = app.querySelector("[data-golden-interest-button]");
-    const countLabel = app.querySelector("[data-golden-interest-count]");
-    const note = app.querySelector("[data-golden-interest-note]");
-    if (!button || !countLabel) return;
-
-    const storageKey = "golden-tcg-ledger-marked";
-    const hasMarked = window.localStorage.getItem(storageKey) === "true";
-    setLedgerMarked(hasMarked);
-
-    try {
-      const payload = await fetchInterestCount("GET");
-      renderInterestCount(payload.count);
-    } catch {
-      countLabel.textContent = "The ledger is quiet";
-    }
-
-    button.addEventListener("click", async () => {
-      if (window.localStorage.getItem(storageKey) === "true") return;
-
-      button.disabled = true;
-      button.textContent = "Marking...";
-
-      try {
-        const payload = await fetchInterestCount("POST");
-        window.localStorage.setItem(storageKey, "true");
-        renderInterestCount(payload.count);
-        setLedgerMarked(true);
-      } catch {
-        button.disabled = false;
-        button.textContent = "Try again";
-        if (note) note.textContent = "The ledger did not answer. Try once more.";
-      }
-    });
-
-    function setLedgerMarked(isMarked) {
-      if (isMarked) {
-        button.disabled = true;
-        button.textContent = "Marked";
-        if (note) note.textContent = "Your mark is in the ledger.";
-      } else {
-        button.disabled = false;
-        button.textContent = "Mark the ledger";
-        if (note) note.textContent = "Anonymous marks from those who found this place early.";
-      }
-    }
-  }
-
-  async function fetchInterestCount(method) {
-    const response = await fetch(`${backendBaseURL}/api/interest`, {
-      method,
-      headers: { accept: "application/json" }
-    });
-    if (!response.ok) {
-      throw new Error(`Interest counter returned HTTP ${response.status}`);
-    }
-    return response.json();
-  }
-
-  function renderInterestCount(count) {
-    const countLabel = app.querySelector("[data-golden-interest-count]");
-    if (!countLabel) return;
-
-    const normalized = Number(count);
-    const value = Number.isFinite(normalized) ? Math.max(0, Math.trunc(normalized)) : 0;
-    countLabel.textContent = `${value.toLocaleString()} ${value === 1 ? "mark" : "marks"}`;
   }
 
   async function loadCatalog() {
