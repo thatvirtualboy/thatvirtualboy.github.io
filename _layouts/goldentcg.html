@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title }} | {{ site.name }}</title>
+{% seo %}
+<script
+src="https://cdn.telemetrydeck.com/websdk/telemetrydeck.min.js"
+data-app-id="F40EF852-5F86-4BFC-A5AE-91FF4F8CD5B2"
+></script>
+{% include analytics.html %}
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/images/favicon/site.webmanifest">
+<link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
+<style>
+:root {
+  color-scheme: dark;
+  --gold: #f4c44e;
+  --gold-deep: #8f5d15;
+  --ink: #120f0a;
+  --paper: #fff8df;
+  --muted: #d8c895;
+  --line: rgba(244, 196, 78, 0.32);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(circle at 20% 12%, rgba(244, 196, 78, 0.24), transparent 30rem),
+    radial-gradient(circle at 84% 22%, rgba(82, 170, 142, 0.18), transparent 28rem),
+    linear-gradient(135deg, #0a0907 0%, #1b150d 52%, #0d0c0a 100%);
+  color: var(--paper);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0;
+}
+
+a {
+  color: inherit;
+}
+
+.golden-page {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.golden-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(18rem, 28rem);
+  gap: clamp(2rem, 6vw, 6rem);
+  align-items: center;
+  width: min(1120px, calc(100% - 2rem));
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: clamp(2rem, 6vw, 5rem) 0;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0 0 1.25rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.eyebrow::before {
+  display: block;
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 999px;
+  background: var(--gold);
+  box-shadow: 0 0 1rem rgba(244, 196, 78, 0.7);
+  content: "";
+}
+
+h1 {
+  max-width: 12ch;
+  margin: 0;
+  color: #fff7d7;
+  font-size: clamp(4rem, 11vw, 9rem);
+  line-height: 0.88;
+  letter-spacing: 0;
+}
+
+.lede {
+  max-width: 40rem;
+  margin: 1.5rem 0 0;
+  color: rgba(255, 248, 223, 0.82);
+  font-size: clamp(1.15rem, 2.2vw, 1.55rem);
+  line-height: 1.45;
+}
+
+.status {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.status span {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.7rem 0.95rem;
+  background: rgba(255, 248, 223, 0.06);
+  color: rgba(255, 248, 223, 0.78);
+  font-size: 0.92rem;
+}
+
+.app-preview {
+  position: relative;
+  aspect-ratio: 0.72;
+  width: min(100%, 25rem);
+  justify-self: center;
+}
+
+.phone {
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(255, 248, 223, 0.22);
+  border-radius: 2.3rem;
+  background: linear-gradient(160deg, #22180d, #070605);
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid rgba(244, 196, 78, 0.22);
+  border-radius: 1.6rem;
+  background:
+    linear-gradient(180deg, rgba(255, 248, 223, 0.1), transparent 35%),
+    #11100d;
+  overflow: hidden;
+}
+
+.app-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.1rem;
+  color: rgba(255, 248, 223, 0.86);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.app-icon {
+  display: grid;
+  width: 2.2rem;
+  height: 2.2rem;
+  place-items: center;
+  border-radius: 0.65rem;
+  background: linear-gradient(135deg, var(--gold), #ffef9b);
+  color: var(--ink);
+}
+
+.card-stack {
+  display: grid;
+  flex: 1;
+  place-items: center;
+  padding: 0.7rem;
+}
+
+.tcg-card {
+  position: relative;
+  width: 72%;
+  aspect-ratio: 0.7;
+  border: 0.48rem solid var(--gold);
+  border-radius: 0.85rem;
+  background:
+    linear-gradient(140deg, rgba(255, 255, 255, 0.2), transparent 38%),
+    linear-gradient(180deg, #386c61, #14100a 62%, #f1d06b 62%);
+  box-shadow: 0 1.2rem 2.5rem rgba(0, 0, 0, 0.42);
+}
+
+.tcg-card::before,
+.tcg-card::after {
+  position: absolute;
+  content: "";
+}
+
+.tcg-card::before {
+  inset: 0.65rem 0.65rem auto;
+  height: 48%;
+  border-radius: 0.45rem;
+  background:
+    radial-gradient(circle at 45% 34%, rgba(255, 255, 255, 0.86) 0 0.9rem, transparent 0.95rem),
+    linear-gradient(135deg, #7dc7b1, #1d4c43);
+}
+
+.tcg-card::after {
+  left: 0.8rem;
+  right: 0.8rem;
+  bottom: 1rem;
+  height: 22%;
+  border-radius: 0.4rem;
+  background: rgba(18, 15, 10, 0.72);
+}
+
+.shelf {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.55rem;
+  padding: 0 1.1rem 1.1rem;
+}
+
+.mini-card {
+  aspect-ratio: 0.72;
+  border: 0.2rem solid rgba(244, 196, 78, 0.78);
+  border-radius: 0.4rem;
+  background: linear-gradient(150deg, #f8d363, #2d443e 48%, #15110c);
+}
+
+.waitlist {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.7rem;
+  max-width: 29rem;
+  margin-top: 2rem;
+}
+
+.waitlist input,
+.waitlist button {
+  min-height: 3.2rem;
+  border-radius: 0.5rem;
+  font: inherit;
+}
+
+.waitlist input {
+  width: 100%;
+  border: 1px solid var(--line);
+  background: rgba(255, 248, 223, 0.08);
+  color: var(--paper);
+  padding: 0 1rem;
+}
+
+.waitlist input::placeholder {
+  color: rgba(255, 248, 223, 0.5);
+}
+
+.waitlist button {
+  border: 0;
+  background: var(--gold);
+  color: var(--ink);
+  padding: 0 1.15rem;
+  font-weight: 800;
+}
+
+.note {
+  max-width: 29rem;
+  margin: 0.8rem 0 0;
+  color: rgba(255, 248, 223, 0.56);
+  font-size: 0.86rem;
+}
+
+@media (max-width: 820px) {
+  .golden-hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .app-preview {
+    width: min(100%, 20rem);
+  }
+}
+
+@media (max-width: 520px) {
+  .golden-hero {
+    width: min(100% - 1.2rem, 1120px);
+    padding-top: 1.4rem;
+  }
+
+  h1 {
+    font-size: clamp(3.4rem, 18vw, 5.4rem);
+  }
+
+  .waitlist {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+</head>
+<body>
+{{ content }}
+</body>
+</html>
