@@ -399,30 +399,74 @@
 
     const storageKey = "golden-tcg-counter-clicks";
     const maxClicks = 3;
-    let count = readCount();
+    let localClicks = readLocalClicks();
+    let totalCount = 0;
+    let isSaving = false;
     renderCounter();
+    loadTotal();
 
-    button.addEventListener("click", () => {
-      if (count >= maxClicks) return;
-      count += 1;
-      window.localStorage.setItem(storageKey, String(count));
+    button.addEventListener("click", async () => {
+      if (localClicks >= maxClicks || isSaving) return;
+      isSaving = true;
       renderCounter();
+      try {
+        const payload = await requestCounter("POST");
+        totalCount = readPayloadCount(payload);
+        localClicks += 1;
+        window.localStorage.setItem(storageKey, String(localClicks));
+      } catch (error) {
+        console.warn("Golden TCG counter failed", error);
+        if (note) note.textContent = "Could not count that tap. Try once more.";
+      } finally {
+        isSaving = false;
+        renderCounter();
+      }
     });
 
-    function readCount() {
+    async function loadTotal() {
+      try {
+        const payload = await requestCounter("GET");
+        totalCount = readPayloadCount(payload);
+        renderCounter();
+      } catch (error) {
+        console.warn("Golden TCG counter failed", error);
+        if (note) note.textContent = "Counter is waking up. Try once more.";
+      }
+    }
+
+    async function requestCounter(method) {
+      const response = await fetch(`${backendBaseURL}/api/interest`, {
+        method,
+        headers: { accept: "application/json" }
+      });
+      if (!response.ok) {
+        throw new Error(`Counter returned HTTP ${response.status}`);
+      }
+      return response.json();
+    }
+
+    function readPayloadCount(payload) {
+      const count = Number(payload && payload.count);
+      if (!Number.isFinite(count)) return totalCount;
+      return Math.max(0, Math.trunc(count));
+    }
+
+    function readLocalClicks() {
       const stored = Number(window.localStorage.getItem(storageKey));
       if (!Number.isFinite(stored)) return 0;
       return Math.min(maxClicks, Math.max(0, Math.trunc(stored)));
     }
 
     function renderCounter() {
-      countLabel.textContent = count.toLocaleString();
-      button.disabled = count >= maxClicks;
-      button.textContent = count >= maxClicks ? "Maxed Out" : "Let's Go!";
+      countLabel.textContent = totalCount.toLocaleString();
+      button.disabled = localClicks >= maxClicks || isSaving;
+      button.textContent = localClicks >= maxClicks ? "Maxed Out" : "Let's Go!";
       if (note) {
-        const remaining = maxClicks - count;
+        const remaining = maxClicks - localClicks;
         note.textContent = remaining > 0
-          ? `${remaining} ${remaining === 1 ? "tap" : "taps"} left on this device.`
+          ? isSaving
+            ? "Counting..."
+            : `${remaining} ${remaining === 1 ? "tap" : "taps"} left on this device.`
           : "Thanks for the boost.";
       }
     }
