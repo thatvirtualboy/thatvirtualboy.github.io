@@ -141,7 +141,7 @@
 }
 
 .golden-actions a,
-.waitlist button {
+.guestbook-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -153,7 +153,7 @@
 }
 
 .golden-actions a:first-child,
-.waitlist button {
+.guestbook-button {
   border: 0;
   background: var(--gold);
   color: var(--ink);
@@ -271,31 +271,43 @@
   background: linear-gradient(150deg, #f8d363, #2d443e 48%, #15110c);
 }
 
-.waitlist {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 0.7rem;
-  max-width: 29rem;
+.guestbook {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.85rem;
   margin-top: 2rem;
 }
 
-.waitlist input,
-.waitlist button {
-  min-height: 3.2rem;
-  border-radius: 0.5rem;
+.guestbook-button {
+  min-width: 8.5rem;
+  cursor: pointer;
   font: inherit;
+  transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
 }
 
-.waitlist input {
-  width: 100%;
+.guestbook-button:hover,
+.guestbook-button:focus-visible {
+  box-shadow: 0 0.85rem 2rem rgba(244, 196, 78, 0.22);
+  filter: brightness(1.04);
+  transform: translateY(-0.12rem);
+}
+
+.guestbook-button:disabled {
+  cursor: default;
+  filter: none;
+  opacity: 0.86;
+  transform: none;
+}
+
+.guestbook-count {
   border: 1px solid var(--line);
-  background: rgba(255, 248, 223, 0.08);
-  color: var(--paper);
-  padding: 0 1rem;
-}
-
-.waitlist input::placeholder {
-  color: rgba(255, 248, 223, 0.5);
+  border-radius: 999px;
+  padding: 0.72rem 1rem;
+  background: rgba(255, 248, 223, 0.06);
+  color: rgba(255, 248, 223, 0.82);
+  font-size: 0.92rem;
+  font-weight: 700;
 }
 
 .note {
@@ -406,8 +418,9 @@
     font-size: clamp(3.4rem, 18vw, 5.4rem);
   }
 
-  .waitlist {
-    grid-template-columns: 1fr;
+  .guestbook {
+    align-items: stretch;
+    flex-direction: column;
   }
 }
 </style>
@@ -415,19 +428,19 @@
 <main class="golden-page{% if include.fallback %} golden-hidden{% endif %}" aria-labelledby="golden-title" data-golden-app>
   <section class="golden-hero" data-golden-landing>
     <div>
-      <p class="eyebrow">Kayou TCG app preview</p>
+      <p class="eyebrow">Something is forming</p>
       <h1 id="golden-title">Golden TCG</h1>
-      <p class="lede">A focused place to track Kayou cards, organize your collection, and keep tabs on the sets you are chasing.</p>
+      <p class="lede">A quiet place for cards that deserve to be found, kept, and remembered.</p>
       <div class="status" aria-label="App status">
-        <span>Collection tracking</span>
-        <span>Set progress</span>
-        <span>Coming soon</span>
+        <span>The door is not open yet</span>
+        <span>The ledger is awake</span>
+        <span>Soon</span>
       </div>
-      <form class="waitlist" action="mailto:thatvirtualboy@icloud.com" method="post" enctype="text/plain">
-        <input type="email" name="email" aria-label="Email address" placeholder="Email for launch updates">
-        <button type="submit">Notify me</button>
-      </form>
-      <p class="note">Placeholder page while Golden TCG is in development.</p>
+      <div class="guestbook" data-golden-guestbook>
+        <button class="guestbook-button" type="button" data-golden-interest-button>Mark the ledger</button>
+        <span class="guestbook-count" data-golden-interest-count>...</span>
+      </div>
+      <p class="note" data-golden-interest-note>Anonymous marks from those who found this place early.</p>
     </div>
 
     <div class="app-preview" aria-hidden="true">
@@ -460,7 +473,10 @@
   const path = window.location.pathname;
   const route = shareRouteFromPath(path);
 
-  if (!route) return;
+  if (!route) {
+    initInterestCounter();
+    return;
+  }
 
   document.body.classList.add("golden-share-active");
   app.classList.remove("golden-hidden");
@@ -485,6 +501,74 @@
       type: match[1] === "collections" ? "collection" : "card",
       id
     };
+  }
+
+  async function initInterestCounter() {
+    const button = app.querySelector("[data-golden-interest-button]");
+    const countLabel = app.querySelector("[data-golden-interest-count]");
+    const note = app.querySelector("[data-golden-interest-note]");
+    if (!button || !countLabel) return;
+
+    const storageKey = "golden-tcg-ledger-marked";
+    const hasMarked = window.localStorage.getItem(storageKey) === "true";
+    setLedgerMarked(hasMarked);
+
+    try {
+      const payload = await fetchInterestCount("GET");
+      renderInterestCount(payload.count);
+    } catch {
+      countLabel.textContent = "The ledger is quiet";
+    }
+
+    button.addEventListener("click", async () => {
+      if (window.localStorage.getItem(storageKey) === "true") return;
+
+      button.disabled = true;
+      button.textContent = "Marking...";
+
+      try {
+        const payload = await fetchInterestCount("POST");
+        window.localStorage.setItem(storageKey, "true");
+        renderInterestCount(payload.count);
+        setLedgerMarked(true);
+      } catch {
+        button.disabled = false;
+        button.textContent = "Try again";
+        if (note) note.textContent = "The ledger did not answer. Try once more.";
+      }
+    });
+
+    function setLedgerMarked(isMarked) {
+      if (isMarked) {
+        button.disabled = true;
+        button.textContent = "Marked";
+        if (note) note.textContent = "Your mark is in the ledger.";
+      } else {
+        button.disabled = false;
+        button.textContent = "Mark the ledger";
+        if (note) note.textContent = "Anonymous marks from those who found this place early.";
+      }
+    }
+  }
+
+  async function fetchInterestCount(method) {
+    const response = await fetch(`${backendBaseURL}/api/interest`, {
+      method,
+      headers: { accept: "application/json" }
+    });
+    if (!response.ok) {
+      throw new Error(`Interest counter returned HTTP ${response.status}`);
+    }
+    return response.json();
+  }
+
+  function renderInterestCount(count) {
+    const countLabel = app.querySelector("[data-golden-interest-count]");
+    if (!countLabel) return;
+
+    const normalized = Number(count);
+    const value = Number.isFinite(normalized) ? Math.max(0, Math.trunc(normalized)) : 0;
+    countLabel.textContent = `${value.toLocaleString()} ${value === 1 ? "mark" : "marks"}`;
   }
 
   async function loadCatalog() {
@@ -591,7 +675,7 @@
           <div class="golden-facts" aria-label="Card details">
             <span>${escapeHTML(rarityLabel)}</span>
             <span>${escapeHTML(card.character || card.name)}</span>
-            <span>${escapeHTML(set.productName || "Kayou")}</span>
+            <span>${escapeHTML(set.productName || "Golden TCG")}</span>
           </div>
           <div class="golden-actions">
             <a href="${escapeAttribute(appURL)}">Open in Golden TCG</a>
