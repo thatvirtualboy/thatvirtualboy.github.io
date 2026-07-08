@@ -119,109 +119,16 @@ h1 {
 }
 
 .app-preview {
-  position: relative;
-  aspect-ratio: 0.72;
   width: min(100%, 25rem);
   justify-self: center;
 }
 
-.phone {
-  position: absolute;
-  inset: 0;
-  border: 1px solid rgba(255, 248, 223, 0.22);
-  border-radius: 2.3rem;
-  background: linear-gradient(160deg, #22180d, #070605);
-  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.5);
-  padding: 1rem;
-}
-
-.screen {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  border: 1px solid rgba(244, 196, 78, 0.22);
-  border-radius: 1.6rem;
-  background:
-    linear-gradient(180deg, rgba(255, 248, 223, 0.1), transparent 35%),
-    #11100d;
-  overflow: hidden;
-}
-
-.app-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.1rem;
-  color: rgba(255, 248, 223, 0.86);
-  font-size: 0.85rem;
-  font-weight: 700;
-}
-
-.app-icon {
-  display: grid;
-  width: 2.2rem;
-  height: 2.2rem;
-  place-items: center;
-  border-radius: 0.65rem;
-  background: linear-gradient(135deg, var(--gold), #ffef9b);
-  color: var(--ink);
-}
-
-.card-stack {
-  display: grid;
-  flex: 1;
-  place-items: center;
-  padding: 0.7rem;
-}
-
-.tcg-card {
-  position: relative;
-  width: 72%;
-  aspect-ratio: 0.7;
-  border: 0.48rem solid var(--gold);
-  border-radius: 0.85rem;
-  background:
-    linear-gradient(140deg, rgba(255, 255, 255, 0.2), transparent 38%),
-    linear-gradient(180deg, #386c61, #14100a 62%, #f1d06b 62%);
-  box-shadow: 0 1.2rem 2.5rem rgba(0, 0, 0, 0.42);
-}
-
-.tcg-card::before,
-.tcg-card::after {
-  position: absolute;
-  content: "";
-}
-
-.tcg-card::before {
-  inset: 0.65rem 0.65rem auto;
-  height: 48%;
-  border-radius: 0.45rem;
-  background:
-    radial-gradient(circle at 45% 34%, rgba(255, 255, 255, 0.86) 0 0.9rem, transparent 0.95rem),
-    linear-gradient(135deg, #7dc7b1, #1d4c43);
-}
-
-.tcg-card::after {
-  left: 0.8rem;
-  right: 0.8rem;
-  bottom: 1rem;
-  height: 22%;
-  border-radius: 0.4rem;
-  background: rgba(18, 15, 10, 0.72);
-}
-
-.shelf {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.55rem;
-  padding: 0 1.1rem 1.1rem;
-}
-
-.mini-card {
-  aspect-ratio: 0.72;
-  border: 0.2rem solid rgba(244, 196, 78, 0.78);
-  border-radius: 0.4rem;
-  background: linear-gradient(150deg, #f8d363, #2d443e 48%, #15110c);
+.app-icon-preview {
+  display: block;
+  aspect-ratio: 1;
+  border-radius: 24%;
+  object-fit: cover;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.48);
 }
 
 .waitlist {
