@@ -1,0 +1,682 @@
+<style>
+:root {
+  color-scheme: dark;
+  --gold: #f4c44e;
+  --gold-deep: #8f5d15;
+  --ink: #120f0a;
+  --paper: #fff8df;
+  --muted: #d8c895;
+  --line: rgba(244, 196, 78, 0.32);
+}
+
+.golden-share-active .site-content,
+.golden-share-active .container,
+.golden-share-active .main-content {
+  max-width: none;
+  padding: 0;
+}
+
+.golden-share-active .navbar,
+.golden-share-active .mainheading,
+.golden-share-active .fortags,
+.golden-share-active .footer,
+.golden-share-active [data-golden-fallback] {
+  display: none;
+}
+
+.golden-page {
+  min-height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 20% 12%, rgba(244, 196, 78, 0.24), transparent 30rem),
+    radial-gradient(circle at 84% 22%, rgba(82, 170, 142, 0.18), transparent 28rem),
+    linear-gradient(135deg, #0a0907 0%, #1b150d 52%, #0d0c0a 100%);
+  color: var(--paper);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0;
+}
+
+.golden-page a {
+  color: inherit;
+}
+
+.golden-hero,
+.golden-card-shell {
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: clamp(2rem, 6vw, 5rem) 0;
+}
+
+.golden-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(18rem, 28rem);
+  gap: clamp(2rem, 6vw, 6rem);
+  align-items: center;
+  min-height: 100vh;
+}
+
+.golden-card-shell {
+  display: grid;
+  grid-template-columns: minmax(16rem, 25rem) minmax(0, 1fr);
+  gap: clamp(1.75rem, 5vw, 4.5rem);
+  align-items: center;
+  min-height: 100vh;
+}
+
+.golden-collection-shell {
+  width: min(1180px, calc(100% - 2rem));
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: clamp(2rem, 6vw, 5rem) 0;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0 0 1.25rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.eyebrow::before {
+  display: block;
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 999px;
+  background: var(--gold);
+  box-shadow: 0 0 1rem rgba(244, 196, 78, 0.7);
+  content: "";
+}
+
+.golden-page h1 {
+  max-width: 12ch;
+  margin: 0;
+  color: #fff7d7;
+  font-size: clamp(4rem, 11vw, 9rem);
+  line-height: 0.88;
+  letter-spacing: 0;
+}
+
+.golden-card-shell h1 {
+  max-width: 14ch;
+  font-size: clamp(3rem, 8vw, 7rem);
+}
+
+.golden-collection-shell h1 {
+  max-width: none;
+  font-size: clamp(3rem, 8vw, 6.8rem);
+}
+
+.lede,
+.golden-card-copy {
+  max-width: 40rem;
+  margin: 1.5rem 0 0;
+  color: rgba(255, 248, 223, 0.82);
+  font-size: clamp(1.1rem, 2vw, 1.45rem);
+  line-height: 1.45;
+}
+
+.status,
+.golden-actions,
+.golden-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.status span,
+.golden-facts span {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.7rem 0.95rem;
+  background: rgba(255, 248, 223, 0.06);
+  color: rgba(255, 248, 223, 0.78);
+  font-size: 0.92rem;
+}
+
+.golden-actions a,
+.waitlist button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3.2rem;
+  border-radius: 0.5rem;
+  padding: 0 1.15rem;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.golden-actions a:first-child,
+.waitlist button {
+  border: 0;
+  background: var(--gold);
+  color: var(--ink);
+}
+
+.golden-actions a:not(:first-child) {
+  border: 1px solid var(--line);
+  background: rgba(255, 248, 223, 0.08);
+  color: var(--paper);
+}
+
+.app-preview {
+  position: relative;
+  aspect-ratio: 0.72;
+  width: min(100%, 25rem);
+  justify-self: center;
+}
+
+.phone {
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(255, 248, 223, 0.22);
+  border-radius: 2.3rem;
+  background: linear-gradient(160deg, #22180d, #070605);
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid rgba(244, 196, 78, 0.22);
+  border-radius: 1.6rem;
+  background:
+    linear-gradient(180deg, rgba(255, 248, 223, 0.1), transparent 35%),
+    #11100d;
+  overflow: hidden;
+}
+
+.app-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.1rem;
+  color: rgba(255, 248, 223, 0.86);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.app-icon {
+  display: grid;
+  width: 2.2rem;
+  height: 2.2rem;
+  place-items: center;
+  border-radius: 0.65rem;
+  background: linear-gradient(135deg, var(--gold), #ffef9b);
+  color: var(--ink);
+}
+
+.card-stack {
+  display: grid;
+  flex: 1;
+  place-items: center;
+  padding: 0.7rem;
+}
+
+.tcg-card {
+  position: relative;
+  width: 72%;
+  aspect-ratio: 0.7;
+  border: 0.48rem solid var(--gold);
+  border-radius: 0.85rem;
+  background:
+    linear-gradient(140deg, rgba(255, 255, 255, 0.2), transparent 38%),
+    linear-gradient(180deg, #386c61, #14100a 62%, #f1d06b 62%);
+  box-shadow: 0 1.2rem 2.5rem rgba(0, 0, 0, 0.42);
+}
+
+.tcg-card::before,
+.tcg-card::after {
+  position: absolute;
+  content: "";
+}
+
+.tcg-card::before {
+  inset: 0.65rem 0.65rem auto;
+  height: 48%;
+  border-radius: 0.45rem;
+  background:
+    radial-gradient(circle at 45% 34%, rgba(255, 255, 255, 0.86) 0 0.9rem, transparent 0.95rem),
+    linear-gradient(135deg, #7dc7b1, #1d4c43);
+}
+
+.tcg-card::after {
+  left: 0.8rem;
+  right: 0.8rem;
+  bottom: 1rem;
+  height: 22%;
+  border-radius: 0.4rem;
+  background: rgba(18, 15, 10, 0.72);
+}
+
+.shelf {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.55rem;
+  padding: 0 1.1rem 1.1rem;
+}
+
+.mini-card {
+  aspect-ratio: 0.72;
+  border: 0.2rem solid rgba(244, 196, 78, 0.78);
+  border-radius: 0.4rem;
+  background: linear-gradient(150deg, #f8d363, #2d443e 48%, #15110c);
+}
+
+.waitlist {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.7rem;
+  max-width: 29rem;
+  margin-top: 2rem;
+}
+
+.waitlist input,
+.waitlist button {
+  min-height: 3.2rem;
+  border-radius: 0.5rem;
+  font: inherit;
+}
+
+.waitlist input {
+  width: 100%;
+  border: 1px solid var(--line);
+  background: rgba(255, 248, 223, 0.08);
+  color: var(--paper);
+  padding: 0 1rem;
+}
+
+.waitlist input::placeholder {
+  color: rgba(255, 248, 223, 0.5);
+}
+
+.note {
+  max-width: 29rem;
+  margin: 0.8rem 0 0;
+  color: rgba(255, 248, 223, 0.56);
+  font-size: 0.86rem;
+}
+
+.golden-card-art {
+  width: min(100%, 24rem);
+  border-radius: 1rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.48);
+  justify-self: center;
+}
+
+.golden-collection-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.golden-collection-card {
+  display: block;
+  border: 1px solid rgba(244, 196, 78, 0.22);
+  border-radius: 0.75rem;
+  background: rgba(255, 248, 223, 0.06);
+  color: inherit;
+  text-decoration: none;
+  overflow: hidden;
+  transform: translateY(0) scale(1);
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease, background 180ms ease;
+}
+
+.golden-collection-card:hover,
+.golden-collection-card:focus-visible {
+  border-color: rgba(244, 196, 78, 0.58);
+  background: rgba(255, 248, 223, 0.10);
+  box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.32);
+  transform: translateY(-0.35rem) scale(1.02);
+}
+
+.golden-collection-card:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+
+.golden-collection-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 0.7;
+  object-fit: cover;
+  background: rgba(0, 0, 0, 0.28);
+}
+
+.golden-collection-card div {
+  padding: 0.75rem;
+}
+
+.golden-collection-card h2 {
+  margin: 0;
+  color: var(--paper);
+  font-size: 0.95rem;
+  line-height: 1.25;
+}
+
+.golden-collection-card p {
+  margin: 0.35rem 0 0;
+  color: rgba(255, 248, 223, 0.62);
+  font-size: 0.78rem;
+  line-height: 1.3;
+}
+
+.golden-error {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.golden-hidden {
+  display: none !important;
+}
+
+@media (max-width: 820px) {
+  .golden-hero,
+  .golden-card-shell {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .app-preview,
+  .golden-card-art {
+    width: min(100%, 20rem);
+  }
+}
+
+@media (max-width: 520px) {
+  .golden-hero,
+  .golden-card-shell {
+    width: min(100% - 1.2rem, 1120px);
+    padding-top: 1.4rem;
+  }
+
+  .golden-page h1 {
+    font-size: clamp(3.4rem, 18vw, 5.4rem);
+  }
+
+  .waitlist {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<main class="golden-page{% if include.fallback %} golden-hidden{% endif %}" aria-labelledby="golden-title" data-golden-app>
+  <section class="golden-hero" data-golden-landing>
+    <div>
+      <p class="eyebrow">Kayou TCG app preview</p>
+      <h1 id="golden-title">Golden TCG</h1>
+      <p class="lede">A focused place to track Kayou cards, organize your collection, and keep tabs on the sets you are chasing.</p>
+      <div class="status" aria-label="App status">
+        <span>Collection tracking</span>
+        <span>Set progress</span>
+        <span>Coming soon</span>
+      </div>
+      <form class="waitlist" action="mailto:thatvirtualboy@icloud.com" method="post" enctype="text/plain">
+        <input type="email" name="email" aria-label="Email address" placeholder="Email for launch updates">
+        <button type="submit">Notify me</button>
+      </form>
+      <p class="note">Placeholder page while Golden TCG is in development.</p>
+    </div>
+
+    <div class="app-preview" aria-hidden="true">
+      <div class="phone">
+        <div class="screen">
+          <div class="app-bar">
+            <span>Golden TCG</span>
+            <span class="app-icon">G</span>
+          </div>
+          <div class="card-stack">
+            <div class="tcg-card"></div>
+          </div>
+          <div class="shelf">
+            <span class="mini-card"></span>
+            <span class="mini-card"></span>
+            <span class="mini-card"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script>
+(function () {
+  const app = document.querySelector("[data-golden-app]");
+  if (!app) return;
+
+  const backendBaseURL = "https://golden-tcg-backend.vercel.app";
+  const path = window.location.pathname;
+  const route = shareRouteFromPath(path);
+
+  if (!route) return;
+
+  document.body.classList.add("golden-share-active");
+  app.classList.remove("golden-hidden");
+  const fallback = document.querySelector("[data-golden-fallback]");
+  if (fallback) fallback.classList.add("golden-hidden");
+
+  renderLoading(route.type === "collection" ? "Loading collection" : "Loading card");
+  const load = route.type === "collection"
+    ? loadCollection(route.id).then(renderCollection)
+    : loadCard(route.id).then(renderCard);
+  load.catch(renderError);
+
+  function shareRouteFromPath(pathname) {
+    const match = pathname.match(/(?:^|\/)(?:goldentcg\/)?(cards|collections)\/(.+)$/);
+    if (!match) return null;
+
+    const decoded = decodeURIComponent(match[2]);
+    const id = decoded.split(/[/?#\s]/)[0] || null;
+    if (!id) return null;
+
+    return {
+      type: match[1] === "collections" ? "collection" : "card",
+      id
+    };
+  }
+
+  async function loadCatalog() {
+    const response = await fetch(`${backendBaseURL}/api/catalog`, {
+      headers: { accept: "application/json" }
+    });
+    if (!response.ok) {
+      throw new Error(`Catalog returned HTTP ${response.status}`);
+    }
+    return response.json();
+  }
+
+  async function loadCard(id) {
+    const catalog = await loadCatalog();
+    const entry = findCard(catalog, id);
+    if (entry) return entry;
+    throw new Error("Card not found.");
+  }
+
+  async function loadCollection(id) {
+    const [shareResponse, catalog] = await Promise.all([
+      fetch(`${backendBaseURL}/api/shares/collections/${encodeURIComponent(id)}`, {
+        headers: { accept: "application/json" }
+      }),
+      loadCatalog()
+    ]);
+    if (!shareResponse.ok) {
+      throw new Error(`Collection returned HTTP ${shareResponse.status}`);
+    }
+
+    const share = await shareResponse.json();
+    const cards = (share.cards || []).map((entry) => {
+      const match = findCard(catalog, entry.cardId);
+      return match ? { ...match, counts: entry } : null;
+    }).filter(Boolean);
+
+    return { share, cards };
+  }
+
+  function findCard(catalog, id) {
+    for (const set of catalog.sets || []) {
+      const card = (set.cards || []).find((candidate) => candidate.id === id);
+      if (card) {
+        return { card, set, rarity: rarityForCard(card, set) };
+      }
+    }
+    return null;
+  }
+
+  function rarityForCard(card, set) {
+    return (set.rarities || []).find((rarity) => rarity.code === card.rarityCode);
+  }
+
+  function printedIdentifier(card, set) {
+    const prefix = set.printedPrefix || (set.model || "KAYOU").split("-")[0];
+    return `${prefix}-${card.rarityCode}-${card.rarityNumber || card.number}`;
+  }
+
+  function ebayURL(card, set) {
+    const query = [
+      card.name,
+      printedIdentifier(card, set),
+      set.name,
+      "Kayou"
+    ].filter(Boolean).join(" ");
+    const url = new URL("https://www.ebay.com/sch/i.html");
+    url.searchParams.set("_nkw", query);
+    url.searchParams.set("mkevt", "1");
+    url.searchParams.set("mkcid", "1");
+    url.searchParams.set("mkrid", "711-53200-19255-0");
+    url.searchParams.set("siteid", "0");
+    url.searchParams.set("campid", "5339132958");
+    url.searchParams.set("toolid", "10001");
+    url.searchParams.set("customid", `gtcg-card-${card.id}`);
+    return url.toString();
+  }
+
+  function renderLoading(title) {
+    app.innerHTML = `
+      <section class="golden-error">
+        <div>
+          <p class="eyebrow">Golden TCG</p>
+          <h1>${escapeHTML(title)}</h1>
+        </div>
+      </section>
+    `;
+  }
+
+  function renderCard(result) {
+    const { card, set, rarity } = result;
+    document.title = `${card.name} | Golden TCG`;
+    const imageURL = card.image && (card.image.large || card.image.small);
+    const appURL = `goldentcg://card/${encodeURIComponent(card.id)}`;
+    const identifier = printedIdentifier(card, set);
+    const rarityLabel = rarity ? `${rarity.displayCode || rarity.code} · ${rarity.name}` : card.rarityCode;
+
+    app.innerHTML = `
+      <section class="golden-card-shell">
+        <img class="golden-card-art" src="${escapeAttribute(imageURL || "")}" alt="${escapeAttribute(card.name)} card art">
+        <div>
+          <p class="eyebrow">GOLDEN TCG</p>
+          <h1>${escapeHTML(card.name)}</h1>
+          <p class="golden-card-copy">${escapeHTML(set.name)} · ${escapeHTML(set.series || "Series")} · ${escapeHTML(identifier)}</p>
+          <div class="golden-facts" aria-label="Card details">
+            <span>${escapeHTML(rarityLabel)}</span>
+            <span>${escapeHTML(card.character || card.name)}</span>
+            <span>${escapeHTML(set.productName || "Kayou")}</span>
+          </div>
+          <div class="golden-actions">
+            <a href="${escapeAttribute(appURL)}">Open in Golden TCG</a>
+            <a href="${escapeAttribute(ebayURL(card, set))}" rel="nofollow sponsored">Buy on eBay</a>
+          </div>
+        </div>
+      </section>
+    `;
+  }
+
+  function renderCollection(result) {
+    const { share, cards } = result;
+    document.title = `${share.title || "Golden TCG Binder"} | Golden TCG`;
+    const owned = cards.reduce((total, entry) => total + Number(entry.counts.owned || 0), 0);
+    const wishlist = cards.reduce((total, entry) => total + Number(entry.counts.wishlist || 0), 0);
+    const duplicate = cards.reduce((total, entry) => total + Number(entry.counts.duplicate || 0), 0);
+
+    app.innerHTML = `
+      <section class="golden-collection-shell">
+        <p class="eyebrow">GOLDEN TCG</p>
+        <h1>${escapeHTML(share.title || "Golden TCG Binder")}</h1>
+        <p class="golden-card-copy">${cards.length} unique cards shared from Golden TCG.</p>
+        <div class="golden-facts" aria-label="Collection details">
+          <span>${owned} owned</span>
+          <span>${wishlist} wishlist</span>
+          <span>${duplicate} duplicates</span>
+        </div>
+        <div class="golden-actions">
+          <a href="goldentcg://collections/${escapeAttribute(share.shareId || "")}">Open in Golden TCG</a>
+        </div>
+        <div class="golden-collection-grid">
+          ${cards.map(renderCollectionCard).join("")}
+        </div>
+      </section>
+    `;
+  }
+
+  function renderCollectionCard(entry) {
+    const { card, set, counts } = entry;
+    const imageURL = card.image && (card.image.large || card.image.small);
+    const countLabel = [
+      Number(counts.owned || 0) ? `${counts.owned} owned` : "",
+      Number(counts.wishlist || 0) ? `${counts.wishlist} wishlist` : "",
+      Number(counts.duplicate || 0) ? `${counts.duplicate} dupes` : ""
+    ].filter(Boolean).join(" · ");
+
+    return `
+      <a class="golden-collection-card" href="/cards/${encodeURIComponent(card.id)}">
+        <img src="${escapeAttribute(imageURL || "")}" alt="${escapeAttribute(card.name)} card art">
+        <div>
+          <h2>${escapeHTML(card.name)}</h2>
+          <p>${escapeHTML(printedIdentifier(card, set))}</p>
+          <p>${escapeHTML(countLabel)}</p>
+        </div>
+      </a>
+    `;
+  }
+
+  function renderError(error) {
+    app.innerHTML = `
+      <section class="golden-error">
+        <div>
+          <p class="eyebrow">Golden TCG</p>
+          <h1>Card unavailable</h1>
+          <p class="lede">${escapeHTML(error.message || "This shared card could not be loaded.")}</p>
+          <div class="golden-actions">
+            <a href="/goldentcg">Golden TCG</a>
+          </div>
+        </div>
+      </section>
+    `;
+  }
+
+  function escapeHTML(value) {
+    return String(value || "").replace(/[&<>"']/g, (character) => ({
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      '"': "&quot;",
+      "'": "&#39;"
+    }[character]));
+  }
+
+  function escapeAttribute(value) {
+    return escapeHTML(value);
+  }
+})();
+</script>
