@@ -141,7 +141,7 @@
 }
 
 .golden-actions a,
-.launch-button {
+.counter-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -153,7 +153,7 @@
 }
 
 .golden-actions a:first-child,
-.launch-button {
+.counter-button {
   border: 0;
   background: var(--gold);
   color: var(--ink);
@@ -271,26 +271,47 @@
   background: linear-gradient(150deg, #f8d363, #2d443e 48%, #15110c);
 }
 
-.launch-list {
+.counter-panel {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.85rem;
+  gap: 1rem;
   margin-top: 2rem;
 }
 
-.launch-button {
+.counter-readout {
+  min-width: 5rem;
+  border: 1px solid var(--line);
+  border-radius: 0.65rem;
+  padding: 0.55rem 0.9rem;
+  background: rgba(255, 248, 223, 0.06);
+  color: #fff7d7;
+  font-size: 1.8rem;
+  font-weight: 900;
+  line-height: 1;
+  text-align: center;
+}
+
+.counter-button {
   min-width: 8.5rem;
+  border: 0;
+  cursor: pointer;
   font: inherit;
-  text-decoration: none;
   transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
 }
 
-.launch-button:hover,
-.launch-button:focus-visible {
+.counter-button:hover,
+.counter-button:focus-visible {
   box-shadow: 0 0.85rem 2rem rgba(244, 196, 78, 0.22);
   filter: brightness(1.04);
   transform: translateY(-0.12rem);
+}
+
+.counter-button:disabled {
+  cursor: default;
+  filter: none;
+  opacity: 0.82;
+  transform: none;
 }
 
 .note {
@@ -401,7 +422,7 @@
     font-size: clamp(3.4rem, 18vw, 5.4rem);
   }
 
-  .launch-list {
+  .counter-panel {
     align-items: stretch;
     flex-direction: column;
   }
@@ -413,10 +434,11 @@
     <div>
       <p class="eyebrow">Something is forming</p>
       <h1 id="golden-title">Golden TCG</h1>
-      <div class="launch-list">
-        <a class="launch-button" href="mailto:thatvirtualboy@icloud.com?subject=Golden%20TCG%20launch%20updates&body=Please%20add%20me%20to%20Golden%20TCG%20launch%20updates.">Join launch list</a>
+      <div class="counter-panel" data-golden-counter>
+        <span class="counter-readout" data-golden-counter-count>0</span>
+        <button class="counter-button" type="button" data-golden-counter-button>Let's Go!</button>
       </div>
-      <p class="note">Opens your email so I can add you to launch updates.</p>
+      <p class="note" data-golden-counter-note>Up to 3 taps per device.</p>
     </div>
 
     <div class="app-preview" aria-hidden="true">
@@ -450,6 +472,7 @@
   const route = shareRouteFromPath(path);
 
   if (!route) {
+    initCounter();
     return;
   }
 
@@ -476,6 +499,43 @@
       type: match[1] === "collections" ? "collection" : "card",
       id
     };
+  }
+
+  function initCounter() {
+    const button = app.querySelector("[data-golden-counter-button]");
+    const countLabel = app.querySelector("[data-golden-counter-count]");
+    const note = app.querySelector("[data-golden-counter-note]");
+    if (!button || !countLabel) return;
+
+    const storageKey = "golden-tcg-counter-clicks";
+    const maxClicks = 3;
+    let count = readCount();
+    renderCounter();
+
+    button.addEventListener("click", () => {
+      if (count >= maxClicks) return;
+      count += 1;
+      window.localStorage.setItem(storageKey, String(count));
+      renderCounter();
+    });
+
+    function readCount() {
+      const stored = Number(window.localStorage.getItem(storageKey));
+      if (!Number.isFinite(stored)) return 0;
+      return Math.min(maxClicks, Math.max(0, Math.trunc(stored)));
+    }
+
+    function renderCounter() {
+      countLabel.textContent = count.toLocaleString();
+      button.disabled = count >= maxClicks;
+      button.textContent = count >= maxClicks ? "Maxed Out" : "Let's Go!";
+      if (note) {
+        const remaining = maxClicks - count;
+        note.textContent = remaining > 0
+          ? `${remaining} ${remaining === 1 ? "tap" : "taps"} left on this device.`
+          : "Thanks for the boost.";
+      }
+    }
   }
 
   async function loadCatalog() {
