@@ -404,6 +404,16 @@
     let isSaving = false;
     renderCounter();
     loadTotal();
+    window.setInterval(loadTotal, 8000);
+    window.addEventListener("focus", loadTotal);
+    document.addEventListener("visibilitychange", () => {
+      if (!document.hidden) loadTotal();
+    });
+    window.addEventListener("storage", (event) => {
+      if (event.key !== storageKey) return;
+      localClicks = readLocalClicks();
+      renderCounter();
+    });
 
     button.addEventListener("click", async () => {
       if (localClicks >= maxClicks || isSaving) return;
@@ -435,8 +445,13 @@
     }
 
     async function requestCounter(method) {
-      const response = await fetch(`${backendBaseURL}/api/interest`, {
+      const url = new URL(`${backendBaseURL}/api/interest`);
+      if (method === "GET") {
+        url.searchParams.set("_", String(Date.now()));
+      }
+      const response = await fetch(url.toString(), {
         method,
+        cache: "no-store",
         headers: { accept: "application/json" }
       });
       if (!response.ok) {
