@@ -27,7 +27,7 @@
 .golden-page {
   min-height: 100vh;
   margin: 0;
-  overflow: hidden;
+  overflow-x: hidden;
   background:
     radial-gradient(circle at 20% 12%, rgba(244, 196, 78, 0.24), transparent 30rem),
     radial-gradient(circle at 84% 22%, rgba(82, 170, 142, 0.18), transparent 28rem),
@@ -39,6 +39,89 @@
 
 .golden-page a {
   color: inherit;
+}
+
+.golden-header {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  border-bottom: 1px solid rgba(255, 248, 223, 0.09);
+  background: rgba(8, 8, 7, 0.76);
+  backdrop-filter: blur(18px);
+}
+
+.golden-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  width: min(1120px, calc(100% - 2rem));
+  min-height: 5rem;
+  margin: 0 auto;
+}
+
+.golden-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-width: 0;
+  color: #fff7d7;
+  text-decoration: none;
+}
+
+.golden-brand img {
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 0.55rem;
+  box-shadow: 0 0.7rem 1.5rem rgba(0, 0, 0, 0.28);
+}
+
+.golden-brand span {
+  font-size: 1rem;
+  font-weight: 850;
+  white-space: nowrap;
+}
+
+.golden-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.1rem;
+  color: rgba(255, 248, 223, 0.72);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.golden-nav a {
+  text-decoration: none;
+}
+
+.golden-contact:hover,
+.golden-contact:focus-visible {
+  color: #fff7d7;
+}
+
+.golden-soon {
+  color: rgba(255, 248, 223, 0.52);
+  white-space: nowrap;
+}
+
+.golden-store-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.5rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  padding: 0 0.9rem;
+  background: rgba(255, 248, 223, 0.08);
+  color: #fff7d7;
+  white-space: nowrap;
+}
+
+.golden-store-link[data-disabled="true"] {
+  cursor: default;
+  color: rgba(255, 248, 223, 0.64);
 }
 
 .golden-hero,
@@ -53,7 +136,7 @@
   grid-template-columns: minmax(0, 1fr) minmax(18rem, 28rem);
   gap: clamp(2rem, 6vw, 6rem);
   align-items: center;
-  min-height: 100vh;
+  min-height: calc(100vh - 5rem);
 }
 
 .golden-card-shell {
@@ -61,12 +144,12 @@
   grid-template-columns: minmax(16rem, 25rem) minmax(0, 1fr);
   gap: clamp(1.75rem, 5vw, 4.5rem);
   align-items: center;
-  min-height: 100vh;
+  min-height: calc(100vh - 5rem);
 }
 
 .golden-collection-shell {
   width: min(1180px, calc(100% - 2rem));
-  min-height: 100vh;
+  min-height: calc(100vh - 5rem);
   margin: 0 auto;
   padding: clamp(2rem, 6vw, 5rem) 0;
 }
@@ -306,6 +389,18 @@
 }
 
 @media (max-width: 820px) {
+  .golden-header-inner {
+    min-height: 4.5rem;
+  }
+
+  .golden-nav {
+    gap: 0.75rem;
+  }
+
+  .golden-contact {
+    display: none;
+  }
+
   .golden-hero,
   .golden-card-shell {
     grid-template-columns: 1fr;
@@ -319,6 +414,25 @@
 }
 
 @media (max-width: 520px) {
+  .golden-header-inner {
+    width: min(100% - 1.2rem, 1120px);
+    gap: 0.75rem;
+  }
+
+  .golden-brand span {
+    font-size: 0.95rem;
+  }
+
+  .golden-soon {
+    display: none;
+  }
+
+  .golden-store-link {
+    min-height: 2.35rem;
+    padding: 0 0.7rem;
+    font-size: 0.84rem;
+  }
+
   .golden-hero,
   .golden-card-shell {
     width: min(100% - 1.2rem, 1120px);
@@ -337,6 +451,19 @@
 </style>
 
 <main class="golden-page{% if include.fallback %} golden-hidden{% endif %}" aria-labelledby="golden-title" data-golden-app>
+  <header class="golden-header" data-golden-header>
+    <div class="golden-header-inner">
+      <a class="golden-brand" href="/goldentcg" aria-label="Golden TCG home">
+        <img src="https://thatvirtualboy.com/assets/images/goldentcg/app-icon.png" alt="" aria-hidden="true">
+        <span>Golden TCG</span>
+      </a>
+      <nav class="golden-nav" aria-label="Golden TCG">
+        <a class="golden-contact" href="mailto:support@raktech.app">Contact</a>
+        <span class="golden-soon">Coming soon</span>
+        <a class="golden-store-link" href="/goldentcg" data-golden-store-link data-disabled="true" aria-disabled="true">Coming Soon</a>
+      </nav>
+    </div>
+  </header>
   <section class="golden-hero" data-golden-landing>
     <div>
       <p class="eyebrow">The chase starts here</p>
@@ -358,10 +485,14 @@
   if (!app) return;
 
   const backendBaseURL = "https://golden-tcg-backend.vercel.app";
+  const appIconURL = "https://thatvirtualboy.com/assets/images/goldentcg/app-icon.png";
+  const appStoreURL = "";
+  const playStoreURL = "";
   const path = window.location.pathname;
   const route = shareRouteFromPath(path);
 
   if (!route) {
+    initInstallCTA();
     initCounter();
     return;
   }
@@ -376,6 +507,62 @@
     ? loadCollection(route.id).then(renderCollection)
     : loadCard(route.id).then(renderCard);
   load.catch(renderError);
+
+  function headerMarkup() {
+    return `
+      <header class="golden-header" data-golden-header>
+        <div class="golden-header-inner">
+          <a class="golden-brand" href="/goldentcg" aria-label="Golden TCG home">
+            <img src="${appIconURL}" alt="" aria-hidden="true">
+            <span>Golden TCG</span>
+          </a>
+          <nav class="golden-nav" aria-label="Golden TCG">
+            <a class="golden-contact" href="mailto:support@raktech.app">Contact</a>
+            <span class="golden-soon">Coming soon</span>
+            <a class="golden-store-link" href="/goldentcg" data-golden-store-link data-disabled="true" aria-disabled="true">Coming Soon</a>
+          </nav>
+        </div>
+      </header>
+    `;
+  }
+
+  function initInstallCTA() {
+    const link = app.querySelector("[data-golden-store-link]");
+    if (!link) return;
+
+    const platform = supportedStorePlatform();
+    const targetURL = platform === "ios" ? appStoreURL : platform === "android" ? playStoreURL : "";
+    const label = platform === "ios"
+      ? targetURL ? "Download" : "App Store Soon"
+      : platform === "android"
+        ? targetURL ? "Get the App" : "Google Play Soon"
+        : "Coming Soon";
+
+    link.textContent = label;
+    link.dataset.disabled = targetURL ? "false" : "true";
+    link.setAttribute("aria-disabled", targetURL ? "false" : "true");
+    link.href = targetURL || "/goldentcg";
+
+    if (!targetURL) {
+      link.addEventListener("click", (event) => event.preventDefault());
+    }
+  }
+
+  function supportedStorePlatform() {
+    const userAgent = window.navigator.userAgent || "";
+    const platform = window.navigator.platform || "";
+    const isIPadOS = platform === "MacIntel" && window.navigator.maxTouchPoints > 1;
+
+    if (/iPhone|iPad|iPod/i.test(userAgent) || isIPadOS) {
+      return "ios";
+    }
+
+    if (/Android/i.test(userAgent)) {
+      return "android";
+    }
+
+    return "desktop";
+  }
 
   function shareRouteFromPath(pathname) {
     const match = pathname.match(/(?:^|\/)(?:goldentcg\/)?(cards|collections)\/(.+)$/);
@@ -564,6 +751,7 @@
 
   function renderLoading(title) {
     app.innerHTML = `
+      ${headerMarkup()}
       <section class="golden-error">
         <div>
           <p class="eyebrow">Golden TCG</p>
@@ -571,6 +759,7 @@
         </div>
       </section>
     `;
+    initInstallCTA();
   }
 
   function renderCard(result) {
@@ -582,6 +771,7 @@
     const rarityLabel = rarity ? `${rarity.displayCode || rarity.code} · ${rarity.name}` : card.rarityCode;
 
     app.innerHTML = `
+      ${headerMarkup()}
       <section class="golden-card-shell">
         <img class="golden-card-art" src="${escapeAttribute(imageURL || "")}" alt="${escapeAttribute(card.name)} card art">
         <div>
@@ -601,6 +791,7 @@
         </div>
       </section>
     `;
+    initInstallCTA();
   }
 
   function renderCollection(result) {
@@ -611,6 +802,7 @@
     const duplicate = cards.reduce((total, entry) => total + Number(entry.counts.duplicate || 0), 0);
 
     app.innerHTML = `
+      ${headerMarkup()}
       <section class="golden-collection-shell">
         <p class="eyebrow">GOLDEN TCG</p>
         <h1>${escapeHTML(share.title || "Golden TCG Binder")}</h1>
@@ -628,6 +820,7 @@
         </div>
       </section>
     `;
+    initInstallCTA();
   }
 
   function renderCollectionCard(entry) {
@@ -653,6 +846,7 @@
 
   function renderError(error) {
     app.innerHTML = `
+      ${headerMarkup()}
       <section class="golden-error">
         <div>
           <p class="eyebrow">Golden TCG</p>
@@ -664,6 +858,7 @@
         </div>
       </section>
     `;
+    initInstallCTA();
   }
 
   function escapeHTML(value) {
