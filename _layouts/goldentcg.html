@@ -3,202 +3,44 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ page.title }} | {{ site.name }}</title>
-{% seo %}
+<meta name="theme-color" content="#090906">
+<meta name="apple-mobile-web-app-title" content="Golden TCG">
+<title>Golden TCG — The KAYOU Collector App</title>
+<meta name="description" content="Explore KAYOU expansions, track every pull, and organize your card collection with Golden TCG for iPhone and Android.">
+<link rel="canonical" href="https://goldentcg.app/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Golden TCG">
+<meta property="og:title" content="Golden TCG — The KAYOU Collector App">
+<meta property="og:description" content="Explore KAYOU expansions, track every pull, and organize your card collection with Golden TCG for iPhone and Android.">
+<meta property="og:url" content="https://goldentcg.app/">
+<meta property="og:image" content="https://goldentcg.app/assets/images/goldentcg/site/social-card.webp">
+<meta property="og:image:width" content="1774">
+<meta property="og:image:height" content="887">
+<meta property="og:image:alt" content="Golden-edged collectible cards on a dark background">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Golden TCG — The KAYOU Collector App">
+<meta name="twitter:description" content="Explore KAYOU expansions, track every pull, and organize your card collection with Golden TCG for iPhone and Android.">
+<meta name="twitter:image" content="https://goldentcg.app/assets/images/goldentcg/site/social-card.webp">
+<meta name="twitter:image:alt" content="Golden-edged collectible cards on a dark background">
 <script
+async
 src="https://cdn.telemetrydeck.com/websdk/telemetrydeck.min.js"
 data-app-id="F40EF852-5F86-4BFC-A5AE-91FF4F8CD5B2"
 ></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "Golden TCG",
+  "url": "https://goldentcg.app/",
+  "description": "Explore KAYOU expansions, track every pull, and organize your card collection.",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "iOS, Android"
+}
+</script>
 {% include analytics.html %}
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
-<link rel="manifest" href="/assets/images/favicon/site.webmanifest">
-<link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-<link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
-<style>
-:root {
-  color-scheme: dark;
-  --gold: #f4c44e;
-  --gold-deep: #8f5d15;
-  --ink: #120f0a;
-  --paper: #fff8df;
-  --muted: #d8c895;
-  --line: rgba(244, 196, 78, 0.32);
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  min-height: 100vh;
-  margin: 0;
-  background:
-    radial-gradient(circle at 20% 12%, rgba(244, 196, 78, 0.24), transparent 30rem),
-    radial-gradient(circle at 84% 22%, rgba(82, 170, 142, 0.18), transparent 28rem),
-    linear-gradient(135deg, #0a0907 0%, #1b150d 52%, #0d0c0a 100%);
-  color: var(--paper);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  letter-spacing: 0;
-}
-
-a {
-  color: inherit;
-}
-
-.golden-page {
-  min-height: 100vh;
-  overflow: hidden;
-}
-
-.golden-hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(18rem, 28rem);
-  gap: clamp(2rem, 6vw, 6rem);
-  align-items: center;
-  width: min(1120px, calc(100% - 2rem));
-  min-height: 100vh;
-  margin: 0 auto;
-  padding: clamp(2rem, 6vw, 5rem) 0;
-}
-
-.eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.55rem;
-  margin: 0 0 1.25rem;
-  color: var(--muted);
-  font-size: 0.82rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
-.eyebrow::before {
-  display: block;
-  width: 0.65rem;
-  height: 0.65rem;
-  border-radius: 999px;
-  background: var(--gold);
-  box-shadow: 0 0 1rem rgba(244, 196, 78, 0.7);
-  content: "";
-}
-
-h1 {
-  max-width: 12ch;
-  margin: 0;
-  color: #fff7d7;
-  font-size: clamp(4rem, 11vw, 9rem);
-  line-height: 0.88;
-  letter-spacing: 0;
-}
-
-.lede {
-  max-width: 40rem;
-  margin: 1.5rem 0 0;
-  color: rgba(255, 248, 223, 0.82);
-  font-size: clamp(1.15rem, 2.2vw, 1.55rem);
-  line-height: 1.45;
-}
-
-.status {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin-top: 2rem;
-}
-
-.status span {
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  padding: 0.7rem 0.95rem;
-  background: rgba(255, 248, 223, 0.06);
-  color: rgba(255, 248, 223, 0.78);
-  font-size: 0.92rem;
-}
-
-.app-preview {
-  width: min(100%, 25rem);
-  justify-self: center;
-}
-
-.app-icon-preview {
-  display: block;
-  aspect-ratio: 1;
-  border-radius: 24%;
-  object-fit: cover;
-  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.48);
-}
-
-.waitlist {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 0.7rem;
-  max-width: 29rem;
-  margin-top: 2rem;
-}
-
-.waitlist input,
-.waitlist button {
-  min-height: 3.2rem;
-  border-radius: 0.5rem;
-  font: inherit;
-}
-
-.waitlist input {
-  width: 100%;
-  border: 1px solid var(--line);
-  background: rgba(255, 248, 223, 0.08);
-  color: var(--paper);
-  padding: 0 1rem;
-}
-
-.waitlist input::placeholder {
-  color: rgba(255, 248, 223, 0.5);
-}
-
-.waitlist button {
-  border: 0;
-  background: var(--gold);
-  color: var(--ink);
-  padding: 0 1.15rem;
-  font-weight: 800;
-}
-
-.note {
-  max-width: 29rem;
-  margin: 0.8rem 0 0;
-  color: rgba(255, 248, 223, 0.56);
-  font-size: 0.86rem;
-}
-
-@media (max-width: 820px) {
-  .golden-hero {
-    grid-template-columns: 1fr;
-    min-height: auto;
-  }
-
-  .app-preview {
-    width: min(100%, 20rem);
-  }
-}
-
-@media (max-width: 520px) {
-  .golden-hero {
-    width: min(100% - 1.2rem, 1120px);
-    padding-top: 1.4rem;
-  }
-
-  h1 {
-    font-size: clamp(3.4rem, 18vw, 5.4rem);
-  }
-
-  .waitlist {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
+<link rel="apple-touch-icon" href="/assets/images/goldentcg/app-icon.png">
+<link rel="icon" type="image/png" href="/assets/images/goldentcg/app-icon.png">
 </head>
 <body>
 {{ content }}
