@@ -180,35 +180,50 @@ body {
 .store-row {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 0.75rem;
   margin-top: 2rem;
 }
 
-.store-badge {
-  display: inline-flex;
-  align-items: center;
+.official-store-badge {
+  position: relative;
+  display: block;
+  flex: 0 0 9.375rem;
+  width: 9.375rem;
   height: 3.125rem;
   overflow: hidden;
   border-radius: 0.625rem;
   cursor: pointer;
+  line-height: 0;
+  contain: layout paint;
   transition: filter 160ms ease, translate 160ms ease;
 }
 
-.store-badge:hover,
-.store-badge:focus-visible {
+.official-store-badge.google-play {
+  flex-basis: 10.7rem;
+  width: 10.7rem;
+}
+
+.official-store-badge:hover,
+.official-store-badge:focus-visible {
   filter: brightness(1.08);
   translate: 0 -1px;
 }
 
-.store-badge img {
+.official-store-badge img {
+  position: absolute;
+  inset: 0;
   display: block;
-  width: auto;
-  height: 3.125rem;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  max-height: none;
 }
 
-.store-badge.google-play img {
-  height: 4.625rem;
-  margin: -0.75rem -0.625rem;
+.official-store-badge.google-play img {
+  inset: -0.75rem -0.625rem;
+  width: calc(100% + 1.25rem);
+  height: calc(100% + 1.5rem);
 }
 
 .availability {
