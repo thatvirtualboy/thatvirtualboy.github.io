@@ -185,47 +185,30 @@ body {
 }
 
 .store-badge {
-  display: grid;
-  grid-template-columns: 1.55rem auto;
-  column-gap: 0.7rem;
+  display: inline-flex;
   align-items: center;
-  min-width: 11.6rem;
-  min-height: 3.65rem;
-  border: 1px solid rgba(255, 255, 255, 0.11);
-  border-radius: 0.85rem;
-  padding: 0.55rem 1rem;
-  background: rgba(255, 255, 255, 0.045);
-  color: rgba(255, 248, 223, 0.58);
-  cursor: default;
-  user-select: none;
+  height: 3.125rem;
+  overflow: hidden;
+  border-radius: 0.625rem;
+  cursor: pointer;
+  transition: filter 160ms ease, translate 160ms ease;
 }
 
-.store-badge svg {
-  grid-row: 1 / span 2;
-  width: 1.55rem;
-  height: 1.55rem;
-  opacity: 0.72;
+.store-badge:hover,
+.store-badge:focus-visible {
+  filter: brightness(1.08);
+  translate: 0 -1px;
 }
 
-.store-badge small,
-.store-badge strong {
+.store-badge img {
   display: block;
+  width: auto;
+  height: 3.125rem;
 }
 
-.store-badge small {
-  align-self: end;
-  font-size: 0.66rem;
-  line-height: 1;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-}
-
-.store-badge strong {
-  align-self: start;
-  margin-top: 0.12rem;
-  color: rgba(255, 248, 223, 0.76);
-  font-size: 1rem;
-  line-height: 1.1;
+.store-badge.google-play img {
+  height: 4.625rem;
+  margin: -0.75rem -0.625rem;
 }
 
 .availability {
@@ -648,24 +631,6 @@ body {
 
   .golden-store-link {
     padding-inline: 0.75rem;
-  }
-
-  .store-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .store-badge {
-    min-width: 0;
-    padding-inline: 0.8rem;
-  }
-
-  .store-badge small {
-    font-size: 0.58rem;
-  }
-
-  .store-badge strong {
-    font-size: 0.88rem;
   }
 
   .phone-stage {
