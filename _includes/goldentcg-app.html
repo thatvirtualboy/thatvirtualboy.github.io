@@ -441,7 +441,7 @@
 }
 </style>
 
-<link rel="stylesheet" href="/assets/css/goldentcg-landing.css?v=20260915-1">
+<link rel="stylesheet" href="/assets/css/goldentcg-landing.css?v=20261026-worlds">
 
 <main class="golden-page{% if include.fallback %} golden-hidden{% endif %}" aria-labelledby="golden-title" data-golden-app>
   <header class="golden-header" data-golden-header>
@@ -517,25 +517,17 @@
     </section>
 
     <section class="landing-wrap landing-section series-section">
-      <div class="series-banner">
+      <div class="series-banner" id="worlds" data-golden-worlds>
         <div class="series-banner-copy">
           <p class="series-kicker">Supported KAYOU collections</p>
           <h2>The worlds you collect.</h2>
+          <a class="series-browse" href="/cards" data-golden-local-path="/cards">Explore the card database <span aria-hidden="true">→</span></a>
         </div>
-        <div class="series-showcase" role="group" aria-label="Supported collections">
-          <a class="series-logo" href="/catalog/kpop-demon-hunters" data-golden-local-path="/catalog/kpop-demon-hunters" aria-label="Browse KPop Demon Hunters cards">
-            <img src="/assets/images/goldentcg/site/series-kpdh.webp" alt="KPop Demon Hunters" width="1660" height="933">
-          </a>
-          <a class="series-logo" href="/catalog/my-little-pony" data-golden-local-path="/catalog/my-little-pony" aria-label="Browse My Little Pony cards">
-            <img src="/assets/images/goldentcg/site/series-mlp.webp" alt="My Little Pony" width="1662" height="934">
-          </a>
-          <a class="series-logo" href="/catalog/naruto" data-golden-local-path="/catalog/naruto" aria-label="Browse Naruto cards">
-            <img src="/assets/images/goldentcg/site/series-naruto.webp" alt="Naruto" width="1660" height="932">
-          </a>
-          <a class="series-logo" href="/catalog/tokidoki" data-golden-local-path="/catalog/tokidoki" aria-label="Browse tokidoki cards">
-            <img src="/assets/images/goldentcg/site/series-tokidoki.webp" alt="tokidoki" width="1661" height="933">
-          </a>
+        <div class="series-artwork" aria-hidden="true">
+          <img class="is-visible" src="https://goldentcg.app/franchise-art/kpop-demon-hunters.webp" alt="" width="2560" height="1600" loading="lazy" decoding="async">
+          <img alt="" width="2560" height="1600" decoding="async">
         </div>
+        <button class="series-pause" type="button" aria-pressed="false" hidden>Pause slideshow</button>
       </div>
     </section>
 
@@ -571,6 +563,7 @@
   </div>
 </main>
 
+<script src="/assets/js/goldentcg-worlds.js?v=20261026-1" defer></script>
 <script>
 (function () {
   const app = document.querySelector("[data-golden-app]");

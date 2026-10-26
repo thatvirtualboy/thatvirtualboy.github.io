@@ -369,16 +369,25 @@ body {
 }
 
 .series-banner {
-  display: grid;
-  grid-template-columns: minmax(15rem, 0.72fr) minmax(0, 1.28fr);
-  align-items: center;
-  gap: clamp(2rem, 5vw, 4rem);
+  position: relative;
+  isolation: isolate;
+  min-height: 25rem;
+  overflow: hidden;
   border: 1px solid rgba(244, 200, 79, 0.18);
   border-radius: 1.5rem;
+  background: #15130e;
+}
+
+.series-banner-copy {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  min-height: 25rem;
+  width: 46%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   padding: clamp(2rem, 5vw, 4rem);
-  background:
-    radial-gradient(circle at 90% 20%, rgba(244, 200, 79, 0.13), transparent 17rem),
-    #15130e;
 }
 
 .series-kicker {
@@ -399,47 +408,84 @@ body {
   letter-spacing: -0.05em;
 }
 
-.series-showcase {
-  position: relative;
-  width: min(100%, 20rem);
-  min-width: 0;
-  aspect-ratio: 16 / 9;
-  justify-self: center;
-  overflow: hidden;
-  border: 1px solid rgba(255, 248, 223, 0.12);
-  border-radius: 0.9rem;
-  background: #0c0b08;
-  box-shadow: 0 0.75rem 1.8rem rgba(0, 0, 0, 0.22);
-}
-
-.series-logo {
-  position: absolute;
-  inset: 0;
-  margin: 0;
-  overflow: hidden;
-  opacity: 0;
-  color: inherit;
+.series-browse {
+  margin-top: 1.6rem;
+  color: var(--golden-gold-soft);
+  font-size: 0.88rem;
+  font-weight: 650;
   text-decoration: none;
+  text-underline-offset: 0.3em;
 }
 
-.series-logo:first-child {
-  opacity: 1;
+.series-browse:hover { text-decoration: underline; }
+
+.series-artwork {
+  position: absolute;
+  inset: 0 0 0 34%;
+  z-index: 0;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 36%);
+  mask-image: linear-gradient(90deg, transparent, #000 36%);
 }
 
-.series-logo::after {
+.series-artwork img {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, transparent 55%, rgba(0, 0, 0, 0.16));
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0;
+  transition: opacity 1.4s ease-in-out;
+}
+
+.series-artwork img.is-visible { opacity: 1; }
+
+.series-artwork::after {
+  position: absolute;
+  inset: 0;
   content: "";
+  background: linear-gradient(180deg, rgba(21,19,14,.04) 40%, rgba(21,19,14,.3));
   pointer-events: none;
 }
 
-.series-logo img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  filter: saturate(0.88) brightness(0.86);
+.series-pause {
+  position: absolute;
+  z-index: 3;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  border: 1px solid rgba(255,248,223,.28);
+  border-radius: 999px;
+  padding: .6rem .9rem;
+  background: rgba(15,13,9,.78);
+  color: var(--golden-cream);
+  font: inherit;
+  font-size: .75rem;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+}
+
+.series-pause[hidden] { display: none; }
+.series-pause:hover { background: #15130e; }
+.series-pause:focus-visible { outline: 2px solid var(--golden-gold); outline-offset: 3px; }
+
+@media (max-width: 680px) {
+  .series-banner { min-height: 0; }
+  .series-banner-copy { min-height: 0; width: 100%; padding: 2rem 1.5rem 1rem; }
+  .series-banner h2 { max-width: 12ch; font-size: 2.6rem; }
+  .series-artwork {
+    position: relative;
+    inset: auto;
+    height: clamp(18rem, 68vw, 27rem);
+    margin-top: -1rem;
+    -webkit-mask-image: linear-gradient(180deg, transparent, #000 28%);
+    mask-image: linear-gradient(180deg, transparent, #000 28%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .series-artwork img { transition: none; }
+  .series-pause { display: none; }
 }
 
 .closing-card {
@@ -540,14 +586,6 @@ body {
     margin-top: 2.5rem;
   }
 
-  .series-banner {
-    grid-template-columns: 1fr;
-  }
-
-  .series-banner h2 {
-    max-width: 16ch;
-  }
-
   .closing-card {
     grid-template-columns: 1fr;
   }
@@ -645,30 +683,6 @@ body {
     animation-delay: 180ms;
   }
 
-  .series-logo {
-    animation: series-crossfade 16s linear infinite;
-  }
-
-  .series-logo:nth-child(1) {
-    animation-delay: -0.8s;
-  }
-
-  .series-logo:nth-child(2) {
-    animation-delay: 3.2s;
-  }
-
-  .series-logo:nth-child(3) {
-    animation-delay: 7.2s;
-  }
-
-  .series-logo:nth-child(4) {
-    animation-delay: 11.2s;
-  }
-
-  .series-showcase:hover .series-logo {
-    animation-play-state: paused;
-  }
-
   @keyframes golden-arrive {
     from {
       opacity: 0;
@@ -676,24 +690,7 @@ body {
     }
   }
 
-  @keyframes series-crossfade {
-    0% {
-      opacity: 0;
-      transform: scale(1.015);
-    }
 
-    5%,
-    25% {
-      opacity: 1;
-      transform: scale(1);
-    }
-
-    30%,
-    100% {
-      opacity: 0;
-      transform: scale(1.02);
-    }
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
