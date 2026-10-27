@@ -378,7 +378,7 @@ comments: false
     <article class="ht-card ht-feature">
       <h5>E-POST STUDIO</h5>
       <ul>
-        <li>Quickly design and share ecards, or have Hello Intelligence do it for you</li>
+        <li>Quickly design and share ecards, with optional on-device help from Apple Intelligence</li>
         <li>50+ card backgrounds to choose from</li>
         <li>Generate images or text when you need a little AI assistance</li>
       </ul>
@@ -446,8 +446,14 @@ comments: false
   </section>
 
   <section class="ht-card ht-privacy" style="margin-top:1.4rem;">
-    <h4>Privacy Policy</h4>
-    <p>No personally identifiable information is collected. Ever. Generic anonymous stats are collected to help improve the app. This information is aggregated using the privacy-focused analytics solution <a href="https://telemetrydeck.com">Telemetry Deck</a>.</p>
+    <h4 id="privacy-policy">Privacy Policy</h4>
+    <p><small>Last updated October 27, 2026.</small></p>
+    <p>Your card library stays on your device and, when enabled, in your private iCloud account. Hello There does not sell your personal information.</p>
+    <p>Apple Intelligence features use Apple’s system frameworks to create content on supported devices. Hello There does not send those prompts or results to its own servers or to a third-party AI provider.</p>
+    <p>When you place a Paper Post order, the recipient and optional return address, your email address, and your message are sent securely to Hello There and the service providers needed to process payment, fulfill the order, and provide support. Apple Pay and Stripe handle payment details; Hello There does not receive your full card number.</p>
+    <p>Paper Post order information is retained only as long as reasonably needed for fulfillment, support, fraud prevention, and legal obligations. To ask a privacy question or request deletion of information associated with an order, email <a href="mailto:support@raktech.app">support@raktech.app</a>.</p>
+    <h5>Ads and Analytics</h5>
+    <p>Hello There does not use third-party product analytics. The free version may show non-personalized ads after any required privacy choices have been completed. Ad providers may process limited device, advertising, diagnostic, and approximate-location information to deliver and measure those ads.</p>
   </section>
 
   <section class="ht-card ht-details" style="margin-top:1rem;">
