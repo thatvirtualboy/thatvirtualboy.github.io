@@ -43,14 +43,6 @@ image: /assets/tools.jpg
 
 ---
 
-#### ![logo](/assets/images/WallGenie/icon-new.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Wall•Genie
-> A magical wallpaper generator  
-> [Learn more](https://thatvirtualboy.com/say-hello-to-wallgenie/)  
-
-<a href="https://apps.apple.com/us/app/wall-genie-ai-wallpaper/id6496679681?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1714003200" alt="Download on the App Store" style="border-radius: 13px; width: 150px; height: 83px;"></a>
-
----
-
 #### ![logo](/assets/images/Echodots/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Echodots
 > A daily pattern game for iOS  
 > [Learn more](https://thatvirtualboy.com/echodots)  
@@ -84,13 +76,6 @@ image: /assets/tools.jpg
 > [Learn more](https://artbox.app)  
 
 <a href="https://apps.apple.com/us/app/artbox-2/id1557964462?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1619568000&h=592ca0fbd3178d7c7384a6379fe65c1b" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
-
----
-
-#### ![logo](/assets/apps/yaktraks/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Yaktraks
-> A kids app inspired by voice changer toys from the 90s  
-
-<a href="https://apps.apple.com/us/app/yaktraks-90s-nostalgia/id1583086555?itsct=apps_box_link&itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1619568000&h=592ca0fbd3178d7c7384a6379fe65c1b" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
 
 ---
 
@@ -131,6 +116,20 @@ This tool was originally published as a [VMware Fling](https://flings.vmware.com
 
 <br>
 ## == Legacy Apps ==
+
+#### ![logo](/assets/images/WallGenie/icon-new.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Wall•Genie
+> A magical wallpaper generator
+> [Learn more](https://thatvirtualboy.com/say-hello-to-wallgenie/)
+
+
+---
+
+#### ![logo](/assets/apps/yaktraks/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Yaktraks
+> A kids app inspired by voice changer toys from the 90s
+
+
+---
+
 #### Sonas Journal
 ![logo](/assets/apps/SonasJournal/sonasIcon.png){:height="100px" width="100px" .align-left}  
 A private journal built to capture life's best moments.    
