@@ -4,7 +4,7 @@ title:  "I just took the VMware VCP exam from home. Here's what it was like."
 date:   2020-08-18
 categories: [vmware, vcp, certification]
 read_time: true
-author: Ryan Klumph
+author: thatvirtualboy
 featured: false
 image: assets/images/vcp-home/blog_vcp_home.png
 ---

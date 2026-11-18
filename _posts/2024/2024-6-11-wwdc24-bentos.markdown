@@ -6,7 +6,7 @@ image: assets/images/WWDC/WWDC24/macOS.png
 read_time: false
 featured: false
 date: 2024-6-11
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 The WWDC24 Keynote was jam packed with announcements and updates to all of Apple's major operating systems, including visionOS, macOS, iOS, watchOS, and iPadOS. The keynote even covered updates to the Audio & Home platforms, as well as introduced [Apple Intelligence](https://www.apple.com/apple-intelligence/), the all new AI-driven platform supercharging the ecosystem's next-gen capability. 

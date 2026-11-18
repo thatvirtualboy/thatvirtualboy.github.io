@@ -6,7 +6,7 @@ image: assets/images/WallGenie/wallgenie_bento.jpeg
 read_time: false
 featured: false
 date: 2024-5-1
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 Introducing Wall•Genie! A magical wallpaper generator for iPhone ✨

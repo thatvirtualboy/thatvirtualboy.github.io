@@ -4,7 +4,7 @@ title:  "Don't overlook these awesome vSphere 7 features"
 date:   2020-03-10
 image: /assets/banner1.2.jpg
 categories: [vSphere, VMware]
-author: Ryan Klumph
+author: thatvirtualboy
 read_time: true
 image: assets/images/vsphere7.png
 ---

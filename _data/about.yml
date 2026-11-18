@@ -1,0 +1,57 @@
+features:
+  - app: Route 25
+    outlet: 9to5Mac
+    title: Trading Pokémon cards with Route 25
+    url: https://9to5mac.com/2026/07/11/indie-app-spotlight-route-25-is-an-all-in-one-social-app-for-pokemon-collectors/
+  - app: Hello There
+    outlet: Apple App Store
+    title: Saving handwritten cards with Hello There
+    url: https://apps.apple.com/us/iphone/story/id1681181222
+  - app: Skydex
+    outlet: 9to5Mac
+    title: Checking the forecast with Skydex
+    url: https://9to5mac.com/2026/04/11/hands-on-skydex-turns-your-daily-weather-check-into-a-pokemon-adventure/
+  - app: Echodots
+    outlet: iMore
+    title: A daily memory puzzle with Echodots
+    url: https://www.imore.com/apps/if-youre-looking-for-a-simple-and-addictive-new-daily-puzzle-game-this-iphone-app-is-for-you
+press:
+  - subject: Pixel Paws
+    links:
+      - {label: 9to5Mac Indie App Spotlight, url: 'https://9to5mac.com/2025/04/26/indie-app-spotlight-pixel-paws/'}
+  - subject: Bento|Craft
+    links:
+      - {label: 9to5Mac Indie App Spotlight, url: 'https://9to5mac.com/2025/02/08/indie-app-spotlight-bentocraft/'}
+  - subject: Wall•Genie
+    links:
+      - {label: 9to5Mac, url: 'https://9to5mac.com/2024/05/03/wall-genie-for-iphone-create-ai-wallpapers-app/'}
+  - subject: Hello There
+    links:
+      - {label: 9to5Mac, url: 'https://9to5mac.com/2023/03/27/hello-there-ios-greeting-card-organizer-update/'}
+      - {label: TelemetryDeck, url: 'https://telemetrydeck.com/blog/photo-video-apps/'}
+      - {label: Fueled, url: 'https://fueled.com/blog/hello-there-helps-keep-cards-without-clutter/'}
+      - {label: AppleInsider, url: 'https://appleinsider.com/inside/ios-16/best/the-best-third-party-widgets-for-your-ios-16-lock-screen'}
+  - subject: Artbox
+    links:
+      - {label: iMore, url: 'https://www.imore.com/massive-artbox-update-adds-40-new-features-improvements-saving-family-artwork'}
+      - {label: Fueled, url: 'https://fueled.com/blog/artbox-helps-digitize-childs-creations/'}
+      - {label: Apartment Therapy, url: 'https://www.apartmenttherapy.com/artbox-app-review-kids-art-36870551'}
+  - subject: That Virtual Boy
+    links:
+      - {label: TelemetryDeck, url: 'https://telemetrydeck.com/blog/web-sdk-shoutout/'}
+credentials:
+  - {file: vcp-vcf-2025.png, label: VMware Cloud Foundation Administrator 2025}
+  - {file: vcp-dcv-2024.png, label: VMware Certified Professional in Data Center Virtualization 2024}
+  - {file: vcp23.png, label: VMware Certified Professional in Data Center Virtualization 2023}
+  - {file: vcp22.png, label: VMware Certified Professional in Data Center Virtualization 2022}
+  - {file: vcp21.png, label: VMware Certified Professional in Data Center Virtualization 2021}
+  - {file: stars.png, label: VMware vExpert}
+  - {file: vcp2020.png, label: VMware Certified Professional in Data Center Virtualization 2020}
+  - {file: foundations.png, label: VMware vSphere 6.7 Foundations}
+  - {file: ofa.png, label: VMware Customer-Focused Team Foundation 2019}
+  - {file: fling.png, label: VMware Flings Developer}
+  - {file: VCA-Cloud.png, label: VMware Certified Associate in Cloud}
+  - {file: VCA-WM.png, label: VMware Certified Associate in Workforce Mobility}
+  - {file: VCP-DCV.png, label: VMware Certified Professional in Data Center Virtualization}
+  - {file: VCP-DT.png, label: VMware Certified Professional in Desktop}
+  - {file: cla.png, label: Novell Certified Linux Administrator}

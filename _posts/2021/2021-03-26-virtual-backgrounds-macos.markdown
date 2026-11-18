@@ -3,9 +3,9 @@ layout: post
 title:  "Virtual Backgrounds App now available for macOS"
 date:   2021-03-26
 categories: [apple, swiftui, ios, development]
-image: assets\images\vbmacos.png
+image: assets/images/vbmacos.png
 read_time: true
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 I'm very excited to announce that Virtual Backgrounds app is now available on macOS as a Mac Catalyst app! 🥳
 

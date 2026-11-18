@@ -6,7 +6,7 @@ image: assets/images/mac-app-store.png
 read_time: true
 featured: false
 date: 2023-09-15
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 I've discovered a technical hurdle that has become quite a headache as a SwiftUI developer, and it has to do with availability of an app's Mac Catalyst App Store Build. So let me begin with a warning to the reader: **If you're considering publishing a Catalyst version of your app, proceed with caution and please consider the below scenario.**

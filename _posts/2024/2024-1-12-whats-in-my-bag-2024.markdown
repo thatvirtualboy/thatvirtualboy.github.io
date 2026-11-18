@@ -6,7 +6,7 @@ image: assets/images/whatsinmybag/bag.jpeg
 read_time: true
 featured: false
 date: 2024-1-12
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 Working from home is great. In fact, it’s the best. Sometimes it’s nice to get out and change up the scenery though. If I venture away from my home office, I often find myself at my local coffee shop or another cafe where remote workers are generally welcome.

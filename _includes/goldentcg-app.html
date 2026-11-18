@@ -451,7 +451,7 @@
         <span>Golden TCG</span>
       </a>
       <nav class="golden-nav" aria-label="Golden TCG">
-        <a class="golden-browse-link" href="/cards" data-golden-local-path="/cards">Browse Cards</a>
+        <a class="golden-browse-link" href="https://goldentcg.app/cards">Browse Cards</a>
         <a href="#features">Features</a>
         <a class="golden-store-link" href="#download" data-golden-store-link>Get the App</a>
       </nav>
@@ -464,7 +464,7 @@
         <p class="landing-eyebrow">KAYOU collector companion</p>
         <h1 class="landing-title" id="golden-title">Your&nbsp;KAYOU<br>cards.<span>All in one<br>place.</span></h1>
         <p class="landing-lede">Explore every supported expansion, track each pull, and know exactly what you’re still chasing.</p>
-        <a class="database-cta" href="/cards" data-golden-local-path="/cards">Browse the card database <span aria-hidden="true">→</span></a>
+        <a class="database-cta" href="https://goldentcg.app/cards">Browse the card database <span aria-hidden="true">→</span></a>
         <div class="store-row" id="download" aria-label="Download Golden TCG">
           <a class="official-store-badge" href="https://apps.apple.com/us/app/golden-tcg/id6788388341" target="_blank" rel="noopener noreferrer" aria-label="Download Golden TCG on the App Store">
             <img src="https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" width="120" height="40">
@@ -521,7 +521,7 @@
         <div class="series-banner-copy">
           <p class="series-kicker">Supported KAYOU collections</p>
           <h2>The worlds you collect.</h2>
-          <a class="series-browse" href="/cards" data-golden-local-path="/cards">Explore the card database <span aria-hidden="true">→</span></a>
+          <a class="series-browse" href="https://goldentcg.app/cards">Explore the card database <span aria-hidden="true">→</span></a>
         </div>
         <div class="series-artwork" aria-hidden="true">
           <img class="is-visible" src="https://goldentcg.app/franchise-art/kpop-demon-hunters.webp" alt="" width="2560" height="1600" loading="lazy" decoding="async">
@@ -554,7 +554,7 @@
         <div class="footer-top">
           <div class="footer-brand"><img src="/assets/images/goldentcg/app-icon.png" alt="" width="1024" height="1024"><span>Golden TCG</span></div>
           <div class="footer-links">
-            <a class="golden-browse-link" href="/cards" data-golden-local-path="/cards">Browse Cards</a>
+            <a class="golden-browse-link" href="https://goldentcg.app/cards">Browse Cards</a>
             <a href="/privacy">Privacy</a>
             <a href="/terms">Terms</a>
             <a href="mailto:support@raktech.app">Support</a>
@@ -579,8 +579,6 @@
   const path = window.location.pathname;
   const route = shareRouteFromPath(path);
 
-  initLocalBrowseLinks();
-
   if (!route) {
     initInstallCTA();
     initCounter();
@@ -598,16 +596,6 @@
     : loadCard(route.id).then(renderCard);
   load.catch(renderError);
 
-  function initLocalBrowseLinks() {
-    const isLocalJekyll = (window.location.hostname === "127.0.0.1" || window.location.hostname === "localhost")
-      && window.location.port !== "8787";
-    if (!isLocalJekyll) return;
-
-    app.querySelectorAll("[data-golden-local-path]").forEach((link) => {
-      link.href = `http://127.0.0.1:8787${link.dataset.goldenLocalPath}`;
-    });
-  }
-
   function headerMarkup() {
     return `
       <header class="golden-header" data-golden-header>
@@ -617,7 +605,7 @@
             <span>Golden TCG</span>
           </a>
           <nav class="golden-nav" aria-label="Golden TCG">
-            <a href="/cards">Browse Cards</a>
+            <a href="https://goldentcg.app/cards">Browse Cards</a>
             <a class="golden-contact" href="mailto:support@raktech.app">Contact</a>
             <a class="golden-store-link" href="/goldentcg#download">Get the App</a>
           </nav>
@@ -923,7 +911,7 @@
     ].filter(Boolean).join(" · ");
 
     return `
-      <a class="golden-collection-card" href="/cards/${encodeURIComponent(card.id)}">
+      <a class="golden-collection-card" href="https://goldentcg.app/cards/${encodeURIComponent(card.id)}">
         <img src="${escapeAttribute(imageURL || "")}" alt="${escapeAttribute(card.name)} card art">
         <div>
           <h2>${escapeHTML(card.name)}</h2>

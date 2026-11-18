@@ -8,7 +8,7 @@ read_time: false
 featured: false
 published: true
 date: 2026-9-15
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 *Header image: iPhone Duo in Star White and Night Sky. Image courtesy of [Apple Newsroom](https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/).*

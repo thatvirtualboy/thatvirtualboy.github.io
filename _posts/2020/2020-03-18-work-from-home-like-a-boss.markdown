@@ -4,7 +4,7 @@ title:  "How to Work From Home like a Boss"
 date:   2020-03-18
 categories: [bacon, work from home]
 read_time: true
-author: Ryan Klumph
+author: thatvirtualboy
 featured: false
 image: assets/images/wfh/office1.jpeg
 ---

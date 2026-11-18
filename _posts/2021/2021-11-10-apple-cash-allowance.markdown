@@ -5,7 +5,7 @@ date:   2021-11-10
 categories: [bacon, Apple, home, Family]
 image: "http://media.idownloadblog.com/wp-content/uploads/2017/11/Apple-Pay-cash-Card.jpg"
 read_time: true
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 Our oldest daughter turned 8 this month and is at a great age to start keeping an allowance for completing chores around the house. One challenge my wife and I faced right away is the fact that we don't keep much cash on hand. We rarely visit banks, and most of our financial dealings are done electronically, making it difficult to pony up when allowance is due.

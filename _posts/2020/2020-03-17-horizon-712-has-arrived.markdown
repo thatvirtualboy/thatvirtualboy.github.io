@@ -4,7 +4,7 @@ title:  "VMware Horizon 7.12 Has Arrived"
 date:   2020-03-17
 categories: [Horizon, VMware, work from home]
 read_time: true
-author: Ryan Klumph
+author: thatvirtualboy
 image: assets/images/horizon12/horizon12-hero.png
 ---
 VMware has just released Horizon 7.12 which is kind of a big deal! Packed with new features and fixes, this release is timely amid a massive increase in the **Work From Home** movement in attempt to _flatten the curve_ of the COVID-19 spread. This release comes alongside publication of additional methods to securely connecting to your office's physical workstations from your home. Let's take a closer look.
@@ -60,7 +60,7 @@ Certain applications rely on persistent mac addresses (though this is less of an
 - FTT=0 SPBM policies to enable single node POCs on VMC
 
 ### Horizon for Linux
-You know [we love us some Horizon on Linux](https://thatvirtualboy.com/2020/03/12/ubuntu-ova-12-release.html) around here, so we HAVE to highlight what's new for the penguin
+You know [we love us some Horizon on Linux](/ubuntu-ova-12-release/) around here, so we HAVE to highlight what's new for the penguin
 - Linux VDI: Upgrade libpng from 1.2.x to 1.6.x
 - Linux Client now supports Autoconnect for RDSH USB redirection
 - Today, pressing **Ctrl+Alt** then pressing **ESC** exits full screen mode (Linux client 5.3 and older). With 5.4 and later, this will only work when the Client detects Rasberry Pi as the client hardware.  

@@ -6,7 +6,7 @@ image: assets/images/WallGenie/wallgenie-promo.jpeg
 read_time: false
 featured: false
 date: 2024-5-15
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 I'm happy to share a small but useful update to Wall Genie allowing all users to more easily download the app's most recent *free* community wallpaper.

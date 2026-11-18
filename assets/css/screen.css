@@ -12,12 +12,12 @@ License: https://www.wowthemes.net/freebies-license/
 }
 
 a {
-    color: #00ab6b;
+    color: var(--tvb-accent, #5652c7);
     transition: all 0.2s;
 }
 
 a:hover {
-    color: #038252;
+    color: #383489;
     text-decoration: none;
 }
 
@@ -275,7 +275,7 @@ span.post-read-more a:hover {
 .mediumnavigation .form-inline .btn:hover,
 .mediumnavigation .form-inline .btn:active {
     background: transparent;
-    color: green;
+    color: #5652c7;
 }
 
 .mediumnavigation .navbar-brand {
@@ -337,7 +337,7 @@ span.post-read-more a:hover {
 }
 
 blockquote {
-    border-left: 4px solid #00ab6b;
+    border-left: 4px solid var(--tvb-accent, #5652c7);
     padding: 0 20px;
     font-style: italic;
     color: rgba(0, 0, 0, .5);
@@ -525,8 +525,8 @@ ul.tags li a:hover {
 }
 
 .btn.follow {
-    border-color: #02B875;
-    color: #1C9963;
+    border-color: #6863ce;
+    color: #5652c7;
     padding: 3px 10px;
     text-align: center;
     border-radius: 999em;
@@ -535,8 +535,8 @@ ul.tags li a:hover {
 }
 
 .btn.subscribe {
-    background-color: #1C9963;
-    border-color: #1C9963;
+    background-color: #5652c7;
+    border-color: #5652c7;
     color: rgba(255, 255, 255, 1);
     fill: rgba(255, 255, 255, 1);
     border-radius: 30px;
@@ -581,8 +581,8 @@ ul.tags li a:hover {
 }
 
 .alertbar input[type="submit"] {
-    background-color: #1C9963;
-    border: 1px solid #1C9963;
+    background-color: #5652c7;
+    border: 1px solid #5652c7;
     color: rgba(255, 255, 255, 1);
     fill: rgba(255, 255, 255, 1);
     font-size: 0.85rem;
@@ -899,3 +899,55 @@ iframe {
     opacity: 0;
     transition: opacity .25s;
 }
+
+/* Shared article and archive colors, including older posts with Blogger markup. */
+body {
+    background: var(--tvb-paper);
+    color: var(--tvb-ink);
+}
+.article-post, .link-dark, span.post-name a { color: var(--tvb-ink); }
+.layout-post .mainheading h1 { line-height: 1.12; text-wrap: balance; }
+.layout-post .article-post { font-family: Merriweather, Georgia, serif; }
+.layout-post .article-post .text-muted { color: var(--tvb-muted) !important; }
+.layout-post .article-post a { color: var(--tvb-accent); text-decoration: underline; text-underline-offset: .15em; }
+.layout-post .article-post a:is(:hover, :focus-visible), .PageNavigation a:hover, .footer a:hover { color: var(--tvb-blue); }
+.layout-post .article-post blockquote {
+    padding: .8em 1.2em;
+    background: var(--tvb-soft);
+    border-left-color: var(--tvb-accent);
+}
+.layout-post .article-post blockquote > :last-child { margin-bottom: 0; }
+ul.tags li a { background: var(--tvb-soft); color: var(--tvb-accent); border-radius: 999px; }
+ul.tags li a:hover { background: var(--tvb-line); }
+.layout-post .PageNavigation { border-top: 1px solid var(--tvb-line); padding-top: 1rem; }
+.footer, blockquote, span.post-date, span.post-read, .listrecent h4.card-text, .listfeaturedtag h4.card-text,
+.share, .share a, span.post-read-more a { color: var(--tvb-muted); }
+.share a:hover, .share a:focus-visible { color: var(--tvb-accent); }
+.share, .share a, .post-read-more a { fill: currentColor; }
+.footer, .section-title h2, .section-title span, .site-content hr { border-color: var(--tvb-line) !important; }
+.section-title span { border-bottom-color: var(--tvb-accent) !important; }
+.footer { background: var(--tvb-paper); }
+.card, .alertbar, .graybg { background-color: var(--tvb-surface); border-color: var(--tvb-line); }
+.listrecent .card-footer { background-color: var(--tvb-surface) !important; }
+.listrecent a.text-dark { color: var(--tvb-ink) !important; }
+.listrecent a.text-dark:hover { color: var(--tvb-accent) !important; }
+.layout-post :focus-visible { outline: 2px solid var(--tvb-focus); outline-offset: 3px; }
+.layout-post :not(pre) > code { color: var(--tvb-accent); }
+.layout-post pre, .layout-post .highlight {
+    color: var(--tvb-ink);
+    background: var(--tvb-soft);
+    border-color: var(--tvb-line);
+}
+[data-theme="dark"] .layout-post .highlight :where(span[class]) { color: inherit; background: transparent; }
+[data-theme="dark"] .layout-post .highlight :is(.s, .s1, .s2, .k, .kd, .kt) { color: var(--tvb-accent); }
+[data-theme="dark"] .layout-post .highlight :is(.c, .c1, .cm) { color: var(--tvb-muted); }
+[data-theme="dark"] .article-post [style*="background-color: white" i],
+[data-theme="dark"] .article-post [style*="background-color: #fdfdfd" i],
+[data-theme="dark"] .article-post [style*="background-color: #eeffcc" i] { background-color: var(--tvb-soft) !important; }
+[data-theme="dark"] .layout-post .article-post :where(span, div, p, font)[style*="color:" i],
+[data-theme="dark"] .layout-post .article-post font[color] { color: inherit !important; }
+/* Some tutorials use named colors as a key; keep those callouts distinguishable. */
+[data-theme="dark"] .layout-post .article-post [style*="color: green" i],
+[data-theme="dark"] .layout-post .article-post [style*="color: #339966" i] { color: #8ed5aa !important; }
+[data-theme="dark"] .layout-post .article-post [style*="color: maroon" i],
+[data-theme="dark"] .layout-post .article-post [style*="color: red" i] { color: #ffadb9 !important; }

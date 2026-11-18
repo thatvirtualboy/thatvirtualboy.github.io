@@ -1,0 +1,12 @@
+<section class="archive">
+  <h1>Articles<span>.</span></h1>
+  {% assign years = include.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+  {% for year in years %}
+  <div class="archive-year">
+    <h2>{{ year.name }}</h2>
+    <div>{% for post in year.items %}
+      <a href="{{ post.url }}"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d" }}</time><strong>{{ post.title | escape }}</strong><span aria-hidden="true">→</span></a>
+    {% endfor %}</div>
+  </div>
+  {% endfor %}
+</section>

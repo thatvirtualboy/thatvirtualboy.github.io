@@ -6,7 +6,7 @@ image: assets/images/bento/bentocraft-promo1.png
 read_time: true
 featured: false
 date: 2023-10-10
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 Today I'm excited to introduce `Bento|Craft`, launching later this month! 

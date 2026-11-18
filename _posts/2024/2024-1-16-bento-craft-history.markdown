@@ -6,7 +6,7 @@ image: assets/images/bento-on-visionOS.png
 read_time: true
 featured: false
 date: 2024-1-16
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 As someone who picked up iOS development in only the last few years, it's always been an inspiration to hear stories of those who were *there* when the App Store first launched on the iPhone. Those who have been able to say, "My app launched alongside the App Store." How cool is that?

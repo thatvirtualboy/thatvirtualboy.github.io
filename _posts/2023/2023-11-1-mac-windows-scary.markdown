@@ -6,7 +6,7 @@ image: assets/images/m3.PNG
 read_time: true
 featured: false
 date: 2023-11-1
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 This week Apple announced the M3 series of chips at their [Scary Fast event.](https://www.apple.com/apple-events/) Like many others, I was amazed when Apple flexed at the end with the statement "This event was shot on iPhone, and edited on Mac". Check out the [*Behind the scenes*](https://www.apple.com/newsroom/2023/10/behind-the-scenes-at-scary-fast-apples-keynote-event-shot-on-iphone/) on filming the event  - it's really impressive! 

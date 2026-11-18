@@ -1,9 +1,10 @@
 # Site
 name: "thatvirtualboy"
 title: "thatvirtualboy"
-description: "Sometimes I do things and write about it"
+description: "Indie apps, videos, and articles by That Virtual Boy."
 logo: 'assets/favicon.png'
 favicon: 'assets/favicon.png'
+url: "https://thatvirtualboy.com"
 baseurl: ""
 google_analytics: 'UA-104130481-1'
 disqus: 'thatvirtualboy'
@@ -13,9 +14,9 @@ permalink: /:title/
 
 # Authors
 authors:
-  Ryan Klumph:
-    name: Ryan Klumph
-    display_name: Ryan
+  thatvirtualboy:
+    name: That Virtual Boy
+    display_name: That Virtual Boy
     avatar: 'assets/images/thatvirtualboy-pixel-rounded.png'
     gravatar: b89e73248ca25117c3c4382cc1da65ab
     email: thatvirtualboy@icloud.com
@@ -69,4 +70,17 @@ adsense-data-ad-slot: "7898588163"
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "enabled"
 
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+exclude:
+  - Preview.command
+  - changelog.md
+  - LICENSE.txt
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - Gemfile.lock.lock
+  # Retired promo materials. The app pages use the gallery and video in assets/studio.
+  - assets/images/pixelpaws/sneakpeakvid.mp4
+  - assets/images/pixelpaws/howtovid.mp4
+  - assets/images/bentovision/bentovision[1-6].png
+  - assets/images/bento/bentocraft-appstore-[1-4].png
+  - assets/images/hellothere/appstore-screen*.png

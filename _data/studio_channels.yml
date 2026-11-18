@@ -1,0 +1,44 @@
+- name: X
+  text: Follow @thatvirtualboy
+  url: https://x.com/thatvirtualboy
+  feature_order: 4
+  feature:
+    title: The latest on X
+    description: App updates, collecting finds, and what I’m working on now.
+    artwork: timeline
+    image: /assets/studio/x-mark.svg
+- name: Instagram
+  text: Follow @thatvirtualboy
+  url: https://www.instagram.com/thatvirtualboy/
+- name: Threads
+  text: Follow @thatvirtualboy
+  url: https://www.threads.com/@thatvirtualboy
+- name: YouTube
+  text: Subscribe to my channel
+  url: https://www.youtube.com/@thatvirtualboy
+  feature_order: 2
+  feature:
+    title: Watch on YouTube
+    description: Walk through my apps and see what’s new in each release.
+    artwork: video
+    image: /assets/studio/channel-avatar.webp
+- name: RSS
+  text: Subscribe to articles
+  url: /feed.xml
+- name: Collector Spotlights
+  text: Subscribe to the Route 25 newsletter
+  url: https://route25.app/newsletter
+  feature_order: 1
+  feature:
+    title: Route 25 Collector Spotlights
+    description: Meet the collectors behind the binders and see the cards they treasure.
+    artwork: collectors
+    image: /assets/studio/spotlight-cards.webp
+- name: Route 25 Discord
+  url: https://discord.gg/WncmGEFuNw
+  feature_order: 3
+  feature:
+    title: Route 25 Discord
+    description: Share your latest pull and talk Pokémon cards with other trainers.
+    artwork: discord
+    image: /assets/studio/discord-mark.svg

@@ -6,7 +6,7 @@ categories: [apple, swiftui, ios, development]
 image: "https://photos5.appleinsider.com/gallery/26319-37220-180605-App_Store_Connect-xl.jpg"
 read_time: true
 featured: false
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 Is your app review "taking longer than expected?" This can be so frustrating for a developer. Here's what my experience was like!
 

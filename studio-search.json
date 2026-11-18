@@ -1,0 +1,10 @@
+---
+layout: null
+permalink: /studio-search.json
+---
+[
+{% for app in site.data.studio_apps %}{"title":{{ app.name | jsonify }},"url":{{ app.url | jsonify }},"detail":{{ app.category | append: " " | append: app.description | jsonify }},"type":"App"},{% endfor %}
+{% for channel in site.data.studio_channels %}{"title":{{ channel.name | jsonify }},"url":{{ channel.url | jsonify }},"detail":{{ channel.text | append: " " | append: channel.feature.title | append: " " | append: channel.feature.description | strip | jsonify }},"type":"Channel"},{% endfor %}
+{% for short in site.data.youtube_shorts limit:3 %}{"title":{{ short.title | jsonify }},"url":{{ short.id | prepend: "https://www.youtube.com/shorts/" | jsonify }},"detail":"YouTube Shorts by thatvirtualboy","type":"Short"},{% endfor %}
+{% for post in site.posts %}{"title":{{ post.title | jsonify }},"url":{{ post.url | jsonify }},"detail":{{ post.categories | concat: post.tags | join: ' ' | append: ' ' | append: post.excerpt | strip_html | strip_newlines | truncate: 400 | jsonify }},"type":"Article"}{% unless forloop.last %},{% endunless %}{% endfor %}
+]

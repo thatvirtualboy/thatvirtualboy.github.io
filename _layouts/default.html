@@ -3,16 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{% include studio-theme.html %}
 
 <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
-
-<title>{{ page.title }} | {{site.name}}</title>
 
 {% seo %}
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-<link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/css/screen.css?v={{ site.time | date: '%s' }}" rel="stylesheet">
 
 <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
 
@@ -30,10 +29,11 @@ data-app-id="F40EF852-5F86-4BFC-A5AE-91FF4F8CD5B2"
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
 <link rel="manifest" href="/assets/images/favicon/site.webmanifest">
-<link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-<link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
+<link rel="shortcut icon" href="/favicon.ico">
 <!-- end custom head snippets -->
 
+<link rel="stylesheet" href="/assets/css/studio-nav.css?v={{ site.time | date: '%s' }}">
+<script defer src="/assets/js/studio.js?v={{ site.time | date: '%s' }}"></script>
 </head>
 
 {% if jekyll.environment == 'production' %}
@@ -57,81 +57,11 @@ ga('send', 'pageview');
 	</noscript>
 
 
-<!-- Begin Menu Navigation
-================================================== -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
-
-    <div class="container pr-0">
-
-    <!-- Begin Logo -->
-    <a class="navbar-brand" href="{{ site.baseurl }}/">
-    <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
-    </a>
-    <!-- End Logo -->
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarMediumish">
-
-        <!-- Begin Menu -->
-
-            <ul class="navbar-nav ml-auto">
-
-                {% if page.url == "/" %}
-                <li class="nav-item active">
-                {% else %}
-                <li class="nav-item">
-                {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html"><i class="fa-regular fa-keyboard"></i> Blog</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/about"><i class="fa-regular fa-address-card"></i> About</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/apps"><i class="fab fa-app-store"></i> Apps</a>
-                </li>
-
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://github.com/thatvirtualboy"><i class="fab fa-github"></i> Github</a>
-                </li>
-
-                    <li class="nav-item">
-                        <a target="_blank" class="nav-link" href="https://twitter.com/thatvirtualboy"><i class="fab fa-x-twitter"></i> Twitter</a>
-                    </li>
-
-                                    <li class="nav-item">
-                    <a rel="me" target="_blank" class="nav-link" href="https://buymeacoffee.com/thatvirtualboy/extras"><i class="fa fa-mobile"></i> Wallpapers</a>
-                    </li>
-
-                <!-- {% include search-lunr.html %} -->
-
-            </ul>
-
-        <!-- End Menu -->
-
-    </div>
-
-    </div>
-</nav>
-<!-- End Navigation
-================================================== -->
-
-<div class="site-content">
+{% include studio-header.html %}
+{% include studio-search.html %}
+<div class="site-content" id="main">
 
 <div class="container">
-
-<!-- Site Title
-================================================== -->
-<div class="mainheading">
-    <h1 class="sitetitle">{{ site.name }}</h1>
-    <p class="lead">
-        {{ site.description }}
-    </p>
-</div>
 
 <!-- Content
 ================================================== -->
@@ -157,37 +87,13 @@ ga('send', 'pageview');
 
 </div>
 
-<!-- Categories Jumbotron
-================================================== -->
-<div class="jumbotron fortags">
-	<div class="d-md-flex h-100">
-		<div class="col-md-4 transpdark align-self-center text-center h-100">
-            <div class="d-md-flex align-items-center justify-content-center h-100">
-                <h2 class="d-md-block align-self-center py-1 font-weight-light">Explore tags <span class="d-none d-md-inline">→</span></h2>
-            </div>
-		</div>
-		<div class="col-md-8 p-5 align-self-center text-center">
-            {% assign categories_list = site.categories %}
-            {% if categories_list.first[0] == null %}
-                {% for category in categories_list %}
-                    <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a>
-                {% endfor %}
-            {% else %}
-                {% for category in categories_list %}
-                    <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a>
-                {% endfor %}
-            {% endif %}
-            {% assign categories_list = nil %}
-		</div>
-	</div>
-</div>
-
 <!-- Begin Footer
 ================================================== -->
 <footer class="footer">
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                <a href="https://github.com/thatvirtualboy">GitHub</a> · <a href="/categories">Categories</a> · <a href="/tags">Tags</a> · <a href="https://buymeacoffee.com/thatvirtualboy/extras">Wallpapers</a><br>
                 Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
             </div>
             <div class="col-md-6 col-sm-6 text-center text-lg-right">

@@ -7,10 +7,10 @@ read_time: false
 featured: false
 published: true
 date: 2026-5-1
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
-> Get Gear Shop $$$ and free Rivian charging credits! Use code **RYAN4190772** when [ordering your new Rivian](https://rivian.com/configurations/list?reprCode=RYAN4190772).
+> Get Gear Shop $$$ and free Rivian charging credits! Use my referral link when [ordering your new Rivian](https://rivian.com/configurations/list?reprCode=RYAN4190772).
 
 I've spent a lot of time fiddling with the audio settings in my Dune R1T, especially when streaming Apple Music. Rivian's Premium Audio system has a lot of potential, but the default settings don't always make Apple Music sound as full or consistent as I want it to.
 
@@ -84,4 +84,4 @@ If you're unhappy with Apple Music in your Rivian, this setup is worth trying as
 
 Hopefully Rivian keeps tuning the audio experience through future software updates, because the hardware feels like it should be capable of more. For now, this setup gets Apple Music sounding the best it has sounded in my truck.
 
-> Get Gear Shop $$$ and free Rivian charging credits! Use code **RYAN4190772** when [ordering your new Rivian](https://rivian.com/configurations/list?reprCode=RYAN4190772).
+> Get Gear Shop $$$ and free Rivian charging credits! Use my referral link when [ordering your new Rivian](https://rivian.com/configurations/list?reprCode=RYAN4190772).

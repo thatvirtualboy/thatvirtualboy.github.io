@@ -6,7 +6,7 @@ image: assets/images/Blue_Eclipse/Blue_Eclipse_II_Mac.png
 read_time: false
 featured: false
 date: 2024-4-9
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 Millions gathered in unity this week to catch a glimpse of the total solar eclipse passing over North America. From [posting iPhone pictures through solar glasses](https://x.com/iMore/status/1777408060694188311), to Apple-inspired walls from [Basic Apple Guy](https://basicappleguy.com/haberdashery/totalsolareclipse), everyone seemed to participate in the event one way or another.

@@ -3,10 +3,10 @@ layout: post
 title:  "Migrating Blogger to Github Pages via Jekyll"
 date:   2020-03-09
 categories: [Blog, bacon, vExpert, Github, Jekyll]
-author: Ryan Klumph
+author: thatvirtualboy
 read_time: true
 ---
-Recently I made the switch from writing on Google’s Blogger platform to Github Pages using Jekyll. It’s been a welcome and refreshing change. A little more on that [here](/2020/03/05/blog-on-github.html)... Hopefully this post helps someone on a similar journey.
+Recently I made the switch from writing on Google’s Blogger platform to Github Pages using Jekyll. It’s been a welcome and refreshing change. A little more on that [here](/blog-on-github/)... Hopefully this post helps someone on a similar journey.
 
 One fellow vExpert suggested I share my experience of the actual migration process:
 

@@ -6,7 +6,7 @@ image: assets/images/SpringDream/Spring_Dream_Fam.png
 read_time: true
 featured: false
 date: 2024-3-12
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 Spring is right around the corner. With Apple [introducing a fresh Spring collection](https://9to5mac.com/2024/03/04/here-are-the-new-iphone-case-and-apple-watch-band-colors-for-spring/) of iPhone Cases and Apple Watch bands, it's the perfect time to also freshen up our iPhone and iPad wallpapers!

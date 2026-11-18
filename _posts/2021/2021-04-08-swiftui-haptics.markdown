@@ -6,7 +6,7 @@ categories: [apple, swiftui, ios, development]
 image: "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
 read_time: true
 featured: false
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 In developing *Artbox 2*, one thing I set out to accomplish was making the user experience more immersive and personable. One of the ways to achieve this is to add *haptic feedback*. Haptics are the vibration responses to the user interacting with the application. When you're buying something with Apple Pay, scrolling through a picker, or receiving confirmations and alerts - haptics are widely used in mobile apps and can greatly enhance the user experience.  
 

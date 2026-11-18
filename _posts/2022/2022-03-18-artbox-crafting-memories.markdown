@@ -5,7 +5,7 @@ date: 2022-03-18
 categories: [bacon, Apple, home, Family]
 image: assets/images/promo6.png
 read_time: true
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 I'm thrilled to announce a major update to Artbox: version 2.7 - Crafting Memories.

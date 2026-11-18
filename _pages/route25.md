@@ -13,8 +13,8 @@ comments: false
     align-items: center;
     height: 80vh;
     font-family: system-ui, -apple-system, sans-serif;
-    background-color: #fafafa;
-    color: #333;
+    background-color: var(--tvb-paper);
+    color: var(--tvb-ink);
     text-align: center;
   }
   h1 {

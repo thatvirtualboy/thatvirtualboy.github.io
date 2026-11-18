@@ -6,7 +6,7 @@ image: assets/images/watch.png
 read_time: false
 featured: false
 date: 2024-6-24
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 I remember the days where it was not only commonplace, but encouraged to wipe your computer and start fresh on a regular basis. A common performance troubleshooting tactic, starting over with a clean slate was good for your operating system, as well as your mental health. Windows even has a built-in "Refresh" feature that essentially blasts Windows back to new while keeping your files intact. macOS supports Time Machine backups for conveniently restoring personal files in the case of a system wipe (or system replacement).

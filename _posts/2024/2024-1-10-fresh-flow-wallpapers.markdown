@@ -6,7 +6,7 @@ image: assets/images/FreshFlow/original-family.png
 read_time: true
 featured: false
 date: 2024-1-10
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 Only a week ago I shared my wallpaper collection, [The Grid](https://thatvirtualboy.com/new-years-wallpapers/), welcoming 2024 and sharing a brief message of hope as we look to the new year ahead. I think it's safe to say I'm enjoying all too much creating and sharing these wallpapers with you, and am so very grateful for your support and words of encouragement. I can't say this will continue to be a *weekly* occurence, but I'm excited to share a fresh collection with you today.  

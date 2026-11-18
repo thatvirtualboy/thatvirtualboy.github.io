@@ -5,7 +5,7 @@ date: 2022-03-23
 categories: [bacon, Apple, developer]
 image: "https://images.unsplash.com/photo-1529528744093-6f8abeee511d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80"
 read_time: true
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 If I’ve learned anything from developing apps, it’s that there’s always something to fix. Something to change. Something to improve. The work is never finished, and therein lies the demon with any hobby. “I can stop whenever I want” we say…

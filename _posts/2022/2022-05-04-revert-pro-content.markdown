@@ -5,7 +5,7 @@ categories: [Apple, SwiftUI, iOS, development]
 image: "https://images.unsplash.com/photo-1593510987046-1f8fcfc512a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80"
 read_time: true
 date: 2022-05-04
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 In building Premium features into my SwiftUI app available with a subscription, one use case that I considered is, "What if someone cancels their subscription, or their subscription lapses?"

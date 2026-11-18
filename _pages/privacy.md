@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Golden TCG Privacy Policy
+title: App Privacy Policies
 permalink: /privacy
 comments: false
 ---
 
-# Privacy Policy
+Looking for the weather app? Read the [Skydex privacy policy](/skydex/privacy/).
+
+# Golden TCG Privacy Policy
 
 This policy applies to the Golden TCG app and the website at goldentcg.app.
 

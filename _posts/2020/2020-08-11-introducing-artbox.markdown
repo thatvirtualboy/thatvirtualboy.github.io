@@ -4,7 +4,7 @@ title:  Introducing Artbox
 date:   2020-08-11
 categories: [bacon, iOS, development, apps]
 read_time: true
-author: Ryan Klumph
+author: thatvirtualboy
 image: assets/apps/artbox/artbox-coverflow.png
 ---
 I'm happy to share a project I've spent the last few months working on. A new iOS app for parents called Artbox! [https://artbox.app](https://artbox.app) 📱  

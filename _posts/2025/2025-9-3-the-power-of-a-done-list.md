@@ -6,7 +6,7 @@ image: assets/apps/didly/didly-hero.png
 read_time: false
 featured: false
 date: 2025-9-3
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 

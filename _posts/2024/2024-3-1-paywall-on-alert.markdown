@@ -6,7 +6,7 @@ image: assets/images/alertpaywall/header.png
 read_time: true
 featured: false
 date: 2024-3-1
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 I was recently surprised to find that App Review accepted a build of Echodots where my Freemium IAP Paywall was built entirely into a system Alert. I don't have any real reason to have believed that such a configuration wouldn't be allowed. Do other apps do this? Was I just being lazy? It was a genuine concern the app would get rejected on this single aspect.  

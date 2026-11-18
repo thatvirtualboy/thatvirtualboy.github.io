@@ -1,0 +1,1 @@
+<div class="shelf">{% for app in site.data.studio_apps limit:include.limit %}<a class="app" href="{{ app.url }}"><div class="cover {{ app.color }}"><img src="{{ app.icon }}" alt=""></div><small>{{ app.category }}</small><h3>{{ app.name }} <span>↗</span></h3><p>{{ app.description }}</p></a>{% endfor %}</div>

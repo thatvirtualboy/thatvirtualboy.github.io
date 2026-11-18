@@ -6,9 +6,9 @@ image: assets/images/R1T/truck1.jpeg
 read_time: false
 featured: false
 date: 2025-5-28
-author: Ryan Klumph
+author: thatvirtualboy
 ---
-> Get $500 of Rivian credit! Use code **RYAN4190772** when [ordering your new Rivian](https://rivian.com/configurations/list?reprCode=RYAN4190772).   
+> Get $500 of Rivian credit! Use my referral link when [ordering your new Rivian](https://rivian.com/configurations/list?reprCode=RYAN4190772).
 
 I shared a photo of my **Rivian R1T California Dune's** recent tint work on the front windows and was asked about some of the details. I thought I'd break down the process and cost for anyone interested in doing something similar. My receipt scans are below!
 
@@ -45,4 +45,4 @@ In case you're interested, below is the receipt for the work completed. The tota
 ![Receipt](/assets/images/R1T/ai-3.png){:width="60%"} 
 
 
-> Get $500 of Rivian credit! Use code **RYAN4190772** when [ordering your new Rivian](https://rivian.com/configurations/list?reprCode=RYAN4190772). 
+> Get $500 of Rivian credit! Use my referral link when [ordering your new Rivian](https://rivian.com/configurations/list?reprCode=RYAN4190772).

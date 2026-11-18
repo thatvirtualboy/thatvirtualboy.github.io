@@ -7,7 +7,7 @@ read_time: false
 featured: false
 published: true
 date: 2026-2-6
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 I’ve been trying to simplify what I carry day to day — especially for coffee shop work sessions where a full-size backpack just feels unnecessary.

@@ -5,7 +5,7 @@ categories: [Apple, bacon, SwiftUI]
 image: assets/apps/hellothere/hellothere-promo4.png
 read_time: true
 date: 2023-01-30
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 My greeting card organizer app for iOS, **Hello There**, has been updated to version 1.2. This new version introduces the ability to purchase a hand-written letter and have it mailed on your behalf to anywhere in the world. I'm calling this new service **Hello There Post.**
 

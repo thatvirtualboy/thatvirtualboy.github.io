@@ -1,62 +1,86 @@
 ---
-layout: default
-title: Home
+layout: studio
+title: Indie apps, videos, and articles
+description: Discover indie apps, videos, and writing about technology from That Virtual Boy.
 ---
-
-{% if page.url == "/" %}
-
-<!-- Featured
-================================================== -->
-<section class="featured-posts">
-    <div class="section-title">
-        <h2><span>Featured</span></h2>
-    </div>
-    <div class="row">
-
-    {% for post in site.posts %}
-
-        {% if post.featured == true %}
-
-            {% include featuredbox.html %}
-
-        {% endif %}
-
-    {% endfor %}
-
-    </div>
-</section>
-
-{% endif %}
-
-<!-- Posts Index
-================================================== -->
-<section class="recent-posts">
-
-    <div class="section-title">
-
-        <h2><span>All Stories</span></h2>
-
-    </div>
-
-    <div class="row listrecent">
-
-        {% for post in paginator.posts %}
-
-        {% include postbox.html %}
-
-        {% endfor %}
-
-    </div>
-
-</section>
-
-<!-- Pagination
-================================================== -->
-<div class="bottompagination">
-<div class="pointerup"><i class="fa fa-caret-up"></i></div>
-<span class="navigation" role="navigation">
-    {% include pagination.html %}
-</span>
+{% if paginator.page > 1 %}
+{% include studio-archive.html posts=paginator.posts %}
+<p><a href="/articles/">Browse the full archive →</a></p>
+{% else %}
+<h1 class="sr">That Virtual Boy — indie apps, videos, and articles</h1>
+<section class="hero" id="app-spotlight" aria-label="Featured apps" aria-roledescription="carousel">
+{% for app in site.data.studio_apps limit:3 %}
+<article class="slide s{{ forloop.index }}" {% unless forloop.first %}hidden{% endunless %}>
+<div class="scene">
+{% case forloop.index %}{% when 1 %}
+<div class="screen-group" role="img" aria-label="The thatvirtualboy trainer profile between a Pikachu card and the Route 25 feed">
+  <img class="screen-left" src="/assets/studio/route-card.webp" alt="">
+  <img class="screen-right" src="/assets/studio/route-feed.webp" alt="">
+  <img class="screen-lead" src="/assets/studio/route-trainer-profile.webp" alt="">
 </div>
-
-
+{% when 2 %}
+<div class="skydex-devices" role="img" aria-label="Mightyena appears in cloudy weather on iPhone, alongside the ten-day forecast on iPhone Duo">
+  <img class="skydex-phone" src="/assets/studio/skydex-mightyena.webp" width="500" height="991" alt="">
+  <img class="skydex-duo" src="/assets/studio/skydex-duo-forecast.webp" width="900" height="659" alt="">
+</div>
+{% else %}
+<div class="screen-group" role="img" aria-label="Golden TCG’s Binder with Rumi and Mira cards, flanked by pinned sets and the character browser">
+  <img class="screen-left" src="/assets/studio/golden-pinned-sets.webp" alt="">
+  <img class="screen-right" src="/assets/studio/golden-characters.webp" alt="">
+  <img class="screen-lead" src="/assets/studio/golden-binder.webp" alt="">
+</div>
+{% endcase %}
+</div>
+<div class="hero-copy"><div class="eyebrow"><b>✦</b> APP SPOTLIGHT</div>
+<h2>{{ app.name }}</h2><p>{% case forloop.index %}{% when 1 %}A home for Pokémon card collectors. Build your binder, share your pulls, and find your next trade.{% when 2 %}Discover Pokémon in the weather outside your window. Check the forecast and grow your pixel Pokédex.{% else %}From KPop Demon Hunters to My Little Pony, give your KAYOU cards a home.{% endcase %}</p>
+<a class="hero-link" href="{{ app.url }}">Explore {{ app.name }} <span>↗</span></a></div>
+</article>{% endfor %}
+<div class="controls" role="group" aria-label="App spotlight controls">
+  <button type="button" class="rotation-toggle" aria-controls="app-spotlight" aria-label="Pause spotlight rotation" hidden></button>
+  {% for app in site.data.studio_apps limit:3 %}
+  <button type="button" class="app-selector" aria-label="Feature {{ app.name }}" aria-pressed="{{ forloop.first }}">
+    <img src="{{ app.icon }}" alt="" width="22" height="22">{{ app.name }}
+    <span class="rotation-track" aria-hidden="true"><span></span></span>
+  </button>
+  {% endfor %}
+</div>
+</section>
+<section id="apps"><div class="section-head"><div><h2>My apps<span>.</span></h2></div><a href="/apps/">All apps <span>→</span></a></div>
+{% include studio-shelf.html limit=4 %}</section>
+<section aria-labelledby="studio-notes">
+  <div class="section-head"><h2 id="studio-notes">More to explore<span>.</span></h2></div>
+  <div class="notes-grid">
+    {% assign featured_channels = site.data.studio_channels | where_exp: "channel", "channel.feature" | sort: "feature_order" %}
+    {% for channel in featured_channels %}
+    <a class="note" href="{{ channel.url }}">
+      <div class="note-art {{ channel.feature.artwork }}" aria-hidden="true">
+        <img src="{{ channel.feature.image }}" loading="lazy" alt="">
+      </div>
+      <div class="note-copy"><h3>{{ channel.feature.title }}</h3><p>{{ channel.feature.description }}</p></div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% if site.data.youtube_shorts.size > 0 %}
+<section id="shorts" aria-labelledby="shorts-title">
+  <div class="section-head">
+    <h2 id="shorts-title">Latest Shorts<span>.</span></h2>
+    <a href="https://www.youtube.com/@thatvirtualboy/shorts">All Shorts <span aria-hidden="true">↗</span></a>
+  </div>
+  <div class="shorts-grid">
+    {% for short in site.data.youtube_shorts limit:3 %}
+    <a class="short-card" href="https://www.youtube.com/shorts/{{ short.id }}">
+      <span class="short-art" aria-hidden="true"><img class="is-letterboxed" src="https://i.ytimg.com/vi/{{ short.id }}/hqdefault.jpg" alt="" width="405" height="720" loading="lazy"></span>
+      <div class="short-copy">
+        <time datetime="{{ short.published | escape }}">{{ short.published | date: "%b %-d, %Y" }}</time>
+        <h3>{{ short.title | escape }}</h3>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+<section><div class="section-head"><div><h2>Latest articles<span>.</span></h2></div><a href="/articles/">All articles →</a></div>
+<div class="stories">{% for post in site.posts limit:3 %}<a href="{{ post.url }}">{% if post.image %}<img loading="lazy" src="{{ site.data.article_thumbnails[post.image] | default: post.image | relative_url }}" alt="">{% endif %}<small>{{ post.date | date: "%b %-d, %Y" }}</small><h3>{{ post.title | escape }}</h3></a>{% endfor %}</div></section>
+<section id="follow"><div class="section-head"><div><h2>Follow along<span>.</span></h2></div></div><div class="channels">{% assign follow_channels = site.data.studio_channels | where_exp: "channel", "channel.text" %}{% for channel in follow_channels %}<a href="{{ channel.url }}"><strong>{{ channel.name }} ↗</strong><span>{{ channel.text }}</span></a>{% endfor %}</div></section>
+{% endif %}

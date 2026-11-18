@@ -6,7 +6,7 @@ image: assets/images/15proheader1.png
 read_time: true
 featured: false
 date: 2023-09-24
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 The iPhone 15 Pro Natural Titanium isn't nearly as *tan* or *golden* as I thought it appeared to be in Apple's original announcement and marketing material. It was by far the most interesting color as it appeared to give off different hues in different light. I couldn't quite make out if it was tan, brown with golden accents, grey, or silver. 

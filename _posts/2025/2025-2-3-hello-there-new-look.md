@@ -6,7 +6,7 @@ image: assets/images/hello-bento-2025.JPG
 read_time: false
 featured: false
 date: 2025-2-3
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 Developing apps is like homeownership: you're constantly fixing things, upgrading things that still work but 'it's time', and you're probably still in debt over it. But somehow it doesn't take away the joy and the pride of it all. I've been working hard on the latest update to Hello There and it ended up becoming probably the biggest update since its launch.

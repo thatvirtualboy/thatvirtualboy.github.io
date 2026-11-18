@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Apps
-permalink: /apps/
-image: /assets/tools.jpg
+title: App catalog and legacy projects
+permalink: /apps/catalog/
+image: /assets/studio/personal-banner.webp
 ---
 
 #### <img src="/assets/images/skydex/app-icon.png" alt="Skydex icon" width="80" height="80" class="align-left" style="border-radius: 18px;" />&nbsp;&nbsp;&nbsp;&nbsp;Skydex
 > A weather-powered Pokémon collecting adventure.  
-> [Learn more](https://thatvirtualboy.com/skydex)
+> [Learn more](/skydex)
 
 <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
   <a href="https://apps.apple.com/us/app/skydex-pixel-weather-dex/id6761288653?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" style="width: 150px; height: auto;"></a>
@@ -26,7 +26,7 @@ image: /assets/tools.jpg
 
 #### ![logo](/assets/images/pixelpaws/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Pixel Paws
 > A friendly virtual pet made for Apple Watch  
-> [Learn more](https://thatvirtualboy.com/pixelpaws)  
+> [Learn more](/pixelpaws)
 
 
  <a href="https://apps.apple.com/us/app/pixel-paws-virtual-pet-toy/id6743422824?itscg=30200&itsct=apps_box_badge&mttnsubad=6743422824" style="display: inline-block;">
@@ -37,7 +37,7 @@ image: /assets/tools.jpg
 
 #### ![logo](/assets/apps/didly/appicon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Didly: Hack your Productivity.
 > Fuel your motivation. Available on macOS and iOS.  
-> [Learn more](https://thatvirtualboy.com/didly)  
+> [Learn more](/didly)
 
  <a href="https://apps.apple.com/us/app/done-not-a-to-do-app/id6503087781?mt=12&amp;itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/en-us?size=250x83&amp;releaseDate=1717027200" alt="Download on the Mac App Store" style="border-radius: 13px; width: 150px; height: 83px;"></a> 
 
@@ -45,7 +45,7 @@ image: /assets/tools.jpg
 
 #### ![logo](/assets/images/Echodots/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Echodots
 > A daily pattern game for iOS  
-> [Learn more](https://thatvirtualboy.com/echodots)  
+> [Learn more](/echodots)
 
 <a href="https://apps.apple.com/us/app/echodots-daily-pattern-game/id6476985985?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1709510400" alt="Download on the App Store" style="border-radius: 13px; width: 150px; height: 50px;"></a>
 <br>
@@ -54,7 +54,7 @@ image: /assets/tools.jpg
 
 #### ![logo](/assets/images/bento/appicon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Bento|Craft
 > Build beautiful bento graphics in seconds  
-> [Learn more](https://thatvirtualboy.com/bentocraft)  
+> [Learn more](/bentocraft)
 
 <a href="https://apps.apple.com/us/app/bento-craft/id6468541457?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1697414400" alt="Download on the App Store" style="border-radius: 13px; width: 150px; height: 50px;"></a>
 <br>
@@ -64,7 +64,7 @@ image: /assets/tools.jpg
 
 #### ![logo](/assets/apps/hellothere/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Hello There
 > A beautiful greeting card organizer for iPhone and iPad  
-> [Learn more](https://thatvirtualboy.com/hellothere)  
+> [Learn more](/hellothere)
 
 <a href="https://apps.apple.com/us/app/hello-there-greeting-cards/id1632485298?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1586476800&h=523bfb029b0b9b44037aa61782d02b45" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 150px; height: 50px;"></a>
 <br>
@@ -108,7 +108,7 @@ A pre-packaged OVA built on Ubuntu 18.04 LTS that automates the initial image co
 A shell script to automate the process of collecting Horizon View Client logs for macOS, including USB and ThinPrint logs.
 This tool was originally published as a [VMware Fling](https://flings.vmware.com/horizon-collector-for-mac) and has now been productized into the macOS Horizon Client
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thrilled to learn that my modest VMware Fling “Horizon Collector for Mac” was productized into the Horizon Client for macOS! <a href="https://t.co/LRtQDifCdZ">https://t.co/LRtQDifCdZ</a> <a href="https://twitter.com/hashtag/vExpert?src=hash&amp;ref_src=twsrc%5Etfw">#vExpert</a> <a href="https://t.co/2RAalVOR6C">pic.twitter.com/2RAalVOR6C</a></p>&mdash; Ryan (@thatvirtualboy) <a href="https://twitter.com/thatvirtualboy/status/1129125016774123520?ref_src=twsrc%5Etfw">May 16, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thrilled to learn that my modest VMware Fling “Horizon Collector for Mac” was productized into the Horizon Client for macOS! <a href="https://t.co/LRtQDifCdZ">https://t.co/LRtQDifCdZ</a> <a href="https://twitter.com/hashtag/vExpert?src=hash&amp;ref_src=twsrc%5Etfw">#vExpert</a> <a href="https://t.co/2RAalVOR6C">pic.twitter.com/2RAalVOR6C</a></p>&mdash; @thatvirtualboy <a href="https://twitter.com/thatvirtualboy/status/1129125016774123520?ref_src=twsrc%5Etfw">May 16, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <br>
 
 ---
@@ -119,13 +119,7 @@ This tool was originally published as a [VMware Fling](https://flings.vmware.com
 
 #### ![logo](/assets/images/WallGenie/icon-new.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Wall•Genie
 > A magical wallpaper generator
-> [Learn more](https://thatvirtualboy.com/say-hello-to-wallgenie/)
-
-
----
-
-#### ![logo](/assets/apps/yaktraks/icon.png){:height="80px" width="80px" .align-left}&nbsp;&nbsp;&nbsp;&nbsp;Yaktraks
-> A kids app inspired by voice changer toys from the 90s
+> [Learn more](/wallgenie)
 
 
 ---

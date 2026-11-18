@@ -3,10 +3,10 @@ layout: post
 title:  "Artbox 2 is now available!"
 date:   2021-04-26
 categories: [apple, swiftui, ios, development]
-image: assets\apps\artbox\promo2.png
+image: assets/apps/artbox/promo2.png
 read_time: true
 featured: false
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 The wait is finally over -- Artbox 2 is live on the App Store!
 

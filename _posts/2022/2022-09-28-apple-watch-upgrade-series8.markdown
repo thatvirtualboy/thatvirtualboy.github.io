@@ -5,7 +5,7 @@ categories: [Apple, bacon]
 image: "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80"
 read_time: true
 date: 2022-09-28
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 I recently upgraded my ** Watch Series 3 42mm Cellular** to the **Series 8 45mm Cellular**, and I can sum up my reaction to the change in one word: *Wow*

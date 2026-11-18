@@ -1,0 +1,41 @@
+<script>
+(() => {
+  const key = 'tvb-theme';
+  const system = window.matchMedia('(prefers-color-scheme: dark)');
+  let preference;
+  let toggle;
+
+  function apply() {
+    const dark = preference === 'dark' || (preference !== 'light' && system.matches);
+    document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+    if (toggle) {
+      toggle.setAttribute('aria-pressed', String(dark));
+      toggle.title = dark ? 'Switch to light mode' : 'Switch to dark mode';
+    }
+  }
+
+  function restore() {
+    try { preference = localStorage.getItem(key); } catch {}
+    apply();
+  }
+
+  restore();
+  system.addEventListener('change', apply);
+  window.addEventListener('storage', event => {
+    if (event.key === key || event.key === null) restore();
+  });
+  window.addEventListener('pageshow', event => {
+    if (event.persisted) restore();
+  });
+  document.addEventListener('DOMContentLoaded', () => {
+    toggle = document.querySelector('.tvb-theme-toggle');
+    apply();
+    toggle.hidden = false;
+    toggle.addEventListener('click', () => {
+      preference = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+      try { localStorage.setItem(key, preference); } catch {}
+      apply();
+    });
+  });
+})();
+</script>

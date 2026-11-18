@@ -6,7 +6,7 @@ image: assets/images/icon-sketches.png
 read_time: true
 featured: false
 date: 2023-12-26
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 2023 is nearly gone and you'd be hard pressed to find marketing material, stock photos, and logos that weren't created using some amount of artificial intelligence. Generative AI has exploded in popularity and it's never been easier to dream up a design, and walk away with high quality results in minutes.

@@ -1,0 +1,20 @@
+---
+layout: studio
+---
+<article class="product-page product-{{ page.product }}">
+  <header class="product-intro">
+    <div class="product-intro-copy">
+      <div class="product-brand"><img src="{{ page.icon | relative_url }}" width="48" height="48" alt="">{{ page.title | escape }}</div>
+      <h1 id="{{ page.product }}-title">{{ page.headline | escape }}</h1>
+      <p>{{ page.description | escape }}</p>
+      <div class="product-actions">
+        {% for link in page.actions %}<a class="{% if forloop.first %}product-action{% else %}product-secondary{% endif %}" href="{{ link.url | escape }}"{% if link.download %} download{% endif %}>{{ link.label | escape }}</a>{% endfor %}
+      </div>
+    </div>
+    <div class="product-art{% if page.companion %} paired-art{% endif %}">
+      <img src="{{ page.art | relative_url }}" width="{{ page.art_width }}" height="{{ page.art_height }}" alt="{{ page.art_alt | escape }}" fetchpriority="high">
+      {% if page.companion %}<img src="{{ page.companion | relative_url }}" width="900" height="659" alt="{{ page.companion_alt | escape }}">{% endif %}
+    </div>
+  </header>
+  {{ content }}
+</article>

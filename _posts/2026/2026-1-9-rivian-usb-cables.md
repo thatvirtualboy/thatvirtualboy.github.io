@@ -6,10 +6,10 @@ image: assets/images/switch-mount.jpeg
 read_time: false
 featured: false
 date: 2026-1-9
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
-> Get Gear Shop $$$ and free Rivian charging credits! Use code **RYAN4190772** when [ordering your new Rivian](https://rivian.com/configurations/list?reprCode=RYAN4190772). 
+> Get Gear Shop $$$ and free Rivian charging credits! Use my referral link when [ordering your new Rivian](https://rivian.com/configurations/list?reprCode=RYAN4190772).
 
 If you’re using Rivian’s Headrest Device Mounts for backseat entertainment, you’re going to need a cable that not only matches the aesthetics of the Rivian interior, but one that's as rugged as your truck.
 
@@ -83,4 +83,4 @@ It’s one of those small upgrades that quietly makes the whole experience bette
 
 If you’ve found other interior add-ons that level-up your cabin experience, I’d love to hear about it 👇
 
-> Get Gear Shop $$$ and free Rivian charging credits! Use code **RYAN4190772** when [ordering your new Rivian](https://rivian.com/configurations/list?reprCode=RYAN4190772).  
+> Get Gear Shop $$$ and free Rivian charging credits! Use my referral link when [ordering your new Rivian](https://rivian.com/configurations/list?reprCode=RYAN4190772).

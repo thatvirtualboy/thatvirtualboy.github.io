@@ -1,9 +1,13 @@
 ---
-layout: page
+layout: studio
+stylesheet: /assets/css/hosted-apps.css
 title: Skydex Account Deletion
 permalink: /skydex/delete-account
 comments: false
 ---
+
+<article class="product-document" markdown="1">
+[← Skydex](/skydex)
 
 # Skydex Account Deletion
 
@@ -50,3 +54,4 @@ Account deletion requests are processed as soon as possible and no later than 30
 For questions, contact [support@raktech.app](mailto:support@raktech.app).
 
 _Last updated: {{ site.time | date: "%B %d, %Y" }}_
+</article>

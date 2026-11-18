@@ -1,172 +1,78 @@
 ---
-layout: page
+layout: studio
 title: About
 permalink: /about
-comments: false
+description: Meet That Virtual Boy, the indie developer behind Route 25, Skydex, and Golden TCG. Read about the apps, the blog, and life behind the drums.
+image: /assets/studio/about-portrait.webp
+stylesheet: /assets/css/about.css
 ---
 
-<div class="row justify-content-between">
-<div class="col-md-8 pr-5">
+<div class="about-page">
+  <header class="about-intro">
+    <div class="about-greeting">
+      <p>Hi, I’m</p>
+      <h1>That Virtual Boy<span>.</span></h1>
+    </div>
+    <p class="about-lede">I make apps for Pokémon fans, puzzlers, parents, and productivity chasers</p>
+    <div class="about-actions">
+      <a class="about-primary" href="/apps/">Explore my apps <span aria-hidden="true">→</span></a>
+      <a href="#follow">Follow along <span aria-hidden="true">↓</span></a>
+    </div>
+    <img class="about-portrait" src="{{ page.image | relative_url }}" width="960" height="1707" fetchpriority="high" alt="That Virtual Boy in a Girl Dad Co. cap, with framed Nintendo games on the wall">
+  </header>
 
-<p>With humble beginnings focused on enterprise virtualizaton and end-user computing, That Virtual Boy is an evolving space where I document and share my passion for technology. Most recently, I've enjoyed sharing about my journey developing iOS apps using SwiftUI.<br><br>I'm also a passionate percussionist and drummer. I've performed in Nashville showcases, SXSW, churches, and have recorded on several projects. 
-<br><br>
-All content + opinions belong to me and do not represent my employer. Enjoy!</p>
+  <div class="about-columns">
+    <section class="about-story" aria-labelledby="about-story-title">
+      <h2 id="about-story-title">Behind the apps</h2>
+      <p>I started That Virtual Boy as a blog about enterprise virtualization and end-user computing. Those early <a href="/articles/">articles</a> are still here. These days I spend more time building apps in SwiftUI than writing about them.</p>
+      <p>My Pokémon card collection found its way into <a href="https://route25.app">Route 25</a>. With <a href="/skydex">Skydex</a>, even checking the weather is an excuse to see which Pokémon turns up.</p>
+      <h3>Behind the drums</h3>
+      <p>I’m also a drummer and percussionist. I’ve played Nashville showcases, SXSW, and churches. You can hear me on drums on Katrina Stone’s album <a href="https://music.apple.com/us/album/spellbound/1147778586"><i>Spellbound</i></a>.</p>
+    </section>
 
-<hr class="solid">
+    <section class="about-follow" id="follow" aria-labelledby="about-follow-title">
+      <h2 id="about-follow-title">Follow along</h2>
+      <p>You’ll find me at <strong>@thatvirtualboy</strong>.</p>
+      <ul>
+        {% assign profiles = "YouTube,X,Instagram,Threads,RSS" | split: "," %}
+        {% for name in profiles %}
+          {% assign channel = site.data.studio_channels | where: "name", name | first %}
+          <li><a href="{{ channel.url }}">{% if name == "RSS" %}Subscribe to articles via RSS{% else %}{{ name }}{% endif %}<span aria-hidden="true">↗</span></a></li>
+        {% endfor %}
+      </ul>
+      <p class="about-coffee">Want to support the site? <a href="https://www.buymeacoffee.com/thatvirtualboy">Buy me a coffee</a>.</p>
+    </section>
+  </div>
 
-<p>Want to keep up with thatvirtualboy.com? Add <mark>https://thatvirtualboy.com/feed</mark> to your favorite RSS reader. Alternatively, from an iPhone, tap the `Share` button and choose Add to Home Screen.</p>
-<img src="/assets/images/blog-on-phone.png" style="width:60%">
-<br><br>
-
-<h4>Around the web</h4>
-<p>SkyDex featured on <a href="https://9to5mac.com/2026/04/11/hands-on-skydex-turns-your-daily-weather-check-into-a-pokemon-adventure/">9to5Mac</a>.</p>
-<p>Wall•Genie featured on <a href="https://9to5mac.com/2024/05/03/wall-genie-for-iphone-create-ai-wallpapers-app/">9To5Mac</a>.</p>
-<p>Wall•Genie featured on <a href="https://www.gearrice.com/update/how-to-create-your-own-iphone-wallpapers-with-ai/">Gearrice</a>.</p>
-<p>Echodots featured on <a href="https://www.imore.com/apps/if-youre-looking-for-a-simple-and-addictive-new-daily-puzzle-game-this-iphone-app-is-for-you">iMore</a>.</p>
-<p>Echodots featured on <a href="https://appadvice.com/post/put-your-memory-to-the-test-each-day-with-echodots/779411">AppAdvice</a>.</p>
-<p>Bento|Craft included on <a href="https://www.macrumors.com/guide/vision-pro-app-list/">MacRumors Apple Vision Pro Apps</a>.</p>
-<p>Interviewed by <a href="https://indiedevmonday.com/issue-41">Indie Dev Monday</a>.</p>
-<p>Interviewed by <a href="https://octo.vmware.com/ryan-klumph/">VMware Office of the CTO</a>.</p>
-<p>Hello There featured on <a href="https://9to5mac.com/2023/03/27/hello-there-ios-greeting-card-organizer-update/">9to5Mac</a>.</p>
-<p>Hello There featured on <a href="https://telemetrydeck.com/blog/photo-video-apps/">Telemetry Deck</a>.</p>
-<p>Hello There featured on <a href="https://martindb.net/app-highlight/hello-there/">MartinDB</a>.</p>
-<p>Hello There featured on <a href="https://appadvice.com/post/preserve-your-personalized-greeting-card-memories-with-hello-there/775005">App Advice</a>.</p>
-<p>Hello There included in Best Apps of the Month on <a href="https://appadvice.com/best-ios-apps-of-the-month/september-2022">App Advice</a>.</p>
-<p>Hello There featured on <a href="https://fueled.com/blog/hello-there-helps-keep-cards-without-clutter/">Fueled</a>.</p>
-<p>Hello There mentioned on <a href="https://appleinsider.com/inside/ios-16/best/the-best-third-party-widgets-for-your-ios-16-lock-screen">Apple Insider</a>.</p>
-<p>Artbox featured on <a href="https://appadvice.com/post/save-your-childrens-artwork-forever-with-artbox/1557964462/606738568">App Advice</a>.</p>
-<p>Artbox featured on <a href="https://www.imore.com/massive-artbox-update-adds-40-new-features-improvements-saving-family-artwork">iMore</a>.</p>
-<p>Artbox featured on <a href="https://fueled.com/blog/artbox-helps-digitize-childs-creations/">Fueled</a>.</p>
-<p>Artbox featured on <a href="https://www.apartmenttherapy.com/artbox-app-review-kids-art-36870551">Apartment Therapy</a>.</p>
-<p>Yaktraks featured on <a href="https://www.techradar.com/news/apps-that-have-updated-to-ios-15-and-your-new-iphone-13">Tech Radar</a>.</p>
-<p>Website featured on <a href="https://telemetrydeck.com/blog/web-sdk-shoutout/">Telemetry Deck</a>.</p>
-<p>Recorded drums on Katrina Stone's album <a href="https://music.apple.com/us/album/spellbound/1147778586">Spellbound</a>.</p>
-
-
-</div>
-
-<div class="col-md-4">
-
-<div class="sticky-top sticky-top-80">
-<h5>Buy me a coffee</h5>
-
-<p>Thank you for your support! Your donation helps me maintain and improve thatvirtualboy.com.</p>
-
-<a target="_blank" href="https://www.buymeacoffee.com/thatvirtualboy" class="btn btn-success">Buy me a coffee</a> 
-<a target="_blank" href="https://techhub.social/@thatvirtualboy" class="btn btn-primary">Follow on Mastodon</a> 
-<a target="_blank" href="https://x.com/thatvirtualboy" class="btn" style="background-color: black; color: white;">Follow on X</a>
-
-<br><br><br>
-
-<h5>Certifications</h5>
-<div class="row">
-  <div class="col-md-4">
-    <div class="thumbnail">
-      <a href="{{site.baseurl}}/assets/certs/vcp-vcf-2025.png">
-        <img src="{{site.baseurl}}/assets/certs/vcp-vcf-2025.png">
-      </a>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-      <a href="{{site.baseurl}}/assets/certs/vcp-dcv-2024.png">
-        <img src="{{site.baseurl}}/assets/certs/vcp-dcv-2024.png">
-      </a>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-      <a href="{{site.baseurl}}/assets/certs/vcp23.png">
-        <img src="{{site.baseurl}}/assets/certs/vcp23.png">
-      </a>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-      <a href="{{site.baseurl}}/assets/certs/vcp22.png">
-        <img src="{{site.baseurl}}/assets/certs/vcp22.png">
-      </a>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-      <a href="{{site.baseurl}}/assets/certs/vcp21.png">
-        <img src="{{site.baseurl}}/assets/certs/vcp21.png">
-      </a>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-      <a href="{{site.baseurl}}/assets/certs/stars.png">
-        <img src="{{site.baseurl}}/assets/certs/stars.png" style="width:100%">
-      </a>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-      <a href="{{site.baseurl}}/assets/certs/vcp2020.png">
-        <img src="{{site.baseurl}}/assets/certs/vcp2020.png">
-      </a>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-      <a href="{{site.baseurl}}/assets/certs/foundations.png">
-        <img src="{{site.baseurl}}/assets/certs/foundations.png">
-      </a>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-      <a href="{{site.baseurl}}/assets/certs/ofa.png">
-        <img src="{{site.baseurl}}/assets/certs/ofa.png">
-      </a>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-      <a href="{{site.baseurl}}/assets/certs/fling.png">
-        <img src="{{site.baseurl}}/assets/certs/fling.png">
-      </a>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-      <a href="{{site.baseurl}}/assets/certs/VCA-Cloud.png">
-        <img src="{{site.baseurl}}/assets/certs/VCA-Cloud.png">
-      </a>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-      <a href="{{site.baseurl}}/assets/certs/VCA-WM.png">
-        <img src="{{site.baseurl}}/assets/certs/VCA-WM.png">
-      </a>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-      <a href="{{site.baseurl}}/assets/certs/VCP-DCV.png">
-        <img src="{{site.baseurl}}/assets/certs/VCP-DCV.png">
-      </a>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-      <a href="{{site.baseurl}}/assets/certs/VCP-DT.png">
-        <img src="{{site.baseurl}}/assets/certs/VCP-DT.png">
-      </a>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-      <a href="{{site.baseurl}}/assets/certs/cla.png">
-        <img src="{{site.baseurl}}/assets/certs/cla.png">
-      </a>
-    </div>
-  </div>
-</div>
-
-</div>
-</div>
+  <section class="about-press" aria-labelledby="about-press-title">
+    <h2 id="about-press-title">Around the web</h2>
+    <ul class="about-features">
+      {% for feature in site.data.about.features %}
+        {% assign app = site.data.studio_apps | where: "name", feature.app | first %}
+        <li><a href="{{ feature.url }}">
+          <img src="{{ app.icon }}" alt="" width="44" height="44" loading="lazy">
+          <div><span class="about-outlet">{{ feature.outlet }}</span><strong>{{ feature.title }}</strong></div>
+          <span class="about-outbound" aria-hidden="true">↗</span>
+        </a></li>
+      {% endfor %}
+    </ul>
+    <details class="about-disclosure">
+      <summary>More coverage</summary>
+      <dl class="about-mentions">
+        {% for group in site.data.about.press %}
+          <div><dt>{{ group.subject }}</dt><dd>{% for article in group.links %}{% if article.url %}<a href="{{ article.url }}">{{ article.label }}</a>{% else %}<span>{{ article.label }}</span>{% endif %}{% endfor %}</dd></div>
+        {% endfor %}
+      </dl>
+    </details>
+    <details class="about-disclosure">
+      <summary>Certifications and community recognition</summary>
+      <ul class="about-badges">
+        {% for badge in site.data.about.credentials %}
+          {% assign badge_url = badge.file | prepend: "/assets/certs/" | relative_url %}
+          <li><a href="{{ badge_url }}"><img src="{{ badge_url }}" alt="{{ badge.label }}" loading="lazy" width="120" height="100"></a></li>
+        {% endfor %}
+      </ul>
+    </details>
+  </section>
+  <p class="about-disclaimer">The views I share here are my own.</p>
 </div>

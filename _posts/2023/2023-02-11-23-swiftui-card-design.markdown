@@ -5,14 +5,14 @@ categories: [Apple, SwiftUI, CodeAlong]
 image: assets/apps/hellothere/codealong1/cover.png
 read_time: true
 date: 2023-02-11
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 What makes SwiftUI so fun is how easy it is to whip together designs that are modern and refreshing. SwiftUI's declarative nature invites developers and designers alike to tweak, adjust, and fine-tune designs with minimal effort.
 
 Recently I came across a neat design in a mock app Apple [demoed during a WWDC22 session](https://developer.apple.com/videos/play/wwdc2022/10001/) and decided to adapt it to my iOS 16 app, [Hello There](https://apps.apple.com/us/app/hello-there-greeting-cards/id1632485298). 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Testing some designs inspired by WWDC videos 👀<a href="https://twitter.com/hashtag/SwiftUI?src=hash&amp;ref_src=twsrc%5Etfw">#SwiftUI</a> <a href="https://t.co/kpuh8ZUYUy">pic.twitter.com/kpuh8ZUYUy</a></p>&mdash; Ryan (@thatvirtualboy) <a href="https://twitter.com/thatvirtualboy/status/1618711445025484800?ref_src=twsrc%5Etfw">January 26, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Testing some designs inspired by WWDC videos 👀<a href="https://twitter.com/hashtag/SwiftUI?src=hash&amp;ref_src=twsrc%5Etfw">#SwiftUI</a> <a href="https://t.co/kpuh8ZUYUy">pic.twitter.com/kpuh8ZUYUy</a></p>&mdash; @thatvirtualboy <a href="https://twitter.com/thatvirtualboy/status/1618711445025484800?ref_src=twsrc%5Etfw">January 26, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 The Apple design (pictured right in the tweet above) takes a single photo and creates two layers:
 1. The background layer is highly blurred and slightly magnified 

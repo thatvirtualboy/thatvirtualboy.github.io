@@ -6,7 +6,7 @@ image: assets/images/AppleAI/AppleModern_Family.png
 read_time: true
 featured: false
 date: 2023-11-17
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 In playing around with AI Image Generation, I ended up down a rabbit hole of creating Apple-themed logos. I couldn't help but think they would make great wallpapers across my devices. And of course, I wanted to share.

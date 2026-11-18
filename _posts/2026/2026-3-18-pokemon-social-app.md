@@ -7,7 +7,7 @@ read_time: false
 featured: false
 published: true
 date: 2026-3-18
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 Pokemon has a way of pulling people back in.

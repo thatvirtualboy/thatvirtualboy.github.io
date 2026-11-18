@@ -6,7 +6,7 @@ image: assets/images/hope/hope-family.png
 read_time: true
 featured: true
 date: 2024-1-12
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 One of my favorite wallpapers of all time is this one below, titled simply *Hope.* I discovered it years ago as one of the included wallpapers in an old Linux Mint distro. I used to run Linux Mint as my daily operating system for several years, circa 2012-2014. 

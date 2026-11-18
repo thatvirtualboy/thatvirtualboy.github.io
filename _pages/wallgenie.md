@@ -1,146 +1,50 @@
 ---
-layout: page
-title: Wall Genie
+layout: hosted-app
+product: wallgenie
+title: Wall•Genie
+headline: A wallpaper of your own.
+description: A look back at Wall•Genie, an iPhone app for creating wallpapers and sharing them with a community. Explore designs made with the app and the story behind it.
 permalink: /wallgenie
-comments: false
+stylesheet: /assets/css/hosted-apps.css
+icon: /assets/studio/apps/wallgenie/icon.webp
+art: /assets/studio/apps/wallgenie/hero.webp
+art_width: 813
+art_height: 730
+art_alt: Two iPhones showing a cloud plume wallpaper and a geometric wallpaper
+image: /assets/images/WallGenie/examples.jpg
+actions:
+  - {label: Read the launch story, url: /say-hello-to-wallgenie/}
+  - {label: App support, url: '#support'}
 ---
+<section class="product-section product-split">
+  <div><h2>Made with Wall•Genie</h2><p>Start with a subject and style, then see how the image generator interprets them. These wallpapers were made in the app.</p></div>
+  <figure><img src="/assets/studio/apps/wallgenie/gallery.webp" width="1200" height="508" loading="lazy" alt="Four iPhones showing purple, blue, and monochrome abstract wallpapers"></figure>
+</section>
+<section class="product-panel community-panel">
+  <div><h2>The community gallery</h2><p>Browse shared designs and vote for favorites. The Popular view brings the community’s picks together, and a Shortcut can apply the latest free wallpaper to your phone.</p><a href="https://www.youtube.com/watch?v=G8NIk2D4PKw">Watch the Wall•Genie walkthrough ↗</a></div>
+  <img src="/assets/studio/apps/wallgenie/community.webp" width="356" height="730" loading="lazy" alt="The Popular gallery of community wallpapers on iPhone">
+</section>
+<section class="product-section product-support" id="faq">
+  <h2>Wall•Genie FAQ</h2>
+  <details><summary>Is a subscription required?</summary><p>A subscription unlocks wallpaper generation and community downloads. Every seventh wallpaper in the community feed is a free download.</p></details>
+  <details><summary>What engine is being used for image generation?</summary><p>Wall•Genie uses OpenAI’s image generation service.</p></details>
+  <details><summary>What is the Free Wallpaper Shortcut?</summary><p>Add the Free Wallpaper Shortcut from the app to download and apply the latest free wallpaper. Run it yourself or schedule it in Apple Shortcuts.</p></details>
+  <details><summary>What prompt is Wall•Genie using, and can it be customized?</summary><p>Choose the creative options in the app. Wall•Genie builds the prompt from those selections.</p></details>
+  <details><summary>What is the generated image resolution?</summary><p>The image generator requests a portrait image at 1024 × 1536 pixels.</p></details>
+  <details><summary>Does Wall•Genie allow for creating iPad and Desktop wallpapers?</summary><p>The generator is designed for portrait phone wallpapers.</p></details>
+  <details><summary>Why can't I take screenshots?</summary><p>Screenshots in the app are available to subscribers.</p></details>
+  <details><summary>Can you explain the pricing?</summary><p>The Starter subscription is billed weekly and Pro is billed monthly. An active subscription covers generation and community downloads.</p></details>
+  <details><summary>Can I change my subscription tier?</summary><p>To change your subscription tier, open Info → Manage Subscription.</p></details>
+  <details><summary>Does Wall•Genie support Family Sharing?</summary><p>Family Sharing is not supported at this time.</p></details>
+</section>
 
-### Wall•Genie
-![WallGenie Samples](assets/images/WallGenie/icon-new.png){:width="10%"}   
+<section class="product-section product-support" id="support">
+  <h2>Support</h2><p>Wall•Genie is part of the app archive. For questions about the iPhone app or an existing subscription, contact <a href="mailto:support@raktech.app">support@raktech.app</a>.</p>
+</section>
 
-A magical wallpaper generator ✨
+<section class="product-section product-support" id="terms" markdown="1">
+<h2>Terms</h2>
 
-**[Available exclusively on the App Store](https://apps.apple.com/us/app/wall-genie-ai-wallpaper/id6496679681)**  
-
-![WallGenie Samples](assets/images/WallGenie/promo2.png)  
-![WallGenie Samples](assets/images/WallGenie/promo4.png)  
-**Images are real examples of wallpapers created using Wall•Genie*  
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G8NIk2D4PKw?si=ZX7C5M92GbXRud-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
----
-
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>FAQ - Echodots</title>
-    <style>
-        .faq-question {
-            cursor: pointer;
-            color: #1b9963; /* Adjust the color to fit your design */
-            margin-bottom: 5px;
-        }
-
-        .faq-question:hover {
-            text-decoration: underline;
-        }
-
-        .faq-answer {
-            display: none;
-            margin-top: 5px;
-            margin-bottom: 20px;
-        }
-    </style>
-</head>
-<body>
-
-<h4 id="faq">FAQ</h4>
-
-<div class="faq-item">
-    <h6 class="faq-question">Is a subscription required?</h6>
-    <p class="faq-answer">
-        Yes. To put it simply, every image generated with Wall•Genie costs money, so an active subscription is required to create wallpapers. Subscribers also gain the added perk of downloading community-posted wallpapers, although free users can download every 7th community-uploaded wallpaper for free.
-    </p>
-</div>
-
-<div class="faq-item">
-    <h6 class="faq-question">What engine is being used for image generation?</h6>
-    <p class="faq-answer">
-        Wall•Genie is using the ChatGPT API to generate images using gpt-image-1.5. If rate limits are reached with image generations, Wall•Genie may fallback to DALL•E 2 and return a 1024x1024 image.
-    </p>
-</div>
-
-<div class="faq-item">
-    <h6 class="faq-question">What is the Free Wallpaper Shortcut?</h6>
-    <p class="faq-answer">
-        This button within the app allows users to automatically download and apply the most recent free wallpaper from Wall Genie (using the power of Apple Shortcuts). After adding the shortcut, users can manually run the shortcut to get the latest wallpaper. If you'd like to take it one step further, you can automate this shortcut to run daily, weekly, or dependent on some other action by creating an automation within the Apple Shortcuts App.
-    </p>
-</div>
-
-<div class="faq-item">
-    <h6 class="faq-question">What prompt is Wall•Genie using, and can it be customized?</h6>
-    <p class="faq-answer">
-        Wall•Genie's prompt has been rigorously tested and refined to provide the best results using the variables you select during image generation. Due to the nature of Generative AI, results will not always result in the expected. For the safety of Wall•Genie users, this prompt is not publicly available or editable. 
-    </p>
-</div>
-
-<div class="faq-item">
-    <h6 class="faq-question">What is the generated image resolution?</h6>
-    <p class="faq-answer">
-       Wall•Genie is generating images at the highest portrait resolution supported by gpt-image-1.5, which is 1024x1792. If rate limits are reached and the model has to fallback to DALL•2, the resolution will be 1024x1536.
-    </p>
-</div>
-
-<div class="faq-item">
-    <h6 class="faq-question">Does Wall•Genie allow for creating iPad and Desktop wallpapers?</h6>
-    <p class="faq-answer">
-       At this time, the app's primary focus is creating wallpapers for mobile.
-    </p>
-</div>
-
-<div class="faq-item">
-    <h6 class="faq-question">Why can't I take screenshots?</h6>
-    <p class="faq-answer">
-        We prioritize safeguarding our community's creative work. As part of this commitment, screenshot functionality is an exclusive feature available to our subscribed members, ensuring their creations remain unique and protected.
-    </p>
-</div>
-
-<div class="faq-item">
-    <h6 class="faq-question">Can you explain the pricing?</h6>
-    <p class="faq-answer">
-        Wall•Genie aims to provide extremely competetive pricing compared to other wallpaper apps, while also covering API costs, server & storage costs, development and maintenance costs, and support. For users who might go in short bursts of creativity, the *Starter* subscription (billed weekly) may be more in line with creating and participating in the community. For users who are always on the hunt for the freshest wallpapers and interested in growing their collection, the *Pro* subscription (billed monthly) is a great option.
-    </p>
-</div>
-
-<div class="faq-item">
-    <h6 class="faq-question">Can I change my subscription tier?</h6>
-    <p class="faq-answer">
-        To change your subscription tier, go to Info > Manage Subscription
-    </p>
-</div>
-
-<div class="faq-item">
-    <h6 class="faq-question">Does Wall•Genie support Family Sharing?</h6>
-    <p class="faq-answer">
-        Family Sharing is not supported at this time.
-    </p>
-</div>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    // Initially hide all answers
-    var faqAnswers = document.querySelectorAll(".faq-answer");
-    faqAnswers.forEach(function(answer) {
-        answer.style.display = "none";
-    });
-
-    // Add click event listeners to questions
-    var faqQuestions = document.querySelectorAll(".faq-question");
-    faqQuestions.forEach(function(question) {
-        question.addEventListener("click", function() {
-            var answer = this.nextElementSibling;
-            answer.style.display = answer.style.display === "none" ? "block" : "none";
-        });
-    });
-});
-
-</script>
-
-</body>
-</html>
-
----
-<h4 id="terms">Terms</h4>
 By using Wall•Genie, you agree to the following terms, in addition to the [Apple Standard EULA](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/):
 - Images are created using Generative AI, and therefore results may vary.
 - Wall•Genie and OpenAI (per their licensing guidelines) do not claim ownership of the images created.
@@ -148,14 +52,11 @@ By using Wall•Genie, you agree to the following terms, in addition to the [App
 - Wall•Genie and its services are provided "as-is" and reserves the right to update, enhance, or change the service at any time.
 - Abuse of Wall•Genie and its services, including API integrations, in-app screenshots, or other actions outside if the app's intended use are strictly prohibited and may result in a permanent ban.
 
----
-<h4 id="privacy">Privacy</h4>
+</section>
+
+<section class="product-section product-support" id="privacy" markdown="1">
+<h2>Privacy</h2>
+
 Privacy is a first-class citizen in Wall•Genie. Unlike other wallpaper apps, your usage is not tracked or tied to your identity, nor is a sign-in process required in order to use the app, keeping your identity completely anonymous. Certain statistics are collected anonymously in order to help improve the app; things like iPhone model, iOS version, wallpaper upvote count, wallpaper generation count, and wallpaper upload count. These stats are aggregated using the privacy-focused solution [TelemetryDeck](https://telemetrydeck.com).
 
----
-<h4 id="support">Support</h4>
-**Supported Devices**: iPhone  
-**Apple App ID**: 6496679681  
-**Category**: Graphics & Design  
-**Developer**: rakTech LLC  
-**Contact**: support@raktech.app  
+</section>

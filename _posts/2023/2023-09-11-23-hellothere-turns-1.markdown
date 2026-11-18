@@ -6,7 +6,7 @@ image: assets/images/happybirthday_hellothere.png
 read_time: true
 featured: false
 date: 2023-09-08
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 This week mark's Hello There's first anniversary in the App Store! 🥳

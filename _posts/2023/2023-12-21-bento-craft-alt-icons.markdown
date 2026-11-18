@@ -6,7 +6,7 @@ image: assets/images/bento/bento-icon-packs.png
 read_time: true
 featured: false
 date: 2023-12-1
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 Available today, `Bento|Craft` now supports alternate icons! This update comes in part by request of several users, but also as a way for me to offer more choice for you to customize your bento experience. 

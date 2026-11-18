@@ -7,7 +7,7 @@ read_time: false
 featured: false
 published: true
 date: 2026-9-14
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 The Nintendo Switch 2 is an incredible portable console. But let's be honest: flat Joy-Con aren't exactly the most comfortable things to hold for a long gaming session. I've even 3D-printed grips in the past to help, and those have been great. But after spending some time with the **[Belkin Nintendo Switch 2 Grip Charging Case with Power Bank](https://link.amazon/B0i4p3Ux9)**, this feels like another level entirely.

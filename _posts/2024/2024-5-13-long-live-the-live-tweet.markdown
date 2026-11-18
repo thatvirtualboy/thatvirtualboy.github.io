@@ -6,7 +6,7 @@ image: assets/images/tweet.jpg
 read_time: false
 featured: false
 date: 2024-5-13
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 On Monday May 13th, OpenAI CEO Sam Altman *live tweeted* OpenAI's event where [GPT-4o](https://openai.com/index/hello-gpt-4o/) was announced. Call me old fashioned, but I was happy to see a silicon valley Tech CEO with nearly 3 million followers reference *live tweeting* as opposed to whatever the uppers at **X.com** want it called. 

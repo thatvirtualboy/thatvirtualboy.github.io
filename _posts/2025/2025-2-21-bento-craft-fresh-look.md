@@ -6,7 +6,7 @@ image: assets/images/bento/bento-icon-blog.png
 read_time: false
 featured: false
 date: 2025-2-21
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 Introducing the new `Bento|Craft` icon — a refined visual that embodies the essence of its creative workspace.

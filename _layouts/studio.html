@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+{% include studio-theme.html %}
+{% seo %}
+<link rel="icon" href="/favicon.ico"><link rel="alternate" type="application/rss+xml" href="/feed.xml" title="That Virtual Boy articles">
+<link rel="stylesheet" href="/assets/css/studio.css?v={{ site.time | date: '%s' }}"><script defer src="/assets/js/studio.js?v={{ site.time | date: '%s' }}"></script>
+<link rel="stylesheet" href="/assets/css/studio-nav.css?v={{ site.time | date: '%s' }}">
+{% if page.stylesheet %}<link rel="stylesheet" href="{{ page.stylesheet | relative_url }}?v={{ site.time | date: '%s' }}">{% endif %}
+</head><body>
+{% include studio-header.html %}
+<main id="main" class="wrap">{{ content }}</main>
+<footer class="wrap"><a class="brand" href="/">That Virtual Boy</a><a href="/feed.xml">RSS ↗</a></footer>
+{% include studio-search.html %}
+</body></html>

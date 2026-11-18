@@ -5,7 +5,7 @@ date: 2022-03-23
 categories: [bacon, Apple, developer]
 image: assets/images/In_App_Events/IAE-header.png
 read_time: true
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 At WWDC21, Apple introduced a new capability to developers called *In-App Events* which are timely events within your apps and games such as a **game competition**, a **fitness challenge**, a **movie premier**, and more.

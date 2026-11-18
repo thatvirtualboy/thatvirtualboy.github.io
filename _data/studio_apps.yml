@@ -1,0 +1,9 @@
+- {name: Route 25, category: Pokémon TCG, description: Build your binder and trade with fellow collectors., url: 'https://route25.app', icon: /assets/studio/route-icon.webp, color: violet}
+- {name: Skydex, category: Weather, description: Turn your local forecast into a Pokémon adventure., url: /skydex, icon: /assets/studio/skydex-icon.webp, color: blue}
+- {name: Golden TCG, category: Card collecting, description: Explore KAYOU sets and keep track of every pull., url: 'https://goldentcg.app', icon: /assets/studio/goldentcg-icon.webp, color: honey}
+- {name: Pixel Paws, category: Virtual pet, description: Raise a little pixel companion on your Apple Watch., url: /pixelpaws, icon: /assets/studio/pixelpaws-icon.webp, color: pink}
+- {name: Hello There, category: Keepsakes, description: Save the greeting cards you want to keep forever., url: /hellothere, icon: /assets/studio/hellothere-icon.webp, color: honey}
+- {name: Didly, category: Productivity, description: Keep a done list of everything you’ve accomplished., url: /didly, icon: /assets/studio/didly-icon.webp, color: violet}
+- {name: Bento|Craft, category: Design, description: Make bento graphics for your next launch., url: /bentocraft, icon: /assets/studio/bento-icon.webp, color: blue}
+- {name: Echodots, category: Puzzle, description: See how much of a pattern you can remember., url: /echodots, icon: /assets/studio/echodots-icon.webp, color: pink}
+- {name: Artbox, category: Creativity, description: Catalog and share your family’s arts and crafts., url: 'https://artbox.app', icon: /assets/studio/artbox-icon.webp, color: honey}

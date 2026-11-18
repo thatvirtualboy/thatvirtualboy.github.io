@@ -6,7 +6,7 @@ image: assets/images/TheGrid/TheGrid_Var1_Family.png
 read_time: true
 featured: false
 date: 2024-1-3
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 It felt like 2023 ended in a rush, and here we are already into the first week of 2024. Looking ahead, I'm excited for what 2024 might bring in terms of technology, in my personal life, and the lives of my loved ones. With the help of AI, I created The Grid Collection of wallpapers as a token of my optimism for the New Year. Each wallpaper features a bright destination in the distance, with multiple paths leading to it. As you navigate 2024, you may take some detours and turns that you didn't expect.  

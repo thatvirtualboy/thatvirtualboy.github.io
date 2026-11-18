@@ -6,7 +6,7 @@ image: "https://www.apple.com/v/app-store/a/images/meta/og__c59t0pflacq6.png?202
 read_time: true
 featured: true
 date: 2023-09-06
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 Getting the word out about your app is one of the biggest challenges you'll face as an indie developer. Competing against agencies with mega marketing budgets means our apps get lost in the [nearly 2 million apps](https://www.apple.com/app-store/) available on the App Store.

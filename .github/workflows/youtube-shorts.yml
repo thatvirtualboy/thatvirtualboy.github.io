@@ -1,0 +1,62 @@
+name: Refresh YouTube Shorts
+on:
+  schedule:
+    - cron: '13,43 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: refresh-youtube-shorts
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          sparse-checkout: |
+            .github/scripts
+            _data
+      - name: Read the public Shorts feed
+        run: |
+          curl --fail --silent --show-error --location --retry 2 --max-time 25 \
+            'https://www.youtube.com/feeds/videos.xml?playlist_id=UUSHZZp0nggS2twDjqkffD3QqA' \
+            --output "$RUNNER_TEMP/shorts.xml"
+          python3 .github/scripts/update_shorts.py < "$RUNNER_TEMP/shorts.xml"
+      - name: Update the cached selection and refresh GitHub Pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ! git diff --quiet -- _data/youtube_shorts.json; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add _data/youtube_shorts.json
+            git commit -m 'Refresh homepage YouTube Shorts'
+            git push origin "HEAD:refs/heads/$GITHUB_REF_NAME"
+          elif [[ "$GITHUB_EVENT_NAME" != "workflow_dispatch" ]]; then
+            # A previous run may have pushed successfully but failed to rebuild.
+            # Compare the served search index before requesting another build.
+            status=$(curl --silent --show-error --location --retry 2 --max-time 25 \
+              --write-out '%{http_code}' --output "$RUNNER_TEMP/served.json" \
+              'https://thatvirtualboy.com/studio-search.json')
+            case "$status" in
+              200)
+                if jq -e --slurpfile expected _data/youtube_shorts.json \
+                  '[.[] | select(.type == "Short") | [.url, .title]] == ($expected[0] | map(["https://www.youtube.com/shorts/" + .id, .title]))' \
+                  "$RUNNER_TEMP/served.json" >/dev/null; then
+                  exit 0
+                fi
+                ;;
+              404) ;; # The new homepage has not been deployed yet.
+              *) echo "Could not check the published Shorts (HTTP $status)" >&2; exit 1 ;;
+            esac
+          fi
+          # Commits made with GITHUB_TOKEN do not trigger push workflows.
+          gh workflow run publish-pages.yml --ref "$GITHUB_REF_NAME"

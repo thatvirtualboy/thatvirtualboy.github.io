@@ -6,7 +6,7 @@ image: assets/images/WWDC/WWDC24/iphone-mirror.jpg
 read_time: false
 featured: false
 date: 2024-6-12
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 Apple debuted [iPhone Mirroring](https://www.apple.com/newsroom/2024/06/macos-sequoia-takes-productivity-and-intelligence-on-mac-to-new-heights/) as a first class feature in **macOS Sequoia** during the 2024 World Wide Develeper's Conference (WWDC). An extention of Continuity, Apple highlighted the ability to fully interact with your iPhone virtually, while the actual device's screen remains locked and secure. 

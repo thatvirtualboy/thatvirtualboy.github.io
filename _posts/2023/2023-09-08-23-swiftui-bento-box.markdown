@@ -6,7 +6,7 @@ image: "https://techcetera.co/wp-content/uploads/2020/06/macOS.jpg"
 read_time: true
 featured: false
 date: 2023-09-08
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 Last month I posted about open-sourcing a project I had been working on for marketing my app, Hello There. The post was very well received and picked up a lot of activity.

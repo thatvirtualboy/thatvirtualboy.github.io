@@ -5,7 +5,7 @@ date:   2021-03-24
 categories: [apple, swiftui, ios, development]
 image: assets/images/macdev.jpeg
 read_time: true
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 One year ago I published an app called *Virtual Backgrounds* to the App Store with the idea of providing custom, hand-picked backgrounds to be used with virtual meetings. It wasn’t just another endless repository of random wallpapers, but rather a finite selection specifically chosen and/or created to be used as a virtual backdrop.
 

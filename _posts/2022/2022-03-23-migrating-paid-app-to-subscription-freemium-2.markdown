@@ -5,7 +5,7 @@ date: 2022-03-23
 categories: [bacon, Apple, developer, SwiftUI, Xcode]
 image: "https://images.unsplash.com/photo-1529528744093-6f8abeee511d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80"
 read_time: true
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 In [Part 1](https://thatvirtualboy.com/migrating-paid-app-to-subscription-freemium-1/) of this 2-part series, I discussed the differences between the different pricing strategies developers are faced with in today's app market.

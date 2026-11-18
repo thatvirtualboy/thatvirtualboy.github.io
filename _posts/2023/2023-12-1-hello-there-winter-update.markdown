@@ -6,7 +6,7 @@ image: assets/images/hellothere/holiday-wonder-collection.png
 read_time: true
 featured: false
 date: 2023-12-1
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 
 Hello There's Winter Update and App Store event is live! Not only is Hello There the best way to capture and organize all the Christmas cards you receive this year, but it's also great for sending quick and easy ecards. For the 2023 Holiday season, I'm excited to introduce the all new **Holiday Wonder E-Post Collection** 

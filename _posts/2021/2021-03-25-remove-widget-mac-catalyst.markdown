@@ -5,7 +5,7 @@ date:   2021-03-25
 categories: [apple, swiftui, ios, development]
 image: "https://images.unsplash.com/photo-1596128446017-1106bd96ef89?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2091&q=80"
 read_time: true
-author: Ryan Klumph
+author: thatvirtualboy
 ---
 If you've found yourself building a modern application in SwiftUI, there's a good chance you started building it as an *iOS* app, and eventually began tinkering with WidgetKit. As you progressed through your development, you realized that only a few tweaks were needed to make it a really good iPad app as well. Once you were satisfied with iOS and iPadOS you figured, "What the heck... let's test this thing on Mac Catalyst!"
 
