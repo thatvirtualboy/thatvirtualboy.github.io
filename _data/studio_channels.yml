@@ -19,7 +19,7 @@
   feature_order: 2
   feature:
     title: Watch on YouTube
-    description: Walk through my apps and see what’s new in each release.
+    description: App walkthroughs, feature deep dives, card pulls, and more.
     artwork: video
     image: /assets/studio/channel-avatar.webp
 - name: RSS
