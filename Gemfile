@@ -25,3 +25,6 @@ gem "csv", "~> 3.3"
 gem "base64", "~> 0.3.0"
 
 gem "bigdecimal", "~> 4.0"
+
+# google-protobuf invokes Rake when compiling its native extension.
+gem "rake", "~> 13.0"
