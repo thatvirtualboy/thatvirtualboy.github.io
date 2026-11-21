@@ -43,6 +43,7 @@ jobs:
           tar --append --dereference --hard-dereference --directory _site \
             -f "$RUNNER_TEMP/artifact.tar" .well-known
           tar -tf "$RUNNER_TEMP/artifact.tar" | grep -Fx '.well-known/assetlinks.json'
+          tar -tf "$RUNNER_TEMP/artifact.tar" | grep -Fx './index.html'
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: github-pages
