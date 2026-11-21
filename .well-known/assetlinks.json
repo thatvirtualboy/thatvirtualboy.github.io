@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.raktech.goldentcg",
+      "sha256_cert_fingerprints": [
+        "A6:4F:E8:85:F2:E1:B0:DA:AE:5F:32:5F:F0:82:7C:BD:6C:12:D6:F5:81:AB:F4:75:E2:6D:F7:4B:37:39:E8:7F"
+      ]
+    }
+  }
+]
