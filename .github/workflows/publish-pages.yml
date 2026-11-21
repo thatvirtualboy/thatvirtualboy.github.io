@@ -33,9 +33,22 @@ jobs:
           bytes=$(du --bytes --summarize _site | cut -f1)
           echo "Site size in bytes: $bytes"
           test "$bytes" -le 1000000000
-      - uses: actions/upload-pages-artifact@v4
+      - name: Archive Pages with Android website association
+        run: |
+          test -f _site/.well-known/assetlinks.json
+          ruby -rjson -e 'JSON.parse(File.read("_site/.well-known/assetlinks.json"))'
+          # Preserve the Pages action's hidden-file exclusion, then add only this public directory.
+          tar --dereference --hard-dereference --directory _site \
+            -cf "$RUNNER_TEMP/artifact.tar" --exclude=.git --exclude=.github --exclude=".[^/]*" .
+          tar --append --dereference --hard-dereference --directory _site \
+            -f "$RUNNER_TEMP/artifact.tar" .well-known
+          tar -tf "$RUNNER_TEMP/artifact.tar" | grep -Fx '.well-known/assetlinks.json'
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
-          path: _site
+          name: github-pages
+          path: ${{ runner.temp }}/artifact.tar
+          retention-days: 1
+          if-no-files-found: error
 
   deploy:
     needs: build
